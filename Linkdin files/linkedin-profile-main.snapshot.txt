@@ -1,0 +1,1435 @@
+- heading "0 notifications" [level=2]
+- generic "Skip navigation menu":
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Skip to primary content":
+    - generic: Skip to primary content
+  - button "Skip to aside":
+    - generic: Skip to aside
+  - button "Skip to footer":
+    - generic: Skip to footer
+  - button "Close jump menu":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - status
+  - search:
+    - textbox "Search"
+  - navigation:
+    - list:
+      - button "Home, 1 new notification":
+        - generic: Home
+      - link "Network, 0 new notifications":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: Network
+      - link "Jobs, 0 new notifications":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: Jobs
+      - link "Messaging, 0 new notifications":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: Messaging
+      - link "Notifications, 0 new notifications":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: Notifications
+      - button "Me":
+        - figure
+        - text: Me
+  - navigation:
+    - list:
+      - button "For Business":
+        - text: For Business
+      - link "Learning, 0 new notifications":
+        - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+        - generic: Learning
+- toolbar:
+  - link "Ariya Sarrafzadeh":
+    - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+    - generic "Ariya Sarrafzadeh":
+      - figure
+      - paragraph: Ariya Sarrafzadeh
+      - paragraph: Technical Product Manager | Fintech, Payments & Platform Innovation
+  - button "More":
+  - link "Add section":
+    - /url: https://www.linkedin.com/
+    - generic: Add section
+  - button "Open to":
+    - generic: Open to
+- main:
+  - region "Primary content":
+    - button:
+      - figure:
+        - img "Cover photo"
+    - link "Edit background image":
+      - /url: https://www.linkedin.com/
+    - link "Profile photo":
+      - /url: https://www.linkedin.com/
+      - generic "Profile photo":
+        - figure
+    - link "Ariya is a Premium member":
+      - /url: https://www.linkedin.com/
+      - img "Ariya is a Premium member"
+    - link "Edit profile":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/edit/intro/
+    - link "Ariya Sarrafzadeh View Ariya’s verifications":
+      - /url: https://www.linkedin.com/
+      - heading "Ariya Sarrafzadeh" [level=2]
+      - img "View Ariya’s verifications"
+    - paragraph: He/Him
+    - paragraph: Technical Product Manager | Fintech, Payments & Platform Innovation
+    - paragraph: Tehran, Tehran Province, Iran
+    - paragraph: ·
+    - paragraph:
+      - link "Contact info":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/contact-info/
+    - button "Persia Fava Gostaresh Co.":
+      - figure
+      - paragraph: Persia Fava Gostaresh Co.
+    - button "Engineering Islamic Azad University, South Tehran Branch":
+      - figure:
+      - paragraph: Engineering Islamic Azad University, South Tehran Branch
+    - link "500+ connections":
+      - /url: https://www.linkedin.com/mynetwork/invite-connect/connections/
+      - paragraph: 500+ connections
+    - button "Open to":
+      - generic: Open to
+    - link "Add section":
+      - /url: https://www.linkedin.com/
+      - generic: Add section
+    - button "More":
+    - list:
+      - link "Open to work · Everyone on LinkedIn Dubai, United Arab Emirates +3 more | On-site Show details":
+        - /url: https://www.linkedin.com/
+        - paragraph:
+          - strong: Open to work · Everyone on LinkedIn
+        - paragraph: Dubai, United Arab Emirates +3 more | On-site
+        - paragraph: Show details
+      - button "Edit":
+    - heading "Analytics" [level=2]
+    - paragraph: Private to you
+    - link "32 profile views Discover who’s viewed your profile.":
+      - /url: https://www.linkedin.com/analytics/profile-views/
+      - paragraph: 32 profile views
+      - paragraph: Discover who’s viewed your profile.
+    - link "0 post impressions Start a post to increase engagement. Past 7 days":
+      - /url: https://www.linkedin.com/analytics/creator/content/?timeRange=past_7_days&dimension=INDUSTRY&metricType=IMPRESSIONS
+      - paragraph: 0 post impressions
+      - paragraph: Start a post to increase engagement.
+      - paragraph: Past 7 days
+    - link "40 search appearances See how often you appear in search results.":
+      - /url: https://www.linkedin.com/analytics/search-appearances/
+      - paragraph: 40 search appearances
+      - paragraph: See how often you appear in search results.
+    - link "Show all analytics":
+      - /url: https://www.linkedin.com/dashboard/
+      - generic: Show all
+    - heading "About" [level=2]
+    - link "Edit about":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/edit/forms/summary/new/
+    - paragraph:
+      - text: Senior Technical Product Leader with 15+ years of experience architecting, building, and operating high-availability fintech platforms. My expertise is at the intersection of product innovation, technical operations, and deep domain expertise in payments, fraud, and national-level compliance (FATA, Shaparak).
+      - text: I am a systems-thinker who thrives on building new products from the ground up, from initial flow creation and reconciliation logic to architecting monitoring stacks (Prometheus, Grafana, ELK) and fraud-detection patterns. I have a proven history of acting as the sole point of contact for complex technical, legal, and governmental challenges, translating business goals into resilient and scalable systems.
+      - text: "Specialties:"
+      - text: ● Technical Product Management
+      - text: ● Fintech & Payments Architecture (C2C, Wallets, Insuretech, Lendtech)
+      - text: ● Fraud Detection, AML & Risk Management (FATA SME)
+      - text: ● High-Availability Monitoring (Prometheus, Grafana, ELK)
+      - text: ● API Design, Microservices, & Systems Integration (PSPs, Banks)
+      - text: ● Multi-Party Reconciliation
+      - text: ● Governmental & Legal Liaison
+      - text: ● Product Roadmapping & Business Plan Creation
+      - text: ● Big Data & Elasticsearch
+      - button:
+        - generic: … more
+    - paragraph: Top skills
+    - paragraph: Management • Leadership
+    - link "Show top skills":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/top-skills-details/
+    - heading "Services" [level=2]
+    - link "Edit services":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/opportunities/services/edit/
+    - paragraph: Administrative Assistance
+    - paragraph: Data Entry
+    - paragraph: Data Reporting
+    - paragraph: Project Management
+    - paragraph: Technical Support
+    - paragraph: Software Testing
+    - link "Show all services":
+      - /url: https://www.linkedin.com/services/page/003054336940a6324b/
+      - generic: Show all
+    - heading "Activity" [level=2]
+    - link "1,116 followers":
+      - /url: https://www.linkedin.com/feed/followers/
+      - paragraph: 1,116 followers
+    - link "Create a post":
+      - /url: https://www.linkedin.com/sharing/compose
+      - generic: Create a post
+    - link "Edit default activity":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/edit/forms/content-collections-star-pill/new/
+    - checkbox "Posts" [checked]
+    - generic: Posts
+    - checkbox "Comments"
+    - generic: Comments
+    - checkbox "Images"
+    - generic: Images
+    - list:
+      - list:
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - figure:
+            - img "View Ariya Sarrafzadeh’s profile, open to work"
+        - paragraph:
+          - link "View Ariya Sarrafzadeh’s profile, open to work":
+            - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+            - strong: Ariya Sarrafzadeh
+          - text: reposted this
+        - button "Open control menu for post by Madhukar Anand":
+        - link:
+          - /url: https://www.linkedin.com/in/full-stack-ai-engineer-madhukar-anand/
+          - figure:
+            - img "View Madhukar Anand’s profile"
+        - link "Madhukar Anand Verified Profile 2nd":
+          - /url: https://www.linkedin.com/in/full-stack-ai-engineer-madhukar-anand/
+          - generic "Madhukar Anand Verified Profile 2nd":
+            - paragraph: Madhukar Anand
+            - paragraph:
+              - text: • 2nd
+        - paragraph: Senior Technical Lead | Full-Stack & GenAI Engineer | 15+ Yrs | Aramco, SNB, GOSI, NEOM | React, Node.js, AWS/GCP | CSM
+        - paragraph:
+          - text: Mar 2 •
+          - 'img "Visibility: Global"'
+        - link "Madhukar Anand Verified Profile 2nd":
+          - /url: https://www.linkedin.com/in/full-stack-ai-engineer-madhukar-anand/
+          - generic "Madhukar Anand Verified Profile 2nd"
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7437031473691512832/
+          - figure:
+            - img "View image"
+        - 'button "Reaction button state: no reaction"':
+          - generic: "45"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7437031473691512832/
+          - generic: "9"
+        - button "Repost":
+          - generic: "1"
+        - link "Send":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "45 reactions":
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - figure:
+            - img "View Ariya Sarrafzadeh’s profile, open to work"
+        - paragraph:
+          - link "View Ariya Sarrafzadeh’s profile, open to work":
+            - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+            - strong: Ariya Sarrafzadeh
+          - text: reposted this
+        - button "Open control menu for post by Darryl Hobson":
+        - link:
+          - /url: https://www.linkedin.com/in/darryl-m-hobson/
+          - figure:
+            - img "View Darryl Hobson’s profile"
+        - link "Darryl Hobson Premium Profile Following":
+          - /url: https://www.linkedin.com/in/darryl-m-hobson/
+          - generic "Darryl Hobson Premium Profile Following":
+            - paragraph: Darryl Hobson
+            - paragraph:
+              - text: • Following
+        - paragraph: Enterprise Data Architecture and Automation | AI Transformation | Azure AI Foundry | MS Fabric | ERP/xRM | Dynamics 365 | PowerPlatform | DevOps | Management Consulting | PMP | Keynote Speaker | Best-Selling Author
+        - link "Visit my website":
+          - /url: https://www.linkedin.com/safety/go/?url=http%3A%2F%2Fosbornholloway%2Ecom&urlhash=YLbF&mt=pgwtWTml1JT1gnide_UYEMWNElMFA-SfbdVp6wETbsByyFuSxldlG3oStxAIZfxE0ZAlbsNw1roSNOas6nx5OUvuPllV9wdgamnvTCsP&isSdui=true
+          - paragraph: Visit my website
+        - paragraph:
+          - text: Jan 5 •
+          - 'img "Visibility: Global"'
+        - link "Darryl Hobson Premium Profile Following":
+          - /url: https://www.linkedin.com/in/darryl-m-hobson/
+          - generic "Darryl Hobson Premium Profile Following"
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7414027130809978880/
+          - paragraph:
+            - text: Every Project Manager needs a PMP
+            - text: ...if you want to get past the AI gatekeeper in 2026.
+            - text: I'm watching experienced PMs with decade-long track records get auto-rejected from jobs they could do in their sleep.
+            - text: Why?
+            - text: No PMP certification on their resume.
+            - text: The AI screening tool filtered them out before a human ever saw their application.
+            - text: So now entry-level PMs are rushing to get certified.
+            - text: They're checking the box before they've managed a single real project.
+            - text: Which floods the market with certified PMs who've never recovered an improbable timeline or negotiated a diplomatic solution to a stakeholder war.
+            - text: Which makes hiring managers lean even harder on the PMP as a filter.
+            - text: Because if everyone has one, it must matter, right?
+            - text: "Here's the irony:"
+            - text: The PMP became worthless by becoming mandatory.
+            - text: It's no longer a signal of competence ...it's a toll booth.
+            - text: The same AI tools we're all supposed to be adopting intelligently are making the laziest possible filtering decision.
+            - text: Binary credential check...
+            - text: No context...
+            - text: No judgment...
+            - text: My advice? ...get the PMP.
+            - text: Not because it makes you a better Project Manager, but because you'll be invisible without it.
+            - text: But don't mistake the checkbox for competence.
+            - text: Real PM work is what happens after the timeline breaks, the budget shifts, and the stakeholders start fighting (which they always do).
+            - text: The cert doesn't teach you that ...experience does.
+            - text: So... Do you just own the cert or do you own the experience?
+            - text: And... How do you feel about the PMP becoming a mandatory checkbox instead of a meaningful credential?
+            - button:
+              - generic: … more
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7414027130809978880/
+          - figure:
+            - img "Image of author holding his PMI PMP cert. He's lit the corner on fire, indicating that the cert is worthless. The look on his face is cynically emotionless. He's accepting a broken reality."
+        - 'button "Reaction button state: Support"':
+          - generic: "772"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7414027130809978880/
+          - generic: "417"
+        - button "Repost":
+          - generic: "57"
+        - link "Send":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "772 reactions":
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - figure:
+            - img "View Ariya Sarrafzadeh’s profile, open to work"
+        - link "Ariya Sarrafzadeh, Open to work Premium Profile You":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "Ariya Sarrafzadeh, Open to work Premium Profile You":
+            - paragraph: Ariya Sarrafzadeh
+            - paragraph:
+              - text: • You
+        - paragraph: Technical Product Manager | Fintech, Payments & Platform Innovation
+        - paragraph:
+          - text: Jan 5 •
+          - 'img "Visibility: Global"'
+        - link "Ariya Sarrafzadeh, Open to work Premium Profile You":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "Ariya Sarrafzadeh, Open to work Premium Profile You"
+        - button "Open control menu for post by Ariya Sarrafzadeh":
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7413911494238806017/
+          - paragraph:
+            - text: The most dangerous trap for a Product Manager isn't technical debt. It's people-pleasing.
+            - text: "We love to talk about empathy and \"fostering trust.\" But let’s be candid: the polished version of Product Management communication is a myth."
+            - text: Many PMs get caught in the trap of over-communicating and trying to keep everyone happy. This doesn't lead to alignment; it leads to decision paralysis and a diluted product vision.
+            - text: True leadership isn’t about smoothing over every conflict. It’s about making the tough calls that keep the team moving forward, even when those calls are unpopular.
+            - text: The best PMs I know aren't just empathetic listeners; they are rigorous boundary-setters. They understand that conflict, when managed well, is a better driver of innovation than artificial harmony.
+            - text: "Closing: Your communication style should be warm and human, but if you can't hold the line on what matters, you aren't leading—you're just moderating."
+            - 'link "View hashtag: #productmanagement"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23productmanagement&origin=HASH_TAG_FROM_FEED
+              - strong: "#ProductManagement"
+            - 'link "View hashtag: #leadership"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23leadership&origin=HASH_TAG_FROM_FEED
+              - strong: "#Leadership"
+            - 'link "View hashtag: #realtalk"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23realtalk&origin=HASH_TAG_FROM_FEED
+              - strong: "#RealTalk"
+            - 'link "View hashtag: #nofluff"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23nofluff&origin=HASH_TAG_FROM_FEED
+              - strong: "#NoFluff"
+            - button:
+              - generic: … more
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7413911494238806017/
+          - figure:
+            - img "View image"
+        - 'button "Reaction button state: no reaction"':
+          - generic: "1"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7413911494238806017/
+        - button "Repost":
+        - link "Send":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "1 reaction":
+        - link "View analytics":
+          - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7413911494238806017/
+          - generic "View analytics":
+            - generic "Content analytics":
+              - img "Analytics Icon"
+              - paragraph: 283 impressions
+            - paragraph:
+              - generic: View analytics
+              - text: View analytics
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - figure:
+            - img "View Ariya Sarrafzadeh’s profile, open to work"
+        - paragraph:
+          - link "View Ariya Sarrafzadeh’s profile, open to work":
+            - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+            - strong: Ariya Sarrafzadeh
+          - text: reposted this
+        - button "Open control menu for post by Melissa Grabiner":
+        - link:
+          - /url: https://www.linkedin.com/in/melissa-grabiner/
+          - figure:
+            - img "View Melissa Grabiner’s profile"
+        - link "Melissa Grabiner Verified Profile 3rd+":
+          - /url: https://www.linkedin.com/in/melissa-grabiner/
+          - generic "Melissa Grabiner Verified Profile 3rd+":
+            - paragraph: Melissa Grabiner
+            - paragraph:
+              - text: • 3rd+
+        - paragraph: Top-Rated Resume Writer | Helping Job Seekers Land Interviews & Get Hired Faster | Co-Founder of 1Yes - Building the Future of Career Coaching | Talent Acquisition Consultant | Yoga Instructor
+        - link "Book an appointment":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fwww%2Emelissagrabiner%2Enet%2F&urlhash=743y&mt=uyWdIqYoOlulB4unXSsmTA_leQk_gJRrmetvucrfiRL9hS0S49itKaVXtV67xEbMTeGtn3uF7KIRDVm5dKK_JVjLIu9Lo9JYn_LB1kI&isSdui=true
+          - paragraph: Book an appointment
+        - paragraph:
+          - text: Jan 3 • Edited •
+          - 'img "Visibility: Global"'
+        - link "Melissa Grabiner Verified Profile 3rd+":
+          - /url: https://www.linkedin.com/in/melissa-grabiner/
+          - generic "Melissa Grabiner Verified Profile 3rd+"
+        - link "Imagine applying to your own company under a fake name. Once a year, every CEO should do this. Why? To see for themselves just how confusing, frustrating, and exhausting the hiring process can be for candidates. It’s easy to forget that each applicant is a human being, not just a resume in a system. Leaders who step into the candidate’s shoes might finally rethink every step of their hiring process. And make it human again. ➡️ Thoughts? I'd love to hear from you.":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7413282839984611328/
+          - paragraph:
+            - text: Imagine applying to your own company under a fake name.
+            - text: Once a year, every CEO should do this.
+            - text: Why?
+            - text: To see for themselves just how confusing, frustrating, and exhausting the hiring process can be for candidates.
+            - text: It’s easy to forget that each applicant is a human being, not just a resume in a system.
+            - text: Leaders who step into the candidate’s shoes might finally rethink every step of their hiring process.
+            - text: And make it human again.
+            - text: ➡️ Thoughts? I'd love to hear from you.
+            - button:
+              - generic: … more
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7413282839984611328/
+          - figure:
+            - img "View image"
+        - 'button "Reaction button state: Love"':
+          - generic: 1,925
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7413282839984611328/
+          - generic: "239"
+        - button "Repost":
+          - generic: "105"
+        - link "Send":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "1,925 reactions":
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - figure:
+            - img "View Ariya Sarrafzadeh’s profile, open to work"
+        - link "Ariya Sarrafzadeh, Open to work Premium Profile You":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "Ariya Sarrafzadeh, Open to work Premium Profile You":
+            - paragraph: Ariya Sarrafzadeh
+            - paragraph:
+              - text: • You
+        - paragraph: Technical Product Manager | Fintech, Payments & Platform Innovation
+        - paragraph:
+          - text: Jan 1 •
+          - 'img "Visibility: Global"'
+        - link "Ariya Sarrafzadeh, Open to work Premium Profile You":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "Ariya Sarrafzadeh, Open to work Premium Profile You"
+        - button "Open control menu for post by Ariya Sarrafzadeh":
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7412587610621267968/
+          - paragraph:
+            - text: The biggest lie in Product Management is that a bigger logo equals a better career.
+            - text: There is a dangerous comfort zone at the top of the corporate ladder.
+            - text: In a mega-corporation, the role of a Product Manager often fractures. You own a feature. You own a metric. You own a button.
+            - text: The resources are endless, but the vision is narrow.
+            - text: It is easy to become a specialist in navigating bureaucracy, rather than a specialist in building software.
+            - text: Real growth doesn't happen in safety. It happens in the deep end.
+            - text: "The most formidable Product Managers today aren't just writing tickets. They are operating as \"Full Stack\" owners:"
+            - text: "The Strategy: Defining the 'Why' without a safety net."
+            - text: "The Development: Understanding the architecture well enough to respect the 'How'."
+            - text: "The Data: Owning the pipeline to prove the 'What'."
+            - text: This is the difference between renting impact and owning it.
+            - text: In a smaller environment, there is no "data team" to blame if the dashboard breaks. There is no "engineering lead" to shield the roadmap from technical debt.
+            - text: The friction is high. The chaos is real.
+            - text: But that is exactly where the builder mindset is forged.
+            - text: Don't confuse prestige with capability.
+            - text: A massive brand looks good on a CV.
+            - text: But end-to-end technical ownership builds a career that survives any market shift.
+            - text: Chase the skills, not just the logos.
+            - 'link "View hashtag: #productmanagement"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23productmanagement&origin=HASH_TAG_FROM_FEED
+              - strong: "#ProductManagement"
+            - 'link "View hashtag: #techleadership"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23techleadership&origin=HASH_TAG_FROM_FEED
+              - strong: "#TechLeadership"
+            - 'link "View hashtag: #fullstackpm"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23fullstackpm&origin=HASH_TAG_FROM_FEED
+              - strong: "#FullStackPM"
+            - 'link "View hashtag: #growthmindset"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23growthmindset&origin=HASH_TAG_FROM_FEED
+              - strong: "#GrowthMindset"
+            - 'link "View hashtag: #softwareengineering"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23softwareengineering&origin=HASH_TAG_FROM_FEED
+              - strong: "#SoftwareEngineering"
+            - button:
+              - generic: … more
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7412587610621267968/
+          - figure:
+            - img "View image"
+        - button "This image has content credentials.":
+          - figure:
+        - 'button "Reaction button state: no reaction"':
+          - generic: "1"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7412587610621267968/
+        - button "Repost":
+        - link "Send":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "1 reaction":
+        - link "View analytics":
+          - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7412587610621267968/
+          - generic "View analytics":
+            - generic "Content analytics":
+              - img "Analytics Icon"
+              - paragraph: 125 impressions
+            - paragraph:
+              - generic: View analytics
+              - text: View analytics
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - figure:
+            - img "View Ariya Sarrafzadeh’s profile, open to work"
+        - paragraph:
+          - link "View Ariya Sarrafzadeh’s profile, open to work":
+            - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+            - strong: Ariya Sarrafzadeh
+          - text: reposted this
+        - button "Open control menu for post by Hacking Articles":
+        - link:
+          - /url: https://www.linkedin.com/company/hackingarticles/
+          - figure:
+            - 'img "View company: Hacking Articles"'
+        - link "Hacking Articles Premium":
+          - /url: https://www.linkedin.com/company/hackingarticles/
+          - generic "Hacking Articles Premium":
+            - paragraph: Hacking Articles
+            - paragraph:
+        - link "Register":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fforms%2Egle%2FbowpX9TGEs41GDG99&urlhash=kJjg&mt=IIuBsEXFeWC4IyeHJfCEqb0lAVumwOdWrulpBk90APc8_E4WW8rSOE3309RFxiWaw7PL-DZuEa8ZY87dEMjU5zcN2bw&isSdui=true
+          - paragraph: Register
+        - paragraph:
+          - text: Dec 28, 2025 •
+          - 'img "Visibility: Global"'
+        - link "Hacking Articles Premium":
+          - /url: https://www.linkedin.com/company/hackingarticles/
+          - generic "Hacking Articles Premium"
+        - 'link "Pic of the Day View hashtag: #infosec View hashtag: #cybersecurity View hashtag: #cybersecuritytips View hashtag: #pentesting View hashtag: #cybersecurityawareness View hashtag: #informationsecurity"':
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7410941988520353793/
+          - paragraph:
+            - text: Pic of the Day
+            - 'link "View hashtag: #infosec"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23infosec&origin=HASH_TAG_FROM_FEED
+              - strong: "#infosec"
+            - 'link "View hashtag: #cybersecurity"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23cybersecurity&origin=HASH_TAG_FROM_FEED
+              - strong: "#cybersecurity"
+            - 'link "View hashtag: #cybersecuritytips"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23cybersecuritytips&origin=HASH_TAG_FROM_FEED
+              - strong: "#cybersecuritytips"
+            - 'link "View hashtag: #pentesting"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23pentesting&origin=HASH_TAG_FROM_FEED
+              - strong: "#pentesting"
+            - 'link "View hashtag: #cybersecurityawareness"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23cybersecurityawareness&origin=HASH_TAG_FROM_FEED
+              - strong: "#cybersecurityawareness"
+            - 'link "View hashtag: #informationsecurity"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23informationsecurity&origin=HASH_TAG_FROM_FEED
+              - strong: "#informationsecurity"
+            - button:
+              - generic: … more
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7410941988520353793/
+          - figure:
+            - img "View image"
+        - 'button "Reaction button state: Funny"':
+          - generic: "933"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7410941988520353793/
+          - generic: "11"
+        - button "Repost":
+          - generic: "22"
+        - link "Send":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "933 reactions":
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - figure:
+            - img "View Ariya Sarrafzadeh’s profile, open to work"
+        - link "Ariya Sarrafzadeh, Open to work Premium Profile You":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "Ariya Sarrafzadeh, Open to work Premium Profile You":
+            - paragraph: Ariya Sarrafzadeh
+            - paragraph:
+              - text: • You
+        - paragraph: Technical Product Manager | Fintech, Payments & Platform Innovation
+        - paragraph:
+          - text: Dec 25, 2025 •
+          - 'img "Visibility: Global"'
+        - link "Ariya Sarrafzadeh, Open to work Premium Profile You":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "Ariya Sarrafzadeh, Open to work Premium Profile You"
+        - button "Open control menu for post by Ariya Sarrafzadeh":
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7409802552432656385/
+          - paragraph:
+            - text: The most dangerous moment in a project’s life isn’t when it’s failing. It’s the exact moment it starts to succeed.
+            - text: "There is a specific type of vertigo that hits stakeholders when a young project sees its first real monetization. The validation is intoxicating. The immediate instinct from above is almost always: \"Floor the accelerator.\""
+            - text: Suddenly, the calculated roadmap is pressured by over-eager expansion plans. Risks we predicted and documented—technical debt, operational fragility, unproven support structures—are brushed aside in favor of immediate capitalization. Sometimes, the project even becomes a proxy battlefield for internal business feuds, further distorting strategic focus.
+            - text: We cannot let enthusiasm outpace capability.
+            - text: When a project is generating revenue but hasn't yet reached operational maturity, we need what I call a "Reversed Strategic Connection."
+            - text: Typically, pressure flows downward from stakeholders to execution teams. In this fragile phase, the flow must reverse. The ground truth—supplied by the PMs, engineers, and delivery teams closest to the reality—must actively regulate stakeholder velocity.
+            - text: We must have the courage to act as the brakes, not just the engine. If we don't slow down to solidify the foundation, the weight of premature scaling will collapse the entire structure.
+            - text: Maturity isn't just about making money. It's about the resilience to keep making money when things break. Build to last, not just to spike.
+            - text: "Here are two quotes that summarize this dynamic perfectly:"
+            - text: "\"Premature scaling is the primary cause of death for startups.\" — Startup Genome Report"
+            - text: "\"Direction is so much more important than speed. Many are going nowhere fast.\" — Anonymous"
+            - 'link "View hashtag: #projectmanagement"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23projectmanagement&origin=HASH_TAG_FROM_FEED
+              - strong: "#ProjectManagement"
+            - 'link "View hashtag: #productstrategy"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23productstrategy&origin=HASH_TAG_FROM_FEED
+              - strong: "#ProductStrategy"
+            - 'link "View hashtag: #sustainablegrowth"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23sustainablegrowth&origin=HASH_TAG_FROM_FEED
+              - strong: "#SustainableGrowth"
+            - 'link "View hashtag: #stakeholdermanagement"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23stakeholdermanagement&origin=HASH_TAG_FROM_FEED
+              - strong: "#StakeholderManagement"
+            - 'link "View hashtag: #leadership"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23leadership&origin=HASH_TAG_FROM_FEED
+              - strong: "#Leadership"
+            - button:
+              - generic: … more
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7409802552432656385/
+          - figure:
+            - img "View image"
+        - button "This image has content credentials.":
+          - figure:
+        - 'button "Reaction button state: no reaction"':
+          - generic: "6"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7409802552432656385/
+        - button "Repost":
+        - link "Send":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "6 reactions":
+        - link "View analytics":
+          - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7409802552432656385/
+          - generic "View analytics":
+            - generic "Content analytics":
+              - img "Analytics Icon"
+              - paragraph: 310 impressions
+            - paragraph:
+              - generic: View analytics
+              - text: View analytics
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - figure:
+            - img "View Ariya Sarrafzadeh’s profile, open to work"
+        - link "Ariya Sarrafzadeh, Open to work Premium Profile You":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "Ariya Sarrafzadeh, Open to work Premium Profile You":
+            - paragraph: Ariya Sarrafzadeh
+            - paragraph:
+              - text: • You
+        - paragraph: Technical Product Manager | Fintech, Payments & Platform Innovation
+        - paragraph:
+          - text: Dec 20, 2025 •
+          - 'img "Visibility: Global"'
+        - link "Ariya Sarrafzadeh, Open to work Premium Profile You":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "Ariya Sarrafzadeh, Open to work Premium Profile You"
+        - button "Open control menu for post by Ariya Sarrafzadeh":
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7408222856066756608/
+          - paragraph:
+            - text: Is your "market expansion" actually an operational suicide mission?
+            - text: "When a product enters its decline phase, the common pivot is to shift from Enterprise to SMB. The logic seems sound: \"The big fish are gone, but there’s a massive ocean of small businesses waiting for us!\""
+            - text: However, the reality is that you aren't just changing your customer size; you’re altering your cost structure significantly.
+            - text: "Here’s what this really entails:"
+            - text: "- The Invisible \"Marketing Tax\": Enterprise clients typically have their own agencies, while SMBs do not. This means your account managers are not just managing a tool; they’re effectively acting as the client’s \"advertising branch,\" providing strategy for free."
+            - text: "- The Operational Bloat: You’re trading one $100k client for fifty $2k clients. This results in 50 times more hand-holding, billing issues, and \"babysitting.\""
+            - text: "- The Delivery Trap: Revenue may appear stable on paper, but it's crucial to examine your Delivery Revenue versus Operational Cost. If your team spends more time on manual \"workarounds\" than on scalable product delivery, growth is not happening; instead, you're bleeding out."
+            - text: If you’re focused on rebuilding your site panel and refreshing your "brand image" to attract this new segment while the core tech is fading, you’re merely applying a fresh coat of paint on a sinking ship. A better UI won’t resolve a business model that requires excessive human intervention to make the numbers work.
+            - text: The most strategic move a PM can make is to highlight that the "New Market" may actually yield a negative ROI once you account for the "Babysitting Tax."
+            - text: Are you building a scalable product, or just an expensive agency ?
+            - 'link "View hashtag: #productmanagement"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23productmanagement&origin=HASH_TAG_FROM_FEED
+              - strong: "#ProductManagement"
+            - 'link "View hashtag: #businessstrategy"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23businessstrategy&origin=HASH_TAG_FROM_FEED
+              - strong: "#BusinessStrategy"
+            - 'link "View hashtag: #uniteconomics"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23uniteconomics&origin=HASH_TAG_FROM_FEED
+              - strong: "#UnitEconomics"
+            - 'link "View hashtag: #productdecline"':
+              - /url: https://www.linkedin.com/search/results/all/?keywords=%23productdecline&origin=HASH_TAG_FROM_FEED
+              - strong: "#ProductDecline"
+            - button:
+              - generic: … more
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7408222856066756608/
+          - figure:
+            - img "View image"
+        - 'button "Reaction button state: no reaction"':
+          - generic: "5"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7408222856066756608/
+        - button "Repost":
+        - link "Send":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "5 reactions":
+        - link "View analytics":
+          - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7408222856066756608/
+          - generic "View analytics":
+            - generic "Content analytics":
+              - img "Analytics Icon"
+              - paragraph: 122 impressions
+            - paragraph:
+              - generic: View analytics
+              - text: View analytics
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - figure:
+            - img "View Ariya Sarrafzadeh’s profile, open to work"
+        - paragraph:
+          - link "View Ariya Sarrafzadeh’s profile, open to work":
+            - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+            - strong: Ariya Sarrafzadeh
+          - text: reposted this
+        - button "Open control menu for post by Daniel Hemhauser":
+        - link:
+          - /url: https://www.linkedin.com/in/danielhemhauser/
+          - figure:
+            - img "View Daniel Hemhauser’s profile"
+        - link "Daniel Hemhauser Premium Profile Following":
+          - /url: https://www.linkedin.com/in/danielhemhauser/
+          - generic "Daniel Hemhauser Premium Profile Following":
+            - paragraph: Daniel Hemhauser
+            - paragraph:
+              - text: • Following
+        - paragraph: Senior Project & Program Leader | $600M+ Delivery Portfolio | Project Leadership Advocate | 20+ Years Turning Strategy Into Outcomes
+        - link "Visit my website":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fwww%2Ethepmplaybook%2Ecom&urlhash=jGtE&mt=C8nUKJLUWV-Xmb00oLX28focYA426oF3OM9nKfG5gqzZuAy_WVSDWzYrPJngDKo28DvmwO1vRHW9PIJxZqjATkkVVhvdkooUWWu83sJJrg&isSdui=true
+          - paragraph: Visit my website
+        - paragraph:
+          - text: Dec 16, 2025 • Edited •
+          - 'img "Visibility: Global"'
+        - link "Daniel Hemhauser Premium Profile Following":
+          - /url: https://www.linkedin.com/in/danielhemhauser/
+          - generic "Daniel Hemhauser Premium Profile Following"
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7406670225481539584/
+          - paragraph:
+            - text: PMP certified. Still not prepared.
+            - text: No one tells you what to do when your client disappears.
+            - text: No one tells you how to lead when leadership collapses.
+            - text: No one tells you how to challenge power without damaging trust you spent months building.
+            - text: There’s no module that teaches you how to rescue a team that is quietly burning out.
+            - text: No lesson on navigating egos in a high-stakes room where every word matters.
+            - text: No template for putting your reputation back together after a public failure.
+            - text: So what actually makes someone a real project leader?
+            - text: You earn it in the quiet.
+            - text: In the tension.
+            - text: In the moments no certification prepares you for.
+            - text: Certifications give you structure.
+            - text: Experience gives you backbone.
+            - text: Because project management is not just methodologies and frameworks.
+            - text: It is people.
+            - text: It is pressure.
+            - text: It is judgment under fire.
+            - text: It is the weight of real consequences when things go wrong.
+            - text: And the truth every seasoned PM learns?
+            - text: The real education starts after the exam.
+            - text: That’s where leadership begins.
+            - text: That’s where identity is forged.
+            - text: Agree?
+            - text: "🌳 If you are serious about becoming a stronger, more strategic PM, reach out for 1-on-1 coaching:"
+            - link "Open https://lnkd.in/g9NDAvSK":
+              - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg9NDAvSK&urlhash=DdoH&mt=Hflan8f0-DBbIidtD4K6iwi4DuX4olDIZyxzzbYzGnfN_wkn3ZlUFXuIb7wo66sS5Bt7rMGMHjhfJqT7Jdldx45HLMmgJjg6AvYYpOS-SFodzw4BsFa7IzwB9A&isSdui=true
+              - strong: https://lnkd.in/g9NDAvSK
+            - button:
+              - generic: … more
+        - 'button "Reaction button state: Insightful"':
+          - generic: "398"
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7406670225481539584/
+          - generic: "214"
+        - button "Repost":
+          - generic: "19"
+        - link "Send":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "398 reactions":
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - figure:
+            - img "View Ariya Sarrafzadeh’s profile, open to work"
+        - paragraph:
+          - link "View Ariya Sarrafzadeh’s profile, open to work":
+            - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+            - strong: Ariya Sarrafzadeh
+          - text: reposted this
+        - button "Open control menu for post by Chris Laping":
+        - 'link "View group: The Emotional Intelligence Network"':
+          - /url: https://www.linkedin.com/groups/75300/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7406269342289588224
+          - 'generic "View group: The Emotional Intelligence Network"':
+            - figure
+            - figure
+        - link "Chris Laping Premium Profile 2nd":
+          - /url: https://www.linkedin.com/groups/75300/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7406269342289588224
+          - generic "Chris Laping Premium Profile 2nd":
+            - paragraph: The Emotional Intelligence Network
+        - paragraph:
+          - text: Chris Laping
+          - generic: • 2nd
+        - link "Visit my website":
+          - /url: https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fpeoplebeforethings%2Eco%2Fthe-unignorable-cohort&urlhash=MJ04&mt=sa-WR4_1SUXYwsrwMLyz0LvnG-Ney0lg8y18eYPMuKBLCm6kAlFwsL9Ipsi5CsG994EbyiqSTGisblqxNS1HArP1FjL-KDhy-8gtyQk&isSdui=true
+          - paragraph: Visit my website
+        - paragraph:
+          - text: Nov 24, 2025 •
+          - 'img "Visibility: Global"'
+        - link "Chris Laping Premium Profile 2nd":
+          - /url: https://www.linkedin.com/groups/75300/?q=highlightedFeedForGroups&highlightedUpdateUrn=urn%3Ali%3Aactivity%3A7406269342289588224
+          - generic "Chris Laping Premium Profile 2nd"
+        - 'link "Smart is good. But it’s not enough. You’ve likely worked with brilliant folks who leave a trail of stress and ego behind. It doesn’t matter how good they are... if they drain energy, they shrink impact. Kindness isn’t a “nice to have.” It’s a force multiplier. When teams lead with kindness: 26% more energy at work 36% more job satisfaction 44% higher commitment to the team That’s not fluff. That’s how you win. Kindness is the behavior of high EQ in motion. And when leaders model humility? It spreads like wildfire. Want to lead with more kindness? Try this: ➊ Slow down when someone’s struggling ➋ Ask: “How can I support you this week?” ➌ Thank someone and share the impact they’ve had The best work doesn’t come from tension. It comes from trust. Kind people build strong teams. Strong teams create big results."':
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7406269342289588224/
+          - paragraph:
+            - text: Smart is good. But it’s not enough.
+            - text: You’ve likely worked with brilliant folks
+            - text: who leave a trail of stress and ego behind.
+            - text: It doesn’t matter how good they are...
+            - text: if they drain energy, they shrink impact.
+            - text: Kindness isn’t a “nice to have.”
+            - text: It’s a force multiplier.
+            - text: "When teams lead with kindness:"
+            - text: 26% more energy at work
+            - text: 36% more job satisfaction
+            - text: 44% higher commitment to the team
+            - text: That’s not fluff. That’s how you win.
+            - text: Kindness is the behavior of high EQ in motion.
+            - text: And when leaders model humility?
+            - text: It spreads like wildfire.
+            - text: "Want to lead with more kindness? Try this:"
+            - text: ➊ Slow down when someone’s struggling
+            - text: "➋ Ask: “How can I support you this week?”"
+            - text: ➌ Thank someone and share the impact they’ve had
+            - text: The best work doesn’t come from tension.
+            - text: It comes from trust.
+            - text: Kind people build strong teams.
+            - text: Strong teams create big results.
+            - button:
+              - generic: … more
+        - link:
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7406269342289588224/
+          - figure:
+            - img "View image"
+        - 'button "Reaction button state: Support"':
+          - generic: 11K
+        - button "Open reactions menu":
+        - link "Comment":
+          - /url: https://www.linkedin.com/feed/update/urn:li:activity:7406269342289588224/
+          - generic: "109"
+        - button "Repost":
+          - generic: 1,139
+        - link "Send":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+        - link:
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+          - generic "11,138 reactions":
+    - button "Next":
+    - link "Show all posts":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/recent-activity/all/
+      - generic: Show all
+    - heading "Experience" [level=2]
+    - button "Add experience":
+    - link "Edit experience":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/?isSelfProfile=true&vieweeProfileId=ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs
+    - link:
+      - /url: https://www.linkedin.com/company/18956384/
+      - figure:
+        - img "Persia Fava Gostaresh Co. logo"
+    - link "Senior Technical Product Manager Persia Fava Gostaresh Co. · Full-time Apr 2025 - Present · 1 yr 7 mos Tehran, Tehran Province, Iran · On-site":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/edit/forms/position/2694948757/
+      - paragraph: Senior Technical Product Manager
+      - paragraph: Persia Fava Gostaresh Co. · Full-time
+      - paragraph: Apr 2025 - Present · 1 yr 7 mos
+      - paragraph: Tehran, Tehran Province, Iran · On-site
+    - paragraph:
+      - text: Architected a multi-million dollar business plan for a new API gateway, creating all PRDs, epics, and tasks for the 12-month roadmap.
+      - text: Currently building a new, multi-petabyte 'Smart DB' for SMS advertising, using text-based querying in Elasticsearch to enable advanced segmentation. (75% complete)
+      - text: Designing the complete architecture for a new User Authentication & Authorization (UAA) system, including all business plans and technical documentation.
+      - text: Act as the single point of command and technical liaison between the CEO and all outsourced teams (Backend, Frontend, UI/UX).
+      - text: Creating SDKs, developer documentation, and launch plans for a new corporate website, customer panel, and updated SMS gateway
+      - button:
+        - generic: … more
+    - paragraph:
+      - link "Project Management, Market & Competitor Analysis and +32 skills":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/2694948757/skill-associations-details/?associationType=position
+        - text: Project Management, Market & Competitor Analysis and +32 skills
+    - link:
+      - /url: https://www.linkedin.com/company/33454020/
+      - figure:
+        - img "MyDigipay logo"
+    - link "Senior Tech-Ops Analyst MyDigipay · Full-time Jul 2018 - Apr 2025 · 6 yrs 10 mos Iran · On-site":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/edit/forms/position/2092721915/
+      - paragraph: Senior Tech-Ops Analyst
+      - paragraph: MyDigipay · Full-time
+      - paragraph: Jul 2018 - Apr 2025 · 6 yrs 10 mos
+      - paragraph: Iran · On-site
+    - paragraph:
+      - text: Owned and operated the entire Fraud & Judicial (FATA) vertical for 7 years as the sole point of contact for all legal communications, asset blocking, and financial documentation.
+      - text: Served as the sole technical expert in 30+ judicial fraud cases, personally tracing money-laundering paths and providing data evidence.
+      - text: Reduced official fraud reporting time to FATA from 3 working days to under 3 hours by building new automated data-tracing and reporting flows.
+      - text: Managed all B2B technical relationships with key partners (PSPs, banks, Shaparak), building and maintaining API connection networks across all major Iranian providers.
+      - text: Architected and implemented the company's first active/passive monitoring stack (Prometheus, Grafana), developing Grok patterns and Z-factor alerts from raw logs.
+      - text: Led the design of multi-party reconciliation solutions for all fintech products (Wallets, C2C, Insuretech, Lendtech) from the ground up, before product code was written.
+      - text: Maintained a fraud rate of <0.01% by proactively identifying patterns and shipping solutions with engineering, often without a formal product process.
+      - button:
+        - generic: … more
+    - paragraph:
+      - link "Strategic Thinking, Project Management and +40 skills":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/2092721915/skill-associations-details/?associationType=position
+        - text: Strategic Thinking, Project Management and +40 skills
+    - link:
+      - /url: https://www.linkedin.com/company/5090115/
+      - figure:
+        - img "Digikala logo"
+    - link "Senior Payments & Fraud Consultant (concurrent) Digikala · Contract Jul 2018 - Apr 2025 · 6 yrs 10 mos Tehran, Tehran Province, Iran · Remote":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/edit/forms/position/2783104558/
+      - paragraph: Senior Payments & Fraud Consultant (concurrent)
+      - paragraph: Digikala · Contract
+      - paragraph: Jul 2018 - Apr 2025 · 6 yrs 10 mos
+      - paragraph: Tehran, Tehran Province, Iran · Remote
+    - paragraph:
+      - text: Acted as the senior subject-matter expert for Digikala's 45-million-customer e-commerce platform, advising finance, logistics, and legal teams on fraud and payments.
+      - text: Single-handedly built and managed complex reconciliation reports for the main platform, correlating data from multiple payment sources.
+      - text: Developed and implemented rapid-response fraud interception plans; personally traced high-value stolen items in under 1 hour, interfacing with law enforcement.
+      - text: Consulted with Iran's anti-fraud agency (FATA) on behalf of Digikala, successfully negotiating new regulations for 3-hour delivery systems by demonstrating a fraud rate of <0.5%.
+      - button:
+        - generic: … more
+    - paragraph:
+      - link "Fraud Detection, Teamwork and +10 skills":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/2783104558/skill-associations-details/?associationType=position
+        - text: Fraud Detection, Teamwork and +10 skills
+    - figure:
+      - img "HomaPay Payment Services logo"
+    - link "Mid Operations Analyst/Admin HomaPay Payment Services · Full-time Sep 2016 - Jun 2018 · 1 yr 10 mos Tehran, Tehran Province, Iran · On-site":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/edit/forms/position/2595600573/
+      - paragraph: Mid Operations Analyst/Admin
+      - paragraph: HomaPay Payment Services · Full-time
+      - paragraph: Sep 2016 - Jun 2018 · 1 yr 10 mos
+      - paragraph: Tehran, Tehran Province, Iran · On-site
+    - paragraph:
+      - text: Oversaw all service operations for core fintech products, including C2C transfers, bill payments, and top-up platforms.
+      - text: Established and enforced QoS/QC benchmarks by designing and implementing service monitoring dashboards and analyzing system logs.
+      - text: Joined as one of the first 10 employees, single-handedly managing all operations, monitoring, and customer support for the initial 15-person startup.
+      - text: Manually operated and debugged all fintech platforms (C2C, billing, top-up), masking severe code deficiencies to maintain a flawless operational record.
+      - text: My operational stability was a key factor in securing a 3x increase in investor funding, growing the team to 50+, and enabling the company's acquisition by Digikala.
+      - text: Acted as the primary technical-operational liaison during the merger and integration into the Digikala group (Digipay).
+      - text: Acted as the primary technical-operational liaison during the company's merger and integration into the Digikala group (Digipay
+      - button:
+        - generic: … more
+    - paragraph:
+      - link "Teamwork, Communication and +9 skills":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/2595600573/skill-associations-details/?associationType=position
+        - text: Teamwork, Communication and +9 skills
+    - figure:
+      - img "Gi-Retail Sell.co logo"
+    - link "Mid Sales Area Manager Gi-Retail Sell.co · Full-time May 2010 - Dec 2016 · 6 yrs 8 mos Tehran, Tehran Province, Iran · On-site":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/edit/forms/position/2780487119/
+      - paragraph: Mid Sales Area Manager
+      - paragraph: Gi-Retail Sell.co · Full-time
+      - paragraph: May 2010 - Dec 2016 · 6 yrs 8 mos
+      - paragraph: Tehran, Tehran Province, Iran · On-site
+    - paragraph:
+      - text: Directed a sales division of 30+ agents, holding full P&L responsibility for the area.
+      - text: Formulated annual financial plans, set sales targets, and drove business development by securing key retail partnerships.
+      - text: Served as the sole translator and communications lead for international partners, negotiating contracts and aligning supply chain logistics.
+      - button:
+        - generic: … more
+    - paragraph:
+      - link "Teamwork, Communication and +8 skills":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/2780487119/skill-associations-details/?associationType=position
+        - text: Teamwork, Communication and +8 skills
+    - link "Show all experiences":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/?isSelfProfile=true&vieweeProfileId=ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs
+      - generic: Show all
+    - heading "Education" [level=2]
+    - link "Add education":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/edit/forms/education/new/
+    - link "Edit education":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/education/
+    - figure:
+      - img "Engineering Islamic Azad University, South Tehran Branch logo"
+    - link "Engineering Islamic Azad University, South Tehran Branch Bachelor's degree, Computer Software Engineering":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/education/edit/forms/561563313/
+      - paragraph: Engineering Islamic Azad University, South Tehran Branch
+      - paragraph: Bachelor's degree, Computer Software Engineering
+    - paragraph:
+      - link "Infrastructure Monitoring (Prometheus, Grafana, ELK)":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/561563313/skill-associations-details/?associationType=education
+        - text: Infrastructure Monitoring (Prometheus, Grafana, ELK)
+    - heading "Licenses & certifications (20)" [level=2]
+    - link "Add a certification":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/edit/forms/certification/new/
+    - link "Edit a certification":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Using Generative AI across the Marketing Lifecycle
+    - paragraph: LinkedIn
+    - paragraph: Issued Jan 2026
+    - link "Show credential for Using Generative AI across the Marketing Lifecycle":
+      - /url: https://www.linkedin.com/learning/certificates/ca10d4f8f7fa3b1210a6c34f0a8c05c1587a63b053936dce9524d11f77ba3557/
+      - generic: Show credential
+    - paragraph:
+      - link "Generative AI for Marketing and Artificial Intelligence (AI)":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/20/skill-associations-details/?associationType=certifications
+        - text: Generative AI for Marketing and Artificial Intelligence (AI)
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: "Market Research: Quantitative"
+    - paragraph: LinkedIn
+    - paragraph: Issued Jan 2026
+    - 'link "Show credential for Market Research: Quantitative"':
+      - /url: https://www.linkedin.com/learning/certificates/e4a7b04247d8f5ed5e6cc6edb3b4eba13b228adb1d2748f638c38571730350f0/
+      - generic: Show credential
+    - paragraph:
+      - link "Market Research, Quantitative Research and +1 skill":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/19/skill-associations-details/?associationType=certifications
+        - text: Market Research, Quantitative Research and +1 skill
+    - link "Show all licenses":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/
+      - generic: Show all 20 licenses
+    - heading "Skills (86)" [level=2]
+    - link "Add a skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skills/edit/forms/new/
+    - link "Edit a skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/
+    - paragraph: Incident Management
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/976923980/
+          - text: 2 experiences at Persia Fava Gostaresh Co. and 1 other company
+    - paragraph: MongoDB
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+    - link "Show all skills":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/
+      - generic: Show all
+    - heading "Recommendations" [level=2]
+    - button "Add a recommendation":
+    - link "Edit a recommendation":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/recommendations/
+    - checkbox "Received (1)" [checked]
+    - generic: Received (1)
+    - checkbox "Given (8)"
+    - generic: Given (8)
+    - link "Reyhaneh Mohebbi · 1st Sales Supervisor at Persia Fava Gostaresh Co. December 21, 2025, Reyhaneh worked with Ariya but on different teams \"Ariya is a force multiplier for any technical team. He doesn't just do his own work; he mentors others, shares knowledge, and raises the standard of engineering excellence for the group. He is always willing to jump in and help solve a blocker, no matter how busy he is. He creates a culture of collaboration and continuous improvement that makes the whole team better.\"":
+      - /url: https://www.linkedin.com/in/reyhan-mohebbi/
+      - figure
+      - paragraph:
+        - link "Reyhaneh Mohebbi":
+          - /url: https://www.linkedin.com/in/reyhan-mohebbi/
+      - paragraph: · 1st
+      - paragraph: Sales Supervisor at Persia Fava Gostaresh Co.
+      - paragraph: December 21, 2025, Reyhaneh worked with Ariya but on different teams
+      - paragraph:
+        - generic: "\"Ariya is a force multiplier for any technical team. He doesn't just do his own work; he mentors others, shares knowledge, and raises the standard of engineering excellence for the group. He is always willing to jump in and help solve a blocker, no matter how busy he is. He creates a culture of collaboration and continuous improvement that makes the whole team better.\""
+    - heading "Interests" [level=2]
+    - checkbox "Top Voices" [checked]
+    - generic: Top Voices
+    - checkbox "Companies"
+    - generic: Companies
+    - checkbox "Groups"
+    - generic: Groups
+    - checkbox "Newsletters"
+    - generic: Newsletters
+    - checkbox "Schools"
+    - generic: Schools
+    - link "Ida Liu Executive Top Voice · 3rd CEO of HSBC Private Bank 88,230 followers":
+      - /url: https://www.linkedin.com/in/idaliu/
+      - figure
+      - paragraph:
+        - link "Ida Liu Executive Top Voice":
+          - /url: https://www.linkedin.com/in/idaliu/
+          - text: Ida Liu
+          - img "Executive Top Voice":
+      - paragraph: · 3rd
+      - paragraph: CEO of HSBC Private Bank
+      - paragraph: 88,230 followers
+    - button "Following, click to unfollow Ida Liu":
+      - generic: Following
+    - link "HH Sheikh Mohamed bin Zayed Al Nahyan Executive Top Voice · 3rd+ President of the United Arab Emirates 1,126,078 followers":
+      - /url: https://www.linkedin.com/in/hh-sheikh-mohamed-bin-zayed-al-nahyan/
+      - figure
+      - paragraph:
+        - link "HH Sheikh Mohamed bin Zayed Al Nahyan Executive Top Voice":
+          - /url: https://www.linkedin.com/in/hh-sheikh-mohamed-bin-zayed-al-nahyan/
+          - text: HH Sheikh Mohamed bin Zayed Al Nahyan
+          - img "Executive Top Voice":
+      - paragraph: · 3rd+
+      - paragraph: President of the United Arab Emirates
+      - paragraph: 1,126,078 followers
+    - button "Following, click to unfollow HH Sheikh Mohamed bin Zayed Al Nahyan":
+      - generic: Following
+    - link "Show all interests":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/interests/?initialTabId=interest_top_voices
+      - generic: Show all
+  - complementary "Aside":
+    - heading "Profile language" [level=2]
+    - link "Edit profile language":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/edit/secondary-language/
+    - paragraph: English
+    - heading "Public profile & URL" [level=2]
+    - link "Edit Public profile & URL":
+      - /url: https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile
+    - paragraph: www.linkedin.com/in/ariya-sarrafzadeh
+    - img "Premium"
+    - heading "Who your viewers also viewed" [level=3]
+    - paragraph: Private to you
+    - link "Sajad Mahrami Verified · 1st System Administrator Lead":
+      - /url: https://www.linkedin.com/in/sajadmahrami/
+      - figure
+      - paragraph:
+        - link "Sajad Mahrami Verified":
+          - /url: https://www.linkedin.com/in/sajadmahrami/
+          - text: Sajad Mahrami
+          - img "Verified":
+      - paragraph: · 1st
+      - paragraph: System Administrator Lead
+    - link "Message Sajad Mahrami":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAABGLY7QBOsuyc7kPc61Gka_QqABIkPLFO8A&recipient=ACoAABGLY7QBOsuyc7kPc61Gka_QqABIkPLFO8A&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Gelareh Naghioun · 2nd Senior Product Designer":
+      - /url: https://www.linkedin.com/in/gelareh-naghioun/
+      - figure
+      - paragraph:
+        - link "Gelareh Naghioun":
+          - /url: https://www.linkedin.com/in/gelareh-naghioun/
+      - paragraph: · 2nd
+      - paragraph: Senior Product Designer
+    - link "Message Gelareh Naghioun":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAABf-yC8BLIV0WxX_IOtALLpvHQmWcYazU-8&recipient=ACoAABf-yC8BLIV0WxX_IOtALLpvHQmWcYazU-8&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Sima Ahmadvand · 1st Software Engineer @eBay":
+      - /url: https://www.linkedin.com/in/sima-ahmadvand-03041823/
+      - figure
+      - paragraph:
+        - link "Sima Ahmadvand":
+          - /url: https://www.linkedin.com/in/sima-ahmadvand-03041823/
+      - paragraph: · 1st
+      - paragraph: Software Engineer @eBay
+    - link "Message Sima Ahmadvand":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAATd5yQBkbuxLgzWovlFWcFVInBgYbwNOmY&recipient=ACoAAATd5yQBkbuxLgzWovlFWcFVInBgYbwNOmY&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Reyhaneh Mohebbi · 1st Sales Supervisor at Persia Fava Gostaresh Co.":
+      - /url: https://www.linkedin.com/in/reyhan-mohebbi/
+      - figure
+      - paragraph:
+        - link "Reyhaneh Mohebbi":
+          - /url: https://www.linkedin.com/in/reyhan-mohebbi/
+      - paragraph: · 1st
+      - paragraph: Sales Supervisor at Persia Fava Gostaresh Co.
+    - link "Message Reyhaneh Mohebbi":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAADH5p00BZ24HN0dim9pNgPo_iiwNv8W8tX0&recipient=ACoAADH5p00BZ24HN0dim9pNgPo_iiwNv8W8tX0&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "ali hatami Verified · 1st General Services manager":
+      - /url: https://www.linkedin.com/in/ali-hatami-80795a199/
+      - figure
+      - paragraph:
+        - link "ali hatami Verified":
+          - /url: https://www.linkedin.com/in/ali-hatami-80795a199/
+          - text: ali hatami
+          - img "Verified":
+      - paragraph: · 1st
+      - paragraph: General Services manager
+    - link "Message ali hatami":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAC6X2QcBdqwYBNYSd3K8OWwCC2S6pFrNXJA&recipient=ACoAAC6X2QcBdqwYBNYSd3K8OWwCC2S6pFrNXJA&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Show all people also viewed":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/browsemap-recommendations/
+      - generic: Show all
+    - heading "People you may know" [level=2]
+    - paragraph: From your job title
+    - link "Mohammad Fazlollahi Verified · 2nd Products Director & Board Member at Saba Idea Technology (Aparat, Filimo, Sabavision, Mihanblog)":
+      - /url: https://www.linkedin.com/in/mohammad-fazlollahi-52a54267/
+      - figure
+      - paragraph:
+        - link "Mohammad Fazlollahi Verified":
+          - /url: https://www.linkedin.com/in/mohammad-fazlollahi-52a54267/
+          - text: Mohammad Fazlollahi
+          - img "Verified":
+      - paragraph: · 2nd
+      - paragraph: Products Director & Board Member at Saba Idea Technology (Aparat, Filimo, Sabavision, Mihanblog)
+    - button "Invite Mohammad Fazlollahi to connect":
+      - generic: Connect
+    - link "mohammad mohammadi · 3rd+ Product Manager at Taj.Wire":
+      - /url: https://www.linkedin.com/in/mohammad-mohammadi-930012435/
+      - figure
+      - paragraph:
+        - link "mohammad mohammadi":
+          - /url: https://www.linkedin.com/in/mohammad-mohammadi-930012435/
+      - paragraph: · 3rd+
+      - paragraph: Product Manager at Taj.Wire
+    - button "Invite mohammad mohammadi to connect":
+      - generic: Connect
+    - link "Kimia Arbabi · 2nd Product Manager @ Zarrino":
+      - /url: https://www.linkedin.com/in/kimiarbabi/
+      - figure
+      - paragraph:
+        - link "Kimia Arbabi":
+          - /url: https://www.linkedin.com/in/kimiarbabi/
+      - paragraph: · 2nd
+      - paragraph: Product Manager @ Zarrino
+    - button "Invite Kimia Arbabi to connect":
+      - generic: Connect
+    - link "yuvaraj velumani · 3rd+ Senior Software Product Manager at Robert Bosch llc":
+      - /url: https://www.linkedin.com/in/yuvaraj-velumani-02503943b/
+      - figure:
+      - paragraph:
+        - link "yuvaraj velumani":
+          - /url: https://www.linkedin.com/in/yuvaraj-velumani-02503943b/
+      - paragraph: · 3rd+
+      - paragraph: Senior Software Product Manager at Robert Bosch llc
+    - button "Invite yuvaraj velumani to connect":
+      - generic: Connect
+    - link "Mehdi Silavi · 2nd Head of Product at Nobitex":
+      - /url: https://www.linkedin.com/in/mehdi-silavi-550a5558/
+      - figure
+      - paragraph:
+        - link "Mehdi Silavi":
+          - /url: https://www.linkedin.com/in/mehdi-silavi-550a5558/
+      - paragraph: · 2nd
+      - paragraph: Head of Product at Nobitex
+    - button "Invite Mehdi Silavi to connect":
+      - generic: Connect
+    - link "Show all people you may know":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+      - generic: Show all
+    - heading "You might like" [level=2]
+    - paragraph: Pages for you
+    - link "View Khodro45.com page Software Development 10,047 followers":
+      - /url: https://www.linkedin.com/company/khodro45/
+      - figure
+      - paragraph:
+        - link "View Khodro45.com page":
+          - /url: https://www.linkedin.com/company/khodro45/
+          - text: Khodro45.com
+      - paragraph: Software Development
+      - paragraph: 10,047 followers
+    - figure
+    - paragraph:
+      - link "Open http://www.linkedin.com/search/results/people/?origin=COMPANY_PAGE_CANNED_SEARCH&network=%5B%22F%22%5D&currentCompany=%5B%2218758324%22%5D":
+        - /url: https://www.linkedin.com/search/results/people/?origin=COMPANY_PAGE_CANNED_SEARCH&network=%5B%22F%22%5D&currentCompany=%5B%2218758324%22%5D
+        - text: Milad & 1 other connection work here
+    - button "Follow Khodro45.com":
+      - generic: Follow
+    - link "View Rahnema College page Education 33,871 followers":
+      - /url: https://www.linkedin.com/company/rahnema-college/
+      - figure
+      - paragraph:
+        - link "View Rahnema College page":
+          - /url: https://www.linkedin.com/company/rahnema-college/
+          - text: Rahnema College
+      - paragraph: Education
+      - paragraph: 33,871 followers
+    - link "Fatemeh & 286 other connections follow this page":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+      - figure
+      - paragraph:
+        - link "Fatemeh & 286 other connections follow this page":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+    - button "Follow Rahnema College":
+      - generic: Follow
+    - link "Show all pages you might like":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+      - generic: Show all
+  - generic "Footer":
+    - navigation:
+      - link "About":
+        - /url: https://about.linkedin.com/
+        - paragraph: About
+      - link "Accessibility":
+        - /url: https://www.linkedin.com/accessibility/
+        - paragraph: Accessibility
+      - link "Talent Solutions":
+        - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+        - paragraph: Talent Solutions
+      - link "Community Guidelines":
+        - /url: https://www.linkedin.com/legal/professional-community-policies/
+        - paragraph: Community Guidelines
+      - link "Careers":
+        - /url: https://careers.linkedin.com/
+        - paragraph: Careers
+      - link "Marketing Solutions":
+        - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+        - paragraph: Marketing Solutions
+      - button "Privacy & Terms":
+        - paragraph: Privacy & Terms
+      - link "Ad Choices":
+        - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+        - paragraph: Ad Choices
+      - link "Advertising":
+        - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+        - paragraph: Advertising
+      - link "Sales Solutions":
+        - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+        - paragraph: Sales Solutions
+      - link "Mobile":
+        - /url: https://mobile.linkedin.com/
+        - paragraph: Mobile
+      - link "Small Business":
+        - /url: https://business.linkedin.com/grow?src=li-footer
+        - paragraph: Small Business
+      - link "Safety Center":
+        - /url: https://safety.linkedin.com/
+        - paragraph: Safety Center
+    - paragraph: LinkedIn Corporation © 2026
+    - list:
+      - link "Questions?":
+        - /url: https://www.linkedin.com/help/linkedin/
+        - paragraph: Questions?
+      - paragraph: Visit our Help Center.
+      - link "Manage your account and privacy":
+        - /url: https://www.linkedin.com/mypreferences/d/
+        - paragraph: Manage your account and privacy
+      - paragraph: Go to your Settings.
+      - link "Recommendation transparency":
+        - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+        - paragraph: Recommendation transparency
+      - paragraph: Learn more about Recommended Content.
+    - paragraph: Select language
+    - combobox "Select language":
+      - option "العربية (Arabic)"
+      - option "বাংলা (Bangla)"
+      - option "Čeština (Czech)"
+      - option "Dansk (Danish)"
+      - option "Deutsch (German)"
+      - option "Ελληνικά (Greek)"
+      - option "English (English)" [selected]
+      - option "Español (Spanish)"
+      - option "فارسی (Persian)"
+      - option "Suomi (Finnish)"
+      - option "Français (French)"
+      - option "हिंदी (Hindi)"
+      - option "Magyar (Hungarian)"
+      - option "Bahasa Indonesia (Indonesian)"
+      - option "Italiano (Italian)"
+      - option "עברית (Hebrew)"
+      - option "日本語 (Japanese)"
+      - option "한국어 (Korean)"
+      - option "मराठी (Marathi)"
+      - option "Bahasa Malaysia (Malay)"
+      - option "Nederlands (Dutch)"
+      - option "Norsk (Norwegian)"
+      - option "ਪੰਜਾਬੀ (Punjabi)"
+      - option "Polski (Polish)"
+      - option "Português (Portuguese)"
+      - option "Română (Romanian)"
+      - option "Русский (Russian)"
+      - option "Svenska (Swedish)"
+      - option "తెలుగు (Telugu)"
+      - option "ภาษาไทย (Thai)"
+      - option "Tagalog (Tagalog)"
+      - option "Türkçe (Turkish)"
+      - option "Українська (Ukrainian)"
+      - option "Tiếng Việt (Vietnamese)"
+      - option "简体中文 (Chinese (Simplified))"
+      - option "正體中文 (Chinese (Traditional))"
+- complementary:
+  - img "Ariya Sarrafzadeh"
+  - generic: Status is online
+  - button "You are on the messaging overlay. Press enter to open the list of conversations.":
+    - generic: Messaging
+    - generic: You are on the messaging overlay. Press enter to open the list of conversations.
+  - button "Open messenger dropdown menu":
+    - img "Open messenger dropdown menu"
+  - button "Compose message":
+    - generic: Compose message
+  - button "You are on the messaging overlay. Press enter to open the list of conversations.":
+    - generic: You are on the messaging overlay. Press enter to open the list of conversations.
+- complementary "AI-powered assistant to get help with your career, jobs etc"
+- iframe:
+  - region "Toast message":
+    - heading "0 notifications total" [level=2]
+    - alert
+  - region
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Keyboard shortcuts":
+    - generic: Keyboard shortcuts
+  - button "Close jump menu":
+    - generic: Close jump menu
+  - banner "Global Navigation":
+    - link "LinkedIn":
+      - /url: https://www.linkedin.com/feed/
+      - img "LinkedIn":
+    - combobox "Search"
+    - navigation "Primary Navigation":
+      - list:
+        - link "new feed updates notifications Home":
+          - /url: https://www.linkedin.com/feed/
+          - generic: new feed updates notifications
+          - generic "Home"
+        - link "Network":
+          - /url: https://www.linkedin.com/mynetwork/?
+          - generic "Network"
+        - link "Jobs":
+          - /url: https://www.linkedin.com/jobs/?
+          - generic "Jobs"
+        - link "Messaging":
+          - /url: https://www.linkedin.com/messaging/?
+          - generic "Messaging"
+        - link "Notifications":
+          - /url: https://www.linkedin.com/notifications/?
+          - generic "Notifications"
+        - button "Ariya Sarrafzadeh Me":
+          - img "Ariya Sarrafzadeh"
+          - text: Me
+        - button "For Business":
+          - generic "For Business":
+            - text: For Business
+        - link "Learning":
+          - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning&
+          - generic "Learning"

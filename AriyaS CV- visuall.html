@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariya Sarrafzadeh - CV</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #34495e;
+            --accent: #3498db;
+            --text-dark: #333;
+            --text-light: #7f8c8d;
+            --bg-light: #ecf0f1;
+        }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #bdc3c7;
+            margin: 0;
+            padding: 20px;
+            color: var(--text-dark);
+        }
+        .page {
+            background: white;
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 30% 70%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        /* Left Sidebar */
+        .sidebar {
+            background-color: var(--primary);
+            color: white;
+            padding: 30px 20px;
+            text-align: left;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: #ddd; /* Placeholder for image */
+            margin: 0 auto 20px;
+            display: block;
+            object-fit: cover;
+            border: 4px solid white;
+        }
+        .sidebar h2 {
+            font-size: 18px;
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            margin-top: 40px;
+            letter-spacing: 1px;
+        }
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+        }
+        .sidebar li {
+            margin-bottom: 10px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        .contact-item {
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        .contact-label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 2px;
+            color: var(--accent);
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        /* Right Content */
+        .content {
+            padding: 40px;
+        }
+        .header {
+            margin-bottom: 40px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            text-transform: uppercase;
+            color: var(--primary);
+            letter-spacing: 2px;
+        }
+        .header h2 {
+            margin: 10px 0 0;
+            font-size: 18px;
+            color: var(--accent);
+            font-weight: normal;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .section-title {
+            font-size: 16px;
+            color: var(--primary);
+            text-transform: uppercase;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 10px;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+        .profile-summary {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text-dark);
+            margin-bottom: 30px;
+        }
+        .job {
+            margin-bottom: 25px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+        }
+        .job-title {
+            font-size: 16px;
+            font-weight: bold;
+            color: var(--primary);
+        }
+        .job-date {
+            font-size: 12px;
+            color: var(--text-light);
+            font-style: italic;
+        }
+        .company {
+            font-size: 14px;
+            color: var(--accent);
+            font-weight: bold;
+            margin-bottom: 8px;
+            display: block;
+        }
+        .job-details {
+            font-size: 13px;
+            line-height: 1.5;
+            padding-left: 15px;
+            margin: 0;
+        }
+        .job-details li {
+            margin-bottom: 5px;
+        }
+
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+            .page {
+                box-shadow: none;
+                margin: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="page">
+    <div class="sidebar">
+        <!-- Replace 'your-photo.jpg' with your actual photo file name -->
+        <img src="aria.jpeg" alt="Ariya Sarrafzadeh" class="profile-img">
+        
+        <div class="contact-section">
+            <div class="contact-item">
+                <span class="contact-label">Phone</span>
+                +98 912 311 7965
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">Email</span>
+                <a href="mailto:ariasg2002@gmail.com">ariasg2002@gmail.com</a>
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">Location</span>
+                Tehran, Iran
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">LinkedIn</span>
+                <a href="https://linkedin.com/in/ariya-sarrafzadeh-2b505141">In/ariya-sarrafzadeh</a>
+            </div>
+        </div>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>Product Lifecycle (PLC)</li>
+            <li>Agile/Scrum Leadership</li>
+            <li>Technical Roadmapping</li>
+            <li>Fraud Detection (AML)</li>
+            <li>Risk Management</li>
+            <li>API Design & Microservices</li>
+            <li>High-Availability Monitoring</li>
+            <li>Big Data (Elasticsearch)</li>
+            <li>Stakeholder Management</li>
+        </ul>
+
+        <h2>Tools</h2>
+        <ul>
+            <li>Jira & Confluence</li>
+            <li>Prometheus & Grafana</li>
+            <li>ELK Stack</li>
+            <li>Asana & ClickUp</li>
+            <li>MongoDB & SQL</li>
+            <li>Python & Java</li>
+        </ul>
+
+        <h2>Languages</h2>
+        <ul>
+            <li>Persian (Native)</li>
+            <li>English (Full Professional)</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <div class="header">
+            <h1>Ariya Sarrafzadeh</h1>
+            <h2>Technical Product Manager</h2>
+        </div>
+
+        <div class="profile-summary">
+            Senior Technical Product Leader with 15+ years of experience architecting, building, and operating high-availability fintech platforms. My expertise is at the intersection of product innovation, technical operations, and deep domain expertise in payments, fraud, and compliance. I thrive on building new products from the ground up, translating complex technical challenges into scalable systems.
+        </div>
+
+        <div class="section-title">Experience</div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Senior Technical Product Manager</span>
+                <span class="job-date">Apr 2025 – Present</span>
+            </div>
+            <span class="company">P.G IT Solutions / Persia Fava Gostaresh</span>
+            <ul class="job-details">
+                <li>Architecting a multi-million dollar API gateway business plan and roadmap.</li>
+                <li>Leading development of a multi-petabyte 'Smart DB' for SMS advertising using Elasticsearch.</li>
+                <li>Designing end-to-end architecture for a new User Authentication (UAA) microservice.</li>
+                <li>Acting as the single technical point of command for all outsourced development teams.</li>
+                <li>Architected 4-6 new internal SaaS platforms from the ground up in a greenfield environment.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Senior Payments & Fraud Consultant</span>
+                <span class="job-date">Jul 2018 – Apr 2025</span>
+            </div>
+            <span class="company">Digikala (Parent Company)</span>
+            <ul class="job-details">
+                <li>Senior subject-matter expert for a 45-million-customer platform on fraud and payments.</li>
+                <li>Built complex reconciliation reports correlating data from multiple payment sources.</li>
+                <li>Developed rapid-response fraud interception plans, tracing stolen items in under 1 hour.</li>
+                <li>Consulted with Iran's Cyber Police (FATA), negotiating regulations for rapid delivery systems.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Senior Tech-Ops Analyst / Admin</span>
+                <span class="job-date">Jul 2018 – Apr 2025</span>
+            </div>
+            <span class="company">Digipay Co.</span>
+            <ul class="job-details">
+                <li>Owned the entire Fraud & Judicial vertical for 7 years, managing 30,000+ inquiries.</li>
+                <li>Reduced official fraud reporting time to FATA from 3 days to under 3 hours via automation.</li>
+                <li>Engineered the company's first logging standards (Grok) and monitoring stack (Prometheus).</li>
+                <li>Dictated technical specs to external PSPs and the National Payment Network (Shaparak).</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Founding Operations Analyst</span>
+                <span class="job-date">Sep 2016 – Jun 2018</span>
+            </div>
+            <span class="company">Homapay Co.</span>
+            <ul class="job-details">
+                <li>Founding member managing all operations and monitoring for the startup.</li>
+                <li>Manually operated fintech platforms, masking code deficiencies to ensure stability.</li>
+                <li>Operational stability was key in securing 3x investor funding and acquisition by Digikala.</li>
+            </ul>
+        </div>
+
+        <div class="section-title">Education</div>
+        <div class="job">
+             <div class="job-header">
+                <span class="job-title">B.S. Software Engineering</span>
+                <span class="job-date">Oct 2001 – Jun 2006</span>
+            </div>
+            <span class="company">Islamic Azad University, South Tehran Branch</span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

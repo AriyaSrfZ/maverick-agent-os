@@ -1,0 +1,13 @@
+# Environments & dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# OS & IDE
+.DS_Store
+*.swp
+*.swo
+
+# Large cache directories
+graphify-out/cache/
+.system_generated/

@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رزومه - آریا صراف‌زاده</title>
+    
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.0.3/misc/Farsi-Digits/font-face.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        :root {
+            /* COLORS */
+            --sidebar-bg: #1a1a1a;
+            --sidebar-text: #e0e0e0;
+            --main-bg: #ffffff;
+            --main-text: #2d2d2d;
+            --timeline: #cccccc;
+            
+            /* TYPOGRAPHY - Prioritizing Yekan Bakh and IranSans */
+            --font-stack: 'Yekan Bakh', 'IranSans', 'IRANSansWeb', 'Vazirmatn', 'Tahoma', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        body {
+            font-family: var(--font-stack);
+            background-color: #555;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        /* PAGE CONTAINER */
+        .page-container {
+            width: 21cm;
+            min-height: 29.7cm; /* A4 Height */
+            background-color: white;
+            display: flex;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            position: relative;
+            
+            /* TRICK: Creates the black sidebar column visually for printing across multiple pages */
+            background: linear-gradient(to left, #1a1a1a 32%, white 32%);
+        }
+
+        /* --- SIDEBAR (Right) --- */
+        .sidebar {
+            width: 32%;
+            color: var(--sidebar-text);
+            padding: 40px 25px;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            text-align: right;
+            height: 100%;
+        }
+
+        .photo-frame {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+            border-radius: 50%;
+            border: 3px solid #333;
+            overflow: hidden;
+            background-color: #000;
+        }
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-name h1 {
+            font-size: 16pt; 
+            font-weight: 900;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 5px;
+            white-space: nowrap; /* Forces name on one line */
+        }
+        .profile-name .title {
+            font-size: 9.5pt;
+            color: #aaa;
+            text-align: center;
+            font-weight: 300;
+        }
+
+        .contact-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 8.5pt;
+            border-bottom: 1px solid #333;
+            padding-bottom: 20px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 8px;
+            color: #ccc;
+        }
+        .contact-item span { direction: ltr; }
+
+        .sidebar-section h3 {
+            font-size: 10.5pt;
+            color: #fff;
+            border-bottom: 2px solid #555;
+            padding-bottom: 4px;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+        
+        .skill-block {
+            margin-bottom: 12px;
+        }
+        .skill-title {
+            display: block;
+            color: #eee;
+            font-weight: 700;
+            font-size: 9pt;
+            margin-bottom: 2px;
+        }
+        .skill-desc {
+            font-size: 8pt;
+            color: #999;
+            line-height: 1.4;
+        }
+
+        /* --- MAIN CONTENT (Left) --- */
+        .main {
+            width: 68%;
+            padding: 40px 35px;
+            color: var(--main-text);
+        }
+
+        .section-title {
+            font-size: 13pt;
+            font-weight: 900;
+            color: #000;
+            border-bottom: 2px solid #000;
+            padding-bottom: 6px;
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+        
+        .summary-text {
+            font-size: 9pt;
+            line-height: 1.7;
+            text-align: justify;
+            color: #444;
+            margin-bottom: 25px;
+        }
+
+        /* TIMELINE */
+        .timeline {
+            position: relative;
+            padding-right: 15px;
+            border-right: 1px solid var(--timeline);
+        }
+
+        .job-card {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        /* Timeline Dot */
+        .job-card::before {
+            content: '';
+            position: absolute;
+            right: -20px; /* Center over line */
+            top: 6px;
+            width: 9px;
+            height: 9px;
+            background: #222;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            z-index: 2;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 6px;
+        }
+
+        .role-title {
+            font-size: 10.5pt;
+            font-weight: 800;
+            color: #000;
+            display: block;
+        }
+        .company-name {
+            font-size: 9pt;
+            font-weight: 500;
+            color: #555;
+            display: block;
+            margin-top: 1px;
+        }
+        
+        /* Fixed date styling for Shamsi RTL */
+        .date {
+            font-size: 8.5pt;
+            font-family: var(--font-stack);
+            color: #666;
+            white-space: nowrap;
+            direction: rtl; /* Important for Persian dates */
+        }
+
+        .job-details {
+            list-style: none;
+        }
+        .job-details li {
+            position: relative;
+            padding-right: 12px;
+            margin-bottom: 3px;
+            font-size: 8.5pt;
+            line-height: 1.5;
+            color: #333;
+            text-align: justify;
+        }
+        .job-details li::before {
+            content: "•";
+            position: absolute;
+            right: 0;
+            color: #000;
+            font-weight: bold;
+        }
+
+        /* FORCED PAGE BREAK CLASS */
+        .page-break {
+            break-after: page;
+            height: 1px;
+            width: 100%;
+            display: block;
+            margin-bottom: 40px; /* Space before break */
+        }
+
+        /* PRINT SETTINGS */
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+                margin: 0;
+            }
+            .page-container {
+                width: 100%;
+                box-shadow: none;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .page-break {
+                page-break-after: always; 
+                break-after: page;
+                margin-bottom: 0;
+            }
+            .timeline {
+                border-right: 1px solid var(--timeline);
+                height: 100%;
+            }
+            a { text-decoration: none; color: inherit; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-container">
+        
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="photo-frame">
+                <img src="aria.jpeg" alt="Ariya" onerror="this.style.display='none'; this.parentNode.style.backgroundColor='#333';">
+            </div>
+
+            <div class="profile-name">
+                <h1>آریا صراف‌زاده</h1>
+                <div class="title">مدیر محصول فنی ارشد<br>مدیر اجرایی فین‌تک</div>
+            </div>
+
+            <div class="contact-group">
+                <div class="contact-item">
+                    تهران، ایران 📍
+                </div>
+                <div class="contact-item" style="direction: ltr;">
+                    +98 912 311 7965 📞
+                </div>
+                <div class="contact-item" style="direction: ltr;">
+                    ariasg2002@gmail.com ✉️
+                </div>
+                <div class="contact-item" style="direction: ltr;">
+                    in/ariya-sarrafzadeh 🔗
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>تحصیلات</h3>
+                <div class="skill-block">
+                    <span class="skill-title">کارشناسی مهندسی نرم‌افزار</span>
+                    <span class="skill-desc">دانشگاه آزاد اسلامی، تهران جنوب</span>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>مهارت‌های تخصصی</h3>
+                
+                <div class="skill-block">
+                    <span class="skill-title">مدیریت محصول</span>
+                    <span class="skill-desc">استراتژی محصول، چرخه عمر (PLC)، نقشه‌راه فنی، اسکرام مستر</span>
+                </div>
+
+                <div class="skill-block">
+                    <span class="skill-title">فنی و مهندسی</span>
+                    <span class="skill-desc">معماری سیستم، Elasticsearch, Microservices, UAA Design</span>
+                </div>
+
+                <div class="skill-block">
+                    <span class="skill-title">عملیات و مانیتورینگ</span>
+                    <span class="skill-desc">Prometheus, Grafana، مهندسی لاگ (Grok)، مدیریت بحران</span>
+                </div>
+
+                <div class="skill-block">
+                    <span class="skill-title">پرداخت و فین‌تک</span>
+                    <span class="skill-desc">تشخیص تقلب (AML)، معماری پرداخت، قوانین شاپرک و فتا</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main">
+
+            <div class="section-title">خلاصه سوابق حرفه‌ای</div>
+            <p class="summary-text">
+                مدیر محصول فنی ارشد با بیش از ۱۵ سال تجربه در معماری، مقیاس‌دهی و مدیریت پلتفرم‌های فین‌تک با قابلیت دسترسی بالا برای بیش از ۴۵ میلیون کاربر. دارای سابقه اثبات‌شده در تبدیل چالش‌های پیچیده فنی (مانند دیتابیس‌های چند پتابایتی، درگاه‌های API و شبکه‌های کشوری تشخیص تقلب) به نقشه‌راه‌های اجرایی، PRDها و طرح‌های تجاری. متخصص در ایفای نقش به عنوان پل ارتباطی کلیدی میان چشم‌انداز مدیران ارشد و اجرای فنی تیم‌های مهندسی به منظور خلق ارزش‌های تجاری.
+            </p>
+
+            <div class="section-title">سوابق شغلی</div>
+            
+            <div class="timeline">
+                
+                <!-- JOB 1 (UPDATED TEXT & SHAMSI DATE) -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div>
+                            <span class="role-title">مدیر محصول فنی ارشد</span>
+                            <span class="company-name">شرکت پرشیا فاوا گسترش</span>
+                        </div>
+                        <span class="date">فروردین ۱۴۰۴ – تاکنون</span>
+                    </div>
+                    <ul class="job-details">
+                        <li>معماری طرح تجاری چند میلیون دلاری برای درگاه API جدید، و تدوین تمامی PRDها، اپیک‌ها و تسک‌های نقشه‌راه ۱۲ ماهه.</li>
+                        <li>رهبری توسعه «پایگاه داده هوشمند» چند پتابایتی برای تبلیغات پیامکی با جستجوی متنی Elasticsearch جهت سگمنتیشن پیشرفته (۷۵٪ پیشرفت).</li>
+                        <li>طراحی معماری صفر تا صد سیستم احراز هویت و دسترسی کاربران (UAA) به همراه ارائه طرح‌های تجاری و مستندات فنی.</li>
+                        <li>تدوین SDKها، مستندات توسعه‌دهندگان و برنامه‌های راه‌اندازی (GTM) برای وب‌سایت سازمانی، پنل مشتریان و درگاه پیامکی.</li>
+                        <li>ایفای نقش به عنوان تنها نقطه تماس و رابط فنی میان مدیرعامل و تیم‌های برون‌سپاری شده (Backend, Frontend, UI/UX).</li>
+                    </ul>
+                </div>
+
+                <!-- JOB 2 (SHAMSI DATE) -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div>
+                            <span class="role-title">مشاور ارشد پرداخت و تقلب</span>
+                            <span class="company-name">شرکت دیجی‌کالا</span>
+                        </div>
+                        <span class="date">تیر ۱۳۹۷ – فروردین ۱۴۰۴</span>
+                    </div>
+                    <ul class="job-details">
+                        <li>محافظت از پلتفرمی با ۴۵ میلیون کاربر به عنوان متخصص ارشد موضوعی (SME) در حوزه تقلب و عملیات پرداخت.</li>
+                        <li>مهندسی گردش‌کار پاسخگویی همه‌کاناله (Omnichannel) و کاهش زمان حل‌وفصل درخواست‌ها از ۴۸ ساعت به ۴۵ دقیقه.</li>
+                        <li>مذاکره مستقیم با پلیس فتا و رفع موانع حقوقی که منجر به فعال‌سازی سیستم ارسال ۳ ساعته در سطح کشور شد.</li>
+                        <li>توسعه پروتکل‌های واکنش سریع و بازگردانی دارایی‌های با ارزش بالا در کمتر از ۱ ساعت.</li>
+                        <li>حل اختلافات مالی پیچیده با نرخ دقت ۱۰۰٪ در تراکنش‌های سه وجهی.</li>
+                    </ul>
+                </div>
+
+                <!-- PAGE BREAK FOR PRINTING -->
+                <div class="page-break"></div>
+
+                <!-- JOB 3 (SHAMSI DATE) -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div>
+                            <span class="role-title">تحلیلگر ارشد عملیات فنی / راهبر سیستم</span>
+                            <span class="company-name">شرکت دیجی‌پی</span>
+                        </div>
+                        <span class="date">تیر ۱۳۹۷ – فروردین ۱۴۰۴</span>
+                    </div>
+                    <ul class="job-details">
+                        <li>کاهش زمان گزارش‌دهی کلاهبرداری به پلیس فتا تا ۹۶٪ (از ۳ روز به کمتر از ۳ ساعت) از طریق مهندسی ردیابی خودکار.</li>
+                        <li>حل‌وفصل انباشت ۳۰,۰۰۰ استعلام قضایی معوقه و افزایش نرخ رضایت رسمی از ۲۰٪ به ۹۸٪.</li>
+                        <li>افزایش ۸۰ درصدی سرعت واکنش به حوادث با معماری اولین پشته مانیتورینگ شرکت (Prometheus, Grafana).</li>
+                        <li>ترجمه لاگ‌های پیچیده (Grok) به سوابق قابل فهم برای مدیران اجرایی در کمتر از ۳ دقیقه به صورت ۲۴/۷.</li>
+                        <li>طراحی راهکارهای مغایرت‌گیری برای محصولات جدید فین‌تک (کیف پول، لندتک) پیش از شروع توسعه مهندسی.</li>
+                    </ul>
+                </div>
+
+                <!-- JOB 4 (SHAMSI DATE) -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div>
+                            <span class="role-title">هم‌بنیان‌گذار عملیات / تحلیلگر</span>
+                            <span class="company-name">شرکت هماپی (Homapay)</span>
+                        </div>
+                        <span class="date">شهریور ۱۳۹۵ – خرداد ۱۳۹۷</span>
+                    </div>
+                    <ul class="job-details">
+                        <li>تسهیل افزایش ۳ برابری جذب سرمایه و اکتساب توسط دیجی‌کالا از طریق حفظ ثبات عملیاتی پلتفرم.</li>
+                        <li>مدیریت انفرادی تمام سیستم‌های مانیتورینگ و پشتیبانی در فاز استارتاپی.</li>
+                        <li>حفظ آپتایم پلتفرم از طریق دیباگ و عملیات دستی جریان‌های حیاتی مالی.</li>
+                    </ul>
+                </div>
+
+                <!-- JOB 5 (SHAMSI DATE) -->
+                <div class="job-card">
+                    <div class="job-header">
+                        <div>
+                            <span class="role-title">مدیر منطقه فروش</span>
+                            <span class="company-name">شرکت جی‌دی ریتیل (GD Retail)</span>
+                        </div>
+                        <span class="date">اردیبهشت ۱۳۸۹ – دی ۱۳۹۵</span>
+                    </div>
+                    <ul class="job-details">
+                        <li>هدایت بخش فروش با بیش از ۳۰ نماینده و مسئولیت کامل سود و زیان (P&L).</li>
+                        <li>مذاکره قراردادهای بین‌المللی به عنوان تنها مترجم و رابط با شرکای خارجی.</li>
+                    </ul>
+                </div>
+                 <!-- JOB 6 (SHAMSI DATE) -->
+                 <div class="job-card">
+                    <div class="job-header">
+                        <div>
+                            <span class="role-title">مدیرعامل / عضو هیئت مدیره</span>
+                            <span class="company-name">شرکت آیدا فراز گسترش</span>
+                        </div>
+                        <span class="date">شهریور ۱۳۸۴ – آبان ۱۳۹۱</span>
+                    </div>
+                    <ul class="job-details">
+                        <li>تأسیس و رشد شرکت مشاوره IT و مدیریت پورتفوی ۱۵+ مشتری SME.</li>
+                        <li>پیاده‌سازی زیرساخت‌های شبکه ترکیبی (ویندوز/لینوکس) برای مشتریان سازمانی.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>

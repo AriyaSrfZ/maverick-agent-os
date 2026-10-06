@@ -1,0 +1,556 @@
+- heading "0 notifications" [level=2]
+- generic "Skip navigation menu":
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Skip to primary content":
+    - generic: Skip to primary content
+  - button "Skip to aside":
+    - generic: Skip to aside
+  - button "Skip to footer":
+    - generic: Skip to footer
+  - button "Close jump menu":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - status
+  - search:
+    - textbox "Search"
+  - navigation:
+    - list:
+      - button "Home, 1 new notification":
+        - generic: Home
+      - link "Network, 0 new notifications":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: Network
+      - link "Jobs, 0 new notifications":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: Jobs
+      - link "Messaging, 0 new notifications":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: Messaging
+      - link "Notifications, 0 new notifications":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: Notifications
+      - button "Me":
+        - figure
+        - text: Me
+  - navigation:
+    - list:
+      - button "For Business":
+        - text: For Business
+      - link "Learning, 0 new notifications":
+        - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+        - generic: Learning
+- toolbar:
+  - link "Ariya Sarrafzadeh":
+    - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+    - generic "Ariya Sarrafzadeh":
+      - figure
+      - paragraph: Ariya Sarrafzadeh
+      - paragraph: Technical Product Manager | Fintech, Payments & Platform Innovation
+- main:
+  - region "Primary content":
+    - button "Navigate back to profile main screen":
+    - paragraph: Licenses & certifications
+    - link "Add a certification":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/new/?profileFormEntryPoint=Detail
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Using Generative AI across the Marketing Lifecycle
+    - paragraph: LinkedIn
+    - paragraph: Issued Jan 2026
+    - link "Show credential for Using Generative AI across the Marketing Lifecycle":
+      - /url: https://www.linkedin.com/learning/certificates/ca10d4f8f7fa3b1210a6c34f0a8c05c1587a63b053936dce9524d11f77ba3557/
+      - generic: Show credential
+    - 'link "Skills: Generative AI for Marketing, Artificial Intelligence (AI)"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/20/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Generative AI for Marketing, Artificial Intelligence (AI)
+    - link "Edit license or certification Using Generative AI across the Marketing Lifecycle":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/20/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: "Market Research: Quantitative"
+    - paragraph: LinkedIn
+    - paragraph: Issued Jan 2026
+    - 'link "Show credential for Market Research: Quantitative"':
+      - /url: https://www.linkedin.com/learning/certificates/e4a7b04247d8f5ed5e6cc6edb3b4eba13b228adb1d2748f638c38571730350f0/
+      - generic: Show credential
+    - 'link "Skills: Market Research, Quantitative Research, +1 skill"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/19/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Market Research, Quantitative Research, +1 skill
+    - 'link "Edit license or certification Market Research: Quantitative"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/19/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Strategic Focus for Managers
+    - paragraph: LinkedIn
+    - paragraph: Issued Jan 2026
+    - link "Show credential for Strategic Focus for Managers":
+      - /url: https://www.linkedin.com/learning/certificates/e54748eedbe2ae5807fe4e914c938cc0e7987916749da9ab6c8270ebe68deca5/
+      - generic: Show credential
+    - 'link "Skills: Workload Prioritization"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/18/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Workload Prioritization
+    - link "Edit license or certification Strategic Focus for Managers":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/18/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: "Adopting Agile: Strategies for Successful Implementation"
+    - paragraph: LinkedIn
+    - paragraph: Issued Jan 2026
+    - 'link "Show credential for Adopting Agile: Strategies for Successful Implementation"':
+      - /url: https://www.linkedin.com/learning/certificates/83338c80f41fcb1c7143cdbbf46f8b6d81de840f8bfcf661b02143b5490def3b/
+      - generic: Show credential
+    - 'link "Skills: Agile Project Management, Agile Leadership"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/17/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Agile Project Management, Agile Leadership
+    - 'link "Edit license or certification Adopting Agile: Strategies for Successful Implementation"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/17/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: "Agile Software Development: Code Quality"
+    - paragraph: LinkedIn
+    - paragraph: Issued Jan 2026
+    - 'link "Show credential for Agile Software Development: Code Quality"':
+      - /url: https://www.linkedin.com/learning/certificates/6a0639983a55608b356c04d0de97e53c29ca7b0d50ea928854ebbcf118a40b45/
+      - generic: Show credential
+    - 'link "Skills: Agile Software Development"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/16/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Agile Software Development
+    - 'link "Edit license or certification Agile Software Development: Code Quality"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/16/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Conflict Resolution Foundations
+    - paragraph: LinkedIn
+    - paragraph: Issued Jan 2026
+    - link "Show credential for Conflict Resolution Foundations":
+      - /url: https://www.linkedin.com/learning/certificates/c294daf0370940a740b37cb35f31a4d000d870dea2a10f6571264b193aa8bee0/
+      - generic: Show credential
+    - 'link "Skills: Conflict Resolution"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/15/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Conflict Resolution
+    - link "Edit license or certification Conflict Resolution Foundations":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/15/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Body Language for Leaders and Managers
+    - paragraph: LinkedIn
+    - paragraph: Issued Jan 2026
+    - link "Show credential for Body Language for Leaders and Managers":
+      - /url: https://www.linkedin.com/learning/certificates/6f39252482a45a2f7ca34979ea2e0443401a085618dce66e837aa16ed1a02ce4/
+      - generic: Show credential
+    - 'link "Skills: Body Language"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/14/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Body Language
+    - link "Edit license or certification Body Language for Leaders and Managers":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/14/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: "Becoming a Product Manager: A Complete Guide"
+    - paragraph: LinkedIn
+    - paragraph: Issued Dec 2025
+    - 'link "Show credential for Becoming a Product Manager: A Complete Guide"':
+      - /url: https://www.linkedin.com/learning/certificates/12ffedfbd05403947f3665a89c375da96b5e63aea21fd022af64614194d92dd4/
+      - generic: Show credential
+    - 'link "Skills: Product Management"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/13/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Product Management
+    - 'link "Edit license or certification Becoming a Product Manager: A Complete Guide"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/13/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Product Management Insights
+    - paragraph: LinkedIn
+    - paragraph: Issued Dec 2025
+    - link "Show credential for Product Management Insights":
+      - /url: https://www.linkedin.com/learning/certificates/0b803f156ff388e19234a485391aa86646dbe52c6f92e4d92c2d3a6abc7d6dd7/
+      - generic: Show credential
+    - 'link "Skills: Product Management"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/12/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Product Management
+    - link "Edit license or certification Product Management Insights":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/12/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Interviewing for Product Management Jobs
+    - paragraph: LinkedIn
+    - paragraph: Issued Dec 2025
+    - link "Show credential for Interviewing for Product Management Jobs":
+      - /url: https://www.linkedin.com/learning/certificates/988279c954097d88816dfd939708effb5104b8881a1661237358e1f60dda40b4/
+      - generic: Show credential
+    - 'link "Skills: Product Management"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/11/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Product Management
+    - link "Edit license or certification Interviewing for Product Management Jobs":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/11/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Microservices Foundations
+    - paragraph: LinkedIn
+    - paragraph: Issued Dec 2025
+    - link "Show credential for Microservices Foundations":
+      - /url: https://www.linkedin.com/learning/certificates/18667be7fcfaf8f12bdefac81d46e6d8bd842bb2264f9f3a306aa2342f827f50/
+      - generic: Show credential
+    - 'link "Skills: Microservices"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/10/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Microservices
+    - link "Edit license or certification Microservices Foundations":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/10/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Transitioning to Product Management
+    - paragraph: LinkedIn
+    - paragraph: Issued Dec 2025
+    - link "Show credential for Transitioning to Product Management":
+      - /url: https://www.linkedin.com/learning/certificates/ad993d1d3f2a48133aa927008e55e927660f089521c510e82f13f1bd852ff888/
+      - generic: Show credential
+    - 'link "Skills: Product Management"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/9/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Product Management
+    - link "Edit license or certification Transitioning to Product Management":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/9/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Developing Credibility as a Leader
+    - paragraph: LinkedIn
+    - paragraph: Issued Dec 2025
+    - link "Show credential for Developing Credibility as a Leader":
+      - /url: https://www.linkedin.com/learning/certificates/f04373180820ab48e4b1e679550dcd8a06b80c20ab543e8bc54ade8c6c0615e1/
+      - generic: Show credential
+    - 'link "Skills: Leadership"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/8/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Leadership
+    - link "Edit license or certification Developing Credibility as a Leader":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/8/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: "Agile Project Management: Continuous Improvement"
+    - paragraph: LinkedIn
+    - paragraph: Issued Nov 2025
+    - 'link "Show credential for Agile Project Management: Continuous Improvement"':
+      - /url: https://www.linkedin.com/learning/certificates/83334a3eb9f37bacb9c62e016b2b5de2250bc8a60c9a159ded1dba6d71f48a42/
+      - generic: Show credential
+    - 'link "Skills: Continuous Improvement, Agile Project Management"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/7/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Continuous Improvement, Agile Project Management
+    - 'link "Edit license or certification Agile Project Management: Continuous Improvement"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/7/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: "Lean Technology Strategy: Running Agile at Scale"
+    - paragraph: LinkedIn
+    - paragraph: Issued Nov 2025
+    - 'link "Show credential for Lean Technology Strategy: Running Agile at Scale"':
+      - /url: https://www.linkedin.com/learning/certificates/e633adb1bc255569bb34440980dee177df56952a0dd11eae66f6d9f3fa04a3c5/
+      - generic: Show credential
+    - 'link "Skills: Lean Principles, Agile Methodologies"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/6/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Lean Principles, Agile Methodologies
+    - 'link "Edit license or certification Lean Technology Strategy: Running Agile at Scale"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/6/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: "Project Management Mediation: Conflict Resolution for PMs"
+    - paragraph: LinkedIn
+    - paragraph: Issued Nov 2025
+    - 'link "Show credential for Project Management Mediation: Conflict Resolution for PMs"':
+      - /url: https://www.linkedin.com/learning/certificates/d14b2d2e20fd6fa7739f128502e9ac3fe2cc94f1ff5bc9166b97a26f13190325/
+      - generic: Show credential
+    - 'link "Skills: Conflict Resolution"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/5/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Conflict Resolution
+    - 'link "Edit license or certification Project Management Mediation: Conflict Resolution for PMs"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/5/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Leadership Foundations
+    - paragraph: LinkedIn
+    - paragraph: Issued Nov 2025
+    - link "Show credential for Leadership Foundations":
+      - /url: https://www.linkedin.com/learning/certificates/a8f4ee0a289a9af62abc57d818eaf6b2a61a94f43468c061d9ba1c1d45904f21/
+      - generic: Show credential
+    - 'link "Skills: Leadership"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/4/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Leadership
+    - link "Edit license or certification Leadership Foundations":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/4/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Product Management First Steps
+    - paragraph: LinkedIn
+    - paragraph: Issued Nov 2025
+    - link "Show credential for Product Management First Steps":
+      - /url: https://www.linkedin.com/learning/certificates/00200f9b3caf0c349c29b702172fb3a08612a65f46228dd1a4603d9a0586aa4e/
+      - generic: Show credential
+    - 'link "Skills: Product Management"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/3/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Product Management
+    - link "Edit license or certification Product Management First Steps":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/3/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Stakeholder Management for Leaders and Managers
+    - paragraph: LinkedIn
+    - paragraph: Issued Nov 2025
+    - link "Show credential for Stakeholder Management for Leaders and Managers":
+      - /url: https://www.linkedin.com/learning/certificates/6b6bd31faddbeb6ad4f19a91979c83cc1774bad9ba78de4c43a39fc26a88237e/
+      - generic: Show credential
+    - 'link "Skills: Objectives and Key Results (OKRs), Stakeholder Management, +1 skill"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/2/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Objectives and Key Results (OKRs), Stakeholder Management, +1 skill
+    - link "Edit license or certification Stakeholder Management for Leaders and Managers":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/2/
+    - link:
+      - /url: https://www.linkedin.com/company/1337/
+      - figure:
+        - img "LinkedIn logo"
+    - paragraph: Stakeholder Communication Strategies that Stick
+    - paragraph: LinkedIn
+    - paragraph: Issued Nov 2025
+    - link "Show credential for Stakeholder Communication Strategies that Stick":
+      - /url: https://www.linkedin.com/learning/certificates/0655c95160899e08a2b05d65b2e2068ac6b0f1a388d6aae4b39bf78234079b58/
+      - generic: Show credential
+    - 'link "Skills: Stakeholder Engagement, Stakeholder Management"':
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/1/skill-associations-details/?associationType=certifications
+      - paragraph:
+        - strong: "Skills:"
+        - text: Stakeholder Engagement, Stakeholder Management
+    - link "Edit license or certification Stakeholder Communication Strategies that Stick":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/certifications/edit/forms/1/
+  - complementary "Aside":
+    - img "Premium"
+    - heading "Who your viewers also viewed" [level=3]
+    - paragraph: Private to you
+    - link "Sajad Mahrami Verified · 1st System Administrator Lead":
+      - /url: https://www.linkedin.com/in/sajadmahrami/
+      - figure
+      - paragraph:
+        - link "Sajad Mahrami Verified":
+          - /url: https://www.linkedin.com/in/sajadmahrami/
+          - text: Sajad Mahrami
+          - img "Verified":
+      - paragraph: · 1st
+      - paragraph: System Administrator Lead
+    - link "Message Sajad Mahrami":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAABGLY7QBOsuyc7kPc61Gka_QqABIkPLFO8A&recipient=ACoAABGLY7QBOsuyc7kPc61Gka_QqABIkPLFO8A&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Gelareh Naghioun · 2nd Senior Product Designer":
+      - /url: https://www.linkedin.com/in/gelareh-naghioun/
+      - figure
+      - paragraph:
+        - link "Gelareh Naghioun":
+          - /url: https://www.linkedin.com/in/gelareh-naghioun/
+      - paragraph: · 2nd
+      - paragraph: Senior Product Designer
+    - link "Message Gelareh Naghioun":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAABf-yC8BLIV0WxX_IOtALLpvHQmWcYazU-8&recipient=ACoAABf-yC8BLIV0WxX_IOtALLpvHQmWcYazU-8&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Sima Ahmadvand · 1st Software Engineer @eBay":
+      - /url: https://www.linkedin.com/in/sima-ahmadvand-03041823/
+      - figure
+      - paragraph:
+        - link "Sima Ahmadvand":
+          - /url: https://www.linkedin.com/in/sima-ahmadvand-03041823/
+      - paragraph: · 1st
+      - paragraph: Software Engineer @eBay
+    - link "Message Sima Ahmadvand":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAATd5yQBkbuxLgzWovlFWcFVInBgYbwNOmY&recipient=ACoAAATd5yQBkbuxLgzWovlFWcFVInBgYbwNOmY&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Reyhaneh Mohebbi · 1st Sales Supervisor at Persia Fava Gostaresh Co.":
+      - /url: https://www.linkedin.com/in/reyhan-mohebbi/
+      - figure
+      - paragraph:
+        - link "Reyhaneh Mohebbi":
+          - /url: https://www.linkedin.com/in/reyhan-mohebbi/
+      - paragraph: · 1st
+      - paragraph: Sales Supervisor at Persia Fava Gostaresh Co.
+    - link "Message Reyhaneh Mohebbi":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAADH5p00BZ24HN0dim9pNgPo_iiwNv8W8tX0&recipient=ACoAADH5p00BZ24HN0dim9pNgPo_iiwNv8W8tX0&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "ali hatami Verified · 1st General Services manager":
+      - /url: https://www.linkedin.com/in/ali-hatami-80795a199/
+      - figure
+      - paragraph:
+        - link "ali hatami Verified":
+          - /url: https://www.linkedin.com/in/ali-hatami-80795a199/
+          - text: ali hatami
+          - img "Verified":
+      - paragraph: · 1st
+      - paragraph: General Services manager
+    - link "Message ali hatami":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAC6X2QcBdqwYBNYSd3K8OWwCC2S6pFrNXJA&recipient=ACoAAC6X2QcBdqwYBNYSd3K8OWwCC2S6pFrNXJA&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - button "Show more":
+      - generic: Show more
+  - generic "Footer":
+    - navigation:
+      - link "About":
+        - /url: https://about.linkedin.com/
+        - paragraph: About
+      - link "Accessibility":
+        - /url: https://www.linkedin.com/accessibility/
+        - paragraph: Accessibility
+      - link "Talent Solutions":
+        - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+        - paragraph: Talent Solutions
+      - link "Community Guidelines":
+        - /url: https://www.linkedin.com/legal/professional-community-policies/
+        - paragraph: Community Guidelines
+      - link "Careers":
+        - /url: https://careers.linkedin.com/
+        - paragraph: Careers
+      - link "Marketing Solutions":
+        - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+        - paragraph: Marketing Solutions
+      - button "Privacy & Terms":
+        - paragraph: Privacy & Terms
+      - link "Ad Choices":
+        - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+        - paragraph: Ad Choices
+      - link "Advertising":
+        - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+        - paragraph: Advertising
+      - link "Sales Solutions":
+        - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+        - paragraph: Sales Solutions
+      - link "Mobile":
+        - /url: https://mobile.linkedin.com/
+        - paragraph: Mobile
+      - link "Small Business":
+        - /url: https://business.linkedin.com/grow?src=li-footer
+        - paragraph: Small Business
+      - link "Safety Center":
+        - /url: https://safety.linkedin.com/
+        - paragraph: Safety Center
+    - paragraph: LinkedIn Corporation © 2026
+    - list:
+      - link "Questions?":
+        - /url: https://www.linkedin.com/help/linkedin/
+        - paragraph: Questions?
+      - paragraph: Visit our Help Center.
+      - link "Manage your account and privacy":
+        - /url: https://www.linkedin.com/mypreferences/d/
+        - paragraph: Manage your account and privacy
+      - paragraph: Go to your Settings.
+      - link "Recommendation transparency":
+        - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+        - paragraph: Recommendation transparency
+      - paragraph: Learn more about Recommended Content.
+    - paragraph: Select language
+    - combobox "Select language":
+      - option "العربية (Arabic)"
+      - option "বাংলা (Bangla)"
+      - option "Čeština (Czech)"
+      - option "Dansk (Danish)"
+      - option "Deutsch (German)"
+      - option "Ελληνικά (Greek)"
+      - option "English (English)" [selected]
+      - option "Español (Spanish)"
+      - option "فارسی (Persian)"
+      - option "Suomi (Finnish)"
+      - option "Français (French)"
+      - option "हिंदी (Hindi)"
+      - option "Magyar (Hungarian)"
+      - option "Bahasa Indonesia (Indonesian)"
+      - option "Italiano (Italian)"
+      - option "עברית (Hebrew)"
+      - option "日本語 (Japanese)"
+      - option "한국어 (Korean)"
+      - option "मराठी (Marathi)"
+      - option "Bahasa Malaysia (Malay)"
+      - option "Nederlands (Dutch)"
+      - option "Norsk (Norwegian)"
+      - option "ਪੰਜਾਬੀ (Punjabi)"
+      - option "Polski (Polish)"
+      - option "Português (Portuguese)"
+      - option "Română (Romanian)"
+      - option "Русский (Russian)"
+      - option "Svenska (Swedish)"
+      - option "తెలుగు (Telugu)"
+      - option "ภาษาไทย (Thai)"
+      - option "Tagalog (Tagalog)"
+      - option "Türkçe (Turkish)"
+      - option "Українська (Ukrainian)"
+      - option "Tiếng Việt (Vietnamese)"
+      - option "简体中文 (Chinese (Simplified))"
+      - option "正體中文 (Chinese (Traditional))"
+- iframe

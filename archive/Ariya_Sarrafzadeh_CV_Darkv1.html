@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariya Sarrafzadeh - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for Inter font */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #2D2D2D; /* Main dark background */
+        }
+        
+        .cv-container {
+            background-color: #1E1E1E; /* Slightly darker container */
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 2rem; /* 32px */
+            padding-bottom: 0.5rem; /* 8px */
+            break-inside: avoid; /* Prevents splitting during print */
+        }
+        
+        .timeline-item:last-child {
+            padding-bottom: 0;
+        }
+
+        /* The circle */
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #9CA3AF; /* gray-400 */
+            z-index: 10;
+        }
+
+        /* The line */
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 4px; /* Centered */
+            top: 18px;
+            bottom: 0;
+            width: 2px;
+            background-color: #4B5563; /* gray-600 */
+        }
+        
+        .timeline-item:last-child::after {
+            display: none;
+        }
+
+        /* Icon styling */
+        .icon {
+            width: 16px; /* Even smaller icon */
+            height: 16px;
+            stroke-width: 2;
+            margin-right: 0.75rem; /* mr-3 */
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body class="text-gray-200">
+
+    <!-- Reduced top/bottom margin from my-12 to my-4 -->
+    <div class="container mx-auto max-w-6xl my-4 p-4">
+        <!-- We've removed the min-height to help with printing -->
+        <div class="cv-container shadow-lg rounded-xl overflow-hidden flex flex-col md:flex-row">
+            
+            <!-- LEFT SIDEBAR -->
+            <!-- Reduced padding from p-8 to p-6 -->
+            <aside class="w-full md:w-1/3 bg-gray-900 p-6" style="break-inside: avoid;">
+                
+                <!-- Profile Picture -->
+                <div class="relative w-full h-56 mb-4 rounded-xl"> <!-- Reduced height and margin -->
+                    <img src="aria.jpeg" 
+                         alt="Ariya Sarrafzadeh Profile Photo"
+                         class="rounded-xl object-cover object-top w-full h-full">
+                </div>
+                
+                <!-- Contact -->
+                <section class="mb-3">
+                    <h2 class="text-base font-bold text-white uppercase tracking-wider mb-2 border-b-2 border-gray-600 pb-1">Contact</h2>
+                    <ul class="space-y-1.5 text-sm">
+                        <li class="flex items-center">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                            <span>Tehran, Iran</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                            <a href="mailto:ariasg2002@gmail.com" class="hover:text-white transition-colors">ariasg2002@gmail.com</a>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                            <span>+98 912 311 7965</span>
+                        </li>
+                        <li class="flex items-center">
+                             <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                            <a href="https://www.linkedin.in/in/ariya-sarrafzadeh-2b505141" class="hover:text-white transition-colors">LinkedIn Profile</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Technical Skills -->
+                <section class="mb-3">
+                    <h2 class="text-base font-bold text-white uppercase tracking-wider mb-2 border-b-2 border-gray-600 pb-1">Technical Skills</h2>
+                    <ul class="list-disc list-outside space-y-1 pl-4 text-sm"> <!-- Reduced pl -->
+                        <li>Product Lifecycle (PLC)</li>
+                        <li>Monitoring: Prometheus, Grafana, ELK</li>
+                        <li>Backend: Java, Python, Shell</li>
+                        <li>Databases: MongoDB, MySQL, PostgreSQL</li>
+                        <li>API Design & Microservices</li>
+                        <li>Fraud Detection & Prevention</li>
+                        <li>Reconciliation & Contract Drafting</li>
+                        <li>Log Analysis & Alert Systems</li>
+                        <li>ETL, Data Cleansing, Migration</li>
+                        <li>Reporting: Power BI, Excel</li>
+                        <li>Agile/Scrum, Jira, Confluence</li>
+                    </ul>
+                </section>
+
+                <!-- Soft Skills -->
+                <section class="mb-3">
+                    <h2 class="text-base font-bold text-white uppercase tracking-wider mb-2 border-b-2 border-gray-600 pb-1">Soft Skills</h2>
+                    <ul class="list-disc list-outside space-y-1 pl-4 text-sm">
+                        <li>Cross-functional collaboration</li>
+                        <li>Executive reporting</li>
+                        <li>Stakeholder communication</li>
+                        <li>Strategic planning</li>
+                        <li>Product ownership</li>
+                        <li>Leadership & coordination</li>
+                        <li>Adaptability & troubleshooting</li>
+                    </ul>
+                </section>
+                
+                <!-- Language -->
+                <section>
+                    <h2 class="text-base font-bold text-white uppercase tracking-wider mb-2 border-b-2 border-gray-600 pb-1">Language</h2>
+                    <ul class="list-disc list-outside space-y-1 pl-4 text-sm">
+                        <li><strong>Persian:</strong> Native</li>
+                        <li><strong>English:</strong> Full Professional</li>
+                    </ul>
+                </section>
+
+            </aside>
+
+            <!-- MAIN CONTENT -->
+            <!-- Reduced padding from p-10 to p-8 -->
+            <main class="w-full md:w-2/3 p-8">
+                
+                <!-- Header -->
+                <header class="mb-4"> <!-- Reduced margin -->
+                    <h1 class="text-4xl font-bold text-white mb-1">Ariya Sarrafzadeh</h1>
+                    <h2 class="text-lg font-light text-gray-300">Product Manager | Technical Operations Lead (Software)</h2>
+                </header>
+
+                <!-- Profile -->
+                <section class="mb-4" style="break-inside: avoid;">
+                    <h3 class="text-xl font-semibold text-white pb-2 mb-2 border-b-2 border-gray-600">Profile</h3>
+                    <p class="text-gray-300 leading-relaxed text-sm">
+                        Strategic product owner and technical operations leader with 10+ years of experience across fintech, infrastructure, fraud prevention, and cross-functional delivery. Adept at translating business needs into scalable systems, leading end-to-end product lifecycles, and aligning engineering with executive strategy. Known for bridging technical depth with operational clarity.
+                    </p>
+                </section>
+
+                <!-- Experience -->
+                <section class="mb-4">
+                    <h3 class="text-xl font-semibold text-white pb-2 mb-3 border-b-2 border-gray-600">Experience</h3>
+                    <div class="timeline-container">
+                        
+                        <div class="timeline-item">
+                            <h4 class="text-xs font-semibold text-gray-400 uppercase">Apr 2025 – Present</h4>
+                            <h5 class="text-base font-bold text-white mt-1">Senior Product Owner – Technical Focus</h5>
+                            <h6 class="text-sm font-medium text-gray-300">P.G IT Solutions / Persia Fava Gostaresh, Tehran</h6>
+                            <ul class="list-disc list-outside pl-4 space-y-0.5 text-xs text-gray-400 mt-1">
+                                <li>Lead full lifecycle of software products with strong technical alignment.</li>
+                                <li>Define and manage product roadmaps with stakeholders and engineering teams.</li>
+                                <li>Oversee strategic initiatives including API gateway, SMS platforms, and corporate web services.</li>
+                                <li>Collaborate with infrastructure and development teams to ensure scalable architecture.</li>
+                                <li>Support executive decision-making through technical insights and performance reporting.</li>
+                                <li><strong>Tools:</strong> Agile/Scrum, PLC, API Design, Microservices, Java/Python (prototyping), Jira, Confluence</li>
+                            </ul>
+                        </div>
+
+                        <div class="timeline-item">
+                            <h4 class="text-xs font-semibold text-gray-400 uppercase">Jul 2018 – Apr 2025</h4>
+                            <h5 class="text-base font-bold text-white mt-1">Senior Tech-Ops Analyst / Administrator</h5>
+                            <h6 class="text-sm font-medium text-gray-300">Digipay Co. (Digikala Group), Tehran</h6>
+                            <ul class="list-disc list-outside pl-4 space-y-0.5 text-xs text-gray-400 mt-1">
+                                <li>Sole lead for Fraud & Judicial operations (FATA), managing legal communications, asset blocking, and financial documentation.</li>
+                                <li>Liaison with PSPs, banks, Shaparak, and service providers for B2B operations.</li>
+                                <li>Oversight of payment, insurance, and SMS systems: monitoring, debugging, and testing.</li>
+                                <li>Database management (MongoDB, MySQL, PostgreSQL), data extraction, reporting, and analytics.</li>
+                                <li>Developed active/passive monitoring systems using Nginx, Prometheus, Grafana.</li>
+                                <li>Led reconciliation solutions across provider, platform, and seller dimensions.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <h4 class="text-xs font-semibold text-gray-400 uppercase">Sep 2016 – Jun 2018</h4>
+                            <h5 class="text-base font-bold text-white mt-1">Mid Operations Analyst / Admin</h5>
+                            <h6 class="text-sm font-medium text-gray-300">Homapay Co., Tehran</h6>
+                        </div>
+
+                        <div class="timeline-item">
+                            <h4 class="text-xs font-semibold text-gray-400 uppercase">May 2010 – Dec 2016</h4>
+                            <h5 class="text-base font-bold text-white mt-1">Mid Sales Area Manager</h5>
+                            <h6 class="text-sm font-medium text-gray-300">Gd Retail Sell, Tehran</h6>
+                        </div>
+
+                        <div class="timeline-item">
+                            <h4 class="text-xs font-semibold text-gray-400 uppercase">Sep 2005 – Nov 2012</h4>
+                            <h5 class="text-base font-bold text-white mt-1">CEO / Board Member / Agent</h5>
+                            <h6 class="text-sm font-medium text-gray-300">Aida Faraz Gostaresh, Tehran</h6>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section class="mb-4" style="break-inside: avoid;">
+                    <h3 class="text-xl font-semibold text-white pb-2 mb-3 border-b-2 border-gray-600">Education</h3>
+                    <div>
+                        <h4 class="text-xs font-semibold text-gray-400 uppercase">Oct 2001 – Jun 2006</h4>
+                        <h5 class="text-base font-bold text-white mt-1">B.S. Software Engineering</h5>
+                        <h6 class="text-sm font-medium text-gray-300">Islamic Azad University, South Tehran Branch</h6>
+                    </div>
+                </section>
+
+                <!-- Interests -->
+                <section style="break-inside: avoid;">
+                    <h3 class="text-xl font-semibold text-white pb-2 mb-3 border-b-2 border-gray-600">Interests</h3>
+                    <div class="flex flex-wrap text-gray-300">
+                        <span class="flex items-center bg-gray-700 rounded-full px-3 py-1 text-xs m-1">Traveling</span>
+                        <span class="flex items-center bg-gray-700 rounded-full px-3 py-1 text-xs m-1">Books</span>
+                        <span class="flex items-center bg-gray-700 rounded-full px-3 py-1 text-xs m-1">Board Games</span>
+                        <span class="flex items-center bg-gray-700 rounded-full px-3 py-1 text-xs m-1">RPGs</span>
+                        <span class="flex items-center bg-gray-700 rounded-full px-3 py-1 text-xs m-1">Movies & Music</span>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
+

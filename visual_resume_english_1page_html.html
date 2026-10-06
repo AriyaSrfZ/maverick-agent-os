@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariya Sarrafzadeh - CV</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --sidebar-bg: #1a1a1a;
+            --sidebar-text: #e0e0e0;
+            --main-bg: #ffffff;
+            --main-text: #1a1a1a;
+            --timeline: #bcbcbc;
+            --font-stack: 'Inter', sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        body {
+            font-family: var(--font-stack);
+            background-color: #555;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 10px;
+            font-size: 8.5pt;
+        }
+
+        .page-container {
+            width: 210mm;
+            height: 297mm;
+            background-color: white;
+            display: flex;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(to right, #1a1a1a 29%, white 29%);
+        }
+
+        .sidebar {
+            width: 29%;
+            color: var(--sidebar-text);
+            padding: 22px 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            text-align: left;
+            height: 100%;
+        }
+
+        .photo-frame {
+            width: 85px;
+            height: 85px;
+            margin: 0 auto;
+            border-radius: 50%;
+            border: 2px solid #444;
+            overflow: hidden;
+            background-color: #000;
+        }
+        .photo-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-name h1 {
+            font-size: 13pt; 
+            font-weight: 900;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 2px;
+            white-space: nowrap;
+        }
+        .profile-name .title {
+            font-size: 7.5pt;
+            color: #aaa;
+            text-align: center;
+            font-weight: 400;
+        }
+
+        .contact-group {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            font-size: 7pt;
+            border-bottom: 1px solid #333;
+            padding-bottom: 8px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 5px;
+            color: #ccc;
+        }
+        .contact-item a { color: #ccc; text-decoration: none; }
+
+        .sidebar-section h3 {
+            font-size: 8.5pt;
+            color: #fff;
+            border-bottom: 1px solid #555;
+            padding-bottom: 2px;
+            margin-bottom: 5px;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+        
+        .skill-block {
+            margin-bottom: 6px;
+        }
+        .skill-title {
+            display: block;
+            color: #eee;
+            font-weight: 700;
+            font-size: 7.5pt;
+            margin-bottom: 1px;
+        }
+        .skill-desc {
+            font-size: 6.5pt;
+            color: #999;
+            line-height: 1.35;
+        }
+
+        .main {
+            width: 71%;
+            padding: 20px 22px;
+            color: var(--main-text);
+        }
+
+        .section-title {
+            font-size: 10.5pt;
+            font-weight: 900;
+            color: #000;
+            border-bottom: 2px solid #000;
+            padding-bottom: 3px;
+            margin-bottom: 6px;
+            margin-top: 0;
+            text-transform: uppercase;
+        }
+        
+        .summary-text {
+            font-size: 7.5pt;
+            line-height: 1.5;
+            text-align: justify;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 10px;
+            border-left: 1px solid var(--timeline);
+        }
+
+        .job-card {
+            margin-bottom: 8px;
+            position: relative;
+        }
+        .job-card:last-child { margin-bottom: 0; }
+
+        .job-card::before {
+            content: '';
+            position: absolute;
+            left: -14.5px;
+            top: 4px;
+            width: 7px;
+            height: 7px;
+            background: #222;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            z-index: 2;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2px;
+        }
+
+        .role-title {
+            font-size: 8.5pt;
+            font-weight: bold;
+            color: #000;
+        }
+        .company-name {
+            font-size: 7.5pt;
+            color: #555;
+            margin-left: 4px;
+        }
+        .date {
+            font-size: 7pt;
+            color: #666;
+            white-space: nowrap;
+            font-weight: 500;
+        }
+
+        .job-details {
+            list-style: none;
+        }
+        .job-details li {
+            position: relative;
+            padding-left: 8px;
+            margin-bottom: 1px;
+            font-size: 7pt;
+            line-height: 1.35;
+            color: #222;
+            text-align: justify;
+        }
+        .job-details li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            top: 0;
+            color: #000;
+            font-weight: bold;
+        }
+
+        @page { size: A4; margin: 0; }
+        @media print {
+            body { background: none; padding: 0; margin: 0; }
+            .page-container { width: 210mm; height: 297mm; box-shadow: none; border: none; margin: 0; }
+            a { text-decoration: none; color: inherit; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-container">
+        
+        <aside class="sidebar">
+            <div class="photo-frame">
+                <img src="aria.jpeg" alt="Ariya Sarrafzadeh" onerror="this.style.display='none'; this.parentNode.style.backgroundColor='#333';">
+            </div>
+
+            <div class="profile-name">
+                <h1>Ariya Sarrafzadeh</h1>
+                <div class="title">Senior Technical Product Manager<br>Fintech Operations Executive</div>
+            </div>
+
+            <div class="contact-group">
+                <div class="contact-item">📍 Tehran, Iran</div>
+                <div class="contact-item">📞 +98 912 311 7965</div>
+                <div class="contact-item">✉️ ariasg2002@gmail.com</div>
+                <div class="contact-item">🔗 in/ariya-sarrafzadeh</div>
+                <div class="contact-item">🌐 <a href="http://ariya-sarrafzadeh.ir">Ariya-sarrafzadeh.ir</a></div>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Education</h3>
+                <div class="skill-block">
+                    <span class="skill-title">B.S. Software Engineering</span>
+                    <span class="skill-desc">Islamic Azad University, South Tehran</span>
+                </div>
+            </div>
+
+            <div class="sidebar-section">
+                <h3>Core Expertise</h3>
+                
+                <div class="skill-block">
+                    <span class="skill-title">Product Strategy</span>
+                    <span class="skill-desc">Roadmap Planning, PRDs & Epics, Scrum, Agile Leadership</span>
+                </div>
+
+                <div class="skill-block">
+                    <span class="skill-title">Tech & Data Engineering</span>
+                    <span class="skill-desc">Python Data Pipelines, Elasticsearch, API Gateway Design, UAA</span>
+                </div>
+
+                <div class="skill-block">
+                    <span class="skill-title">Fintech & Identity</span>
+                    <span class="skill-desc">KYC APIs (Shahkar), Fraud Detection (AML), Wallet Architecture</span>
+                </div>
+
+                <div class="skill-block">
+                    <span class="skill-title">Operations & Monitoring</span>
+                    <span class="skill-desc">Prometheus, Grafana, Grok Log Engineering, Incident Response</span>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main">
+
+            <div class="section-title">Professional Summary</div>
+            <p class="summary-text">
+                Senior Technical Product Manager with 15+ years of experience architecting, scaling, and managing high-availability fintech and data platforms for over 45 million users. Proven track record in Python data engineering, banking API gateway integration, and crisis management. Expert at bridging executive vision with cross-functional execution.
+            </p>
+
+            <div class="section-title">Professional Experience</div>
+            
+            <div class="timeline">
+                
+                <div class="job-card">
+                    <div class="job-header">
+                        <div>
+                            <span class="role-title">Senior Technical Product Manager</span>
+                            <span class="company-name">| Persia Fava Gostaresh</span>
+                        </div>
+                        <span class="date">Apr 2025 – Present</span>
+                    </div>
+                    <ul class="job-details">
+                        <li>Architected the roadmap for the "Shenasa" API Gateway, scaling it to integrate 30+ national identity, KYC, and open banking endpoints (Sanbod, Yekta, Tosan).</li>
+                        <li>Engineered Python-based data pipelines to process, normalize, and convert multi-GB datasets into Parquet format for Elasticsearch querying in a multi-petabyte 'Smart DB' project.</li>
+                        <li>Spearheaded technical architecture readiness for enterprise tenders (Digikala), authoring specs on High TPS capacity and failover.</li>
+                        <li>Designed end-to-end architecture for a User Authentication (UAA) system and directed PRDs for new channels like the Feresta Bot.</li>
+                        <li>Acted as the primary technical liaison between the CEO and outsourced teams (Backend, Frontend) to control scope and execution.</li>
+                    </ul>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-header">
+                        <div>
+                            <span class="role-title">Senior Payments & Fraud Consultant</span>
+                            <span class="company-name">| Digikala</span>
+                        </div>
+                        <span class="date">Jul 2018 – Apr 2025</span>
+                    </div>
+                    <ul class="job-details">
+                        <li>Protected a 45M-user platform as the Senior Subject Matter Expert (SME) in fraud detection and payment operations.</li>
+                        <li>Engineered omnichannel response workflows, reducing request resolution times from 48 hours to under 45 minutes.</li>
+                        <li>Negotiated directly with national cyber police (FATA) to resolve legal barriers, enabling nationwide 3-hour delivery infrastructure.</li>
+                        <li>Developed rapid-response protocols, recovering stolen high-value assets in under 1 hour.</li>
+                    </ul>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-header">
+                        <div>
+                            <span class="role-title">Senior Tech-Ops Analyst</span>
+                            <span class="company-name">| Digipay</span>
+                        </div>
+                        <span class="date">Jul 2018 – Apr 2025</span>
+                    </div>
+                    <ul class="job-details">
+                        <li>Reduced official fraud reporting times to law enforcement by 96% (3 days to <3 hours) through automated tracking flows.</li>
+                        <li>Managed the judicial inquiry division independently, clearing 30,000 backlogged requests and increasing satisfaction to 98%.</li>
+                        <li>Architected the company’s first monitoring stack utilizing Prometheus and Grafana, increasing incident response speed by 80%.</li>
+                    </ul>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-header">
+                        <div>
+                            <span class="role-title">Founding Operations Analyst</span>
+                            <span class="company-name">| Homapay</span>
+                        </div>
+                        <span class="date">Sep 2016 – Jun 2018</span>
+                    </div>
+                    <ul class="job-details">
+                        <li>Ensured operational stability in the early startup phase, playing a key role in securing a 3x funding multiplier, successful acquisition by Digikala Group, and transformation into Digipay.</li>
+                        <li>Maintained high platform uptime through manual debugging and operations of critical financial flows during MVP.</li>
+                    </ul>
+                </div>
+
+                <div class="job-card">
+                    <div class="job-header">
+                        <div>
+                            <span class="role-title">Regional Sales Manager</span>
+                            <span class="company-name">| GD Retail Sell</span>
+                        </div>
+                        <span class="date">May 2010 – Dec 2016</span>
+                    </div>
+                    <ul class="job-details">
+                        <li>Directed a regional sales department of 30+ reps with full P&L accountability and negotiated international logistics contracts.</li>
+                    </ul>
+                </div>
+                 
+                 <div class="job-card" style="margin-bottom: 0;">
+                    <div class="job-header">
+                        <div>
+                            <span class="role-title">CEO / Board Member</span>
+                            <span class="company-name">| Aida Faraz Gostaresh</span>
+                        </div>
+                        <span class="date">Sep 2005 – Nov 2012</span>
+                    </div>
+                    <ul class="job-details">
+                        <li>Founded an IT consulting firm, managing a 15+ SME client portfolio and implementing enterprise networks.</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+</body>
+</html>

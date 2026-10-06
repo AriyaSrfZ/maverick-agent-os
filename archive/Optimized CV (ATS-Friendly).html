@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariya Sarrafzadeh - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Using Lato font for a professional, clean look */
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+        
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #ffffff;
+            color: #111827; /* Dark gray text */
+        }
+
+        .container {
+            max-width: 900px; /* Standard A4-like width */
+            margin: 2rem auto;
+            padding: 2.5rem;
+        }
+
+        h1 {
+            font-size: 2.5rem; /* 40px */
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        h2 {
+            font-size: 1.25rem; /* 20px */
+            font-weight: 300; /* Lighter weight for the title */
+            color: #374151; /* Medium gray */
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #e5e7eb; /* Light gray separator */
+        }
+        
+        h3 {
+            font-size: 1.5rem; /* 24px */
+            font-weight: 700;
+            color: #111827;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid #d1d5db;
+            padding-bottom: 0.5rem;
+        }
+        
+        h4 {
+            font-size: 1.125rem; /* 18px */
+            font-weight: 700;
+            color: #1f2937; /* Bolder company name */
+            margin-top: 1rem;
+        }
+        
+        h5 {
+            font-size: 1rem; /* 16px */
+            font-weight: 700;
+            color: #1f2937;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.25rem;
+        }
+
+        .job-location-date {
+            font-size: 0.9rem;
+            font-style: italic;
+            color: #4b5563;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+            padding-left: 0.5rem;
+        }
+        
+        li {
+            margin-bottom: 0.6rem;
+            line-height: 1.6;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-bottom: 0.75rem;
+            border-bottom: 2px solid #e5e7eb;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            color: #374151;
+        }
+        
+        .contact-info a {
+            color: #1d4ed8; /* Blue link */
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .competencies-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .competencies-list {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+            padding-left: 0.5rem;
+        }
+        
+        .competencies-list li {
+            margin-bottom: 0.5rem;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        
+        /* Print styles */
+        @media print {
+            body {
+                background-color: #ffffff;
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                max-width: 100%;
+                margin: 0;
+                padding: 1cm;
+                box-shadow: none;
+            }
+            h1, h2, h3, h4, h5, p, li {
+                color: #000000 !important;
+            }
+            .contact-info a {
+                color: #000000 !important;
+                text-decoration: none;
+            }
+        }
+
+    </style>
+</head>
+<body class="bg-white">
+
+    <div class="container">
+        <header>
+            <h1>Ariya Sarrafzadeh</h1>
+            <h2>Technical Product Manager | Fintech & Platform Innovation</h2>
+            <div class="contact-info">
+                <span>Tehran, Iran (Seeking Relocation to UAE)</span>
+                <a href="mailto:ariasg2002@gmail.com">ariasg2002@gmail.com</a>
+                <span>+98 912 311 7965</span>
+                <a href="https://www.linkedin.com/in/ariya-sarrafzadeh-2b505141">LinkedIn Profile</a>
+            </div>
+        </header>
+
+        <section>
+            <h3>PROFESSIONAL SUMMARY</h3>
+            <p class="mb-3 leading-relaxed">
+                Senior Technical Product Leader with 15+ years of experience architecting, building, and operating high-availability fintech platforms. My expertise is at the intersection of product innovation, technical operations, and deep domain expertise in payments, fraud, and national-level compliance.
+            </p>
+            <p class="leading-relaxed">
+                I am a systems-thinker who thrives on building new products from the ground up—from architecting multi-million dollar business plans and petabyte-scale data platforms to defining technical roadmaps for core services like API gateways and UAA systems. I have a proven history of acting as the sole point of command for complex technical, legal, and governmental challenges, translating high-level business goals into resilient and scalable systems.
+            </p>
+        </section>
+
+        <section>
+            <h3>CORE COMPETENCIES</h3>
+            <div class="competencies-grid">
+                <div>
+                    <h5>Product & Innovation</h5>
+                    <ul class="competencies-list">
+                        <li>New Product Development (NPD)</li>
+                        <li>Technical Business Planning (PRD, Epics)</li>
+                        <li>Product Lifecycle Management (PLC)</li>
+                        <li>Technical Roadmapping</li>
+                        <li>Agile/Scrum & Jira</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Fintech & Payments</h5>
+                    <ul class="competencies-list">
+                        <li>Fraud Detection, AML & Risk</li>
+                        <li>Payments Architecture (C2C, Wallet)</li>
+                        <li>Multi-Party Reconciliation</li>
+                        <li>PSP & Bank Integration</li>
+                        <li>Regulatory Compliance (Iran's Cyber Police (FATA), National Payment Network (Shaparak))</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Technology & Platform</h5>
+                    <ul class="competencies-list">
+                        <li>High-Availability Monitoring (Prometheus, Grafana, ELK)</li>
+                        <li>API Design & Microservices</li>
+                        <li>Big Data (Elasticsearch, Petabyte-Scale)</li>
+                        <li>Databases (MongoDB, MySQL, PostgreSQL)</li>
+                        <li>Backend (Java, Python, Shell)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h5>Leadership & Strategy</h5>
+                    <ul class="competencies-list">
+                        <li>Stakeholder Management</li>
+                        <li>Executive & Legal Reporting</li>
+                        <li>Cross-Functional Leadership</li>
+                        <li>Governmental Liaison</li>
+                        <li>Contract Negotiation</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>PROFESSIONAL EXPERIENCE</h3>
+
+            <div>
+                <div class="job-header">
+                    <h4>Senior Technical Product Manager</h4>
+                    <span class="job-location-date">Apr 2025 – Present</span>
+                </div>
+                <h5 class="italic text-gray-700 font-bold mb-2">P.G IT Solutions / Persia Fava Gostaresh, Tehran</h5>
+                <ul>
+                    <li>Architecting a new multi-million dollar business plan for an API gateway, defining the complete 12-month roadmap, PRDs, and technical epics.</li>
+                    <li>Leading the development of a multi-petabyte 'Smart DB' for SMS advertising, using Elasticsearch to enable complex, text-based query segmentation (75% complete).</li>
+                    <li>Designing the end-to-end architecture for a new User Authentication & Authorization (UAA) microservice to standardize identity across all products.</li>
+                    <li>Act as the single point of command and technical liaison between the CEO and all outsourced development teams (Backend, Frontend, UI/UX).</li>
+                </ul>
+            </div>
+            
+            <div>
+                <div class="job-header">
+                    <h4>Senior Payments & Fraud Consultant (Concurrent Role)</h4>
+                    <span class="job-location-date">Jul 2018 – Apr 2025</span>
+                </div>
+                <h5 class="italic text-gray-700 font-bold mb-2">Digikala (Parent E-commerce Company), Tehran</h5>
+                <ul>
+                    <li>Acted as the senior subject-matter expert for Digikala's 45-million-customer platform, advising finance, logistics, and legal teams on fraud and payments.</li>
+                    <li>Single-handedly built and managed complex reconciliation reports for the main platform, correlating data from multiple payment sources where internal teams failed.</li>
+                    <li>Developed rapid-response fraud interception plans; personally traced high-value stolen items in under 1 hour, interfacing with law enforcement.</li>
+                    <li>Consulted with Iran's Cyber Police (FATA) on behalf of Digikala, successfully negotiating new national regulations for 3-hour delivery systems.</li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="job-header">
+                    <h4>Senior Tech-Ops Analyst / Administrator</h4>
+                    <span class="job-location-date">Jul 2018 – Apr 2025</span>
+                </div>
+                <h5 class="italic text-gray-700 font-bold mb-2">Digipay Co. (Digikala Group), Tehran</h5>
+                <ul>
+                    <li>Owned and operated the entire Fraud & Judicial vertical for 7 years as a "one-person division," managing a 10-year caseload of over **30,000+ inquiries** for a 56M-user ecosystem.</li>
+                    <li>Served as the company's sole technical expert in **30+ judicial fraud cases**, personally tracing money-laundering paths and training government (FATA) officers.</li>
+                    <li>Reduced official fraud reporting time to Iran's Cyber Police (FATA) from **3 working days to under 3 hours** by building new automated data-tracing and reporting flows.</li>
+                    <li>Dictated technical specifications and reconciliation patterns to external PSPs and Iran's National Payment Network (Shaparak), forcing them to build new services.</li>
+                    <li>Engineered the company's first logging standards (Grok) and acted as the only engineer capable of deep-log debugging for 2+ years.</li>
+                    <li>Architected the company's first monitoring stack (Prometheus, Grafana) and owned 24/7 reliability for the Superapp, Wallet, and Payments verticals.</li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="job-header">
+                    <h4>Founding Operations Analyst / Admin (Startup Team)</h4>
+                    <span class="job-location-date">Sep 2016 – Jun 2018</span>
+                </div>
+                <h5 class="italic text-gray-700 font-bold mb-2">Homapay Co., Tehran</h5>
+                <ul>
+                    <li>Joined as one of the first 10 employees, single-handedly managing all operations, monitoring, and customer support for the initial 15-person startup.</li>
+                    <li>Manually operated and debugged all fintech platforms (C2C, billing, top-up), masking severe code deficiencies to maintain a flawless operational record.</li>
+                    <li>Operational stability was a key factor in securing a **3x increase in investor funding**, growing the team to 50+, and enabling the company's acquisition by Digikala.</li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="job-header">
+                    <h4>Mid Sales Area Manager</h4>
+                    <span class="job-location-date">May 2010 – Dec 2016</span>
+                </div>
+                <h5 class="italic text-gray-700 font-bold mb-2">Gd Retail Sell, Tehran</h5>
+                <ul>
+                    <li>Directed a sales division of 30+ agents, holding full P&L responsibility for the area.</li>
+                    <li>Served as the sole translator and communications lead for international partners, negotiating contracts and aligning supply chain logistics.</li>
+                </ul>
+            </div>
+
+            <div>
+                <div class="job-header">
+                    <h4>CEO / Board Member / Agent</h4>
+                    <span class="job-location-date">Sep 2005 – Nov 2012</span>
+                </div>
+                <h5 class="italic text-gray-700 font-bold mb-2">Aida Faraz Gostaresh, Tehran</h5>
+                <ul>
+                    <li>Founded and led an IT solutions consultancy, acquiring and managing a portfolio of 15+ SME clients.</li>
+                    <li>Architected, deployed, and administered mixed-network infrastructures (Windows, Red Hat) for all clients.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h3>EDUCATION</h3>
+            <div class="job-header">
+                <h4 class="m-0">B.S. Software Engineering</h4>
+                <span class="job-location-date">Oct 2001 – Jun 2006</span>
+            </div>
+            <h5 class="italic text-gray-700 font-bold mb-2">Islamic Azad University, South Tehran Branch</h5>
+        </section>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariya Sarrafzadeh - CV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for Lato font */
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #2D2D2D; /* Main dark background */
+            margin: 0;
+            padding: 0;
+        }
+        
+        .cv-container {
+            background-color: #1E1E1E; /* Slightly darker container */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensure it takes at least the full viewport height */
+        }
+        
+        @media (min-width: 768px) {
+             .cv-container {
+                flex-direction: row;
+            }
+        }
+
+        /* Fixed sidebar width */
+        .sidebar-fixed {
+            width: 100%;
+            flex-shrink: 0;
+            padding: 1.5rem;
+            background-color: #111827; /* bg-gray-900 */
+        }
+        @media (min-width: 768px) {
+            .sidebar-fixed {
+                width: 320px; /* Wider sidebar */
+            }
+        }
+        
+        .main-content-area {
+            flex-grow: 1; /* Main content takes remaining space */
+            padding: 2rem; /* Consistent internal padding */
+        }
+
+        .timeline-item {
+            position: relative;
+            padding-left: 2.25rem; /* 36px */
+            padding-bottom: 1.25rem;
+            break-inside: avoid; /* Prevents splitting during print */
+        }
+        
+        .timeline-item:last-child {
+            padding-bottom: 0;
+        }
+
+        /* The circle */
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: #9CA3AF; /* gray-400 */
+            z-index: 10;
+        }
+
+        /* The line */
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 4px; /* Centered */
+            top: 18px;
+            bottom: 0;
+            width: 2px;
+            background-color: #4B5563; /* gray-600 */
+        }
+        
+        .timeline-item:last-child::after {
+            display: none;
+        }
+
+        /* Icon styling */
+        .icon {
+            width: 18px; 
+            height: 18px;
+            stroke-width: 2;
+            margin-right: 0.75rem; /* mr-3 */
+            flex-shrink: 0;
+        }
+        
+        /* --- FORCE PRINT STYLES --- */
+        @media print {
+            html, body {
+                width: 100%;
+                height: auto; /* Allow content to flow */
+                margin: 0;
+                padding: 0;
+                background-color: #2D2D2D !important;
+                -webkit-print-color-adjust: exact; 
+                print-color-adjust: exact;
+                overflow: visible; /* Allow overflow for multiple pages */
+            }
+            .cv-container {
+                width: 100% !important;
+                height: auto !important; /* Allow container to grow */
+                min-height: 0 !important; /* Remove min-height */
+                background-color: #1E1E1E !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                box-shadow: none !important;
+                margin: 0 !important;
+                border-radius: 0 !important;
+                flex-direction: row !important; /* Force row layout on print */
+            }
+            .sidebar-fixed {
+                width: 300px !important; /* Fixed print width for sidebar */
+                flex-shrink: 0 !important;
+                background-color: #111827 !important; /* bg-gray-900 */
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .main-content-area {
+                flex-grow: 1 !important;
+                 -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            /* Force all text colors */
+            body, .text-gray-200, .text-gray-300, .text-gray-400 {
+                color: #E5E7EB !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .text-white {
+                color: #FFFFFF !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            /* Force border colors */
+            .border-gray-600 {
+                border-color: #4B5563 !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            /* Force timeline colors */
+            .timeline-item::before {
+                background-color: #9CA3AF !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .timeline-item::after {
+                background-color: #4B5563 !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            h1, h2, h3, h4, h5, h6, p, li, ul {
+                color: #E5E7EB !important;
+            }
+        }
+    </style>
+</head>
+<body class="text-gray-200">
+
+    <div class="cv-container shadow-lg rounded-xl overflow-hidden">
+            
+            <!-- LEFT SIDEBAR -->
+            <aside class="sidebar-fixed" style="break-inside: avoid;">
+                
+                <!-- Profile Picture -->
+                <div class="relative w-full h-56 mb-4 rounded-xl overflow-hidden"> 
+                    <img src="aria.jpeg" 
+                         alt="Ariya Sarrafzadeh Profile Photo"
+                         class="rounded-xl object-cover object-top w-full h-full">
+                </div>
+                
+                <div class="text-center mb-6">
+                    <h1 class="text-3xl font-bold text-white mb-1">Ariya Sarrafzadeh</h1>
+                    <h2 class="text-md font-light text-gray-300 leading-tight">Technical Product Manager | Fintech & Platform Innovation</h2>
+                </div>
+
+                <!-- Contact -->
+                <section class="mb-5">
+                    <h2 class="text-base font-bold text-white uppercase tracking-wider mb-2 border-b-2 border-gray-600 pb-1">Contact</h2>
+                    <ul class="space-y-2 text-base">
+                        <li class="flex items-center">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                            <span>Tehran, Iran</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                            <a href="mailto:ariasg2002@gmail.com" class="hover:text-white transition-colors">ariasg2002@gmail.com</a>
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                            <span>+98 912 311 7965</span>
+                        </li>
+                        <li class="flex items-center">
+                             <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+                            <a href="https://www.linkedin.com/in/ariya-sarrafzadeh-2b505141" class="hover:text-white transition-colors">LinkedIn Profile</a>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Core Competencies -->
+                <section class="mb-5">
+                    <h2 class="text-base font-bold text-white uppercase tracking-wider mb-2 border-b-2 border-gray-600 pb-1">Core Competencies</h2>
+                    
+                    <h3 class="font-bold text-gray-100 mt-3 mb-1">Product & Innovation</h3>
+                    <ul class="list-disc list-outside space-y-1 pl-4 text-base">
+                        <li>Technical Product Management</li>
+                        <li>New Product Development (NPD)</li>
+                        <li>Business Plan & Roadmap Creation</li>
+                        <li>Technical Architecture & Design</li>
+                    </ul>
+
+                    <h3 class="font-bold text-gray-100 mt-3 mb-1">Fintech & Payments Domain</h3>
+                     <ul class="list-disc list-outside space-y-1 pl-4 text-base">
+                        <li>Fraud Detection & Risk (AML)</li>
+                        <li>Payments (PSP, C2C, Wallets)</li>
+                        <li>Compliance (Iran's Cyber Police - FATA)</li>
+                        <li>National Payment Networks (Shaparak)</li>
+                    </ul>
+
+                    <h3 class="font-bold text-gray-100 mt-3 mb-1">Ops & Infrastructure</h3>
+                     <ul class="list-disc list-outside space-y-1 pl-4 text-base">
+                        <li>High-Availability Monitoring</li>
+                        <li>Prometheus, Grafana, ELK Stack</li>
+                        <li>Log Engineering (Grok)</li>
+                        <li>API Design & Microservices</li>
+                    </ul>
+                </section>
+                
+                <!-- Language -->
+                <section class="mb-5">
+                    <h2 class="text-base font-bold text-white uppercase tracking-wider mb-2 border-b-2 border-gray-600 pb-1">Language</h2>
+                    <ul class="list-disc list-outside space-y-1 pl-4 text-base">
+                        <li><strong>Persian:</strong> Native</li>
+                        <li><strong>English:</strong> Full Professional</li>
+                    </ul>
+                </section>
+                
+                <!-- Interests -->
+                <section>
+                    <h2 class="text-base font-bold text-white uppercase tracking-wider mb-2 border-b-2 border-gray-600 pb-1">Interests</h2>
+                    <ul class="list-disc list-outside space-y-1 pl-4 text-base">
+                        <li>Traveling & Books</li>
+                        <li>Board & Role-playing Games</li>
+                        <li>Movies, Music, & TV Series</li>
+                        <li>Meeting Positive People</li>
+                    </ul>
+                </section>
+
+            </aside>
+
+            <!-- MAIN CONTENT -->
+            <main class="main-content-area">
+                
+                <!-- Profile -->
+                <section class="mb-6" style="break-inside: avoid;">
+                    <h3 class="text-xl font-semibold text-white pb-2 mb-3 border-b-2 border-gray-600">Profile</h3>
+                    <p class="text-gray-300 leading-relaxed text-base">
+                        Senior Technical Product Leader with 15+ years of experience architecting, building, and operating high-availability fintech platforms. My expertise is at the intersection of product innovation, technical operations, and deep domain expertise in payments, fraud, and national-level compliance.
+                    </p>
+                    <p class="text-gray-300 leading-relaxed text-base mt-3">
+                        I am a systems-thinker who thrives on building new products from the ground up, from initial flow creation and reconciliation logic to architecting monitoring stacks (Prometheus, Grafana, ELK) and fraud-detection patterns. I have a proven history of acting as the sole point of contact for complex technical, legal, and governmental challenges, translating business goals into resilient and scalable systems.
+                    </p>
+                </section>
+
+                <!-- Experience -->
+                <section class="mb-6">
+                    <h3 class="text-xl font-semibold text-white pb-2 mb-4 border-b-2 border-gray-600">Experience</h3>
+                    <div class="timeline-container">
+                        
+                        <div class="timeline-item">
+                            <h4 class="text-sm font-semibold text-gray-400 uppercase">Apr 2025 – Present</h4>
+                            <h5 class="text-lg font-bold text-white mt-1">Senior Technical Product Manager</h5>
+                            <h6 class="text-base font-medium text-gray-300">P.G IT Solutions / Persia Fava Gostaresh, Tehran</h6>
+                            <ul class="list-disc list-outside pl-4 space-y-1 text-base text-gray-400 mt-2">
+                                <li>Architecting a new multi-million dollar business plan for an API gateway, defining the complete 12-month roadmap, PRDs, and technical epics.</li>
+                                <li>Leading the development of a multi-petabyte 'Smart DB' for SMS advertising, using Elasticsearch to enable complex, text-based query segmentation (75% complete).</li>
+                                <li>Designing the end-to-end architecture for a new User Authentication & Authorization (UAA) microservice to standardize identity across all products.</li>
+                                <li>Act as the single point of command and technical liaison between the CEO and all outsourced development teams (Backend, Frontend, UI/UX).</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <h4 class="text-sm font-semibold text-gray-400 uppercase">Jul 2018 – Apr 2025</h4>
+                            <h5 class="text-lg font-bold text-white mt-1">Senior Payments & Fraud Consultant (Concurrent Role)</h5>
+                            <h6 class="text-base font-medium text-gray-300">Digikala (Parent Company), Tehran</h6>
+                            <ul class="list-disc list-outside pl-4 space-y-1 text-base text-gray-400 mt-2">
+                                <li>Acted as the senior subject-matter expert for Digikala's 45-million-customer platform, advising finance, logistics, and legal teams on fraud and payments.</li>
+                                <li>Single-handedly built and managed complex reconciliation reports for the main platform, correlating data from multiple payment sources where internal teams failed.</li>
+                                <li>Developed rapid-response fraud interception plans; personally traced high-value stolen items in under 1 hour, interfacing with law enforcement.</li>
+                                <li>Consulted with Iran's Cyber Police (FATA) on behalf of Digikala, successfully negotiating new national regulations for 3-hour delivery systems.</li>
+                            </ul>
+                        </div>
+
+                        <div class="timeline-item">
+                            <h4 class="text-sm font-semibold text-gray-400 uppercase">Jul 2018 – Apr 2025</h4>
+                            <h5 class="text-lg font-bold text-white mt-1">Senior Tech-Ops Analyst / Administrator</h5>
+                            <h6 class="text-base font-medium text-gray-300">Digipay Co. (Digikala Group), Tehran</h6>
+                            <ul class="list-disc list-outside pl-4 space-y-1 text-base text-gray-400 mt-2">
+                                <li>Owned and operated the entire Fraud & Judicial (Iran's Cyber Police - FATA) vertical for 7 years as a "one-person division," managing a 10-year caseload of over 30,000 inquiries for a 56M-user base.</li>
+                                <li>Served as the company's sole technical expert in 30+ judicial fraud cases, personally tracing money-laundering paths and training FATA officers on how to trace data.</li>
+                                <li>Reduced official fraud reporting time to FATA from 3 working days to under 3 hours by building new automated data-tracing and reporting flows.</li>
+                                <li>Dictated technical specifications and reconciliation patterns to external PSPs and Iran's National Payment Network (Shaparak), forcing them to build new services.</li>
+                                <li>Engineered the company's first logging standards (Grok) and search patterns, acting as the only engineer capable of deep-log debugging for 2+ years.</li>
+                                <li>Architected the company's first monitoring stack (Prometheus, Grafana) and owned all monitoring for the Superapp, Wallet, and Payments verticals.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <h4 class="text-sm font-semibold text-gray-400 uppercase">Sep 2016 – Jun 2018</h4>
+                            <h5 class="text-lg font-bold text-white mt-1">Founding Operations Analyst / Admin (Startup Team)</h5>
+                            <h6 class="text-base font-medium text-gray-300">Homapay Co., Tehran</h6>
+                            <ul class="list-disc list-outside pl-4 space-y-1 text-base text-gray-400 mt-2">
+                                <li>Joined as one of the first 10 employees, single-handedly managing all operations, monitoring, and support for the initial 15-person startup.</li>
+                                <li>Manually operated and debugged all fintech platforms, masking severe code deficiencies to maintain a flawless operational record.</li>
+                                <li>My operational stability was a key factor in securing a 3x increase in investor funding, growing the team to 50+, and enabling the company's acquisition by Digikala.</li>
+                            </ul>
+                        </div>
+
+                        <div class="timeline-item">
+                            <h4 class="text-sm font-semibold text-gray-400 uppercase">May 2010 – Dec 2016</h4>
+                            <h5 class="text-lg font-bold text-white mt-1">Mid Sales Area Manager</h5>
+                            <h6 class="text-base font-medium text-gray-300">Gd Retail Sell, Tehran</h6>
+                            <ul class="list-disc list-outside pl-4 space-y-1 text-base text-gray-400 mt-2">
+                                <li>Directed a sales division of 30+ agents, holding full P&L responsibility for the area.</li>
+                                <li>Served as the sole translator and communications lead for international partners, negotiating contracts and aligning supply chain logistics.</li>
+                            </ul>
+                        </div>
+
+                        <div class="timeline-item">
+                            <h4 class="text-sm font-semibold text-gray-400 uppercase">Sep 2005 – Nov 2012</h4>
+                            <h5 class="text-lg font-bold text-white mt-1">CEO / Board Member / Agent</h5>
+                            <h6 class="text-base font-medium text-gray-300">Aida Faraz Gostaresh, Tehran</h6>
+                            <ul class="list-disc list-outside pl-4 space-y-1 text-base text-gray-400 mt-2">
+                                <li>Founded and led an IT solutions consultancy, acquiring and managing a portfolio of 15+ SME clients.</li>
+                                <li>Architected, deployed, and administered mixed-network infrastructures (Windows, Red Hat) for all clients.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Education -->
+                <section class="mb-6" style="break-inside: avoid;">
+                    <h3 class="text-xl font-semibold text-white pb-2 mb-3 border-b-2 border-gray-600">Education</h3>
+                    <div>
+                        <h4 class="text-sm font-semibold text-gray-400 uppercase">Oct 2001 – Jun 2006</h4>
+                        <h5 class="text-lg font-bold text-white mt-1">B.S. Software Engineering</h5>
+                        <h6 class="text-base font-medium text-gray-300">Islamic Azad University, South Tehran Branch</h6>
+                    </div>
+                </section>
+
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>

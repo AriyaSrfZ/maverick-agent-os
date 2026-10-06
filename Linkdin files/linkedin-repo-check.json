@@ -1,0 +1,137 @@
+{
+  "repo": "sergebulaev/linkedin-skills",
+  "head": "2f00424615b9853e8b1aa003d8752179bbeabb09",
+  "checked_at": "2026-10-04",
+  "skills": [
+    {
+      "path": ".codex-marketplace/linkedin-skills/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": ".codex-marketplace/linkedin-skills/skills/linkedin-comment-drafter/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": ".codex-marketplace/linkedin-skills/skills/linkedin-content-planner/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": ".codex-marketplace/linkedin-skills/skills/linkedin-employee-advocacy/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": ".codex-marketplace/linkedin-skills/skills/linkedin-engager-analytics/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": ".codex-marketplace/linkedin-skills/skills/linkedin-hook-extractor/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": ".codex-marketplace/linkedin-skills/skills/linkedin-humanizer/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": ".codex-marketplace/linkedin-skills/skills/linkedin-interviewer/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": ".codex-marketplace/linkedin-skills/skills/linkedin-post-writer/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": ".codex-marketplace/linkedin-skills/skills/linkedin-profile-optimizer/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": ".codex-marketplace/linkedin-skills/skills/linkedin-reply-handler/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": ".codex-marketplace/linkedin-skills/skills/linkedin-repurposer/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": ".codex-marketplace/linkedin-skills/skills/linkedin-thread-monitor/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "skills/linkedin-comment-drafter/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "skills/linkedin-content-planner/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "skills/linkedin-employee-advocacy/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "skills/linkedin-engager-analytics/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "skills/linkedin-hook-extractor/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "skills/linkedin-humanizer/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "skills/linkedin-interviewer/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "skills/linkedin-post-writer/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "skills/linkedin-profile-optimizer/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "skills/linkedin-reply-handler/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "skills/linkedin-repurposer/SKILL.md",
+      "match": true,
+      "exists": true
+    },
+    {
+      "path": "skills/linkedin-thread-monitor/SKILL.md",
+      "match": true,
+      "exists": true
+    }
+  ]
+}

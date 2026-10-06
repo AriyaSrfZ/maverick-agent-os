@@ -1,0 +1,1034 @@
+- heading "0 notifications" [level=2]
+- generic "Skip navigation menu":
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Skip to primary content":
+    - generic: Skip to primary content
+  - button "Skip to aside":
+    - generic: Skip to aside
+  - button "Skip to footer":
+    - generic: Skip to footer
+  - button "Close jump menu":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - status
+  - search:
+    - textbox "Search"
+  - navigation:
+    - list:
+      - button "Home, 1 new notification":
+        - generic: Home
+      - link "Network, 0 new notifications":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: Network
+      - link "Jobs, 0 new notifications":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: Jobs
+      - link "Messaging, 0 new notifications":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: Messaging
+      - link "Notifications, 0 new notifications":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: Notifications
+      - button "Me":
+        - figure
+        - text: Me
+  - navigation:
+    - list:
+      - button "For Business":
+        - text: For Business
+      - link "Learning, 0 new notifications":
+        - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+        - generic: Learning
+- toolbar:
+  - link "Ariya Sarrafzadeh":
+    - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+    - generic "Ariya Sarrafzadeh":
+      - figure
+      - paragraph: Ariya Sarrafzadeh
+      - paragraph: Technical Product Manager | Fintech, Payments & Platform Innovation
+  - button "More":
+  - link "Add section":
+    - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/
+    - generic: Add section
+  - button "Open to":
+    - generic: Open to
+- main:
+  - region "Primary content":
+    - button "Navigate back to profile main screen":
+    - paragraph: Skills
+    - button "Resources":
+    - link "Add a skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skills/edit/forms/new/
+    - navigation:
+      - list:
+        - button "All":
+          - generic: All
+        - button "Industry Knowledge":
+          - generic: Industry Knowledge
+        - button "Tools & Technologies":
+          - generic: Tools & Technologies
+        - button "Interpersonal Skills":
+          - generic: Interpersonal Skills
+        - button "Other Skills":
+          - generic: Other Skills
+    - paragraph: Incident Management
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/976923980/
+          - text: 2 experiences at Persia Fava Gostaresh Co. and 1 other company
+    - link "Edit Incident Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923980/
+    - paragraph: MongoDB
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+    - link "Edit MongoDB skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923983/
+    - paragraph: Operation Monitoring
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+    - link "Edit Operation Monitoring skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923984/
+    - paragraph: Defect Logging
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/976923969/
+          - text: 3 experiences at Persia Fava Gostaresh Co. and 2 other companies
+    - link "Edit Defect Logging skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923969/
+    - paragraph: Elasticsearch
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/976923967/
+          - text: 3 experiences at Persia Fava Gostaresh Co. and 2 other companies
+    - link "Edit Elasticsearch skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923967/
+    - paragraph: Fraud Detection
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/976923968/
+          - text: 2 experiences at MyDigipay and 1 other company
+    - link "Edit Fraud Detection skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923968/
+    - paragraph: Database Scripting
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/976923965/
+          - text: 3 experiences at Persia Fava Gostaresh Co. and 2 other companies
+    - link "Edit Database Scripting skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923965/
+    - paragraph: Technical Product Management
+    - list:
+      - figure
+      - paragraph: Senior Technical Product Manager at Persia Fava Gostaresh Co.
+    - link "Edit Technical Product Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923966/
+    - paragraph: Product Lifecycle Management
+    - list:
+      - figure
+      - paragraph: Senior Technical Product Manager at Persia Fava Gostaresh Co.
+    - link "Edit Product Lifecycle Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923963/
+    - paragraph: Startups
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/976923978/
+          - text: 3 experiences at MyDigipay and 2 other companies
+    - link "Edit Startups skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923978/
+    - paragraph: FinTech
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/976923979/
+          - text: 2 experiences at MyDigipay and 1 other company
+    - link "Edit FinTech skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923979/
+    - paragraph: Strategic Roadmaps
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/976923973/
+          - text: 3 experiences at Persia Fava Gostaresh Co. and 2 other companies
+    - link "Edit Strategic Roadmaps skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923973/
+    - paragraph: Finance
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/976923970/
+          - text: 5 experiences at MyDigipay and 4 other companies
+    - link "Edit Finance skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923970/
+    - paragraph: Contract Negotiation
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/976923971/
+          - text: 4 experiences at Persia Fava Gostaresh Co. and 3 other companies
+    - link "Edit Contract Negotiation skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923971/
+    - paragraph: Database Marketing
+    - list:
+      - figure
+      - paragraph: Senior Technical Product Manager at Persia Fava Gostaresh Co.
+    - link "Edit Database Marketing skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923977/
+    - paragraph: Software Systems Engineering
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/976923959/
+          - text: 2 experiences at Persia Fava Gostaresh Co. and 1 other company
+    - link "Edit Software Systems Engineering skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923959/
+    - paragraph: Analytical Skills
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/15/
+          - text: 5 experiences at Persia Fava Gostaresh Co. and 4 other companies
+    - link "Edit Analytical Skills skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/15/
+    - paragraph: Operations Management
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/16/
+          - text: 5 experiences at Persia Fava Gostaresh Co. and 4 other companies
+    - link "Edit Operations Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/16/
+    - paragraph: Technical Operations
+    - list:
+      - figure
+      - paragraph: Senior Technical Product Manager at Persia Fava Gostaresh Co.
+    - link "Edit Technical Operations skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/17/
+    - paragraph: Product Operations
+    - list:
+      - figure
+      - paragraph: Senior Technical Product Manager at Persia Fava Gostaresh Co.
+    - link "Edit Product Operations skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/18/
+    - paragraph: Databases
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/19/
+          - text: 6 experiences at Persia Fava Gostaresh Co. and 5 other companies
+    - link "Edit Databases skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/19/
+    - paragraph: Technical Leadership
+    - list:
+      - figure
+      - paragraph: Senior Technical Product Manager at Persia Fava Gostaresh Co.
+    - link "Edit Technical Leadership skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/20/
+    - paragraph: Product Development
+    - list:
+      - figure
+      - paragraph: Senior Technical Product Manager at Persia Fava Gostaresh Co.
+    - link "Edit Product Development skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/21/
+    - paragraph: Business Planning
+    - list:
+      - figure
+      - paragraph: Senior Technical Product Manager at Persia Fava Gostaresh Co.
+    - link "Edit Business Planning skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/22/
+    - paragraph: Technical Architecture
+    - list:
+      - figure
+      - paragraph: Senior Technical Product Manager at Persia Fava Gostaresh Co.
+    - link "Edit Technical Architecture skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/23/
+    - paragraph: Financial Risk Management
+    - list:
+      - figure
+      - paragraph: Senior Technical Product Manager at Persia Fava Gostaresh Co.
+    - link "Edit Financial Risk Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/24/
+    - paragraph: Risk Analysis
+    - list:
+      - figure
+      - paragraph: Senior Technical Product Manager at Persia Fava Gostaresh Co.
+    - link "Edit Risk Analysis skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/25/
+    - paragraph: Cross-functional Collaboration
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - figure
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450704573)/endorsers/
+          - text: Endorsed by 2 colleagues at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450704573)/endorsers/
+          - text: 2 endorsements
+    - link "Edit Cross-functional Collaboration skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450704573/
+    - paragraph: Technical Operations Management
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450690418)/endorsers/
+          - text: 2 endorsements
+    - link "Edit Technical Operations Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450690418/
+    - paragraph: Product Lifecycle Management (PLC)
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450506684)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Product Lifecycle Management (PLC) skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450506684/
+    - paragraph: Strategic Thinking
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450820332)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Strategic Thinking skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450820332/
+    - paragraph: MPLS & Network Infrastructure
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450802285)/endorsers/
+          - text: 2 endorsements
+    - link "Edit MPLS & Network Infrastructure skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450802285/
+    - paragraph: PSP & Banking Integration
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450746073)/endorsers/
+          - text: 2 endorsements
+    - link "Edit PSP & Banking Integration skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450746073/
+    - paragraph: Contract Drafting & Negotiation
+    - list:
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450730320)/endorsers/
+          - text: 2 endorsements
+    - link "Edit Contract Drafting & Negotiation skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450730320/
+    - paragraph: Business Analysis
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/450674819/
+          - text: 2 experiences at Persia Fava Gostaresh Co. and 1 other company
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450674819)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Business Analysis skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450674819/
+    - paragraph: Financial Data Analytics
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450649968)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Financial Data Analytics skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450649968/
+    - paragraph: Market & Competitor Analysis
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/450629626/
+          - text: 3 experiences at Persia Fava Gostaresh Co. and 2 other companies
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450629626)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Market & Competitor Analysis skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450629626/
+    - paragraph: Sprint Planning & Execution
+    - list:
+      - figure
+      - paragraph: Senior Technical Product Manager at Persia Fava Gostaresh Co.
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450618050)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Sprint Planning & Execution skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450618050/
+    - paragraph: Jira & Confluence
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450604958)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Jira & Confluence skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450604958/
+    - paragraph: PRD & Technical Documentation
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/450565480/
+          - text: 2 experiences at Persia Fava Gostaresh Co. and 1 other company
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450565480)/endorsers/
+          - text: 1 endorsement
+    - link "Edit PRD & Technical Documentation skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450565480/
+    - paragraph: Technical Product Ownership
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/450554969/
+          - text: 3 experiences at Persia Fava Gostaresh Co. and 2 other companies
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450554969)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Technical Product Ownership skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450554969/
+    - paragraph: Agile & Scrum Methodologies
+    - list:
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450535469)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Agile & Scrum Methodologies skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450535469/
+    - paragraph: SQL
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450518180)/endorsers/
+          - text: 1 endorsement
+    - link "Edit SQL skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450518180/
+    - paragraph: Power BI & Excel Reporting
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450484846)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Power BI & Excel Reporting skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450484846/
+    - paragraph: Shell Scripting
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450406109)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Shell Scripting skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450406109/
+    - paragraph: Reconciliation Solutions
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450383009)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Reconciliation Solutions skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450383009/
+    - paragraph: Fraud Detection & Prevention
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/450373099/
+          - text: 2 experiences at MyDigipay and 1 other company
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450373099)/endorsers/
+          - text: 2 endorsements
+    - link "Edit Fraud Detection & Prevention skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450373099/
+    - paragraph: Log Analysis & Debugging
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450298820)/endorsers/
+          - text: 2 endorsements
+    - link "Edit Log Analysis & Debugging skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450298820/
+    - paragraph: Database Management (MongoDB, MySQL, PostgreSQL)
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450284597)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Database Management (MongoDB, MySQL, PostgreSQL) skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450284597/
+    - paragraph: API Design & Microservices
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/450269233/
+          - text: 2 experiences at MyDigipay and 1 other company
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450269233)/endorsers/
+          - text: 1 endorsement
+    - link "Edit API Design & Microservices skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450269233/
+    - paragraph: Infrastructure Monitoring (Prometheus, Grafana, ELK)
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - figure:
+      - paragraph: Engineering Islamic Azad University, South Tehran Branch
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,450245676)/endorsers/
+          - text: 2 endorsements
+    - link "Edit Infrastructure Monitoring (Prometheus, Grafana, ELK) skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/450245676/
+    - paragraph: Customer Loyalty Software
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,449984076)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Customer Loyalty Software skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/449984076/
+    - paragraph: Fintech product development
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/449952973/
+          - text: 2 experiences at MyDigipay and 1 other company
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,449952973)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Fintech product development skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/449952973/
+    - paragraph: Sales Processes
+    - list:
+      - figure
+      - paragraph: Senior Tech-Ops Analyst at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,256112391)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Sales Processes skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/256112391/
+    - paragraph: Communication
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/14/
+          - text: 6 experiences at Persia Fava Gostaresh Co. and 5 other companies
+      - figure
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,14)/endorsers/
+          - text: Endorsed by 2 colleagues at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,14)/endorsers/
+          - text: 2 endorsements
+    - link "Edit Communication skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/14/
+    - paragraph: Customer Service
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/1/
+          - text: 6 experiences at Persia Fava Gostaresh Co. and 5 other companies
+      - figure
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,1)/endorsers/
+          - text: Endorsed by 4 colleagues at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,1)/endorsers/
+          - text: 6 endorsements
+    - link "Edit Customer Service skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/1/
+    - paragraph: Strategic Planning
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/3/
+          - text: 2 experiences at Persia Fava Gostaresh Co. and 1 other company
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,3)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Strategic Planning skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/3/
+    - paragraph: Project Management
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/4/
+          - text: 3 experiences at Persia Fava Gostaresh Co. and 2 other companies
+      - figure
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,4)/endorsers/
+          - text: Endorsed by 2 colleagues at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,4)/endorsers/
+          - text: 2 endorsements
+    - link "Edit Project Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/4/
+    - paragraph: Marketing
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/5/
+          - text: 3 experiences at Persia Fava Gostaresh Co. and 2 other companies
+      - figure
+      - paragraph: Using Generative AI across the Marketing Lifecycle
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,5)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Marketing skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/5/
+    - paragraph: Teamwork
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/10/
+          - text: 6 experiences at Persia Fava Gostaresh Co. and 5 other companies
+      - figure
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,10)/endorsers/
+          - text: Endorsed by 4 colleagues at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,10)/endorsers/
+          - text: 4 endorsements
+    - link "Edit Teamwork skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/10/
+    - paragraph: Negotiation
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/11/
+          - text: 5 experiences at Persia Fava Gostaresh Co. and 4 other companies
+      - figure
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,11)/endorsers/
+          - text: Endorsed by 2 colleagues at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,11)/endorsers/
+          - text: 3 endorsements
+    - link "Edit Negotiation skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/11/
+    - paragraph: Management
+    - list:
+      - figure
+      - paragraph:
+        - link "See Insights":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/12/
+          - text: 2 experiences at Persia Fava Gostaresh Co. and 1 other company
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,12)/endorsers/
+          - text: 1 endorsement
+    - link "Edit Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/12/
+    - paragraph: Account Management
+    - list:
+      - figure
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,645371900)/endorsers/
+          - text: Endorsed by 2 colleagues at MyDigipay
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,645371900)/endorsers/
+          - text: 4 endorsements
+    - link "Edit Account Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645371900/
+    - paragraph: New Business Development
+    - list:
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,645390991)/endorsers/
+          - text: 2 endorsements
+    - link "Edit New Business Development skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645390991/
+    - paragraph: Sales Management
+    - list:
+      - paragraph:
+        - link "See Endorsements":
+          - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/urn:li:fsd_skill:(ACoAAAi6LWkBzS3aMcYhnK0cPqpa-A2j6UqFzXs,645392472)/endorsers/
+          - text: 2 endorsements
+    - link "Edit Sales Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645392472/
+    - paragraph: Stakeholder Engagement
+    - list:
+      - figure
+      - paragraph: Stakeholder Communication Strategies that Stick
+    - link "Edit Stakeholder Engagement skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645392473/
+    - paragraph: Stakeholder Management
+    - list:
+      - figure
+      - paragraph: Stakeholder Communication Strategies that Stick
+      - figure
+      - paragraph: Stakeholder Management for Leaders and Managers
+    - link "Edit Stakeholder Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645392474/
+    - paragraph: Objectives and Key Results (OKRs)
+    - list:
+      - figure
+      - paragraph: Stakeholder Management for Leaders and Managers
+    - link "Edit Objectives and Key Results (OKRs) skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645392475/
+    - paragraph: Team Management
+    - list:
+      - figure
+      - paragraph: Stakeholder Management for Leaders and Managers
+    - link "Edit Team Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645392476/
+    - paragraph: Product Management
+    - list:
+      - figure
+      - paragraph: Product Management First Steps
+      - figure
+      - paragraph: Transitioning to Product Management
+      - figure
+      - paragraph: Interviewing for Product Management Jobs
+    - link "Show all 5 details for Product Management":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/skill-insights/645392477/
+      - generic: Show all 5 details
+    - link "Edit Product Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645392477/
+    - paragraph: Leadership
+    - list:
+      - figure
+      - paragraph: Leadership Foundations
+      - figure
+      - paragraph: Developing Credibility as a Leader
+    - link "Edit Leadership skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645392478/
+    - paragraph: Conflict Resolution
+    - list:
+      - figure
+      - paragraph: "Project Management Mediation: Conflict Resolution for PMs"
+      - figure
+      - paragraph: Conflict Resolution Foundations
+    - link "Edit Conflict Resolution skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645392479/
+    - paragraph: Lean Principles
+    - list:
+      - figure
+      - paragraph: "Lean Technology Strategy: Running Agile at Scale"
+    - link "Edit Lean Principles skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645392481/
+    - paragraph: Agile Methodologies
+    - list:
+      - figure
+      - paragraph: "Lean Technology Strategy: Running Agile at Scale"
+    - link "Edit Agile Methodologies skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645392480/
+    - paragraph: Agile Project Management
+    - list:
+      - figure
+      - paragraph: "Agile Project Management: Continuous Improvement"
+    - link "Edit Agile Project Management skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645392482/
+    - paragraph: Continuous Improvement
+    - list:
+      - figure
+      - paragraph: "Agile Project Management: Continuous Improvement"
+    - link "Edit Continuous Improvement skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/645392483/
+    - paragraph: Microservices
+    - list:
+      - figure
+      - paragraph: Microservices Foundations
+    - link "Edit Microservices skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923985/
+    - paragraph: Body Language
+    - list:
+      - figure
+      - paragraph: Body Language for Leaders and Managers
+    - link "Edit Body Language skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923986/
+    - paragraph: Agile Software Development
+    - list:
+      - figure
+      - paragraph: "Agile Software Development: Code Quality"
+    - link "Edit Agile Software Development skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923987/
+    - paragraph: Agile Leadership
+    - list:
+      - figure
+      - paragraph: "Adopting Agile: Strategies for Successful Implementation"
+    - link "Edit Agile Leadership skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923988/
+    - paragraph: Workload Prioritization
+    - list:
+      - figure
+      - paragraph: Strategic Focus for Managers
+    - link "Edit Workload Prioritization skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923989/
+    - paragraph: Market Research
+    - list:
+      - figure
+      - paragraph: "Market Research: Quantitative"
+    - link "Edit Market Research skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923990/
+    - paragraph: Marketing Strategy
+    - list:
+      - figure
+      - paragraph: "Market Research: Quantitative"
+      - figure
+      - paragraph: Using Generative AI across the Marketing Lifecycle
+    - link "Edit Marketing Strategy skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923991/
+    - paragraph: Quantitative Research
+    - list:
+      - figure
+      - paragraph: "Market Research: Quantitative"
+    - link "Edit Quantitative Research skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923992/
+    - paragraph: Generative AI for Marketing
+    - list:
+      - figure
+      - paragraph: Using Generative AI across the Marketing Lifecycle
+    - link "Edit Generative AI for Marketing skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923994/
+    - paragraph: Artificial Intelligence (AI)
+    - list:
+      - figure
+      - paragraph: Using Generative AI across the Marketing Lifecycle
+    - link "Edit Artificial Intelligence (AI) skill":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/skills/edit/forms/976923993/
+  - complementary "Aside":
+    - img "Premium"
+    - heading "Who your viewers also viewed" [level=3]
+    - paragraph: Private to you
+    - link "Sajad Mahrami Verified · 1st System Administrator Lead":
+      - /url: https://www.linkedin.com/in/sajadmahrami/
+      - figure
+      - paragraph:
+        - link "Sajad Mahrami Verified":
+          - /url: https://www.linkedin.com/in/sajadmahrami/
+          - text: Sajad Mahrami
+          - img "Verified":
+      - paragraph: · 1st
+      - paragraph: System Administrator Lead
+    - link "Message Sajad Mahrami":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAABGLY7QBOsuyc7kPc61Gka_QqABIkPLFO8A&recipient=ACoAABGLY7QBOsuyc7kPc61Gka_QqABIkPLFO8A&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Gelareh Naghioun · 2nd Senior Product Designer":
+      - /url: https://www.linkedin.com/in/gelareh-naghioun/
+      - figure
+      - paragraph:
+        - link "Gelareh Naghioun":
+          - /url: https://www.linkedin.com/in/gelareh-naghioun/
+      - paragraph: · 2nd
+      - paragraph: Senior Product Designer
+    - link "Message Gelareh Naghioun":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAABf-yC8BLIV0WxX_IOtALLpvHQmWcYazU-8&recipient=ACoAABf-yC8BLIV0WxX_IOtALLpvHQmWcYazU-8&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Sima Ahmadvand · 1st Software Engineer @eBay":
+      - /url: https://www.linkedin.com/in/sima-ahmadvand-03041823/
+      - figure
+      - paragraph:
+        - link "Sima Ahmadvand":
+          - /url: https://www.linkedin.com/in/sima-ahmadvand-03041823/
+      - paragraph: · 1st
+      - paragraph: Software Engineer @eBay
+    - link "Message Sima Ahmadvand":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAATd5yQBkbuxLgzWovlFWcFVInBgYbwNOmY&recipient=ACoAAATd5yQBkbuxLgzWovlFWcFVInBgYbwNOmY&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Reyhaneh Mohebbi · 1st Sales Supervisor at Persia Fava Gostaresh Co.":
+      - /url: https://www.linkedin.com/in/reyhan-mohebbi/
+      - figure
+      - paragraph:
+        - link "Reyhaneh Mohebbi":
+          - /url: https://www.linkedin.com/in/reyhan-mohebbi/
+      - paragraph: · 1st
+      - paragraph: Sales Supervisor at Persia Fava Gostaresh Co.
+    - link "Message Reyhaneh Mohebbi":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAADH5p00BZ24HN0dim9pNgPo_iiwNv8W8tX0&recipient=ACoAADH5p00BZ24HN0dim9pNgPo_iiwNv8W8tX0&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "ali hatami Verified · 1st General Services manager":
+      - /url: https://www.linkedin.com/in/ali-hatami-80795a199/
+      - figure
+      - paragraph:
+        - link "ali hatami Verified":
+          - /url: https://www.linkedin.com/in/ali-hatami-80795a199/
+          - text: ali hatami
+          - img "Verified":
+      - paragraph: · 1st
+      - paragraph: General Services manager
+    - link "Message ali hatami":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAC6X2QcBdqwYBNYSd3K8OWwCC2S6pFrNXJA&recipient=ACoAAC6X2QcBdqwYBNYSd3K8OWwCC2S6pFrNXJA&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - button "Show more":
+      - generic: Show more
+  - generic "Footer":
+    - navigation:
+      - link "About":
+        - /url: https://about.linkedin.com/
+        - paragraph: About
+      - link "Accessibility":
+        - /url: https://www.linkedin.com/accessibility/
+        - paragraph: Accessibility
+      - link "Talent Solutions":
+        - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+        - paragraph: Talent Solutions
+      - link "Community Guidelines":
+        - /url: https://www.linkedin.com/legal/professional-community-policies/
+        - paragraph: Community Guidelines
+      - link "Careers":
+        - /url: https://careers.linkedin.com/
+        - paragraph: Careers
+      - link "Marketing Solutions":
+        - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+        - paragraph: Marketing Solutions
+      - button "Privacy & Terms":
+        - paragraph: Privacy & Terms
+      - link "Ad Choices":
+        - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+        - paragraph: Ad Choices
+      - link "Advertising":
+        - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+        - paragraph: Advertising
+      - link "Sales Solutions":
+        - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+        - paragraph: Sales Solutions
+      - link "Mobile":
+        - /url: https://mobile.linkedin.com/
+        - paragraph: Mobile
+      - link "Small Business":
+        - /url: https://business.linkedin.com/grow?src=li-footer
+        - paragraph: Small Business
+      - link "Safety Center":
+        - /url: https://safety.linkedin.com/
+        - paragraph: Safety Center
+    - paragraph: LinkedIn Corporation © 2026
+    - list:
+      - link "Questions?":
+        - /url: https://www.linkedin.com/help/linkedin/
+        - paragraph: Questions?
+      - paragraph: Visit our Help Center.
+      - link "Manage your account and privacy":
+        - /url: https://www.linkedin.com/mypreferences/d/
+        - paragraph: Manage your account and privacy
+      - paragraph: Go to your Settings.
+      - link "Recommendation transparency":
+        - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+        - paragraph: Recommendation transparency
+      - paragraph: Learn more about Recommended Content.
+    - paragraph: Select language
+    - combobox "Select language":
+      - option "العربية (Arabic)"
+      - option "বাংলা (Bangla)"
+      - option "Čeština (Czech)"
+      - option "Dansk (Danish)"
+      - option "Deutsch (German)"
+      - option "Ελληνικά (Greek)"
+      - option "English (English)" [selected]
+      - option "Español (Spanish)"
+      - option "فارسی (Persian)"
+      - option "Suomi (Finnish)"
+      - option "Français (French)"
+      - option "हिंदी (Hindi)"
+      - option "Magyar (Hungarian)"
+      - option "Bahasa Indonesia (Indonesian)"
+      - option "Italiano (Italian)"
+      - option "עברית (Hebrew)"
+      - option "日本語 (Japanese)"
+      - option "한국어 (Korean)"
+      - option "मराठी (Marathi)"
+      - option "Bahasa Malaysia (Malay)"
+      - option "Nederlands (Dutch)"
+      - option "Norsk (Norwegian)"
+      - option "ਪੰਜਾਬੀ (Punjabi)"
+      - option "Polski (Polish)"
+      - option "Português (Portuguese)"
+      - option "Română (Romanian)"
+      - option "Русский (Russian)"
+      - option "Svenska (Swedish)"
+      - option "తెలుగు (Telugu)"
+      - option "ภาษาไทย (Thai)"
+      - option "Tagalog (Tagalog)"
+      - option "Türkçe (Turkish)"
+      - option "Українська (Ukrainian)"
+      - option "Tiếng Việt (Vietnamese)"
+      - option "简体中文 (Chinese (Simplified))"
+      - option "正體中文 (Chinese (Traditional))"
+- iframe

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Letter - Ariya Sarrafzadeh</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Using the same 'Lato' font from your CV for consistency */
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #f3f4f6; /* light gray background */
+        }
+        .a4-page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 20mm;
+            margin: 20mm auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            /* --- Added a blue top border for color --- */
+            border-top: 10px solid #2563eb; /* A professional blue bar */
+        }
+        p {
+            margin-bottom: 1.25rem; /* spacing for paragraphs */
+            line-height: 1.6;
+        }
+        /* Simple print styles */
+        @media print {
+            body {
+                background-color: #ffffff;
+            }
+            .a4-page {
+                margin: 0;
+                box-shadow: none;
+                width: 100%;
+                min-height: 0;
+                padding: 10mm;
+                border-top: 10px solid #2563eb;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="a4-page text-gray-800 text-base">
+
+        <!-- 1. Your Contact Information (Right Aligned) -->
+        <!-- --- Fixed typo: classAtt to class --- -->
+        <header class="text-right mb-16">
+            <h1 class="text-3xl font-bold text-black">Ariya Sarrafzadeh</h1>
+            <p class="text-gray-600 m-0 leading-normal">ariasg2002@gmail.com</p>
+            <p class="text-gray-600 m-0 leading-normal">+98 912 311 7965</p>
+            <p class="text-gray-600 m-0 leading-normal">www.linkedin.com/in/ariya-sarrafzadeh</p>
+        </header>
+
+        <!-- 2. Date and Recipient (Left Aligned) -->
+        <section class="mb-10">
+            <p class="text-gray-600 m-0 leading-normal">October 31, 2025</p> <!-- TODO: Update the date -->
+            <br>
+            <p class="font-semibold text-black m-0 leading-normal">Dear Hiring Team at Choco Zen,</p>
+        </section>
+
+        <!-- 3. Body of the Letter -->
+        <main>
+            <p>
+                I’m writing to express my interest in the Innovation Manager role in Dubai. With over 15 years of experience leading product development and technical operations in fintech, I bring a unique blend of strategic thinking, cross-functional leadership, and data-driven creativity — all of which I’m excited to apply in a consumer-focused, premium brand like Choco Zen.
+            </p>
+            <p>
+                At Digipay, I led the delivery of complex platforms including BNPL, C2C wallets, and insuretech services, often as the sole technical engineer in operations. I’ve built multi-dimensional databases for SMS campaigns, ingesting over 130 million records to enable precise segmentation by age, location, and delivery history. My work has always balanced innovation with reliability — whether designing fraud detection systems or aligning teams around scalable infrastructure.
+            </p>
+            <p>
+                While my background is in fintech, I’m deeply curious about consumer behavior, brand storytelling, and product-market fit. I thrive in environments where ideas move fast and execution matters. I’m confident that my experience building resilient systems and leading cross-functional releases will translate well into Choco Zen’s mission to redefine premium chocolate experiences.
+            </p>
+            <p>
+                Thank you for considering my application. I’d welcome the opportunity to discuss how I can contribute to your innovation roadmap.
+            </p>
+        </main>
+
+        <!-- 4. Sign-off -->
+        <footer class="mt-12">
+            <p class="m-0 leading-normal">Warm regards,</p>
+            <p class="m-0 leading-normal">Ariya Sarrafzadeh</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
+

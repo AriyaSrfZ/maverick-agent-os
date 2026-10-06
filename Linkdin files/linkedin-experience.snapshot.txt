@@ -1,0 +1,345 @@
+- heading "0 notifications" [level=2]
+- generic "Skip navigation menu":
+  - button "Skip to search":
+    - generic: Skip to search
+  - button "Skip to main content":
+    - generic: Skip to main content
+  - button "Skip to primary content":
+    - generic: Skip to primary content
+  - button "Skip to aside":
+    - generic: Skip to aside
+  - button "Skip to footer":
+    - generic: Skip to footer
+  - button "Close jump menu":
+- banner:
+  - button "LinkedIn":
+    - img "LinkedIn"
+  - status
+  - search:
+    - textbox "Search"
+  - navigation:
+    - list:
+      - button "Home, 1 new notification":
+        - generic: Home
+      - link "Network, 0 new notifications":
+        - /url: https://www.linkedin.com/mynetwork
+        - generic: Network
+      - link "Jobs, 0 new notifications":
+        - /url: https://www.linkedin.com/jobs/
+        - generic: Jobs
+      - link "Messaging, 0 new notifications":
+        - /url: https://www.linkedin.com/messaging/
+        - generic: Messaging
+      - link "Notifications, 0 new notifications":
+        - /url: https://www.linkedin.com/notifications/
+        - generic: Notifications
+      - button "Me":
+        - figure
+        - text: Me
+  - navigation:
+    - list:
+      - button "For Business":
+        - text: For Business
+      - link "Learning, 0 new notifications":
+        - /url: https://www.linkedin.com/learning/?trk=nav_neptune_learning
+        - generic: Learning
+- toolbar:
+  - link "Ariya Sarrafzadeh":
+    - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/
+    - generic "Ariya Sarrafzadeh":
+      - figure
+      - paragraph: Ariya Sarrafzadeh
+      - paragraph: Technical Product Manager | Fintech, Payments & Platform Innovation
+- main:
+  - region "Primary content":
+    - button "Navigate back to profile main screen":
+    - paragraph: Experience
+    - button "Add a position or career break":
+    - link:
+      - /url: https://www.linkedin.com/company/18956384/
+      - figure:
+        - img "Persia Fava Gostaresh Co. logo"
+    - link "Senior Technical Product Manager Persia Fava Gostaresh Co. · Full-time Apr 2025 - Present · 1 yr 7 mos Tehran, Tehran Province, Iran · On-site":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/edit/forms/2694948757/
+      - paragraph: Senior Technical Product Manager
+      - paragraph: Persia Fava Gostaresh Co. · Full-time
+      - paragraph: Apr 2025 - Present · 1 yr 7 mos
+      - paragraph: Tehran, Tehran Province, Iran · On-site
+    - paragraph:
+      - text: Architected a multi-million dollar business plan for a new API gateway, creating all PRDs, epics, and tasks for the 12-month roadmap.
+      - text: Currently building a new, multi-petabyte 'Smart DB' for SMS advertising, using text-based querying in Elasticsearch to enable advanced segmentation. (75% complete)
+      - text: Designing the complete architecture for a new User Authentication & Authorization (UAA) system, including all business plans and technical documentation.
+      - text: Act as the single point of command and technical liaison between the CEO and all outsourced teams (Backend, Frontend, UI/UX).
+      - text: Creating SDKs, developer documentation, and launch plans for a new corporate website, customer panel, and updated SMS gateway
+    - paragraph:
+      - link "Project Management, Market & Competitor Analysis and +32 skills":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/2694948757/skill-associations-details/?associationType=position
+        - text: Project Management, Market & Competitor Analysis and +32 skills
+    - link "Edit Senior Technical Product Manager at Persia Fava Gostaresh Co.":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/edit/forms/2694948757/
+    - link:
+      - /url: https://www.linkedin.com/company/33454020/
+      - figure:
+        - img "MyDigipay logo"
+    - link "Senior Tech-Ops Analyst MyDigipay · Full-time Jul 2018 - Apr 2025 · 6 yrs 10 mos Iran · On-site":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/edit/forms/2092721915/
+      - paragraph: Senior Tech-Ops Analyst
+      - paragraph: MyDigipay · Full-time
+      - paragraph: Jul 2018 - Apr 2025 · 6 yrs 10 mos
+      - paragraph: Iran · On-site
+    - paragraph:
+      - text: Owned and operated the entire Fraud & Judicial (FATA) vertical for 7 years as the sole point of contact for all legal communications, asset blocking, and financial documentation.
+      - text: Served as the sole technical expert in 30+ judicial fraud cases, personally tracing money-laundering paths and providing data evidence.
+      - text: Reduced official fraud reporting time to FATA from 3 working days to under 3 hours by building new automated data-tracing and reporting flows.
+      - text: Managed all B2B technical relationships with key partners (PSPs, banks, Shaparak), building and maintaining API connection networks across all major Iranian providers.
+      - text: Architected and implemented the company's first active/passive monitoring stack (Prometheus, Grafana), developing Grok patterns and Z-factor alerts from raw logs.
+      - text: Led the design of multi-party reconciliation solutions for all fintech products (Wallets, C2C, Insuretech, Lendtech) from the ground up, before product code was written.
+      - text: Maintained a fraud rate of <0.01% by proactively identifying patterns and shipping solutions with engineering, often without a formal product process.
+    - paragraph:
+      - link "Strategic Thinking, Project Management and +40 skills":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/2092721915/skill-associations-details/?associationType=position
+        - text: Strategic Thinking, Project Management and +40 skills
+    - link "Edit Senior Tech-Ops Analyst at MyDigipay":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/edit/forms/2092721915/
+    - link:
+      - /url: https://www.linkedin.com/company/5090115/
+      - figure:
+        - img "Digikala logo"
+    - link "Senior Payments & Fraud Consultant (concurrent) Digikala · Contract Jul 2018 - Apr 2025 · 6 yrs 10 mos Tehran, Tehran Province, Iran · Remote":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/edit/forms/2783104558/
+      - paragraph: Senior Payments & Fraud Consultant (concurrent)
+      - paragraph: Digikala · Contract
+      - paragraph: Jul 2018 - Apr 2025 · 6 yrs 10 mos
+      - paragraph: Tehran, Tehran Province, Iran · Remote
+    - paragraph:
+      - text: Acted as the senior subject-matter expert for Digikala's 45-million-customer e-commerce platform, advising finance, logistics, and legal teams on fraud and payments.
+      - text: Single-handedly built and managed complex reconciliation reports for the main platform, correlating data from multiple payment sources.
+      - text: Developed and implemented rapid-response fraud interception plans; personally traced high-value stolen items in under 1 hour, interfacing with law enforcement.
+      - text: Consulted with Iran's anti-fraud agency (FATA) on behalf of Digikala, successfully negotiating new regulations for 3-hour delivery systems by demonstrating a fraud rate of <0.5%.
+    - paragraph:
+      - link "Fraud Detection, Teamwork and +10 skills":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/2783104558/skill-associations-details/?associationType=position
+        - text: Fraud Detection, Teamwork and +10 skills
+    - link "Edit Senior Payments & Fraud Consultant (concurrent) at Digikala":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/edit/forms/2783104558/
+    - figure:
+      - img "HomaPay Payment Services logo"
+    - link "Mid Operations Analyst/Admin HomaPay Payment Services · Full-time Sep 2016 - Jun 2018 · 1 yr 10 mos Tehran, Tehran Province, Iran · On-site":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/edit/forms/2595600573/
+      - paragraph: Mid Operations Analyst/Admin
+      - paragraph: HomaPay Payment Services · Full-time
+      - paragraph: Sep 2016 - Jun 2018 · 1 yr 10 mos
+      - paragraph: Tehran, Tehran Province, Iran · On-site
+    - paragraph:
+      - text: Oversaw all service operations for core fintech products, including C2C transfers, bill payments, and top-up platforms.
+      - text: Established and enforced QoS/QC benchmarks by designing and implementing service monitoring dashboards and analyzing system logs.
+      - text: Joined as one of the first 10 employees, single-handedly managing all operations, monitoring, and customer support for the initial 15-person startup.
+      - text: Manually operated and debugged all fintech platforms (C2C, billing, top-up), masking severe code deficiencies to maintain a flawless operational record.
+      - text: My operational stability was a key factor in securing a 3x increase in investor funding, growing the team to 50+, and enabling the company's acquisition by Digikala.
+      - text: Acted as the primary technical-operational liaison during the merger and integration into the Digikala group (Digipay).
+      - text: Acted as the primary technical-operational liaison during the company's merger and integration into the Digikala group (Digipay
+    - paragraph:
+      - link "Teamwork, Communication and +9 skills":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/2595600573/skill-associations-details/?associationType=position
+        - text: Teamwork, Communication and +9 skills
+    - link "Edit Mid Operations Analyst/Admin at HomaPay Payment Services":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/edit/forms/2595600573/
+    - figure:
+      - img "Gi-Retail Sell.co logo"
+    - link "Mid Sales Area Manager Gi-Retail Sell.co · Full-time May 2010 - Dec 2016 · 6 yrs 8 mos Tehran, Tehran Province, Iran · On-site":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/edit/forms/2780487119/
+      - paragraph: Mid Sales Area Manager
+      - paragraph: Gi-Retail Sell.co · Full-time
+      - paragraph: May 2010 - Dec 2016 · 6 yrs 8 mos
+      - paragraph: Tehran, Tehran Province, Iran · On-site
+    - paragraph:
+      - text: Directed a sales division of 30+ agents, holding full P&L responsibility for the area.
+      - text: Formulated annual financial plans, set sales targets, and drove business development by securing key retail partnerships.
+      - text: Served as the sole translator and communications lead for international partners, negotiating contracts and aligning supply chain logistics.
+    - paragraph:
+      - link "Teamwork, Communication and +8 skills":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/2780487119/skill-associations-details/?associationType=position
+        - text: Teamwork, Communication and +8 skills
+    - link "Edit Mid Sales Area Manager at Gi-Retail Sell.co":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/edit/forms/2780487119/
+    - figure:
+      - img "Aida Faraz Gostaresh logo"
+    - link "CEO / Board Member / Agent Aida Faraz Gostaresh · Full-time Sep 2005 - Nov 2012 · 7 yrs 3 mos Tehran, Tehran Province, Iran · On-site":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/edit/forms/2780197824/
+      - paragraph: CEO / Board Member / Agent
+      - paragraph: Aida Faraz Gostaresh · Full-time
+      - paragraph: Sep 2005 - Nov 2012 · 7 yrs 3 mos
+      - paragraph: Tehran, Tehran Province, Iran · On-site
+    - paragraph:
+      - text: Founded and led an IT solutions consultancy, acquiring and managing a portfolio of SME clients.
+      - text: Architected, deployed, and administered mixed-network infrastructures (Windows, Red Hat) for clients.
+      - text: Acted as principal consultant for all IT needs, from hardware procurement to deploying intranet (chat, calls, conferences) solutions.
+      - text: Managed all business operations, including client contracts, billing, and technical service delivery.
+    - paragraph:
+      - link "Project Management, Market & Competitor Analysis and +17 skills":
+        - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/overlay/2780197824/skill-associations-details/?associationType=position
+        - text: Project Management, Market & Competitor Analysis and +17 skills
+    - link "Edit CEO / Board Member / Agent at Aida Faraz Gostaresh":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/details/experience/edit/forms/2780197824/
+  - complementary "Aside":
+    - heading "Profile language" [level=2]
+    - link "Edit profile language":
+      - /url: https://www.linkedin.com/in/ariya-sarrafzadeh/edit/secondary-language/
+    - paragraph: English
+    - img "Premium"
+    - heading "Who your viewers also viewed" [level=3]
+    - paragraph: Private to you
+    - link "Sajad Mahrami Verified · 1st System Administrator Lead":
+      - /url: https://www.linkedin.com/in/sajadmahrami/
+      - figure
+      - paragraph:
+        - link "Sajad Mahrami Verified":
+          - /url: https://www.linkedin.com/in/sajadmahrami/
+          - text: Sajad Mahrami
+          - img "Verified":
+      - paragraph: · 1st
+      - paragraph: System Administrator Lead
+    - link "Message Sajad Mahrami":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAABGLY7QBOsuyc7kPc61Gka_QqABIkPLFO8A&recipient=ACoAABGLY7QBOsuyc7kPc61Gka_QqABIkPLFO8A&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Gelareh Naghioun · 2nd Senior Product Designer":
+      - /url: https://www.linkedin.com/in/gelareh-naghioun/
+      - figure
+      - paragraph:
+        - link "Gelareh Naghioun":
+          - /url: https://www.linkedin.com/in/gelareh-naghioun/
+      - paragraph: · 2nd
+      - paragraph: Senior Product Designer
+    - link "Message Gelareh Naghioun":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAABf-yC8BLIV0WxX_IOtALLpvHQmWcYazU-8&recipient=ACoAABf-yC8BLIV0WxX_IOtALLpvHQmWcYazU-8&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Sima Ahmadvand · 1st Software Engineer @eBay":
+      - /url: https://www.linkedin.com/in/sima-ahmadvand-03041823/
+      - figure
+      - paragraph:
+        - link "Sima Ahmadvand":
+          - /url: https://www.linkedin.com/in/sima-ahmadvand-03041823/
+      - paragraph: · 1st
+      - paragraph: Software Engineer @eBay
+    - link "Message Sima Ahmadvand":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAATd5yQBkbuxLgzWovlFWcFVInBgYbwNOmY&recipient=ACoAAATd5yQBkbuxLgzWovlFWcFVInBgYbwNOmY&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "Reyhaneh Mohebbi · 1st Sales Supervisor at Persia Fava Gostaresh Co.":
+      - /url: https://www.linkedin.com/in/reyhan-mohebbi/
+      - figure
+      - paragraph:
+        - link "Reyhaneh Mohebbi":
+          - /url: https://www.linkedin.com/in/reyhan-mohebbi/
+      - paragraph: · 1st
+      - paragraph: Sales Supervisor at Persia Fava Gostaresh Co.
+    - link "Message Reyhaneh Mohebbi":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAADH5p00BZ24HN0dim9pNgPo_iiwNv8W8tX0&recipient=ACoAADH5p00BZ24HN0dim9pNgPo_iiwNv8W8tX0&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - link "ali hatami Verified · 1st General Services manager":
+      - /url: https://www.linkedin.com/in/ali-hatami-80795a199/
+      - figure
+      - paragraph:
+        - link "ali hatami Verified":
+          - /url: https://www.linkedin.com/in/ali-hatami-80795a199/
+          - text: ali hatami
+          - img "Verified":
+      - paragraph: · 1st
+      - paragraph: General Services manager
+    - link "Message ali hatami":
+      - /url: /messaging/compose/?profileUrn=urn%3Ali%3Afsd_profile%3AACoAAC6X2QcBdqwYBNYSd3K8OWwCC2S6pFrNXJA&recipient=ACoAAC6X2QcBdqwYBNYSd3K8OWwCC2S6pFrNXJA&screenContext=NON_SELF_PROFILE_VIEW&interop=msgOverlay
+      - generic: Message
+    - button "Show more":
+      - generic: Show more
+  - generic "Footer":
+    - navigation:
+      - link "About":
+        - /url: https://about.linkedin.com/
+        - paragraph: About
+      - link "Accessibility":
+        - /url: https://www.linkedin.com/accessibility/
+        - paragraph: Accessibility
+      - link "Talent Solutions":
+        - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+        - paragraph: Talent Solutions
+      - link "Community Guidelines":
+        - /url: https://www.linkedin.com/legal/professional-community-policies/
+        - paragraph: Community Guidelines
+      - link "Careers":
+        - /url: https://careers.linkedin.com/
+        - paragraph: Careers
+      - link "Marketing Solutions":
+        - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+        - paragraph: Marketing Solutions
+      - button "Privacy & Terms":
+        - paragraph: Privacy & Terms
+      - link "Ad Choices":
+        - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+        - paragraph: Ad Choices
+      - link "Advertising":
+        - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+        - paragraph: Advertising
+      - link "Sales Solutions":
+        - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+        - paragraph: Sales Solutions
+      - link "Mobile":
+        - /url: https://mobile.linkedin.com/
+        - paragraph: Mobile
+      - link "Small Business":
+        - /url: https://business.linkedin.com/grow?src=li-footer
+        - paragraph: Small Business
+      - link "Safety Center":
+        - /url: https://safety.linkedin.com/
+        - paragraph: Safety Center
+    - paragraph: LinkedIn Corporation © 2026
+    - list:
+      - link "Questions?":
+        - /url: https://www.linkedin.com/help/linkedin/
+        - paragraph: Questions?
+      - paragraph: Visit our Help Center.
+      - link "Manage your account and privacy":
+        - /url: https://www.linkedin.com/mypreferences/d/
+        - paragraph: Manage your account and privacy
+      - paragraph: Go to your Settings.
+      - link "Recommendation transparency":
+        - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+        - paragraph: Recommendation transparency
+      - paragraph: Learn more about Recommended Content.
+    - paragraph: Select language
+    - combobox "Select language":
+      - option "العربية (Arabic)"
+      - option "বাংলা (Bangla)"
+      - option "Čeština (Czech)"
+      - option "Dansk (Danish)"
+      - option "Deutsch (German)"
+      - option "Ελληνικά (Greek)"
+      - option "English (English)" [selected]
+      - option "Español (Spanish)"
+      - option "فارسی (Persian)"
+      - option "Suomi (Finnish)"
+      - option "Français (French)"
+      - option "हिंदी (Hindi)"
+      - option "Magyar (Hungarian)"
+      - option "Bahasa Indonesia (Indonesian)"
+      - option "Italiano (Italian)"
+      - option "עברית (Hebrew)"
+      - option "日本語 (Japanese)"
+      - option "한국어 (Korean)"
+      - option "मराठी (Marathi)"
+      - option "Bahasa Malaysia (Malay)"
+      - option "Nederlands (Dutch)"
+      - option "Norsk (Norwegian)"
+      - option "ਪੰਜਾਬੀ (Punjabi)"
+      - option "Polski (Polish)"
+      - option "Português (Portuguese)"
+      - option "Română (Romanian)"
+      - option "Русский (Russian)"
+      - option "Svenska (Swedish)"
+      - option "తెలుగు (Telugu)"
+      - option "ภาษาไทย (Thai)"
+      - option "Tagalog (Tagalog)"
+      - option "Türkçe (Turkish)"
+      - option "Українська (Ukrainian)"
+      - option "Tiếng Việt (Vietnamese)"
+      - option "简体中文 (Chinese (Simplified))"
+      - option "正體中文 (Chinese (Traditional))"
+- iframe

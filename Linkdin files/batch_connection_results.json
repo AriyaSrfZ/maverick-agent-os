@@ -1,0 +1,232 @@
+[
+  {
+    "name": "Nour Gamal",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Kulsum Siddiqui",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Muhammad Chaudhry",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Sweta Taparia",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Maithri Alapati",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Abhishek Deshmukh",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Andisheh Abbasian",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Arman Khajehvand",
+    "status": "skipped_or_pending"
+  },
+  {
+    "name": "Mohammadreza Hassani",
+    "vanity": "mohammadreza-hassani",
+    "type": "compatriot",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Ala Kiani",
+    "vanity": "alakiani",
+    "type": "compatriot",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Muhamad Saber Taherian",
+    "vanity": "muhamadsabertaherian",
+    "type": "compatriot",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Ramin Fazli",
+    "vanity": "ramin-fazli",
+    "type": "compatriot",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Mehdi Teymorian",
+    "vanity": "mehdi-teymorian",
+    "type": "compatriot",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Ali Shakeri Nouri",
+    "vanity": "alishakerinouri",
+    "type": "compatriot",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Pooria Hassanzadeh",
+    "vanity": "pooriahassanzadeh",
+    "type": "compatriot",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Maham Khan",
+    "vanity": "mk1993",
+    "type": "recruiter",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Muneeb Maqsood",
+    "vanity": "muneeb-maqsood-5a8505187",
+    "type": "recruiter",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Nermin Alsheikh",
+    "vanity": "nermin-alsheikh",
+    "type": "recruiter",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Haris Salman",
+    "vanity": "haris-salman",
+    "type": "recruiter",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Faizan Ahmed",
+    "vanity": "faizan-ahmed-7b1071258",
+    "type": "recruiter",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Anuj Namdev",
+    "vanity": "anujnamdev",
+    "type": "recruiter",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Ben Wilson",
+    "vanity": "benwilson1",
+    "type": "proptech_recruiter",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Tejaswi Akkipeddi",
+    "vanity": "tejaswiniakkipeddi",
+    "type": "proptech_recruiter",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Nisha Hafiz",
+    "vanity": "nisha-hafiz",
+    "type": "proptech_recruiter",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Purva R",
+    "vanity": "purva-r-785a771ab",
+    "type": "proptech_recruiter",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Rohan Katoch",
+    "vanity": "rohankatoch",
+    "type": "proptech_leader",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Sarah B",
+    "vanity": "sarah-bm",
+    "type": "proptech_leader",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Fahd Badran",
+    "vanity": "fahdbadran",
+    "type": "proptech_leader",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Ali Eslami",
+    "vanity": "ali-eslamii",
+    "type": "compatriot",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Shabnam Mofrad",
+    "vanity": "shabnam-mofrad-6126797b",
+    "type": "compatriot",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Shabnam Mojabi",
+    "vanity": "shabnam-mojabi",
+    "type": "compatriot_talabat",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Aida Joraty",
+    "vanity": "aidajoraty",
+    "type": "compatriot_leader",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "Javid Hadi",
+    "vanity": "javidhadi",
+    "type": "compatriot_product",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "مهدی سیلاوی",
+    "vanity": "mehdi-silavi-550a5558",
+    "type": "iranian_clevel",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "سنا شمس‌فر",
+    "vanity": "sana-shamsafar",
+    "type": "iranian_clevel",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "دانیال ابراهیمی",
+    "vanity": "danialebrahimi",
+    "type": "iranian_clevel",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "سید علی خوئی",
+    "vanity": "sakhoee",
+    "type": "iranian_clevel",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "لیلا پاکروان",
+    "vanity": "leila-pakravan-898155113",
+    "type": "iranian_clevel",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "سیما خدیو",
+    "vanity": "seema-khadiv-5281b142a",
+    "type": "iranian_clevel",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "پویان فیاضی",
+    "vanity": "pouyanfayazi",
+    "type": "iranian_clevel",
+    "status": "sent_with_note"
+  },
+  {
+    "name": "محمدجواد گلستانی",
+    "vanity": "mohammadjavad-golestani",
+    "type": "iranian_clevel",
+    "status": "sent_with_note"
+  }
+]

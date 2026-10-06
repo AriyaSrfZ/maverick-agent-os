@@ -1,0 +1,239 @@
+Experience
+
+Senior Technical Product Manager
+
+Persia Fava Gostaresh Co. · Full-time
+
+Apr 2025 - Present · 1 yr 7 mos
+
+Tehran, Tehran Province, Iran · On-site
+
+Architected a multi-million dollar business plan for a new API gateway, creating all PRDs, epics, and tasks for the 12-month roadmap.
+
+Currently building a new, multi-petabyte 'Smart DB' for SMS advertising, using text-based querying in Elasticsearch to enable advanced segmentation. (75% complete)
+
+Designing the complete architecture for a new User Authentication & Authorization (UAA) system, including all business plans and technical documentation.
+
+Act as the single point of command and technical liaison between the CEO and all outsourced teams (Backend, Frontend, UI/UX).
+
+Creating SDKs, developer documentation, and launch plans for a new corporate website, customer panel, and updated SMS gateway
+
+ Project Management, Market & Competitor Analysis and +32 skills
+
+Senior Tech-Ops Analyst
+
+MyDigipay · Full-time
+
+Jul 2018 - Apr 2025 · 6 yrs 10 mos
+
+Iran · On-site
+
+Owned and operated the entire Fraud & Judicial (FATA) vertical for 7 years as the sole point of contact for all legal communications, asset blocking, and financial documentation.
+
+Served as the sole technical expert in 30+ judicial fraud cases, personally tracing money-laundering paths and providing data evidence.
+
+Reduced official fraud reporting time to FATA from 3 working days to under 3 hours by building new automated data-tracing and reporting flows.
+
+Managed all B2B technical relationships with key partners (PSPs, banks, Shaparak), building and maintaining API connection networks across all major Iranian providers.
+
+Architected and implemented the company's first active/passive monitoring stack (Prometheus, Grafana), developing Grok patterns and Z-factor alerts from raw logs.
+
+Led the design of multi-party reconciliation solutions for all fintech products (Wallets, C2C, Insuretech, Lendtech) from the ground up, before product code was written.
+
+Maintained a fraud rate of <0.01% by proactively identifying patterns and shipping solutions with engineering, often without a formal product process.
+
+ Strategic Thinking, Project Management and +40 skills
+
+Senior Payments & Fraud Consultant (concurrent)
+
+Digikala · Contract
+
+Jul 2018 - Apr 2025 · 6 yrs 10 mos
+
+Tehran, Tehran Province, Iran · Remote
+
+Acted as the senior subject-matter expert for Digikala's 45-million-customer e-commerce platform, advising finance, logistics, and legal teams on fraud and payments.
+Single-handedly built and managed complex reconciliation reports for the main platform, correlating data from multiple payment sources.
+Developed and implemented rapid-response fraud interception plans; personally traced high-value stolen items in under 1 hour, interfacing with law enforcement.
+Consulted with Iran's anti-fraud agency (FATA) on behalf of Digikala, successfully negotiating new regulations for 3-hour delivery systems by demonstrating a fraud rate of <0.5%.
+
+ Fraud Detection, Teamwork and +10 skills
+
+Mid Operations Analyst/Admin
+
+HomaPay Payment Services · Full-time
+
+Sep 2016 - Jun 2018 · 1 yr 10 mos
+
+Tehran, Tehran Province, Iran · On-site
+
+Oversaw all service operations for core fintech products, including C2C transfers, bill payments, and top-up platforms.
+Established and enforced QoS/QC benchmarks by designing and implementing service monitoring dashboards and analyzing system logs.
+
+Joined as one of the first 10 employees, single-handedly managing all operations, monitoring, and customer support for the initial 15-person startup.
+
+Manually operated and debugged all fintech platforms (C2C, billing, top-up), masking severe code deficiencies to maintain a flawless operational record.
+
+My operational stability was a key factor in securing a 3x increase in investor funding, growing the team to 50+, and enabling the company's acquisition by Digikala.
+
+Acted as the primary technical-operational liaison during the merger and integration into the Digikala group (Digipay).
+Acted as the primary technical-operational liaison during the company's merger and integration into the Digikala group (Digipay
+
+ Teamwork, Communication and +9 skills
+
+Mid Sales Area Manager
+
+Gi-Retail Sell.co · Full-time
+
+May 2010 - Dec 2016 · 6 yrs 8 mos
+
+Tehran, Tehran Province, Iran · On-site
+
+Directed a sales division of 30+ agents, holding full P&L responsibility for the area.
+Formulated annual financial plans, set sales targets, and drove business development by securing key retail partnerships.
+Served as the sole translator and communications lead for international partners, negotiating contracts and aligning supply chain logistics.
+
+ Teamwork, Communication and +8 skills
+
+CEO / Board Member / Agent
+
+Aida Faraz Gostaresh · Full-time
+
+Sep 2005 - Nov 2012 · 7 yrs 3 mos
+
+Tehran, Tehran Province, Iran · On-site
+
+Founded and led an IT solutions consultancy, acquiring and managing a portfolio of SME clients.
+Architected, deployed, and administered mixed-network infrastructures (Windows, Red Hat) for clients.
+Acted as principal consultant for all IT needs, from hardware procurement to deploying intranet (chat, calls, conferences) solutions.
+Managed all business operations, including client contracts, billing, and technical service delivery.
+
+ Project Management, Market & Competitor Analysis and +17 skills
+
+Profile language
+
+English
+
+Who your viewers also viewed
+
+Private to you
+
+Sajad Mahrami 
+
+· 1st
+
+System Administrator Lead
+
+Message
+
+Gelareh Naghioun
+
+· 2nd
+
+Senior Product Designer
+
+Message
+
+Sima Ahmadvand
+
+· 1st
+
+Software Engineer @eBay
+
+Message
+
+Reyhaneh Mohebbi
+
+· 1st
+
+Sales Supervisor at Persia Fava Gostaresh Co.
+
+Message
+
+ali hatami 
+
+· 1st
+
+General Services manager 
+
+Message
+Show more
+
+About
+
+Accessibility
+
+Talent Solutions
+
+Community Guidelines
+
+Careers
+
+Marketing Solutions 
+
+Privacy & Terms
+
+Ad Choices
+
+Advertising
+
+Sales Solutions
+
+Mobile
+
+Small Business
+
+Safety Center
+
+LinkedIn Corporation © 2026
+
+Questions?
+
+Visit our Help Center.
+
+Manage your account and privacy
+
+Go to your Settings.
+
+Recommendation transparency
+
+Learn more about Recommended Content.
+
+Select language
+
+العربية (Arabic)
+বাংলা (Bangla)
+Čeština (Czech)
+Dansk (Danish)
+Deutsch (German)
+Ελληνικά (Greek)
+English (English)
+Español (Spanish)
+فارسی (Persian)
+Suomi (Finnish)
+Français (French)
+हिंदी (Hindi)
+Magyar (Hungarian)
+Bahasa Indonesia (Indonesian)
+Italiano (Italian)
+עברית (Hebrew)
+日本語 (Japanese)
+한국어 (Korean)
+मराठी (Marathi)
+Bahasa Malaysia (Malay)
+Nederlands (Dutch)
+Norsk (Norwegian)
+ਪੰਜਾਬੀ (Punjabi)
+Polski (Polish)
+Português (Portuguese)
+Română (Romanian)
+Русский (Russian)
+Svenska (Swedish)
+తెలుగు (Telugu)
+ภาษาไทย (Thai)
+Tagalog (Tagalog)
+Türkçe (Turkish)
+Українська (Ukrainian)
+Tiếng Việt (Vietnamese)
+简体中文 (Chinese (Simplified))
+正體中文 (Chinese (Traditional))
