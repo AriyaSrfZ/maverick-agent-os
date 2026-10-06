@@ -1,0 +1,78 @@
+const { chromium } = require('playwright');
+
+(async () => {
+  const browser = await chromium.connectOverCDP('http://127.0.0.1:9222');
+  const page = browser.contexts()[0].pages()[0];
+
+  console.log('Searching for Patric Babu post...');
+  const searchUrl = 'https://www.linkedin.com/search/results/content/?keywords=Patric%20Babu%20%22Which%20assumption%22&origin=GLOBAL_SEARCH_HEADER';
+  await page.goto(searchUrl, { waitUntil: 'domcontentloaded' });
+  await page.waitForTimeout(4000);
+
+  // Click Comment button on post
+  const clickedComment = await page.evaluate(() => {
+    const btns = Array.from(document.querySelectorAll('button'));
+    const commentBtn = btns.find(b => {
+      const aria = b.getAttribute('aria-label') || '';
+      return aria.toLowerCase().includes('comment') && !aria.toLowerCase().includes('open');
+    });
+    if (commentBtn) {
+      commentBtn.click();
+      return true;
+    }
+    return false;
+  });
+
+  console.log('Comment button clicked:', clickedComment);
+  await page.waitForTimeout(2000);
+
+  // Focus comment editor or reply
+  const editorFocused = await page.evaluate(() => {
+    const editor = document.querySelector('div[contenteditable="true"], div.ProseMirror, div.tiptap, textarea');
+    if (editor) {
+      editor.focus();
+      return 'focused_editor';
+    }
+    const replyBtn = Array.from(document.querySelectorAll('button')).find(b => b.getAttribute('aria-label') === 'Reply' || b.innerText.trim() === 'Reply');
+    if (replyBtn) {
+      replyBtn.click();
+      return 'clicked_reply';
+    }
+    return 'none';
+  });
+
+  console.log('Editor focus status:', editorFocused);
+  await page.waitForTimeout(1000);
+
+  // Ensure focused
+  await page.evaluate(() => {
+    const editor = document.querySelector('div[contenteditable="true"], div.ProseMirror, div.tiptap');
+    if (editor) editor.focus();
+  });
+  await page.waitForTimeout(500);
+
+  const commentText = "The most dangerous assumption in platform engineering is assuming upstream partner systems behave according to their own API documentation.\n\nWe once built out an automated integration around a partner's stated 'sub-second SLA'. In staging with mock stubs, everything was green. The moment we routed live production traffic, their upstream switch started dropping connections under 50 TPS. We had to rewrite the entire asynchronous queue and fallback logic in a 72-hour weekend sprint.\n\nEver since, our rule on every kickoff is: never trust documentation until you have personally load-tested their failure modes in a sandbox.";
+
+  await page.keyboard.insertText(commentText);
+  await page.waitForTimeout(1500);
+
+  // Submit via DOM click
+  const submitted = await page.evaluate(() => {
+    const btns = Array.from(document.querySelectorAll('button'));
+    const submitBtn = btns.reverse().find(b => {
+      const text = b.innerText.trim();
+      const aria = b.getAttribute('aria-label') || '';
+      return (text === 'Comment' || text === 'Reply' || text === 'Post') && !aria.includes('Open');
+    });
+    if (submitBtn) {
+      submitBtn.click();
+      return { success: true, text: submitBtn.innerText };
+    }
+    return { success: false };
+  });
+
+  console.log('Patric submission result:', submitted);
+  await page.waitForTimeout(3000);
+  console.log('FINISHED PATRIC COMMENT!');
+  process.exit(0);
+})();
