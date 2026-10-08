@@ -23,10 +23,17 @@ echo "======================================================================"
 if git remote | grep -q "^origin$"; then
     CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
     echo "Fetching & rebasing from 'origin/${CURRENT_BRANCH}'..."
+    HAS_LOCAL_CHANGES="$(git status --porcelain || true)"
+    if [ -n "${HAS_LOCAL_CHANGES}" ]; then
+        git stash --include-untracked -q 2>/dev/null || true
+    fi
     git pull --rebase origin "${CURRENT_BRANCH}" || {
         echo "[WARNING] Rebase failed or had conflicts; aborting auto-rebase."
         git rebase --abort 2>/dev/null || true
     }
+    if [ -n "${HAS_LOCAL_CHANGES}" ]; then
+        git stash pop -q 2>/dev/null || true
+    fi
 fi
 
 # 2. Check for sync marker argument (URL or commit message)
@@ -44,7 +51,7 @@ fi
 
 # 3. Read active SYNC.md marker if present
 if [ -f "SYNC.md" ]; then
-    MARKER_URL="$(grep -i "Tunnel URL:" SYNC.md | head -n1 | awk '{print $3}' || true)"
+    MARKER_URL="$(grep -io 'https\?://[^ ]*' SYNC.md | head -n1 || true)"
     if [ -n "${MARKER_URL}" ]; then
         echo "[SYNC MARKER DETECTED] Active Tunnel URL: ${MARKER_URL}"
     fi
