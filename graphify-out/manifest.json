@@ -3126,9 +3126,9 @@
     "semantic_hash": ""
   },
   "youtube-ops/unattended_monitor.js": {
-    "mtime": 1791395281.666399,
-    "seen": 1791395309.3765147,
-    "ast_hash": "a7652f98d79cf57c252431ed5a9a4636",
+    "mtime": 1791477027.146141,
+    "seen": 1791484698.8816814,
+    "ast_hash": "a048c64d0816d2f9a8b19fdf6dcb4d3f",
     "semantic_hash": ""
   },
   "youtube-ops/backlog/ep04_Gobekli_Tepe_Burial_audio.mp3": {
@@ -3396,9 +3396,9 @@
     "semantic_hash": ""
   },
   "CURRENT.md": {
-    "mtime": 1791437888.8843992,
-    "seen": 1791437947.1024144,
-    "ast_hash": "b349db9b4e8c33b4e8866890e4310a8d",
+    "mtime": 1791484655.0449367,
+    "seen": 1791484698.882114,
+    "ast_hash": "abcc480a9f3926971d222f0a8848f960",
     "semantic_hash": ""
   },
   "START-HERE.md": {
@@ -3432,9 +3432,9 @@
     "semantic_hash": ""
   },
   "memory.md": {
-    "mtime": 1791437832.17824,
-    "seen": 1791437947.1025047,
-    "ast_hash": "f7bb726404f86b580c55e2b7955781d7",
+    "mtime": 1791484663.8446822,
+    "seen": 1791484698.882204,
+    "ast_hash": "f1893bee3fe442f143fdc77fcbaf139a",
     "semantic_hash": ""
   },
   "workspaces/agent-harnesses/guide.md": {
@@ -3459,6 +3459,36 @@
     "mtime": 1791437838.870023,
     "seen": 1791437947.1025143,
     "ast_hash": "1ac8fee23cfbcd95fa58db1b18ab5599",
+    "semantic_hash": ""
+  },
+  "youtube-ops/upload_documentary_native_cdp.js": {
+    "mtime": 1791475201.9091027,
+    "seen": 1791475367.1926632,
+    "ast_hash": "3078a4c14a3ae3067d7ded6ade001cf6",
+    "semantic_hash": ""
+  },
+  "youtube-ops/navigate_to_videos.js": {
+    "mtime": 1791475799.8708365,
+    "seen": 1791484698.8816414,
+    "ast_hash": "19dd3b59a03c97900f85a42d6ae59e0c",
+    "semantic_hash": ""
+  },
+  "youtube-ops/strip_all_channel_emojis.js": {
+    "mtime": 1791475500.0277848,
+    "seen": 1791484698.8816757,
+    "ast_hash": "d1f2ec011d51e6bfff301ce0cccfa03c",
+    "semantic_hash": ""
+  },
+  "youtube-ops/test_monitor.js": {
+    "mtime": 1791476042.7988737,
+    "seen": 1791484698.8816795,
+    "ast_hash": "285c0259f06a0ad138dbdf6951cd8014",
+    "semantic_hash": ""
+  },
+  "docs/maverick-intelligence/07_dual_device_bridge_and_harness_integration.md": {
+    "mtime": 1791484645.077225,
+    "seen": 1791484698.882193,
+    "ast_hash": "5b9f7d57527ef2da035ee6f082469615",
     "semantic_hash": ""
   }
 }

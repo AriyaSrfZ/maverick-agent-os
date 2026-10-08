@@ -1,29 +1,29 @@
 # Graph Report - CV  (2026-10-08)
 
 ## Corpus Check
-- 457 files · ~866,066 words
+- 462 files · ~868,512 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 71 file(s) not represented in the graph (top: .csv 37, .vtt 14, (none) 7)
 
 ## Summary
-- 4558 nodes · 5715 edges · 363 communities (318 shown, 45 thin omitted)
+- 4583 nodes · 5740 edges · 380 communities (326 shown, 54 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 77 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `7c32b251`
+- Built from commit: `cfb9b9e1`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- linkedin-marketing/lib/__init__.py
+- linkedin-marketing/lib/backend_selector.py
 - .claude/skills/linkedin-humanizer/scripts/test_detectors.py
 - PixfaroClient
 - CommentShape
-- linkedin-marketing/lib/backend_selector.py
+- _unloaded_token_note
 - PubloraClient
 - ApifyClient
-- linkedin-skills/scripts/selftest.py
+- linkedin-marketing/scripts/selftest.py
 - linkedin-marketing/scripts/check_config.py
 - object
 - run_evals.py
@@ -32,12 +32,12 @@
 - SkillConventions
 - unattended_monitor.js
 - search
-- Any
+- repost
 - 2. Complete 100-Code Catalog
 - SkillContracts
 - ref_fs
 - client_with_spy
-- linkedin-skills/lib/__init__.py
+- linkedin-skills/lib/backend_selector.py
 - PersonalTemplates
 - CommentLimits
 - .client
@@ -52,14 +52,14 @@
 - test_client_behaviour.py
 - BackendDispatch
 - .test_the_run_summary_row_is_dropped
-- design_system.py
+- test_design_system_mode.py
 - UserModelWiring
 - UnpublishLimits
 - EnvironmentVariableNames
 - Framer Motion / Motion Animation Guidelines
 - The $200/Day Prompt Chain (High-Ticket Systems Edition)
 - search_stack
-- repost
+- linkedin-skills/scripts/selftest.py
 - ref_path
 - Supercharging Agents with MCPs and Connectors
 - YouTube Studio Upload Skill (2026 CDP Production Standard)
@@ -70,10 +70,10 @@
 - builders-community-hero.tsx
 - YouTube Studio Upload Skill (2026 CDP Production Standard)
 - validate_data.py
-- linkedin-skills/lib/backend_selector.py
+- find_unloaded_token_file
 - PixfaroClient
 - sanitize_text_and_media.py
-- core.py
+- _search_csv_detailed
 - BM25
 - 3. Proven 2026 Scripting & Hook Blueprints
 - Scrub Rules — V3 Tiered (Regex + Replacements + Density)
@@ -96,7 +96,7 @@
 - AI-Tell Rules: Tier-Classified Reference
 - AI-Tell Rules: Tier-Classified Reference
 - AI-Tell Rules: Tier-Classified Reference
-- .generate
+- run_rotation_automation.js
 - Experience bullets
 - Experience bullets
 - Experience bullets
@@ -104,7 +104,7 @@
 - detect.py
 - humanize.py
 - Maverick OS: Universal File System & Memory Architecture
-- check_markdown_references.py
+- re
 - LinkedIn Employee Advocacy
 - linkedin-skills/scripts/check_config.py
 - LinkedIn Employee Advocacy
@@ -125,12 +125,12 @@
 - 7 Comment Templates (2026)
 - Example Plan — Worked 7-Day LinkedIn Plan
 - LinkedIn Content Planner
-- pathlib
+- core.py
 - LinkedIn Emoji Detector
 - LinkedIn Content Planner
 - LinkedIn Emoji Detector
 - LinkedIn Content Planner
-- search_high_impression_posts.js
+- _style_is_dark_primary
 - LinkedIn Emoji Detector
 - Governance Playbook — What to review, what not to, SLA
 - LinkedIn Reply Handler
@@ -140,7 +140,7 @@
 - Founder Topics — 2026 Edition
 - Governance Playbook — What to review, what not to, SLA
 - LinkedIn Reply Handler
-- test_core.py
+- detect_domain
 - CatalogRefreshTest
 - Question bank
 - LinkedIn Interviewer
@@ -208,7 +208,7 @@
 - LinkedIn Post Writer
 - LinkedIn Profile Optimizer
 - 2. Core Execution Domains
-- send_step2_followups.js
+- linkedin-marketing/lib/_env.py
 - LinkedIn Optimization Audit & Change History
 - Employee Advocacy — Four Operating Principles
 - Thread Timing Matrix
@@ -258,7 +258,7 @@
 - Ponytail Help
 - .agents/skills/youtube-studio-upload/scripts/studio_upload_cdp.js
 - 3 High-Impact LinkedIn Posts (Fully Humanized & 2026-Armored)
-- run_rotation_automation.js
+- ref_http
 - li-carousel
 - li-human
 - li-inbox
@@ -283,7 +283,7 @@
 - Mode 1. Thread monitoring — output spec
 - Mode 2. Engager analytics — output spec
 - Mode 1. Thread monitoring — output spec
-- linkedin-skills/scripts/schedule_post.py
+- active_backend
 - Untrusted content
 - Security Policy
 - Untrusted content
@@ -332,16 +332,16 @@
 - linkedin-marketing/skills/linkedin-post-writer/references/hook-formulas.md
 - workflows/graphify.md
 - linkedin-50-post-masterplan.md
-- update_video_title.js
+- generate_design_system
 - Playwright & CDP Automation Skill
 - Supported AI Detectors
-- parse_linkedin_url
+- linkedin-skills/lib/url_parser.py
 - _palette_is_dark
 - .score
 - optimize_existing_video.js
 - verify_channel.js
-- parse_linkedin_url
-- _filter_anti_patterns_for_mode
+- linkedin-marketing/lib/url_parser.py
+- linkedin-skills/scripts/check_frontmatter.py
 - advance_to_visibility_and_publish.js
 - Playwright & CDP Automation Skill
 - DemoMode
@@ -349,15 +349,15 @@
 - dump_all_transcripts.js
 - schedule_drafts.js
 - extract_youtube_transcripts.js
-- illustrate
-- TestGeneratedCatalogContract
+- generate_short.py
+- Dual-Device Bridge & Local Harness Integration Blueprint
 - test_draft_click.js
-- test_text_layout_resilience.py
-- test_detector_tool.py
+- TestTextLayoutDataContracts
+- TestThresholdGate
 - TestFixtureValidation
 - diagnose_draft.js
 - inspect_edit_draft.js
-- fetch_all_video_transcripts.js
+- TestNativeDesktopStackFreshness
 - os
 - CURRENT.md — Live Operational State & Session Snapshot
 - argparse
@@ -370,12 +370,29 @@
 - LinkedIn Autonomous Engine — Domain Guide
 - Maverick Intelligence & Prompts — Domain Guide
 - YouTube Operations & Media Council — Domain Guide
-- manual_mode_message
-- _retry
+- publish
+- TestStyleTaxonomy
 - CLAUDE.md — Claude Code Harness Adapter
-- decorator
-- decorator
+- _normalize
+- _row_identities
 - session_sync.sh
+- sync_codex_marketplace.py
+- _filter_anti_patterns_for_mode
+- TestLandingAndStackContract
+- TestMetricMath
+- fetch_all_video_transcripts.js
+- linkedin-skills/lib/approval.py
+- _suggest_terms
+- _retry
+- ApiDetectorsAreNotCalled
+- TestDiagnosticsContracts
+- TestTextLayoutRetrieval
+- send_accepted_followups.js
+- update_channel_info.js
+- signup_nudge
+- update_video_title.js
+- signup_nudge
+- ref_https
 
 ## God Nodes (most connected - your core abstractions)
 1. `playwright` - 88 edges
@@ -404,39 +421,39 @@
 ## Import Cycles
 - None detected.
 
-## Communities (363 total, 45 thin omitted)
+## Communities (380 total, 54 thin omitted)
 
-### Community 0 - "linkedin-marketing/lib/__init__.py"
-Cohesion: 0.15
-Nodes (24): available_models(), available_templates(), brand_logo(), card(), illustrate(), illustrate_set(), image_backend(), _image_result() (+16 more)
+### Community 0 - "linkedin-marketing/lib/backend_selector.py"
+Cohesion: 0.11
+Nodes (38): active_backend(), available_models(), available_templates(), brand_logo(), card(), fetch_post(), illustrate(), illustrate_set() (+30 more)
 
 ### Community 1 - ".claude/skills/linkedin-humanizer/scripts/test_detectors.py"
 Cohesion: 0.08
 Nodes (49): detect_copyleaks(), detect_gptzero(), detect_manual(), detect_originality(), detect_sapling(), detect_zerogpt(), DetectorResult, main() (+41 more)
 
 ### Community 2 - "PixfaroClient"
-Cohesion: 0.16
-Nodes (15): PixfaroClient, PixfaroError, Any, Response, RuntimeError, Generate one illustration. Returns {id, url, cost, balance_after}. `overlay` is…, Iteratively edit a prior generation. Returns {id, url, cost, ...}. `image_id`…, GET /v1/key — verify the configured key (any scope, free). Returns {key: {name,… (+7 more)
+Cohesion: 0.15
+Nodes (16): PixfaroClient, PixfaroError, Any, Response, RuntimeError, Generate one illustration. Returns {id, url, cost, balance_after}. `overlay` is…, Iteratively edit a prior generation. Returns {id, url, cost, ...}. `image_id`…, GET /v1/key — verify the configured key (any scope, free). Returns {key: {name,… (+8 more)
 
 ### Community 3 - "CommentShape"
 Cohesion: 0.04
 Nodes (24): CommentShape, CommentUrnForms, EngagerShape, load(), PostShape, ProfileCommentShape, Read by engager-analytics, which segments by ICP fit., The skill documents `type` as "commenters" | "likers". The client stamps it per… (+16 more)
 
-### Community 4 - "linkedin-marketing/lib/backend_selector.py"
-Cohesion: 0.13
-Nodes (19): manual_card_message(), manual_edit_message(), manual_illustration_message(), Detect which publishing backend is configured and format user-facing messages.…, One-liner to drop into skill outputs when we want to remind the user that…, The case that looked exactly like "no key": a .env in the expected place DOES…, One line telling the user how to prove the key works, from the same folder., Shown when no Pixfaro key is set: hand the drafted prompt to the user. (+11 more)
+### Community 4 - "_unloaded_token_note"
+Cohesion: 0.25
+Nodes (8): manual_edit_message(), manual_illustration_message(), The case that looked exactly like "no key": a .env in the expected place DOES…, One line telling the user how to prove the key works, from the same folder., Shown when no Pixfaro key is set: hand the drafted prompt to the user., Shown when no Pixfaro key is set and the user asks to edit an image., _unloaded_token_note(), _verify_note()
 
 ### Community 5 - "PubloraClient"
 Cohesion: 0.13
 Nodes (15): PubloraClient, PubloraError, Any, Response, RuntimeError, Post a LinkedIn comment (top-level) or a reply (parent_comment set). Args:…, Create a cross-platform post. `platforms` is a list of platform connection ID…, Every channel this key can post to, with its `platformId`. The id is the second… (+7 more)
 
 ### Community 6 - "ApifyClient"
-Cohesion: 0.19
-Nodes (9): ApifyClient, ApifyError, Any, RuntimeError, Return the post body, author, and engagement stats for one post. Args:…, Flatten apimaestro/linkedin-post-detail's nested response to the flat post…, Return comments and their replies on a post. Args: post_id: Activity ID,…, Return a user's most recent comments across LinkedIn. `result_limit` is clamped… (+1 more)
+Cohesion: 0.16
+Nodes (11): ApifyClient, ApifyError, Any, RuntimeError, Return the post body, author, and engagement stats for one post. Args:…, Flatten apimaestro/linkedin-post-detail's nested response to the flat post…, Return comments and their replies on a post. Args: post_id: Activity ID,…, Return a user's most recent comments across LinkedIn. `result_limit` is clamped… (+3 more)
 
-### Community 7 - "linkedin-skills/scripts/selftest.py"
-Cohesion: 0.08
-Nodes (31): main(), Phase, phase_accounts(), phase_coverage(), phase_install(), phase_live(), phase_tests(), probe() (+23 more)
+### Community 7 - "linkedin-marketing/scripts/selftest.py"
+Cohesion: 0.22
+Nodes (12): main(), Phase, phase_accounts(), phase_coverage(), phase_install(), phase_live(), phase_tests(), probe() (+4 more)
 
 ### Community 8 - "linkedin-marketing/scripts/check_config.py"
 Cohesion: 0.18
@@ -452,7 +469,7 @@ Nodes (20): ask(), case_engagers_no_fabrication(), case_hook_formula(), case_hum
 
 ### Community 11 - "playwright"
 Cohesion: 0.02
-Nodes (48): { chromium }, { chromium }, { chromium }, targets, { chromium }, { chromium }, { chromium }, { chromium } (+40 more)
+Nodes (49): { chromium }, { chromium }, { chromium }, targets, { chromium }, { chromium }, { chromium }, { chromium } (+41 more)
 
 ### Community 12 - "linkedin-skills/scripts/check_actor_inputs.py"
 Cohesion: 0.17
@@ -463,16 +480,16 @@ Cohesion: 0.06
 Nodes (18): CrossReferences, frontmatter(), HookFormulas, markdown(), PlatformLimits, Path, What the skills tell the agent about LinkedIn, against what Publora reports. A…, linkedin-post-writer offers multi-image grids; the ceiling is 10. (+10 more)
 
 ### Community 14 - "unattended_monitor.js"
-Cohesion: 0.22
-Nodes (12): ref_https, cdpEval(), ensureChrome(), { execSync }, fs, getJson(), http, https (+4 more)
+Cohesion: 0.29
+Nodes (9): ensureChrome(), { execSync }, fs, getJson(), http, log(), LOG_FILE, path (+1 more)
 
 ### Community 15 - "search"
-Cohesion: 0.11
-Nodes (8): _project_row(), Resolve a deprecated in-domain alias, or expose a cross-domain redirect., Main search function with auto-domain detection, search(), _style_search_destination(), TestSearchDomains, read_rows(), TestStyleTaxonomy
+Cohesion: 0.21
+Nodes (5): Resolve a deprecated in-domain alias, or expose a cross-domain redirect., Main search function with auto-domain detection, search(), _style_search_destination(), TestSearchDomains
 
-### Community 16 - "Any"
-Cohesion: 0.15
-Nodes (17): active_backend(), fetch_post(), manual_reshare_message(), publish(), Any, BackendName, PublishKind, Cancel a draft or scheduled post before it goes out. The counterpart to… (+9 more)
+### Community 16 - "repost"
+Cohesion: 0.33
+Nodes (6): fetch_post(), Fetch a LinkedIn post body via Apify, or return None if unavailable. Skills…, Reshare an existing LinkedIn post via the active backend. Resolves the reshare…, Pick the reshare `parent` URN from an Apify `fetch_post` payload. The reshare…, repost(), resolve_reshare_parent()
 
 ### Community 17 - "2. Complete 100-Code Catalog"
 Cohesion: 0.15
@@ -490,9 +507,9 @@ Nodes (29): { chromium }, fs, targets, { chromium }, fs, proptechTargets, { chro
 Cohesion: 0.29
 Nodes (5): client_with_spy(), EngagerBudget, An ApifyClient whose actor runs are recorded instead of made., `type` is required and defaults to likers, so omitting it returned likers only…, max_items is the total across audiences, so asking for both costs the same as…
 
-### Community 21 - "linkedin-skills/lib/__init__.py"
-Cohesion: 0.13
-Nodes (20): Approval gate helpers. Every skill that posts to LinkedIn MUST present a draft…, Format a standardized approval card for the user to review. The card MUST…, render_approval_card(), available_models(), available_templates(), brand_logo(), card(), image_backend() (+12 more)
+### Community 21 - "linkedin-skills/lib/backend_selector.py"
+Cohesion: 0.14
+Nodes (28): available_models(), available_templates(), brand_logo(), card(), illustrate(), illustrate_set(), image_backend(), _image_result() (+20 more)
 
 ### Community 22 - "PersonalTemplates"
 Cohesion: 0.20
@@ -542,9 +559,9 @@ Nodes (3): BackendDispatch, Which layer answers, given what is configured. No ke
 Cohesion: 0.29
 Nodes (3): spy(), Rows come out of an LRU cache. Stamping `type` onto them in place would poison…, The actor appends {"summary": {...}} to the dataset, and returns it alone when…
 
-### Community 36 - "design_system.py"
-Cohesion: 0.05
-Nodes (49): ansi_ljust(), _button_outline_text_color(), _contrast_ratio(), _derive_dark_palette(), _detect_page_type(), format_ascii_box(), add_wrapped(), wrap_text() (+41 more)
+### Community 36 - "test_design_system_mode.py"
+Cohesion: 0.13
+Nodes (17): ansi_ljust(), format_ascii_box(), add_wrapped(), wrap_text(), format_markdown(), hex_to_ansi(), _mode_support_labels(), Light/dark support labels that agree with the product's anti-patterns. A light… (+9 more)
 
 ### Community 37 - "UserModelWiring"
 Cohesion: 0.38
@@ -563,12 +580,12 @@ Cohesion: 0.15
 Nodes (12): 1. Ground Rules for the Chain, 2. Context Injection Block (Tailored for Ariya Sarrafzadeh), 3. The 4 Core Prompts, 4-Step Socratic Progression for Technical Product Owners & Systems Architects, 4. The Scale-Up Prompts (Post-Validation), Prompt 1: The High-Signal Offer & Single Channel, Prompt 2: Reverse-Engineer the Market Blueprint, Prompt 3: The 7-Day Zero-Overhead Action Plan (+4 more)
 
 ### Community 42 - "search_stack"
-Cohesion: 0.10
-Nodes (10): _exact_stack_identifier(), Resolve a standalone API identifier even when its BM25 IDF is low., Search stack-specific guidelines, search_stack(), _valid_max_results(), _rows(), TestNativeDesktopStackFreshness, Freshness and generation-isolation contracts for web stack guidance. (+2 more)
+Cohesion: 0.14
+Nodes (8): _exact_stack_identifier(), _project_row(), Resolve a standalone API identifier even when its BM25 IDF is low., Search stack-specific guidelines, search_stack(), _valid_max_results(), _rows(), TestWebStackFreshness
 
-### Community 43 - "repost"
-Cohesion: 0.18
-Nodes (11): active_backend(), fetch_post(), BackendName, Cancel a draft or scheduled post before it goes out. The counterpart to…, Fetch a LinkedIn post body via Apify, or return None if unavailable. Skills…, Reshare an existing LinkedIn post via the active backend. Resolves the reshare…, Pick the reshare `parent` URN from an Apify `fetch_post` payload. The reshare…, Return the active publishing backend. Priority: publora > diy > manual. Users… (+3 more)
+### Community 43 - "linkedin-skills/scripts/selftest.py"
+Cohesion: 0.22
+Nodes (12): main(), Phase, phase_accounts(), phase_coverage(), phase_install(), phase_live(), phase_tests(), probe() (+4 more)
 
 ### Community 44 - "ref_path"
 Cohesion: 0.08
@@ -587,8 +604,8 @@ Cohesion: 0.20
 Nodes (9): 1. GPTZero, 2. Originality.ai, 3. ZeroGPT, 5. Copyleaks, Contents, Optional / extended detectors, Quick stats to drop in a reply, Supported AI Detectors (+1 more)
 
 ### Community 48 - "DesignSystemGenerator"
-Cohesion: 0.21
-Nodes (4): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., TestReasoningMatch
+Cohesion: 0.10
+Nodes (12): DesignSystemGenerator, Generates design system recommendations from aggregated searches., Load reasoning rules from CSV., Execute searches across multiple domains., Find matching reasoning rule for a category., Apply reasoning rules to search results., Select best matching result based on priority keywords., Extract results list from search result dict. (+4 more)
 
 ### Community 49 - "1. The 3-Layer Anatomy of AI Watermarks"
 Cohesion: 0.20
@@ -608,23 +625,23 @@ Nodes (12): 1. Why Standard Browser Automation Fails on YouTube Studio, 2. Produ
 
 ### Community 53 - "validate_data.py"
 Cohesion: 0.07
-Nodes (50): Semantic quality contracts for the core UI/UX datasets., read_rows(), TestAccessibilityGuidance, TestChartsTypographyAndIcons, TestCurrentReactGuidance, TestSemanticColors, _catalog_date(), _check_app_interface_contract() (+42 more)
+Nodes (49): Semantic quality contracts for the core UI/UX datasets., read_rows(), TestAccessibilityGuidance, TestChartsTypographyAndIcons, TestCurrentReactGuidance, TestSemanticColors, _catalog_date(), _check_app_interface_contract() (+41 more)
 
-### Community 54 - "linkedin-skills/lib/backend_selector.py"
+### Community 54 - "find_unloaded_token_file"
 Cohesion: 0.14
-Nodes (18): manual_card_message(), manual_edit_message(), manual_illustration_message(), Detect which publishing backend is configured and format user-facing messages.…, One-liner to drop into skill outputs when we want to remind the user that…, The case that looked exactly like "no key": a .env in the expected place DOES…, One line telling the user how to prove the key works, from the same folder., Shown when no Pixfaro key is set: hand the drafted prompt to the user. (+10 more)
+Nodes (15): manual_card_message(), manual_edit_message(), manual_illustration_message(), The case that looked exactly like "no key": a .env in the expected place DOES…, One line telling the user how to prove the key works, from the same folder., Shown when no Pixfaro key is set: hand the drafted prompt to the user., Shown when no Pixfaro key is set and the user asks to edit an image., Shown when no Pixfaro key is set and the user asks for a card. (+7 more)
 
 ### Community 56 - "PixfaroClient"
-Cohesion: 0.16
-Nodes (15): PixfaroClient, PixfaroError, Any, Response, RuntimeError, Generate one illustration. Returns {id, url, cost, balance_after}. `overlay` is…, Iteratively edit a prior generation. Returns {id, url, cost, ...}. `image_id`…, GET /v1/key — verify the configured key (any scope, free). Returns {key: {name,… (+7 more)
+Cohesion: 0.15
+Nodes (16): PixfaroClient, PixfaroError, Any, Response, RuntimeError, Generate one illustration. Returns {id, url, cost, balance_after}. `overlay` is…, Iteratively edit a prior generation. Returns {id, url, cost, ...}. `image_id`…, GET /v1/key — verify the configured key (any scope, free). Returns {key: {name,… (+8 more)
 
 ### Community 57 - "sanitize_text_and_media.py"
 Cohesion: 0.27
 Nodes (9): pil, main(), Autonomous Sanitization Engine (Text, Image & PDF) Implements Maverick AI De-…, Strips invisible characters, normalizes dashes, and flags slop words., Strips all EXIF, XMP, and C2PA metadata from image by re-encoding pixel buffer., Strips /Metadata, /PieceInfo, /Creator, /Producer from PDF file safely using…, sanitize_image(), sanitize_pdf() (+1 more)
 
-### Community 58 - "core.py"
-Cohesion: 0.07
-Nodes (42): _contains_phrase(), _domain_keywords(), _exact_match_diagnostic(), _exact_row_identity(), _file_signature(), _get_bm25(), _legacy_successor_guidance(), _load_csv() (+34 more)
+### Community 58 - "_search_csv_detailed"
+Cohesion: 0.12
+Nodes (19): _contains_phrase(), _domain_keywords(), _file_signature(), _get_bm25(), _load_csv(), _load_csv_snapshot(), _load_product_keywords(), _load_rows_or_empty() (+11 more)
 
 ### Community 59 - "BM25"
 Cohesion: 0.27
@@ -671,8 +688,8 @@ Cohesion: 0.07
 Nodes (28): 1. Detectors are not the target, 2. Vocabulary: density, not deletion, 3. Em dash: capped, not banned, 4. Rule of three: still a tell, at density, 5. Burstiness: restore, do not force, 6. Fingerprints: concreteness yes, confession no, 7. Over-correction is the new tell, Citations (+20 more)
 
 ### Community 70 - "read_rows"
-Cohesion: 0.18
-Nodes (3): read_rows(), TestLandingAndStackContract, TestReasoningContract
+Cohesion: 0.14
+Nodes (8): _object_without_duplicates(), parse_decision_rules(), Parse the canonical condition -> action-array representation., _validate_action(), read_rows(), TestGeneratedCatalogContract, TestReasoningContract, _check_reasoning_contract()
 
 ### Community 71 - "3-Pillar Content Framework"
 Cohesion: 0.07
@@ -691,8 +708,8 @@ Cohesion: 0.07
 Nodes (27): 0-1,000 followers, 10,000+ followers, 1,000-10,000 followers, 1. Authority / Expertise (40-50% of posts), 2. Personal Narrative (30-40%), 3. Community / Engagement (20-30%), 3-Pillar Content Framework, 4. Product / Offer (10-15%, optional) (+19 more)
 
 ### Community 75 - "ApifyClient"
-Cohesion: 0.16
-Nodes (11): ApifyClient, ApifyError, Any, RuntimeError, Return the post body, author, and engagement stats for one post. Args:…, Flatten apimaestro/linkedin-post-detail's nested response to the flat post…, Return comments and their replies on a post. Args: post_id: Activity ID,…, Return a user's most recent comments across LinkedIn. `result_limit` is clamped… (+3 more)
+Cohesion: 0.19
+Nodes (9): ApifyClient, ApifyError, Any, RuntimeError, Return the post body, author, and engagement stats for one post. Args:…, Flatten apimaestro/linkedin-post-detail's nested response to the flat post…, Return comments and their replies on a post. Args: post_id: Activity ID,…, Return a user's most recent comments across LinkedIn. `result_limit` is clamped… (+1 more)
 
 ### Community 76 - "2026 LinkedIn Posting Heuristics"
 Cohesion: 0.08
@@ -714,9 +731,9 @@ Nodes (22): AI-Tell Rules: Tier-Classified Reference, Contents, Key citations, R
 Cohesion: 0.09
 Nodes (22): AI-Tell Rules: Tier-Classified Reference, Contents, Key citations, Rule 10. Negative parallelism: "X isn't Y, it's Z", Rule 11. Em dashes - single use, Rule 12. Rule of three, Rule 13. Passive voice, Rule 14. AI vocabulary: "robust" (+14 more)
 
-### Community 81 - ".generate"
-Cohesion: 0.14
-Nodes (8): Execute searches across multiple domains., Find matching reasoning rule for a category., Apply reasoning rules to search results., Select best matching result based on priority keywords., Extract results list from search result dict., Generate complete design system recommendation. variance/motion/density are…, Bucket a 1-10 dial value into its tier config. Returns None if value is None., _resolve_dial()
+### Community 81 - "run_rotation_automation.js"
+Cohesion: 0.13
+Nodes (12): ref_child_process, { chromium }, fs, http, { spawn }, { chromium }, fs, getPostedHistory() (+4 more)
 
 ### Community 82 - "Experience bullets"
 Cohesion: 0.09
@@ -746,17 +763,17 @@ Nodes (17): _cp(), humanize(), load_lexicon(), main(), _match_case(), pass_invis
 Cohesion: 0.17
 Nodes (11): 1. Architectural Philosophy, 2. Directory Hierarchy, 3. The Canonical File Definitions, 4. The Mandatory Save-at-Completion Rule, 5. Cross-Harness Interoperability Matrix, A. `AGENTS.md` (The Universal Rulebook), B. `CURRENT.md` (The Live Operational Snapshot), C. `memory.md` (The Chronological Ledger) (+3 more)
 
-### Community 89 - "check_markdown_references.py"
-Cohesion: 0.43
-Nodes (6): documents(), main(), Path, Check Markdown references declared by skill documents. Every backticked path…, Root SKILL.md, shared root references, and everything under skills/., resolves()
+### Community 89 - "re"
+Cohesion: 0.08
+Nodes (22): main(), Fail if a credential, or a file that holds one, is tracked by git. `.gitignore`…, tracked_files(), documents(), main(), Path, Check Markdown references declared by skill documents. Every backticked path…, Root SKILL.md, shared root references, and everything under skills/. (+14 more)
 
 ### Community 90 - "LinkedIn Employee Advocacy"
 Cohesion: 0.10
 Nodes (19): 14-day launch playbook, Anti-patterns, Benchmarks, Business metrics (pipeline impact), Days 11-14: Rhythm lock, Days 1-3: Voice capture, Days 4-7: First posts, Days 8-10: Ideation pipeline (+11 more)
 
 ### Community 91 - "linkedin-skills/scripts/check_config.py"
-Cohesion: 0.18
-Nodes (16): check_apify(), check_backends(), check_environment(), check_pixfaro(), check_publora(), main(), run(), mask() (+8 more)
+Cohesion: 0.20
+Nodes (14): check_apify(), check_environment(), check_pixfaro(), check_publora(), main(), run(), mask(), Diagnose the optional credential layers (Apify, Publora, Pixfaro). Every layer… (+6 more)
 
 ### Community 92 - "LinkedIn Employee Advocacy"
 Cohesion: 0.10
@@ -795,8 +812,8 @@ Cohesion: 0.12
 Nodes (16): 4x/week starter cadence, 5x/week scaling cadence, 7-Day Calendar, Contents, CTA Type Vocabulary, Daily Comment Targets, Example Plan — Worked 7-Day LinkedIn Plan, Inputs (+8 more)
 
 ### Community 101 - "typing"
-Cohesion: 0.13
-Nodes (22): Thin Apify client for the LinkedIn Skills project. Replaces the previous…, load_env(), loaded_env_paths(), Internal helper to load .env when python-dotenv is available., The .env files `load_env` actually read (empty when python-dotenv is missing)., Load environment variables from .env if python-dotenv is installed. Safe no-op…, Thin Pixfaro client for the LinkedIn Skills project. Image layer (illustration…, Thin Publora REST client for the LinkedIn Skills project. Wraps the Publora API… (+14 more)
+Cohesion: 0.17
+Nodes (17): Thin Apify client for the LinkedIn Skills project. Replaces the previous…, load_env(), loaded_env_paths(), Internal helper to load .env when python-dotenv is available., The .env files `load_env` actually read (empty when python-dotenv is missing)., Load environment variables from .env if python-dotenv is installed. Safe no-op…, Thin Pixfaro client for the LinkedIn Skills project. Image layer (illustration…, Thin Publora REST client for the LinkedIn Skills project. Wraps the Publora API… (+9 more)
 
 ### Community 102 - "LinkedIn Marketing Skills for Claude Code and Codex"
 Cohesion: 0.12
@@ -826,9 +843,9 @@ Nodes (16): 4x/week starter cadence, 5x/week scaling cadence, 7-Day Calendar, Co
 Cohesion: 0.12
 Nodes (15): 7-day calendar, Daily comment targets, Example, Files, Formula → pillar mapping, Founders edition (alternative pillar set), Goal mix (balance the week, not just the pillars), Input (+7 more)
 
-### Community 110 - "pathlib"
-Cohesion: 0.04
-Nodes (57): build_parent_comment_urn(), LinkedIn URL → URN parser. Handles three common shapes: 1. Post URL (from "Copy…, Format a parentComment URN given a post URN and the top-level comment id.…, declared_skill_count(), documents(), main(), Path, Parse every SKILL.md frontmatter with a strict YAML loader. Counting… (+49 more)
+### Community 110 - "core.py"
+Cohesion: 0.08
+Nodes (37): load_tool(), The one runnable tool inside the skills, which had no tests at all.…, The tool lives outside any package, so it is loaded by path. It has to be…, The instructions are the product; this checks the parts of them a machine can.…, The fields we read back from Publora must be the ones it actually returns. The…, The fields the skills actually read must be present in real responses. Fixtures…, UI/UX Pro Max Core - BM25 search engine for UI/UX style guides, Design System Generator - Aggregates search results and applies reasoning to… (+29 more)
 
 ### Community 111 - "LinkedIn Emoji Detector"
 Cohesion: 0.12
@@ -845,6 +862,10 @@ Nodes (15): Example, Files, Input, `--lenient`, LinkedIn Emoji Detector, Mode 1 
 ### Community 114 - "LinkedIn Content Planner"
 Cohesion: 0.12
 Nodes (15): 7-day calendar, Daily comment targets, Example, Files, Formula → pillar mapping, Founders edition (alternative pillar set), Goal mix (balance the week, not just the pillars), Input (+7 more)
+
+### Community 115 - "_style_is_dark_primary"
+Cohesion: 0.21
+Nodes (7): _query_wants_dark(), True when a styles.csv row describes itself as dark-first., True when the query explicitly asks for a dark theme., Resolve the mode the rest of the output has to agree with., _resolve_color_mode(), _style_is_dark_primary(), TestModeResolution
 
 ### Community 116 - "LinkedIn Emoji Detector"
 Cohesion: 0.12
@@ -882,9 +903,9 @@ Nodes (14): Bypass for incidents, Contents, Core principle: review the risk surf
 Cohesion: 0.13
 Nodes (14): Examples, Files, Hard rules, Input, LinkedIn Reply Handler, Output, Related skills, Reshare gotcha (whole-thread mode) (+6 more)
 
-### Community 125 - "test_core.py"
-Cohesion: 0.12
-Nodes (8): Offline tests for Pixfaro client behavior. These tests protect the client-side…, detect_domain(), Auto-detect the most relevant domain from query. Matches are weighted by…, Stdlib-only regression tests for core.py / design_system.py (unittest, not…, TestDiagnosticsContracts, TestDomainDetection, ambiguous_python_import_6f71025f08c8, unittest_mock
+### Community 125 - "detect_domain"
+Cohesion: 0.23
+Nodes (3): detect_domain(), Auto-detect the most relevant domain from query. Matches are weighted by…, TestDomainDetection
 
 ### Community 127 - "Question bank"
 Cohesion: 0.14
@@ -1150,6 +1171,10 @@ Nodes (10): Hard rules, Input, Key benchmarks (from co.actor research), LinkedIn
 Cohesion: 0.20
 Nodes (9): 1. Quick Orientation Map, 2. Core Execution Domains, 3. Daily Habit: Cross-Harness Workflow, Autonomous Multi-Harness Operating System & Intelligence Engine, Domain 1: LinkedIn Autonomous Acquisition & Authority Engine, Domain 2: YouTube Faceless Media Council, Domain 3: Multi-Agent Harnesses & Skills Matrix, Domain 4: Maverick AI Intelligence Suite (+1 more)
 
+### Community 193 - "linkedin-marketing/lib/_env.py"
+Cohesion: 0.20
+Nodes (10): env_candidates(), find_unloaded_token_file(), load_env(), loaded_env_paths(), Path, Internal helper to load .env when python-dotenv is available., Where `load_env` looks, in order: upward from the cwd, then the repo root (this…, The .env files `load_env` actually read (empty when python-dotenv is missing). (+2 more)
+
 ### Community 194 - "LinkedIn Optimization Audit & Change History"
 Cohesion: 0.18
 Nodes (10): 1. Section: Headline, 2. Section: About, 3. Services Section Optimization (Applied & Verified), 4. Published Post 1: 3D Financial Reconciliation (Applied & Verified), 5. Strategic Engagement & Analytical Comments (Applied & Verified), After (To):, After (To):, Before (From): (+2 more)
@@ -1346,9 +1371,9 @@ Nodes (7): cdpClick(), { chromium }, fs, parseArgs(), path, robustEval(), upload
 Cohesion: 0.25
 Nodes (7): 3 High-Impact LinkedIn Posts (Fully Humanized & 2026-Armored), Post 1: Deep Technical Authority (Fintech Architecture & Ledger Integrity), Post 2: Battlefield Narrative (Regulatory Defense & Incident Command), Post 3: Strategic Execution & Greenfield Velocity (Product Leadership), Post Body:, Post Body:, Post Body:
 
-### Community 243 - "run_rotation_automation.js"
+### Community 243 - "ref_http"
 Cohesion: 0.09
-Nodes (21): ref_child_process, ref_http, { chromium }, fs, http, { spawn }, { chromium }, fs (+13 more)
+Nodes (19): ref_http, http, run(), sleep(), UPDATES, http, cleanAll(), http (+11 more)
 
 ### Community 244 - "li-carousel"
 Cohesion: 0.29
@@ -1446,9 +1471,9 @@ Nodes (5): Action lists, Engager roster, Example run, Mode 2. Engager analytics 
 Cohesion: 0.33
 Nodes (5): Daily report, Example run, For each warm thread, Mode 1. Thread monitoring — output spec, Weekly roll-up
 
-### Community 268 - "linkedin-skills/scripts/schedule_post.py"
-Cohesion: 0.48
-Nodes (6): main(), datetime, CLI: schedule an approved LinkedIn post via Publora at 10:00 local time. Usage:…, Today's 10:00 slot in `now`'s timezone, or now+5min if that has passed., selftest(), slot()
+### Community 268 - "active_backend"
+Cohesion: 0.23
+Nodes (11): active_backend(), BackendName, Return the active publishing backend. Priority: publora > diy > manual. Users…, check_backends(), What the skills will actually do, straight from the selector itself., main(), datetime, CLI: schedule an approved LinkedIn post via Publora at 10:00 local time. Usage:… (+3 more)
 
 ### Community 269 - "Untrusted content"
 Cohesion: 0.40
@@ -1479,8 +1504,8 @@ Cohesion: 0.40
 Nodes (4): Boundaries, Examples, Format, Scoring
 
 ### Community 276 - "_select_palette_for_mode"
-Cohesion: 0.39
-Nodes (3): Pick the highest-ranked palette matching the resolved mode. Only the dark case…, _select_palette_for_mode(), TestPaletteSelection
+Cohesion: 0.15
+Nodes (11): _button_outline_text_color(), _contrast_ratio(), _derive_dark_palette(), format_master_md(), Format design system as MASTER.md with hierarchical override logic., WCAG contrast ratio for two hex colors, or None if either is invalid., Keep product brand tokens while deriving accessible dark surfaces., Pick the highest-ranked palette matching the resolved mode. Only the dark case… (+3 more)
 
 ### Community 277 - "upload_and_schedule.js"
 Cohesion: 0.40
@@ -1538,6 +1563,10 @@ Nodes (9): 1. The 6-Titan Council Roster, 2. Daily Operational Workflow (The Dai
 Cohesion: 0.53
 Nodes (5): cdpClick(), { chromium }, main(), publishDraft(), robustEval()
 
+### Community 319 - "generate_design_system"
+Cohesion: 0.11
+Nodes (16): _detect_page_type(), format_page_override_md(), generate_design_system(), _generate_intelligent_overrides(), persist_design_system(), Path, Persist design system to design-system/<project>/ folder using Master +…, Format a page-specific override file with intelligent AI-generated content. (+8 more)
+
 ### Community 320 - "Playwright & CDP Automation Skill"
 Cohesion: 0.40
 Nodes (4): 1. Core Principles, 2. Standard Pattern: Connecting to Existing Browser via CDP, 3. Handling Complex Web Components & Shadow DOM, Playwright & CDP Automation Skill
@@ -1546,9 +1575,9 @@ Nodes (4): 1. Core Principles, 2. Standard Pattern: Connecting to Existing Brows
 Cohesion: 0.20
 Nodes (9): 1. GPTZero, 2. Originality.ai, 3. ZeroGPT, 5. Copyleaks, Contents, Optional / extended detectors, Quick stats to drop in a reply, Supported AI Detectors (+1 more)
 
-### Community 322 - "parse_linkedin_url"
-Cohesion: 0.50
-Nodes (4): parse_linkedin_url(), ParsedLinkedInUrl, TypedDict, Parse any LinkedIn post or comment URL into structured URNs. >>> p =…
+### Community 322 - "linkedin-skills/lib/url_parser.py"
+Cohesion: 0.29
+Nodes (7): build_parent_comment_urn(), parse_linkedin_url(), ParsedLinkedInUrl, TypedDict, LinkedIn URL → URN parser. Handles three common shapes: 1. Post URL (from "Copy…, Format a parentComment URN given a post URN and the top-level comment id.…, Parse any LinkedIn post or comment URL into structured URNs. >>> p =…
 
 ### Community 323 - "_palette_is_dark"
 Cohesion: 0.18
@@ -1566,13 +1595,13 @@ Nodes (3): { chromium }, main(), robustEvaluate()
 Cohesion: 0.67
 Nodes (3): { chromium }, main(), robustEvaluate()
 
-### Community 327 - "parse_linkedin_url"
-Cohesion: 0.50
-Nodes (4): parse_linkedin_url(), ParsedLinkedInUrl, TypedDict, Parse any LinkedIn post or comment URL into structured URNs. >>> p =…
+### Community 327 - "linkedin-marketing/lib/url_parser.py"
+Cohesion: 0.29
+Nodes (7): build_parent_comment_urn(), parse_linkedin_url(), ParsedLinkedInUrl, TypedDict, LinkedIn URL → URN parser. Handles three common shapes: 1. Post URL (from "Copy…, Format a parentComment URN given a post URN and the top-level comment id.…, Parse any LinkedIn post or comment URL into structured URNs. >>> p =…
 
-### Community 328 - "_filter_anti_patterns_for_mode"
-Cohesion: 0.43
-Nodes (3): _filter_anti_patterns_for_mode(), Drop "avoid dark mode" advice once dark mode is the resolved answer., TestAntiPatternGating
+### Community 328 - "linkedin-skills/scripts/check_frontmatter.py"
+Cohesion: 0.17
+Nodes (13): declared_skill_count(), documents(), main(), Path, Parse every SKILL.md frontmatter with a strict YAML loader. Counting…, The skill count the plugin manifest publishes, from its description., declared_skill_count(), documents() (+5 more)
 
 ### Community 329 - "advance_to_visibility_and_publish.js"
 Cohesion: 0.60
@@ -1602,21 +1631,17 @@ Nodes (4): { chromium }, main(), robustEval(), scheduleDraft()
 Cohesion: 0.40
 Nodes (5): { chromium }, extractVideo(), fs, main(), videoUrls
 
-### Community 336 - "illustrate"
-Cohesion: 0.33
-Nodes (6): illustrate(), illustrate_set(), _image_result(), Shape a Pixfaro generate/edit response + attach the cost-guard flag., Generate an illustration via the active image backend. This is the image…, Generate several illustrations for a LinkedIn multi-image grid post. LinkedIn…
+### Community 336 - "generate_short.py"
+Cohesion: 0.27
+Nodes (10): main(), Cinematic Short Assembler Assembles 9:16 high-res stills with documentary…, render_scene_clip(), check_binaries(), create_placeholder_video(), generate_voice_and_subtitles(), main(), YouTube Short Generator (Anti-Flag Hybrid Commentary Council Engine) - Zero-… (+2 more)
+
+### Community 337 - "Dual-Device Bridge & Local Harness Integration Blueprint"
+Cohesion: 0.18
+Nodes (10): 1. The Token Conservation Reality, 2. Bridging Work PC and Home PC (Censorship & NAT Resilient), 3. Configuring Codex CLI with OmniRoute, 4. Configuring Claude Code with OmniRoute, 5. Ingesting Gemini Chat Memories, Dual-Device Bridge & Local Harness Integration Blueprint, Step 1: Environment Variables, Step 2: Codex Configuration (`~/.codex/config.toml`) (+2 more)
 
 ### Community 338 - "test_draft_click.js"
 Cohesion: 0.67
 Nodes (3): { chromium }, robustEval(), run()
-
-### Community 339 - "test_text_layout_resilience.py"
-Cohesion: 0.20
-Nodes (4): Canonical regression contracts for resilient UI text layouts., read_rows(), TestTextLayoutDataContracts, TestTextLayoutRetrieval
-
-### Community 340 - "test_detector_tool.py"
-Cohesion: 0.08
-Nodes (13): ApiDetectorsAreNotCalled, load_tool(), The one runnable tool inside the skills, which had no tests at all.…, Guards the boundary: nothing in this file may reach a paid endpoint., The tool lives outside any package, so it is loaded by path. It has to be…, The catalog snapshot must not depend on the checkout's line endings. Regression…, Unit tests for metric math and relevance fixture validation., TestMetricMath (+5 more)
 
 ### Community 342 - "diagnose_draft.js"
 Cohesion: 0.67
@@ -1626,21 +1651,17 @@ Nodes (3): { chromium }, robustEval(), run()
 Cohesion: 0.67
 Nodes (3): { chromium }, robustEval(), run()
 
-### Community 344 - "fetch_all_video_transcripts.js"
-Cohesion: 0.40
-Nodes (3): { chromium }, fs, videoList
-
 ### Community 345 - "os"
-Cohesion: 0.07
-Nodes (33): os, subprocess, main(), Cinematic Short Assembler Assembles 9:16 high-res stills with documentary…, render_scene_clip(), main(), Master Long-Form Documentary Production Pipeline Forbidden Genesis - Episode 1…, vtt_to_horizontal_ass() (+25 more)
+Cohesion: 0.08
+Nodes (25): Offline tests for Pixfaro client behavior. These tests protect the client-side…, ambiguous_python_import_6f71025f08c8, os, subprocess, main(), Master Long-Form Documentary Production Pipeline Forbidden Genesis - Episode 1…, vtt_to_horizontal_ass(), generate_voice() (+17 more)
 
 ### Community 346 - "CURRENT.md — Live Operational State & Session Snapshot"
 Cohesion: 0.33
 Nodes (5): 1. Active Operational Priorities, 2. Background Automation & Cron Health, 3. Recent Artifacts & Master Outputs, 4. Immediate Next Actions, CURRENT.md — Live Operational State & Session Snapshot
 
 ### Community 347 - "argparse"
-Cohesion: 0.12
-Nodes (15): CLI: draft + post a LinkedIn comment on any post URL. Usage: python…, CLI: draft + post a LinkedIn comment on any post URL. Usage: python…, main(), datetime, CLI: schedule an approved LinkedIn post via Publora at 10:00 local time. Usage:…, Today's 10:00 slot in `now`'s timezone, or now+5min if that has passed., selftest(), slot() (+7 more)
+Cohesion: 0.15
+Nodes (12): CLI: draft + post a LinkedIn comment on any post URL. Usage: python…, CLI: draft + post a LinkedIn comment on any post URL. Usage: python…, main(), datetime, CLI: schedule an approved LinkedIn post via Publora at 10:00 local time. Usage:…, Today's 10:00 slot in `now`'s timezone, or now+5min if that has passed., selftest(), slot() (+4 more)
 
 ### Community 349 - "Animation Best Practices"
 Cohesion: 0.50
@@ -1674,29 +1695,57 @@ Nodes (4): 1. Domain Objective, 2. Master References, 3. Operational Protocols, 
 Cohesion: 0.40
 Nodes (4): 1. Domain Objective, 2. Key Tools & Skills, 3. Operational Rules, YouTube Operations & Media Council — Domain Guide
 
-### Community 357 - "manual_mode_message"
+### Community 357 - "publish"
+Cohesion: 0.22
+Nodes (9): _half_configured(), manual_mode_message(), manual_reshare_message(), publish(), PublishKind, Warn when Publora is half set up, naming the half that is missing. A present…, Format the copy-paste approval output for the manual/draft-only tier. The user…, Dispatch a draft to the active backend. One call replaces the 10-line "On… (+1 more)
+
+### Community 360 - "_normalize"
+Cohesion: 0.22
+Nodes (9): _exact_match_diagnostic(), _legacy_successor_guidance(), _normalize(), Apply longest-first synonym substitution at token boundaries., Whether a stack query explicitly targets an older framework generation., Choose one coherent applicability generation for stack retrieval., Prefer the explicit successor row for a brand-new app on legacy-only stacks., _stack_query_requests_legacy() (+1 more)
+
+### Community 361 - "_row_identities"
+Cohesion: 0.25
+Nodes (8): _exact_row_identity(), Suggest complete public identities so a retry can bypass score thresholds., Return non-empty public identities from ordinary and alias fields., Resolve an explicit style identity without opening generic variant ranking., Return one row whose stable public identity exactly matches the query., _row_identities(), _style_identity(), _suggest_identities()
+
+### Community 363 - "sync_codex_marketplace.py"
+Cohesion: 0.36
+Nodes (7): copy_path(), main(), Path, Refresh the nested Codex marketplace package from the repo root. Codex…, Put the pristine templates back into the package from git. They are skipped by…, restore_templates(), shutil
+
+### Community 364 - "_filter_anti_patterns_for_mode"
+Cohesion: 0.43
+Nodes (3): _filter_anti_patterns_for_mode(), Drop "avoid dark mode" advice once dark mode is the resolved answer., TestAntiPatternGating
+
+### Community 367 - "fetch_all_video_transcripts.js"
+Cohesion: 0.40
+Nodes (3): { chromium }, fs, videoList
+
+### Community 368 - "linkedin-skills/lib/approval.py"
 Cohesion: 0.50
-Nodes (4): _half_configured(), manual_mode_message(), Warn when Publora is half set up, naming the half that is missing. A present…, Format the copy-paste approval output for the manual/draft-only tier. The user…
+Nodes (3): Approval gate helpers. Every skill that posts to LinkedIn MUST present a draft…, Format a standardized approval card for the user to review. The card MUST…, render_approval_card()
+
+### Community 369 - "_suggest_terms"
+Cohesion: 0.50
+Nodes (4): _passes_threshold(), _query_coverage(), Nearest known vocabulary terms for a query that returned 0 hits, so the caller…, _suggest_terms()
 
 ## Knowledge Gaps
-- **2267 isolated node(s):** `{ chromium }`, `path`, `fs`, `{ chromium }`, `{ chromium }` (+2262 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 3036 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **45 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **2279 isolated node(s):** `{ chromium }`, `path`, `fs`, `{ chromium }`, `{ chromium }` (+2274 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 3051 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **54 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `scale()` connect `detect.py` to `Core Principles`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Why does `Performance-First Approach` connect `Core Principles` to `detect.py`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
-- **Why does `Framer Motion / Motion Animation Guidelines` connect `Framer Motion / Motion Animation Guidelines` to `Animation Best Practices`, `Core Principles`?**
-  _High betweenness centrality (0.015) - this node is a cross-community bridge._
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
+- **Why does `Core Principles` connect `Core Principles` to `Framer Motion / Motion Animation Guidelines`?**
+  _High betweenness centrality (0.011) - this node is a cross-community bridge._
 - **Are the 4 inferred relationships involving `DesignSystemGenerator` (e.g. with `TestReasoningMatch` and `TestReasoningContract`) actually correct?**
   _`DesignSystemGenerator` has 4 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `{ chromium }`, `path`, `fs` to the rest of the system?**
-  _2267 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `linkedin-marketing/lib/__init__.py` be split into smaller, more focused modules?**
-  _Cohesion score 0.1476923076923077 - nodes in this community are weakly interconnected._
+  _2279 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `linkedin-marketing/lib/backend_selector.py` be split into smaller, more focused modules?**
+  _Cohesion score 0.10609756097560975 - nodes in this community are weakly interconnected._
 - **Should `.claude/skills/linkedin-humanizer/scripts/test_detectors.py` be split into smaller, more focused modules?**
   _Cohesion score 0.07918552036199095 - nodes in this community are weakly interconnected._
