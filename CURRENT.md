@@ -1,6 +1,6 @@
 # CURRENT.md — Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-09T02:50:41+03:30 
+**Last Reconciled:** 2026-10-09T02:51:08+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh  
 
@@ -57,16 +57,15 @@
 ---
 
 ## 4. Dual-Device Bridge Status (Workstation <-> Windows Home PC)
-- **Windows Client:** Running at `C:\Projects\maverick-agent-os`. Rebased locally and generated `SYNC.md`.
-- **Git State Bridge:** Workstation at `274bc17` (`origin/master`). Pending `git push origin master` from Windows machine to transmit `SYNC.md`.
-- **Cloudflare Tunnel (`dialog-itunes-useful-clinton.trycloudflare.com`):** Tested from Linux; TLS connection was refused/closed by remote or blocked by DPI. Tier 1 Git State Bridge remains primary.
-- **Access Request Mitigation:** Windows client requires `CASCADE_COMMANDS_AUTO_EXECUTION_EAGER` in `%USERPROFILE%\.gemini\config\config.json` or `--dangerously-skip-permissions` to silence prompt spam.
+- **Status:** **CONNECTED & ACTIVE** (Tier 1 Git State Bridge).
+- **Windows Client:** Running at `C:\Projects\maverick-agent-os`. Transmitted `SYNC.md` via commit `324804c`.
+- **Workstation Client:** Ingested `SYNC.md`, enhanced `scripts/session_sync.sh` with auto-rebase and marker parsing, and confirmed bi-directional state sync at `fbba026`.
+- **Sync Marker Details:** Tunnel `https://dialog-itunes-useful-clinton.trycloudflare.com` recorded in `SYNC.md`.
 
 ---
 
 ## 5. Immediate Next Actions (4-Day Standby Mode)
-1. Windows PC: execute `git push origin master` in `C:\Projects\maverick-agent-os` to broadcast `SYNC.md`.
-2. Linux Workstation: run `git pull origin master` once push completes.
-3. Linux system crontab runs `unattended_monitor.js` hourly, morning LinkedIn posts, and upstream monitors autonomously (0 LLM tokens).
-4. Offline GGUF models on Home/Work PC handle task execution via OmniRoute & Codex.
-5. Antigravity quota resets approx. Oct 13, 2026.
+1. Both devices now share identical state via `origin/master`; running `session_sync.sh` or `git pull --rebase origin master` propagates all edits automatically.
+2. Linux system crontab runs `unattended_monitor.js` hourly, morning LinkedIn posts, and upstream monitors autonomously (0 LLM tokens).
+3. Offline GGUF models on Home/Work PC handle task execution via OmniRoute & Codex.
+4. Antigravity quota resets approx. Oct 13, 2026.
