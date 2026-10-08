@@ -11,3 +11,16 @@ __pycache__/
 # Large cache directories
 graphify-out/cache/
 .system_generated/
+
+# Runtime logs
+*.log
+
+# Ephemeral debug screenshots
+*_screen.png
+*_screenshot.png
+*_view.png
+*_loaded.png
+*_state.png
+veepn_*.png
+studio_*.png
+

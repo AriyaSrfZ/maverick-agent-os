@@ -56,12 +56,7 @@ const targets = [
         await page.waitForTimeout(500);
 
         const firstName = target.name.split(' ')[0];
-        let note = "";
-        if (target.type === 'recruiter') {
-          note = `Hi ${firstName}, I'm Ariya. After 15 years in tech-ops and payments in Tehran, I'm looking to relocate to Dubai and open to any technical, operational, or integration role with visa sponsorship. Truly appreciate connecting with you.`;
-        } else {
-          note = `Hi ${firstName}, I'm Ariya. After 15 years in tech-ops and payments in Tehran, I'm exploring relocation to Dubai and open to any technical or operational role with visa sponsorship. Genuinely grateful to connect and keep in touch.`;
-        }
+        const note = `Hi ${firstName}, I’m Ariya, with 15+ years of experience in payments, fintech technology and operations. I’m expanding my international professional network and would be glad to connect and stay in touch.`;
 
         await page.keyboard.insertText(note);
         await page.waitForTimeout(1000);

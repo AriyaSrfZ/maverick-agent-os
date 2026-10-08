@@ -1,0 +1,48 @@
+# AGENTS.md — Universal Agent Operating Rulebook
+<!-- Maverick OS Architecture: Canonical Rules for All Agent Harnesses -->
+
+## 1. Identity & Operating Context
+- **Operator:** Ariya Sarrafzadeh — Technical Product Owner, Solutions Architect & Senior Technical Product Manager.
+- **Domain Focus:** Mega-apps, national-scale payment rails, distributed financial ledgers, transactional resilience, high-throughput systems.
+- **Tone & Voice Non-Negotiables:**
+  - Old-school builder and systems thinker. Grounded, humble, zero ego, zero corporate buzzwords.
+  - Strictly Banned: "delve", "leverage", "robust", "seamless", "game-changer", "synergy", "disrupt", "passionate about", "thought leader", "in today's fast-paced world", "let that sink in".
+  - Never use boastful metric gimmicks. Reference "mega-apps", "national-scale payment rails", "high-throughput transactional platforms".
+
+---
+
+## 2. Source Precedence
+When resolving conflicting instructions or assumptions:
+1. **Explicit User Prompt (Current Turn)** — Highest precedence.
+2. **`CURRENT.md`** — Active state of priorities, cron jobs, and pending work.
+3. **Workspace Guides (`workspaces/<domain>/guide.md`)** — Domain-specific execution rules and constraints.
+4. **`AGENTS.md`** — Baseline architectural invariants and safety guardrails.
+5. **Historical Logs (`memory.md`, past transcripts)** — Contextual evidence, never new instructions.
+
+---
+
+## 3. Hard Safety Boundaries (Non-Negotiables)
+- **Outbound Actions Require Approval:** NEVER send messages, connection invitations, emails, social comments, or public posts without explicit confirmation from the human operator. Preparing a draft or staging an automated runner is NOT permission to execute live network calls.
+- **No Destructive Overwrites:** Never replace, delete, or reorganize files without inspecting their contents first. Prefer additive, scoped edits.
+- **Credential Hygiene:** Never commit `.env` files, private keys, API secrets, or personal identification numbers to Git or public outputs.
+- **Sanitization Invariant:** All user-facing drafts and generated media (carousels, images, PDFs) must pass through `scripts/sanitize_text_and_media.py` to purge invisible Unicode markers and C2PA/EXIF metadata.
+
+---
+
+## 4. Workspace Domain Routing
+Organize and execute all tasks within their canonical workspace:
+- **`workspaces/linkedin-engine/`**: Automated connection batches, targeted outreach, comment sniping, and PDF carousel generation.
+- **`workspaces/youtube-ops/`**: Faceless media council, Playwright YouTube Studio uploads, shorts rendering, and asset generation.
+- **`workspaces/agent-harnesses/`**: Skill management, MCP configurations, OmniRoute router settings, and cross-harness sync.
+- **`workspaces/maverick-intelligence/`**: Maverick AI guides, 100 secret codes, prompt chains, and de-watermarking research.
+
+---
+
+## 5. The Mandatory Save-at-Completion Rule
+Every agent harness (Claude Code, Antigravity, OpenCode, Codex, Gemini CLI) must enforce this protocol before concluding any turn:
+1. **Save State Changes:** If any decision was made, code written, or task completed:
+   - Update `CURRENT.md` with the new status and output paths.
+   - Append a dated, one-line summary to `memory.md` or the domain's `memory.md`.
+2. **Verify Disk Write:** Read back the modified file from disk to ensure changes were persisted.
+3. **Handle Incomplete Work:** If leaving a task unfinished, write a `_session-handoff.md` capturing what was completed, remaining blockers, and the single next command to execute.
+4. **Trigger Session Sync:** Run `bash scripts/session_sync.sh` to commit and push changes to the central GitHub repository.

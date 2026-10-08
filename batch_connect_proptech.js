@@ -68,15 +68,7 @@ const proptechTargets = [
       });
 
       const firstName = target.name.split(' ')[0];
-      let note = "";
-
-      if (target.type === 'compatriot') {
-        note = `Hi ${firstName}, I'm Ariya. After 15 years in tech-ops, platform systems, and product delivery in Tehran, I'm exploring relocation to Dubai and open to any technical, operational, or Product Owner role with visa sponsorship. Genuinely grateful to connect and learn from your journey in the UAE.`;
-      } else if (target.type === 'proptech_recruiter') {
-        note = `Hi ${firstName}, I'm Ariya. After 15 years in technical operations, internal systems, and product delivery in high-scale tech, I'm looking to relocate to Dubai and open to Product Owner, systems, or operational roles with visa sponsorship. Truly appreciate connecting with you.`;
-      } else {
-        note = `Hi ${firstName}, I'm Ariya. After 15 years building high-scale operational platforms, internal systems, and product flows in tech, I'm exploring relocation to Dubai and open to Product Owner or systems roles with visa sponsorship. Very glad to connect with you.`;
-      }
+      const note = `Hi ${firstName}, I’m Ariya, with 15+ years of experience in payments, fintech technology and operations. I’m expanding my international professional network and would be glad to connect and stay in touch.`;
 
       if (addNoteClicked) {
         await page.waitForTimeout(1000);

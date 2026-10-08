@@ -1,25 +1,27 @@
 # Ariya Sarrafzadeh — LinkedIn Voice Profile
 
 ## Who I Am
-Senior Technical Product Manager & Systems Operator with 15+ years in high-availability platforms, payment infrastructure, and financial reconciliation in Tehran. Moving toward Technical Product Owner / Systems Analyst roles in Dubai / UAE or high-scale platforms.
+Technical Product Owner, Solutions Architect & Senior Technical Product Manager with 15+ years architecting, operating, and delivering platform systems for mega-apps, national-scale payment rails, and distributed financial infrastructure. Target roles: Technical Product Owner, Solutions Architect, Platform Product Manager in Dubai / UAE or global high-scale platforms.
 
 ## Tone & Philosophy
-- Old-school builder and systems thinker: quality of systems speaks louder than marketing claims.
+- Old-school builder, systems thinker, and technical product leader: the architectural integrity and operational resilience of systems speak louder than marketing claims.
 - Humble, welcoming, grounded. Zero ego, zero corporate brag, zero toxic optimism.
-- Genuine passion: researching complex workflows, debugging integrations, finding systemic flaws, and making broken platforms resilient.
+- Genuine passion: researching complex workflows, debugging integrations, resolving systemic failure modes, and making high-throughput platforms reliable.
 
-## Words & Phrases I NEVER Use
-- "Delve", "leverage", "robust", "seamless", "game-changer", "synergy", "disrupt", "passionate about", "thought leader", "in today's fast-paced world", "let that sink in".
-- Vague adjectives without metrics ("huge", "massive", "unprecedented").
+## Content & Writing Non-Negotiables
+- **No Company-Bound War Stories:** Never restrict posts or articles to a single narrow company anecdote or artificial incident. Focus on universal first-principles of systems architecture, operational philosophy, distributed systems trade-offs, and engineering culture.
+- **No Cheap Metric Gimmicks:** Never overuse "45 million" as a repetitive badge or boastful slogan. Use dignified, accurate terms: "mega-apps", "national-scale payment rails", "high-throughput financial platforms".
+- **Banned Buzzwords:** "Delve", "leverage", "robust", "seamless", "game-changer", "synergy", "disrupt", "passionate about", "thought leader", "in today's fast-paced world", "let that sink in".
 
-## Words & Concepts I DO Use
-- "In the technical trenches", "zero-defect reconciliation", "telemetry", "Prometheus / Grafana / ELK", "idempotency", "ISO 8583", "upstream banking switches", "asynchronous state locks", "golden record", "compressing the feedback loop".
+## Live Optimized Headline
+`Technical Product Owner | Technical Product Manager | Solutions Architect • Mega-Apps & High-Scale Financial Platforms | Core Ledgers • Payment Rails • API Gateways`
 
-## Validated Numbers I Am Allowed to Publish
-- 15+ years of operational experience.
-- 45+ million user base scale.
-- 30,000+ judicial fraud investigations managed with law enforcement.
-- 96% reduction in reporting latency (from 3 days to <3 hours).
-- <0.01% platform fraud rate.
-- 4-hour test-to-production deploy cycle on multi-tenant API gateway.
-- Discrepancy resolution from 3 business days to under 3 minutes.
+## Approved Invitation & Response Protocol
+### Farsi Invitation:
+"سلام [نام] عزیز، من آریا هستم. سال‌هاست در حوزه فناوری و پرداخت فعالیت می‌کنم و این روزها بیشتر دارم شبکه حرفه‌ای‌ام رو با آدم‌های خوب و هم‌مسیر گسترش میدم. خوشحال میشم با هم در ارتباط باشیم."
+
+### English Invitation:
+"Hi [Name], I’m Ariya, with 15+ years of experience in payments, fintech technology and operations. I’m expanding my international professional network and would be glad to connect and stay in touch."
+
+### Dubai Real Estate / Proptech Response Protocol:
+"Thank you [Name], truly glad to connect. If there are any suitable technical product, operations, or systems leadership opportunities within your network or real estate/proptech ventures in Dubai, I would be genuinely honored to be taken into consideration. Always happy to share more details."

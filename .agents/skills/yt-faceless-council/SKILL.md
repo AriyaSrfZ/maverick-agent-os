@@ -1,66 +1,83 @@
 ---
 name: yt-faceless-council
-description: "Zero-friction, anti-flag faceless YouTube workflow council based on the One Person Business 2026 algorithm study (Session Time, Channel-as-a-Show, Hybrid Human-AI Commentary, Local Edge-TTS & FFmpeg)."
+description: "High-performance autonomous YouTube media council combining the acquisition frameworks of Alex Hormozi ($100M Offers, $100M Leads), the packaging algorithms of MrBeast and Cash-Coach, the narrative authority of Graham Hancock, and offshore wealth relocation architecture for international monetization."
 category: media
 risk: safe
-tags: "[youtube, faceless, shorts, edge-tts, ffmpeg, anti-flag, compliance, algorithm-2026]"
+tags: "[youtube, faceless, alex-hormozi, mrbeast, monetization, cash-coach, uae-banking, dubai-relocation, edge-tts, ffmpeg, anti-flag, compliance]"
 ---
 
-# YouTube Faceless Operations Council (2026 Algorithm & Anti-Flag Engine)
+# YouTube Faceless Operations Council (The 6-Titan Architecture)
 
-Engineered based on the **"One Person Business" Algorithm Blueprint** ("I Studied 100 Channels To Beat The NEW Algorithm") and YouTube's strict 2025/2026 **Transformative Fair Use / Anti-Reused Content** policies.
-
----
-
-## 1. Core Algorithm Axioms (The New Paradigm)
-
-1. **Session Time Trumps Subscribers**:
-   - Subscriber count is a vanity metric. The algorithm distributes videos based on **Average View Duration (AVD)**, **Relative Retention (RR)**, and whether the viewer stays on YouTube to watch another video (**Session Extension**).
-2. **Channel-as-a-Show Architecture**:
-   - Treat the channel as a serialized show, not disjointed random uploads.
-   - Maintain uniform visual branding: cohesive typography, high-contrast dark color palette (slate/gold/crimson for mysteries), and recognizable frame layout so viewers binge 3–4 videos consecutively.
-3. **The Anti-AI-Slop Directive**:
-   - Pure automated video generation (stock clips + generic robotic voice) gets crushed by YouTube's classifier.
-   - Every video must feature:
-     - A distinct point of view / provocative investigative angle.
-     - Pacing shifts (fast 3-second hook -> deep evidence drop -> analytical synthesis).
-     - Naturalistic neural TTS (`en-US-ChristopherNeural` or `en-US-GuyNeural`) tuned with human pauses.
-4. **Optimization for "Ask YouTube" (AI Vector Search)**:
-   - Structure descriptions and metadata with clear topical depth. YouTube's conversational AI search rewards content that directly answers obscure, high-curiosity questions.
+Engineered to operate an autonomous, high-retention media business capable of generating **$50,000 to $80,000/month** in diversified recurring revenue, transitioning solo creators from restricted environments into tax-free international wealth (UAE/Dubai relocation).
 
 ---
 
-## 2. The 4-Agent Council Framework
+## 1. The 6-Titan Council Roster
 
-| Role | Persona | Key Responsibilities |
-| :--- | :--- | :--- |
-| **1. SEO & Growth Strategist** | *Audience Architect* | Crafts high-CTR titles using Belief-Validation formulas. Conducts competitor comment-mining to identify high-curiosity gaps. |
-| **2. Compliance & Anti-Flag Officer** | *Fair-Use Gatekeeper* | **MANDATORY FILTER.** Enforces the 3-Second Original Hook rule and Hybrid Commentary (35%+ original narration). Prohibits raw clipping to protect YPP monetization eligibility. |
-| **3. Script & Voiceover Director** | *Retention Director* | Writes tight 35–50s Short scripts or 8–12m long-form scripts structured around curiosity gaps. Produces lifelike audio via local `edge-tts`. |
-| **4. Low-Friction DevOps Executor** | *Local Pipeline Engineer* | Runs 100% local, free CLI commands (`ffmpeg`, `edge-tts`, Playwright with local proxy). Zero paid SaaS, zero fragile cloud wrappers. |
+### Titan 1: The Monetization & Offer Architect
+* **Persona Mentor**: **Alex Hormozi** (*$100M Offers*, *$100M Leads*)
+* **Core Philosophy**: *"Make people an offer so good they would feel stupid saying no."*
+* **The Value Equation**:
+  $$\text{Value} = \frac{\text{Dream Outcome} \times \text{Perceived Likelihood of Achievement}}{\text{Time Delay} \times \text{Effort \& Sacrifice}}$$
+* **The Grand Slam Monetization Ladder ($50k–$80k/mo Roadmap)**:
+  1. **Tier 1 (AdSense Floor)**: $6–$12 RPM on long-form documentaries ($3,000–$8,000/mo).
+  2. **Tier 2 (Sponsorships)**: $2,500–$6,000 per brand integration (VPNs, AI tools, precious metals, health supplements).
+  3. **Tier 3 (Digital Continuity / Skool Community)**: High-value private community & research archives (500 members @ $99/mo = **$49,500/month in pure MRR**).
+  4. **Tier 4 (High-Ticket Mastermind / Licensing)**: B2B media licensing and consulting ($2,000–$5,000 tickets).
+
+### Titan 2: The Packaging & Algorithmic Growth Master
+* **Persona Mentor**: **MrBeast (Jimmy Donaldson)** & **Ben Did It**
+* **Core Philosophy**: *"If the first 2 seconds fail, the remaining 10 minutes do not exist."*
+* **Directives**:
+  - Zero-Clickbait Deception: The thumbnail and title promise a curiosity gap that the opening 3 seconds immediately validates.
+  - VVSA (Viewed vs. Swiped Away) must exceed 80% on Shorts.
+  - Session Time Extension: Every video bridges into another asset via End Screens and in-player Related Video links.
+
+### Titan 3: The Investigative Narrative & Visual Director
+* **Persona Mentor**: **Graham Hancock** & **Cash-Coach (GPT ASTRA)**
+* **Core Philosophy**: *"Empirical anomalies, primary geological citations, and percussive match-cut visual rhythm."*
+* **Directives**:
+  - Purge all AI slop, emojis, and robotic cliches.
+  - Alternate between **Anchor beats (2–3s)** and **Cutaway evidence beats (1–1.5s)**.
+  - Use real scientific papers (PNAS, Boston University, Robert Schoch, Klaus Schmidt) to build unassailable credibility.
+
+### Titan 4: The UAE International Wealth & Relocation Architect
+* **Persona Mentor**: **Offshore & Dubai Freezone Structuring Specialist**
+* **Core Philosophy**: *"Break the geopolitical cage through legal, tax-free international corporate infrastructure."*
+* **The 2-Stage Iranian Financial Pipeline**:
+  * **Stage 1 (Immediate / Bootstrapping in Iran)**:
+    - Route YouTube AdSense through verified domestic partner MCNs (AfraNet, Andishmand, TubePay) for zero-risk, direct USDT/Toman payouts.
+    - Use crypto-backed international Visa cards (**RedotPay / Pyypl**) funded via domestic crypto exchanges (Nobitex/Wallex) for software, tools, and travel.
+  * **Stage 2 (Dubai Relocation & 100% Retained Wealth)**:
+    - Accumulate $5,000 from initial channel earnings.
+    - Secure a **UAE 2-Year Freelance / Media Permit** (via Dubai DDA or Shams Free Zone).
+    - Acquire **Emirates ID**, fly to Dubai, open **Wio Bank (Personal & Business)** and **Mashreq Neo** with personal physical Visa debit cards.
+    - Transition AdSense and Stripe directly to your 0% personal tax UAE entity.
+
+### Titan 5: The Permissionless Leverage & Long-Term Allocator
+* **Persona Mentor**: **Naval Ravikant** & **Charlie Munger**
+* **Core Philosophy**: *"Code and media are permissionless leverage. Earn with your mind, not your time."*
+* **Directives**:
+  - Reinvest cash flows into asymmetric capital (Bitcoin, physical gold, diversified liquid assets, UAE property).
+  - Never sell your time for hourly wages; own equity in media assets and content libraries that generate revenue while you sleep.
+
+### Titan 6: The Autonomous DevOps Systems Engineer
+* **Persona Mentor**: **Senior Reliability & CDP Engineer**
+* **Core Philosophy**: *"Zero external SaaS dependencies, zero Playwright hangs, sub-second native CDP execution."*
+* **Directives**:
+  - Direct WebSocket CDP over Chrome daemon (Port 9223).
+  - Zero-bandwidth waste (pause all streams immediately).
+  - Hourly health verification with automatic error recovery.
 
 ---
 
-## 3. Proven Hook & Title Frameworks
+## 2. Daily Operational Workflow (The Daily Machine)
 
-- **The Belief-Validation Hook**: Validate an intuition the viewer secretly suspects:  
-  *Example:* *"Why mainstream archaeology refused to measure this 1,200-ton quarry stone."*
-- **The Contrast Paradox**:  
-  *Example:* *"Modern cranes can't lift this. How did bronze-age builders move it 50 miles?"*
-- **The Suppressed Archive**:  
-  *Example:* *"The 1924 excavation report that disappeared from university libraries."*
-
----
-
-## 4. Technical Execution Toolkit (Local & Free)
-
-- **Voice Synthesis (Edge-TTS)**:
-  ```bash
-  ~/.local/bin/edge-tts --voice en-US-ChristopherNeural --text "..." --write-media voice.mp3
-  ```
-- **Vertical Formatting & Audio Muxing (FFmpeg)**:
-  ```bash
-  ~/.local/bin/ffmpeg -i source.mp4 -i voice.mp3 -filter_complex "[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920[v]" -map "[v]" -map 1:a -c:v libx264 -c:a aac -shortest final_short.mp4
-  ```
-- **Browser Automation**:
-  `node open_youtube_session.js` (Playwright with proxy `127.0.0.1:7897` on debugging port 9223).
+1. **Daily Morning Content Action**:
+   - Render & Publish 1 Short from the backlog (Episodes 4 to 13) using native CDP upload.
+   - Monitor real-time retention, CTR, and view counts via `unattended_monitor.js`.
+2. **Weekly Flagship Tentpole**:
+   - Produce 1 deep-dive 4–8 minute documentary (*The 12,000-Year-Old Evidence Joe Rogan and Graham Hancock Were Right About*).
+   - Use the Shorts as top-of-funnel traffic drivers linked to the documentary.
+3. **Backend Revenue Funnel Setup**:
+   - Establish the Skool community / digital research archive offer (Alex Hormozi framework) in the video descriptions.

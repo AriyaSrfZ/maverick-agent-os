@@ -1,0 +1,9 @@
+{
+  "invitations": {
+    "farsi": "سلام {name} عزیز، من آریا هستم. سال‌هاست در حوزه فناوری و پرداخت فعالیت می‌کنم و این روزها بیشتر دارم شبکه حرفه‌ای‌ام رو با آدم‌های خوب و هم‌مسیر گسترش میدم. خوشحال میشم با هم در ارتباط باشیم.",
+    "english": "Hi {name}, I’m Ariya, with 15+ years of experience in payments, fintech technology and operations. I’m expanding my international professional network and would be glad to connect and stay in touch."
+  },
+  "responses": {
+    "dubai_estate_humble": "Thank you {name}, truly glad to connect. If there are any suitable technical product, operations, or systems leadership opportunities within your network or real estate/proptech ventures in Dubai, I would be genuinely honored to be taken into consideration. Always happy to share more details and keep in touch."
+  }
+}

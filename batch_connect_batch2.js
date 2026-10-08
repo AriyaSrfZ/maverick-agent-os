@@ -70,13 +70,7 @@ const targets = [
       });
 
       const firstName = target.name.split(' ')[0];
-      let note = "";
-
-      if (target.type === 'compatriot') {
-        note = `Hi ${firstName}, I'm Ariya. After 15 years in payments and tech infrastructure in Tehran, I'm looking to relocate to Dubai and open to any technical or operational role with visa sponsorship. Genuinely grateful to connect with fellow compatriots in the UAE and learn from your journey.`;
-      } else {
-        note = `Hi ${firstName}, I'm Ariya. After 15 years in tech-ops and payments in Tehran, I'm looking to relocate to Dubai and open to any technical, operational, or integration role with visa sponsorship. Truly appreciate connecting with you.`;
-      }
+      const note = `Hi ${firstName}, I’m Ariya, with 15+ years of experience in payments, fintech technology and operations. I’m expanding my international professional network and would be glad to connect and stay in touch.`;
 
       if (addNoteClicked) {
         await page.waitForTimeout(1000);

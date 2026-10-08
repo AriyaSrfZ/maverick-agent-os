@@ -1,0 +1,76 @@
+[
+  {
+    "id": "monica_jasuja_legacy_to_digital",
+    "author": "Monica Jasuja",
+    "topic": "Physical paper trails & telephone imprints to distributed trust",
+    "status": "PUBLISHED_LIVE",
+    "timestamp": "2026-10-07T17:39:00.000Z"
+  },
+  {
+    "id": "sarah_asadi_pm_maturity",
+    "author": "Sarah Asadi",
+    "topic": "PM maturity, saying no to preserve core systems",
+    "status": "PUBLISHED_LIVE",
+    "timestamp": "2026-10-07T17:42:00.000Z"
+  },
+  {
+    "id": "simon_taylor_pap_shopify",
+    "author": "Simon Taylor",
+    "topic": "Personal Agent Protocol (PAP) & duplicate checkouts",
+    "status": "PUBLISHED_LIVE",
+    "timestamp": "2026-10-07T18:09:00.000Z"
+  },
+  {
+    "id": "alex_xu_mpp_timeouts",
+    "author": "Alex Xu",
+    "topic": "Machine Payment Protocol & 504 timeouts triggering aggressive retries",
+    "status": "PUBLISHED_LIVE",
+    "timestamp": "2026-10-07T18:11:00.000Z"
+  },
+  {
+    "id": "p26m_payment_orchestration",
+    "author": "P26M",
+    "topic": "Testing failure states, lost webhooks, sunny-day vendor demos",
+    "status": "PUBLISHED_LIVE",
+    "timestamp": "2026-10-07T18:12:00.000Z"
+  },
+  {
+    "id": "marcel_van_oost_stablecoin",
+    "author": "Marcel van Oost",
+    "topic": "Stablecoin Checkout & Treasury Reconciliation",
+    "status": "PUBLISHED_LIVE",
+    "timestamp": "2026-10-07T19:28:26.206Z"
+  },
+  {
+    "id": "mahmoud_ismail_kuwait_wamd",
+    "author": "Mahmoud Ismail",
+    "topic": "Kuwait WAMD vs Cross-Border Remittances",
+    "status": "PUBLISHED_LIVE",
+    "timestamp": "2026-10-07T19:29:27.883Z"
+  },
+  {
+    "id": "network_international_active_active",
+    "author": "Network International",
+    "topic": "Active-Active Switches & Ledger Consistency",
+    "status": "PUBLISHED_LIVE",
+    "timestamp": "2026-10-07T19:31:09.863Z"
+  },
+  {
+    "id": "charisma_reza_ai_architecture",
+    "author": "Reza Abolhasanzade",
+    "topic": "charisma_reza_ai_architecture",
+    "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "api_gateway_payment_timeouts",
+    "author": "Payment Systems Engineering",
+    "topic": "api_gateway_payment_timeouts",
+    "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "gcc_embedded_finance_fintech",
+    "author": "GCC FinTech Discussion",
+    "topic": "gcc_embedded_finance_fintech",
+    "status": "PUBLISHED_LIVE"
+  }
+]

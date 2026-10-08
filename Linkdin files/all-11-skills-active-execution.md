@@ -153,16 +153,23 @@ Extracted 4 high-value standalone themes from your CV:
 
 ---
 
-## 9. Skill `/li-dm`: 3-Step Connection & Outreach Sequence
+## 9. Skill `/li-dm`: Connection & Outreach Sequence
 
-### Step 1: The 200-Character Invite Note (Already Deployed to 41 Targets)
-> *"Hi [First Name], I'm Ariya. After 15 years in tech-ops and platform systems in Tehran, I'm exploring relocation to Dubai and open to Technical Product Owner or systems roles with visa sponsorship. Glad to connect."*
+### Step 1: The Invitation Note (Enforced Master Standard)
 
-### Step 2: The 1st Follow-Up Message (Upon Acceptance — Zero Pitch)
-> *"Hi [First Name], thank you for connecting. I've followed [Company]'s platform work with genuine interest. Just wanted to keep in touch and follow your updates in the UAE ecosystem. Hope you have a great rest of the week."*
+**English:**
+> *"Hi [Name], I’m Ariya, with 15+ years of experience in payments, fintech technology and operations. I’m expanding my international professional network and would be glad to connect and stay in touch."*
 
-### Step 3: The 2nd Follow-Up (Only When an Open Role Exists — The Internal Referral Ask)
-> *"Hi [First Name], I saw [Company] has an open requisition for [Role Title]. Given my 15 years debugging high-scale payment rails and operational platforms, I'd love to put my hat in the ring. If you feel comfortable, would you be open to submitting an internal referral on your portal? My resume and details are right here: [Link]. Truly appreciate your time either way."*
+**Farsi (فارسی):**
+> *"سلام [نام] عزیز، من آریا هستم. سال‌هاست در حوزه فناوری و پرداخت فعالیت می‌کنم و این روزها بیشتر دارم شبکه حرفه‌ای‌ام رو با آدم‌های خوب و هم‌مسیر گسترش میدم. خوشحال میشم با هم در ارتباط باشیم."*
+
+### Step 2: The Follow-Up Protocol
+
+**Dubai Real Estate / Proptech / Corporate Response:**
+> *"Thank you [Name], truly glad to connect. If there are any suitable technical product, operations, or systems leadership opportunities within your network or real estate/proptech ventures in Dubai, I would be genuinely honored to be taken into consideration. Always happy to share more details."*
+
+**Tech & Engineering Peers:**
+> *"Hi [First Name], thank you for connecting. Really glad to stay in touch and follow your updates in the UAE ecosystem. Wishing you a productive week ahead."*
 
 ---
 
@@ -172,11 +179,11 @@ Sort incoming LinkedIn messages into 5 buckets:
 
 | Bucket | Inbound Signal | Action & Ready Response |
 | :--- | :--- | :--- |
-| **RECRUITER** | "Saw your profile, looking for Technical PM in Dubai" | *"Thank you [Name]. I have 15 years scaling payment rails, API gateways, and reconciliation for 45M users. Ready for immediate relocation to Dubai under standard visa sponsorship. My CV is attached; let me know if a brief introductory call works for you."* |
-| **COMPATRIOT PEER** | "Salam Ariya jan, khoshbakhtam" | *"Salam [Name] jan, mamnoon az payametoon. Khoshhal misham dar ertebat bashim va az tajrobiaatetoon dar UAE estefadeh konam."* |
+| **DUBAI REAL ESTATE / RECRUITER** | Responds to invite / opens chat | *"Thank you [Name], truly glad to connect. If there are any suitable technical product, operations, or systems leadership opportunities within your network or real estate/proptech ventures in Dubai, I would be genuinely honored to be taken into consideration. Always happy to share more details."* |
+| **FINTECH / GENERAL RECRUITER** | "Saw your profile, looking for Technical PM in Dubai" | *"Thank you [Name]. I have 15 years scaling payment rails, API gateways, and reconciliation for 45M users. Ready for relocation to Dubai under standard visa sponsorship. Let me know if a brief introductory call works for you."* |
+| **IRANIAN TECH LEADER (FARSI)** | "سلام آریا جان، در خدمتم" | *"سلام [نام] عزیز، ممنون از پیامتون. خوشحال میشم در ارتباط باشیم و تبادل نظر داشته باشیم."* |
 | **CONSULTANT / SPAM** | "We can help you get a Golden Visa / Setup LLC for \$10,000" | **ARCHIVE / DELETE IMMEDIATELY.** (Enforce Anti-Con Shield). |
-| **LEAD** | "Need advice on financial reconciliation or payment switch" | Provide 2 bullet points of technical diagnosis, then offer an introductory advisory chat. |
-| **PEER NETWORKING** | General tech exchange | Polite, warm 2-sentence response maintaining relationship. |
+| **LEAD / ADVISORY** | "Need advice on financial reconciliation or payment switch" | Provide 2 bullet points of technical diagnosis, then offer an introductory advisory chat. |
 
 ---
 
