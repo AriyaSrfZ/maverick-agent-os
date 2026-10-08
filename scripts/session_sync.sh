@@ -19,16 +19,46 @@ echo "[${TIMESTAMP}] STARTING MAVERICK OS SESSION SYNCHRONIZATION"
 echo "Workspace: ${WORKSPACE_ROOT}"
 echo "======================================================================"
 
-# 1. Update CURRENT.md reconciliation timestamp
+# 1. Fetch & rebase remote changes first to prevent push conflicts
+if git remote | grep -q "^origin$"; then
+    CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+    echo "Fetching & rebasing from 'origin/${CURRENT_BRANCH}'..."
+    git pull --rebase origin "${CURRENT_BRANCH}" || {
+        echo "[WARNING] Rebase failed or had conflicts; aborting auto-rebase."
+        git rebase --abort 2>/dev/null || true
+    }
+fi
+
+# 2. Check for sync marker argument (URL or commit message)
+if [[ "${1:-}" =~ ^https?:// ]]; then
+    TUNNEL_URL="$1"
+    echo "[SYNC MARKER] Updating SYNC.md with tunnel URL: ${TUNNEL_URL}"
+    cat <<EOF > SYNC.md
+# Sync marker
+- **Tunnel URL:** ${TUNNEL_URL}
+- **Generated at:** $(date '+%Y-%m-%d %H:%M:%S')
+- **Action:** Bi-directional sync across Workstation and Home PC.
+EOF
+    COMMIT_MSG="chore(bridge): update sync marker with tunnel ${TUNNEL_URL}"
+fi
+
+# 3. Read active SYNC.md marker if present
+if [ -f "SYNC.md" ]; then
+    MARKER_URL="$(grep -i "Tunnel URL:" SYNC.md | head -n1 | awk '{print $3}' || true)"
+    if [ -n "${MARKER_URL}" ]; then
+        echo "[SYNC MARKER DETECTED] Active Tunnel URL: ${MARKER_URL}"
+    fi
+fi
+
+# 4. Update CURRENT.md reconciliation timestamp
 if [ -f "CURRENT.md" ]; then
-    # Update the timestamp line in CURRENT.md
     sed -i "s/\*\*Last Reconciled:\*\*.*/\*\*Last Reconciled:\*\* ${TIMESTAMP} /" CURRENT.md
 fi
 
-# 2. Stage changes
+# 5. Stage changes
 git add .
 
-# 3. Check if there are changes to commit
+# 6. Check if there are changes to commit
 if git diff --staged --quiet; then
     echo "No unstaged or uncommitted changes detected. Workspace is clean."
 else
@@ -37,7 +67,7 @@ else
     echo "Commit created successfully."
 fi
 
-# 4. Check for remote 'origin' and push if configured
+# 7. Check for remote 'origin' and push if configured
 if git remote | grep -q "^origin$"; then
     CURRENT_BRANCH="$(git rev-parse --abbrev-ref HEAD)"
     echo "Pushing changes to remote 'origin/${CURRENT_BRANCH}'..."
