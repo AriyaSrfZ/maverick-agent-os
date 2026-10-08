@@ -1,6 +1,6 @@
 # CURRENT.md — Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-08T22:08:30+03:30 
+**Last Reconciled:** 2026-10-09T01:01:58+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh  
 
@@ -12,6 +12,9 @@
 - [x] **Sanitization Engine:** Implement `scripts/sanitize_text_and_media.py` for Layer A (invisible Unicode), voice slop auditing, and Layer C (EXIF/C2PA stripping).
 - [x] **GitHub Remote & Repository Setup:** Connected `git@github.com:AriyaSrfZ/maverick-agent-os.git` and synchronized master branch.
 - [x] **Automated Session Sync:** Deploy `scripts/session_sync.sh` for autonomous git synchronization across harnesses.
+- [x] **Council of High Intelligence:** Installed 18-persona council framework (`council`) across all harnesses, purged legacy `llm-council`, and passed 166-point roster checks.
+- [x] **Systemic Skill Unification:** Consolidated 244 skills into canonical store `~/.agents/skills/`, replacing fragmented directories across Claude Code, Antigravity, and repo with zero broken symlinks.
+- [x] **Safety Hooks & MCP Consolidation:** Synced PreToolUse destructive command guards to Claude Code and linked `.agents/hooks.json`; mirrored 9 MCP servers across Antigravity, Claude Desktop, and Claude Code.
 
 ---
 
