@@ -11,6 +11,7 @@ __pycache__/
 # Large cache directories
 graphify-out/cache/
 .system_generated/
+.omc/
 
 # Runtime logs
 *.log
