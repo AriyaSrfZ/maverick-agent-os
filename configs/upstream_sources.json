@@ -1,0 +1,338 @@
+{
+  "version": "1.0",
+  "description": "Registry of upstream GitHub repositories for skills, hooks, guidelines, and MCP servers",
+  "updated_at": "2026-10-09T01:15:00+03:30",
+  "sources": [
+    {
+      "id": "council-of-high-intelligence",
+      "name": "Council of High Intelligence",
+      "category": "skills",
+      "repo": "0xNyk/council-of-high-intelligence",
+      "url": "https://github.com/0xNyk/council-of-high-intelligence.git",
+      "branch": "main",
+      "description": "18-persona multi-agent deliberation framework with polarity pairs, novelty gates, and multi-model routing",
+      "local_targets": [
+        "/home/aria/.agents/skills/council",
+        "/home/aria/.claude/agents/council-*.md"
+      ],
+      "last_checked_sha": "d641b8d8b404cbd589a4ea1a491039a355be3dc5",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "omniroute",
+      "name": "OmniRoute AI Gateway & Router",
+      "category": "skills",
+      "repo": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute.git",
+      "branch": "main",
+      "description": "Unified AI routing gateway, token compression (RTK/Caveman), MCP, CLI tools, and resilience engine",
+      "local_targets": [
+        "/home/aria/.agents/skills/omniroute",
+        "/home/aria/.agents/skills/omni-*",
+        "/home/aria/.agents/skills/cli-*"
+      ],
+      "last_checked_sha": "61e07fb7e0d4e1e76111495d3718c9e4d06d2a62",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "oh-my-claudecode",
+      "name": "Oh My ClaudeCode (OMC)",
+      "category": "skills",
+      "repo": "Yeachan-Heo/oh-my-claudecode",
+      "url": "https://github.com/Yeachan-Heo/oh-my-claudecode.git",
+      "branch": "main",
+      "description": "Autonomous multi-agent orchestration harness, ralph loops, verification gates, and swarms",
+      "local_targets": [
+        "/home/aria/.agents/skills/oh-my-claudecode",
+        "/home/aria/.agents/skills/autopilot",
+        "/home/aria/.agents/skills/ralph",
+        "/home/aria/.agents/skills/team",
+        "/home/aria/.agents/skills/ultragoal",
+        "/home/aria/.agents/skills/omc-*"
+      ],
+      "last_checked_sha": "454bae017356ed1d056182cd929b6eb6cf6143ad",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "caveman",
+      "name": "Caveman & Cavecrew",
+      "category": "skills",
+      "repo": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman.git",
+      "branch": "main",
+      "description": "Token-saving terse caveman voice, delegate investigators, reviewers, and spend observability",
+      "local_targets": [
+        "/home/aria/.agents/skills/caveman",
+        "/home/aria/.agents/skills/cavecrew",
+        "/home/aria/.agents/skills/caveman-*"
+      ],
+      "last_checked_sha": "2e08b9177c07bb7249a8a2d1a6758e5db281d002",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "ponytail",
+      "name": "Ponytail Anti-Overengineering Engine",
+      "category": "skills",
+      "repo": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail.git",
+      "branch": "main",
+      "description": "Over-engineering review, bloat audits, YAGNI enforcement, and ponytail debt tracking",
+      "local_targets": [
+        "/home/aria/.agents/skills/ponytail",
+        "/home/aria/.agents/skills/ponytail-*"
+      ],
+      "last_checked_sha": "9cc65d03aa2da1db7121b912d03596409ee340b8",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "ui-ux-pro-max",
+      "name": "UI/UX Pro Max",
+      "category": "skills",
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git",
+      "branch": "main",
+      "description": "Enterprise UI/UX design intelligence, design tokens, typography, and styling systems",
+      "local_targets": [
+        "/home/aria/.agents/skills/ui-ux-pro-max"
+      ],
+      "last_checked_sha": "1a2c459b35f26116fd165b0a0f30597f252749ff",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "linkedin-skills",
+      "name": "LinkedIn Marketing & Content Engine",
+      "category": "skills",
+      "repo": "sergebulaev/linkedin-skills",
+      "url": "https://github.com/sergebulaev/linkedin-skills.git",
+      "branch": "main",
+      "description": "LinkedIn post generation, hook formulas, carousel PDF formatting, DM outreach, and inbox triage",
+      "local_targets": [
+        "/home/aria/.agents/skills/linkedin-marketing",
+        "/home/aria/.agents/skills/li-*"
+      ],
+      "last_checked_sha": "bfa41ff5d2b137f6023f88d9c9fda68d75b4ed5f",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "framer-motion",
+      "name": "Framer Motion Expert Guidelines",
+      "category": "skills",
+      "repo": "mindrally/skills",
+      "url": "https://github.com/mindrally/skills.git",
+      "branch": "main",
+      "description": "Modern React animation tokens, spring physics, layout animations, and gesture systems",
+      "local_targets": [
+        "/home/aria/.agents/skills/framer-motion"
+      ],
+      "last_checked_sha": "97184105b5daa3a6860a2aeb8e7e7fd1c42da40a",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "framer-motion-animator",
+      "name": "Framer Motion Animator",
+      "category": "skills",
+      "repo": "patricio0312rev/skills",
+      "url": "https://github.com/patricio0312rev/skills.git",
+      "branch": "main",
+      "description": "Micro-interaction orchestration, scroll-based animations, and page transitions",
+      "local_targets": [
+        "/home/aria/.agents/skills/framer-motion-animator"
+      ],
+      "last_checked_sha": "79ea6af485698b31060b63f0066f712560757b29",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "superpowers",
+      "name": "Superpowers Agent Framework",
+      "category": "skills",
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers.git",
+      "branch": "main",
+      "description": "Structured agent workflows: test-driven development, plan execution, and code review",
+      "local_targets": [
+        "/home/aria/.agents/skills/using-superpowers",
+        "/home/aria/.agents/skills/test-driven-development",
+        "/home/aria/.agents/skills/subagent-driven-development",
+        "/home/aria/.agents/skills/verification-before-completion"
+      ],
+      "last_checked_sha": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "awesome-design-skills",
+      "name": "Awesome Design Skills",
+      "category": "skills",
+      "repo": "bergside/awesome-design-skills",
+      "url": "https://github.com/bergside/awesome-design-skills.git",
+      "branch": "main",
+      "description": "Aesthetic interface systems: minimalist UI, industrial brutalism, Swiss typography, and bento layouts",
+      "local_targets": [
+        "/home/aria/.agents/skills/minimalist-ui",
+        "/home/aria/.agents/skills/industrial-brutalist-ui",
+        "/home/aria/.agents/skills/gpt-taste",
+        "/home/aria/.agents/skills/brandkit"
+      ],
+      "last_checked_sha": "f631a09b4fcc0166f2e2c1a8c81906ef680c57e8",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "mattpocock-skills",
+      "name": "Matt Pocock Deep Modules & Spec Skills",
+      "category": "skills",
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills.git",
+      "branch": "main",
+      "description": "Deep TypeScript modules, domain modeling, specification synthesis, and ticket generation",
+      "local_targets": [
+        "/home/aria/.agents/skills/setup-matt-pocock-skills",
+        "/home/aria/.agents/skills/setup-ts-deep-modules",
+        "/home/aria/.agents/skills/to-spec",
+        "/home/aria/.agents/skills/to-tickets",
+        "/home/aria/.agents/skills/wait-what"
+      ],
+      "last_checked_sha": "b0618bc436ad893b3c5e84e55fba86586d34a404",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "humanlayer-skills",
+      "name": "Humanlayer Agent Skills",
+      "category": "skills",
+      "repo": "humanlayer/skills",
+      "url": "https://github.com/humanlayer/skills.git",
+      "branch": "main",
+      "description": "Human approval boundaries, investigative protocols, and dispatching parallel agents",
+      "local_targets": [
+        "/home/aria/.agents/skills/dispatching-parallel-agents",
+        "/home/aria/.agents/skills/investigate-first",
+        "/home/aria/.agents/skills/lean-build"
+      ],
+      "last_checked_sha": "ca7c8088db69e315a8b2deea43820270457f8f3c",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "hackmyagent",
+      "name": "HackMyAgent Security Auditing & Red-Teaming",
+      "category": "hooks",
+      "repo": "opena2a-org/hackmyagent",
+      "url": "https://github.com/opena2a-org/hackmyagent.git",
+      "branch": "main",
+      "description": "Vulnerability scanning, MCP server hardening, prompt injection defense, and PostToolUse security hooks",
+      "local_targets": [
+        "/home/aria/.agents/skills/hackmyagent",
+        "/home/aria/.gemini/config/hooks.json"
+      ],
+      "last_checked_sha": "71d44327aeef35bc1caec7bcab1ed81f2b27c042",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "agent-reach",
+      "name": "Agent Reach Browser Integration",
+      "category": "skills",
+      "repo": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach.git",
+      "branch": "main",
+      "description": "Browser automation and external research agent tools",
+      "local_targets": [
+        "/home/aria/.agents/skills/agent-reach"
+      ],
+      "last_checked_sha": "94f06c1969dfc1834001269d79d3ad0972d9dee6",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "dair-academy",
+      "name": "DAIR.AI Academy Plugins & Exercises",
+      "category": "skills",
+      "repo": "dair-ai/dair-academy-plugins",
+      "url": "https://github.com/dair-ai/dair-academy-plugins.git",
+      "branch": "main",
+      "description": "AI course engineering, prompt stubs, and educational scaffolds",
+      "local_targets": [
+        "/home/aria/.agents/skills/academy-guide",
+        "/home/aria/.agents/skills/scaffold-exercises"
+      ],
+      "last_checked_sha": "0abffdcb374644c77b2aabf02f694e15f85ebc16",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "graphify",
+      "name": "Graphify Knowledge Graph & Rules",
+      "category": "guidelines",
+      "repo": "safishamsi/graphify",
+      "url": "https://github.com/safishamsi/graphify.git",
+      "branch": "main",
+      "description": "AST code graph extraction, god node detection, semantic communities, and query rules",
+      "local_targets": [
+        "/home/aria/.agents/skills/graphify",
+        "/home/aria/Downloads/CV/.agents/rules/graphify.md"
+      ],
+      "last_checked_sha": "6478eb71237c86ee5fb6a35c702835e987ca445d",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "impeccable",
+      "name": "Impeccable Frontend Design System",
+      "category": "skills",
+      "repo": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable.git",
+      "branch": "main",
+      "description": "Award-winning craft design system, UX copy, cognitive load review, and design detector hooks",
+      "local_targets": [
+        "/home/aria/.agents/skills/impeccable"
+      ],
+      "last_checked_sha": "1b6576e882258096eb0bb485482080169973b94b",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "mcp-servers-official",
+      "name": "Official Model Context Protocol Servers",
+      "category": "mcp",
+      "repo": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers.git",
+      "branch": "main",
+      "description": "Official reference MCP servers: Memory, Puppeteer, SQLite, Filesystem",
+      "local_targets": [
+        "/home/aria/.gemini/config/mcp_config.json"
+      ],
+      "last_checked_sha": "5abed86c5317b833dd59907492d56c65981642aa",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "maverick-agent-os",
+      "name": "Maverick Agent OS Architecture & Rulebook",
+      "category": "guidelines",
+      "repo": "AriyaSrfZ/maverick-agent-os",
+      "url": "git@github.com:AriyaSrfZ/maverick-agent-os.git",
+      "branch": "master",
+      "description": "Canonical operating rulebook (AGENTS.md), state ledgers (CURRENT.md, memory.md), and workspace architecture",
+      "local_targets": [
+        "/home/aria/Downloads/CV/AGENTS.md",
+        "/home/aria/Downloads/CV/CURRENT.md",
+        "/home/aria/Downloads/CV/memory.md"
+      ],
+      "last_checked_sha": "ad922d8549da8a7a202d87d55a375a6baa93d9d0",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    },
+    {
+      "id": "youtube-channel-council-ops",
+      "name": "YouTube Channel Council Operations",
+      "category": "guidelines",
+      "repo": "AriyaSrfZ/youtube-channel-council-ops",
+      "url": "git@github.com:AriyaSrfZ/youtube-channel-council-ops.git",
+      "branch": "master",
+      "description": "Autonomous YouTube Studio Playwright automations, 6-Titan faceless council, and media pipelines",
+      "local_targets": [
+        "/home/aria/Downloads/CV/youtube-ops/skills/yt-faceless-council"
+      ],
+      "last_checked_sha": "cd176e9278084b9da5160efe93ce844d70e3102d",
+      "last_checked_at": "2026-10-08T21:43:40.023874+00:00"
+    }
+  ],
+  "last_run_at": "2026-10-08T21:43:40.023874+00:00",
+  "summary": {
+    "total": 21,
+    "updates_available": 0,
+    "up_to_date": 21,
+    "baselined": 0,
+    "unreachable": 0
+  }
+}

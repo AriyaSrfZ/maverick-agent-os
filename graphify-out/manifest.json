@@ -1488,9 +1488,9 @@
     "semantic_hash": ""
   },
   "CURRENT.md": {
-    "mtime": 1791484710.3153381,
-    "seen": 1791495086.9869177,
-    "ast_hash": "7706263246ee9b9072c03d8d962b1bea",
+    "mtime": 1791495867.086378,
+    "seen": 1791495893.3914008,
+    "ast_hash": "332d0978b166b72ee06ca9bce8381035",
     "semantic_hash": ""
   },
   "START-HERE.md": {
@@ -1524,9 +1524,9 @@
     "semantic_hash": ""
   },
   "memory.md": {
-    "mtime": 1791484663.8446822,
-    "seen": 1791484698.882204,
-    "ast_hash": "f1893bee3fe442f143fdc77fcbaf139a",
+    "mtime": 1791495873.050197,
+    "seen": 1791495893.3915136,
+    "ast_hash": "d6d5afde398a5f1479337f8c39211447",
     "semantic_hash": ""
   },
   "workspaces/agent-harnesses/guide.md": {
@@ -1581,6 +1581,30 @@
     "mtime": 1791484645.077225,
     "seen": 1791484698.882193,
     "ast_hash": "5b9f7d57527ef2da035ee6f082469615",
+    "semantic_hash": ""
+  },
+  "configs/upstream_sources.json": {
+    "mtime": 1791495843.3671005,
+    "seen": 1791495893.3911035,
+    "ast_hash": "4ea66c02e41042dceda9b69ca38d736f",
+    "semantic_hash": ""
+  },
+  "reports/upstream_updates_report.json": {
+    "mtime": 1791495843.3711004,
+    "seen": 1791495893.3912032,
+    "ast_hash": "b4a44624463defe4a46d983416fa5feb",
+    "semantic_hash": ""
+  },
+  "scripts/check_upstream_updates.py": {
+    "mtime": 1791495776.6811461,
+    "seen": 1791495893.391217,
+    "ast_hash": "8b2ea18addd5d6526890ea58614a740f",
+    "semantic_hash": ""
+  },
+  "reports/UPSTREAM_UPDATES.md": {
+    "mtime": 1791495843.3711004,
+    "seen": 1791495893.3915153,
+    "ast_hash": "d991eb24702efd93cfc1e6412f820490",
     "semantic_hash": ""
   }
 }

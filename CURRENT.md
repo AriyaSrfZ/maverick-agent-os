@@ -1,6 +1,6 @@
 # CURRENT.md — Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-09T01:01:58+03:30 
+**Last Reconciled:** 2026-10-09T01:15:02+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh  
 
@@ -15,6 +15,7 @@
 - [x] **Council of High Intelligence:** Installed 18-persona council framework (`council`) across all harnesses, purged legacy `llm-council`, and passed 166-point roster checks.
 - [x] **Systemic Skill Unification:** Consolidated 244 skills into canonical store `~/.agents/skills/`, replacing fragmented directories across Claude Code, Antigravity, and repo with zero broken symlinks.
 - [x] **Safety Hooks & MCP Consolidation:** Synced PreToolUse destructive command guards to Claude Code and linked `.agents/hooks.json`; mirrored 9 MCP servers across Antigravity, Claude Desktop, and Claude Code.
+- [x] **Upstream Monitor Engine:** Built registry and autonomous 3-day cron checking 21 original repos for skills, hooks, and guidelines.
 
 ---
 
@@ -27,10 +28,17 @@
   - Schedule: `0 2,5 * * *` (02:00 AM & 05:00 AM daily)
   - Target: Autonomous high-impression post discovery and authoritative commenting.
   - Status: ACTIVE in system crontab; log output directed to `rotation.log`.
+- **Upstream Monitor Cron (`check_upstream_updates.py`):**
+  - Schedule: `0 3 */3 * *` (03:00 AM every 3 days)
+  - Target: Queries 21 original upstream repos for skills, hooks, guidelines, and MCPs; generates `reports/UPSTREAM_UPDATES.md`.
+  - Status: ACTIVE in system crontab; log output directed to `upstream_updates.log`.
 
 ---
 
 ## 3. Recent Artifacts & Master Outputs
+- `configs/upstream_sources.json`: Registry tracking 21 upstream repositories.
+- `reports/UPSTREAM_UPDATES.md`: Audit report covering all 21 tracked skill, hook, and guideline repos.
+- `scripts/check_upstream_updates.py`: Autonomous 3-day upstream update checking engine.
 - `docs/maverick-intelligence/01_master_catalog_doable_vs_unachievable.md`: Master catalog auditing 36+ Maverick guides.
 - `docs/maverick-intelligence/02_maverick_os_architecture.md`: Local Markdown file system specifications.
 - `docs/maverick-intelligence/03_supercharge_mcps_and_connectors.md`: Deep guide to Playwright, Firecrawl, Composio, Perplexity.
