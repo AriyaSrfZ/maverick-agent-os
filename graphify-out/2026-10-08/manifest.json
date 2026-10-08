@@ -3418,5 +3418,47 @@
     "seen": 1791435934.2543726,
     "ast_hash": "ca36c2b19481aa07ce059d40b25f0834",
     "semantic_hash": ""
+  },
+  "youtube-ops/build_documentary.py": {
+    "mtime": 1791437650.2361472,
+    "seen": 1791437732.4693549,
+    "ast_hash": "0e7024649c4eb4389da66a8df3dd47c0",
+    "semantic_hash": ""
+  },
+  "youtube-ops/render_documentary.py": {
+    "mtime": 1791437701.6024795,
+    "seen": 1791437732.4694052,
+    "ast_hash": "70306e01b5a2bca4abb0128dce6d680c",
+    "semantic_hash": ""
+  },
+  "youtube-ops/render_episode5.py": {
+    "mtime": 1791437491.1853108,
+    "seen": 1791437732.4694126,
+    "ast_hash": "8a5effaf75002ecaaa24770e5c5668ef",
+    "semantic_hash": ""
+  },
+  "docs/maverick-intelligence/01_master_catalog_doable_vs_unachievable.md": {
+    "mtime": 1791437713.5740907,
+    "seen": 1791437732.4698133,
+    "ast_hash": "a9c7a0608cc34309950c54b3f07f95e8",
+    "semantic_hash": ""
+  },
+  "docs/maverick-intelligence/02_maverick_os_architecture.md": {
+    "mtime": 1791437720.8218555,
+    "seen": 1791437732.4698148,
+    "ast_hash": "6d54fc7a72341a2346e73e5bb8521e2e",
+    "semantic_hash": ""
+  },
+  "youtube-ops/documentary_full_script.txt": {
+    "mtime": 1791437660.4918141,
+    "seen": 1791437732.4698317,
+    "ast_hash": "9daabdd171bb11c85f86323da29ae26c",
+    "semantic_hash": ""
+  },
+  "youtube-ops/documentary_master_audio.mp3": {
+    "mtime": 1791437683.4710681,
+    "seen": 1791437732.4699829,
+    "ast_hash": "528dc806e2e8bae05a99992b864ada56",
+    "semantic_hash": ""
   }
 }
