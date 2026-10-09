@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-09T05:21:56+03:30 
+**Last Reconciled:** 2026-10-09T05:31:53+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh  
 
@@ -26,8 +26,8 @@
   - Target: Publishes Post 4 on transaction ledger discrepancies to LinkedIn via persistent Chrome CDP (port 9222).
   - Status: ACTIVE in system crontab; log output directed to `morning_cron.log`.
 - **Feed Rotation & Sniper Cron (`run_rotation_automation.js`):**
-  - Schedule: `0 2,5 * * *` (02:00 AM & 05:00 AM daily)
-  - Target: Autonomous high-impression post discovery and authoritative commenting.
+  - Schedule: `0 */3 * * *` (Every 3 hours autonomously over 4-day window)
+  - Target: Autonomous post engagement with deep personal touch, warm peer friendliness, and strict safety rate limits (max 1 comment per run, `li-comment` compliant, zero buzzwords, no em dashes).
   - Status: ACTIVE in system crontab; log output directed to `rotation.log`.
 - **Upstream Monitor Cron (`check_upstream_updates.py`):**
   - Schedule: `0 3 */3 * *` (03:00 AM every 3 days)

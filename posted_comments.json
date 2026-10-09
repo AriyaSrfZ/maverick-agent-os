@@ -72,5 +72,19 @@
     "author": "GCC FinTech Discussion",
     "topic": "gcc_embedded_finance_fintech",
     "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "karthik_j_cross_border_orchestration",
+    "author": "Karthik J. (ProgressSoft)",
+    "topic": "Cross-border payments orchestration & exception handling",
+    "timestamp": "2026-10-09T01:58:45.576Z",
+    "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "sidharth_kumar_airwallex_dubai",
+    "author": "Sidharth Kumar (Airwallex)",
+    "topic": "Airwallex expansion in Dubai & UAE risk/settlement rails",
+    "timestamp": "2026-10-09T02:00:46.168Z",
+    "status": "PUBLISHED_LIVE"
   }
 ]

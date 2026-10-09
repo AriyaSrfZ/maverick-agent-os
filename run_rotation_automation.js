@@ -37,41 +37,79 @@ function recordPosted(item) {
   fs.appendFileSync(ROTATION_LOG, JSON.stringify({ ...item, timestamp: new Date().toISOString() }) + '\n');
 }
 
-// Curated rotation pool: high-relevance topics with human-verified scores (>70 on detect.py)
-// and zero narcissism, zero academic buzzwords.
+// Curated rotation pool: warm, friendly, peer-to-peer tone (no stiff academic jargon, no em dashes, zero narcissism)
 const ROTATION_CANDIDATES = [
   {
-    id: 'charisma_reza_ai_architecture',
+    id: 'karthik_j_cross_border_orchestration',
     targetUrl: 'https://www.linkedin.com/feed/',
-    matchText: 'نتایج Stack Overflow Developer Survey',
-    author: 'Reza Abolhasanzade',
-    comment: `کد تولید کردن همیشه آسون‌ترین بخش کار بوده.
+    matchText: 'Cross-border payments are not a money movement problem',
+    author: 'Karthik J. (ProgressSoft)',
+    comment: `Layer 5 is definitely the headache.
 
-توی سیستم‌های مالی، چالش اصلی ارزیابی خروجی کده. یک ابزار هوش مصنوعی می‌تونه در چند ثانیه کوئری بنویسه، ولی درکی از ریسک کسر تکراری یا ددلاک روی لجر حساب‌ها نداره. به نظرم ارزش مهندس دقیقاً توی تشخیص همین سناریوهای مرزی و حفظ کانتکست سیستم مشخص میشه.`
+Fast messaging is great. But when an asynchronous SWIFT or ISO 20022 callback drops, that's where teams hit a wall. If a regional clearing switch stalls for just 3 seconds, your ops folks end up reconciling unmatched lines by hand over coffee for 2 hours the next morning.
+
+Connecting pipes looks neat on paper. Smoothing out those messy edge cases is where you actually win customer trust.`
   },
   {
-    id: 'gcc_embedded_finance_fintech',
+    id: 'sidharth_kumar_airwallex_dubai',
+    targetUrl: 'https://www.linkedin.com/search/results/content/?keywords=fintech%20dubai&sortBy=%22relevance%22',
+    matchText: 'Airwallex is growing in the UAE and we\'re looking for a Risk Manager',
+    author: 'Sidharth Kumar (Airwallex)',
+    comment: `Exciting expansion for Dubai.
+
+Watching Airwallex scale local settlement infrastructure across the UAE is huge. Managing multi-currency liquidity while staying aligned with CBUAE rules takes real grit, especially when daily transaction volume spikes 40% over holidays. That's never an easy balancing act.
+
+Hope you land someone stellar for the team, Sidharth.`
+  },
+  {
+    id: 'gcc_embedded_finance_warm',
     targetUrl: 'https://www.linkedin.com/search/results/content/?keywords=%22embedded%20finance%22%20OR%20%22BaaS%22%20GCC&sortBy=%22relevance%22',
     matchText: 'embedded finance',
     author: 'GCC FinTech Discussion',
-    comment: `Embedded finance gets pitched as a quick SDK integration.
+    comment: `Embedded finance looks so simple on the surface.
 
-In reality, the operational hurdle is ledger synchronization. When a non-bank platform starts initiating transactions, handling dispute chargebacks and 24-hour settlement reconciliations across legacy core banking systems creates massive back-office overhead. Without automated line-item reconciliation, platforms end up hiring teams just to balance ledger discrepancies.`
+You drop in a slick SDK and checkout feels seamless. But when non-bank platforms start moving volume, handling 24-hour settlement reconciliations across legacy core banking ledgers gets tricky fast. Without automated line-item reconciliation, teams end up spending half their day matching discrepancies.
+
+Always love seeing more builders tackle the back-office side of this in the region.`
   },
   {
-    id: 'api_gateway_payment_timeouts',
+    id: 'payment_gateway_retries_friendly',
     targetUrl: 'https://www.linkedin.com/search/results/content/?keywords=%22payment%20gateway%22%20timeout%20retries&sortBy=%22relevance%22',
     matchText: 'payment',
     author: 'Payment Systems Engineering',
-    comment: `Aggressive retry logic is the fastest way to trigger duplicate charges.
+    comment: `Overly eager retry logic can really bite you.
 
-When an upstream card switch takes 4 seconds to respond, an impatient gateway timeout fires off a duplicate payment request. If the first charge eventually went through on the processor side, the customer wakes up to two debits. Handling edge-case network drops with strict request deduplication saves far more revenue than shaving 50ms off latency.`
+When an upstream card switch takes 4 seconds to respond, an impatient gateway timeout fires off a duplicate payment request. If the first charge went through, the poor customer wakes up to two debits. Handling edge-case network drops with smart request deduplication saves far more headaches than chasing raw latency numbers.
+
+Curious how your team handles gateway timeouts during regional traffic spikes?`
+  },
+  {
+    id: 'open_banking_uae_aani',
+    targetUrl: 'https://www.linkedin.com/search/results/content/?keywords=Aani%20Jaywan%20UAE%20payments&sortBy=%22relevance%22',
+    matchText: 'Aani',
+    author: 'UAE Instant Payments Discussion',
+    comment: `Aani and Jaywan are genuinely transforming local payments in the UAE.
+
+Settling funds in 3 seconds between local bank accounts is fantastic for everyday consumers. The exciting next phase is watching merchant POS terminals and online checkouts adopt it as a default rail instead of expensive card rails.
+
+Really exciting times for the UAE payments landscape.`
+  },
+  {
+    id: 'fintech_risk_fraud_prevention',
+    targetUrl: 'https://www.linkedin.com/search/results/content/?keywords=%22fraud%20prevention%22%20fintech%20payments&sortBy=%22relevance%22',
+    matchText: 'fraud',
+    author: 'FinTech Risk & Fraud Community',
+    comment: `Balancing friction against fraud prevention is always an art.
+
+Toughen up rules too much, and legitimate buyers abandon cart after 3 failed OTPs. Loosen them up, and chargeback disputes start rolling in 30 days later. Giving fraud teams real-time behavioral context without slowing checkout response times is where the real craft shows.
+
+Always great to see discussions around keeping customers safe without killing conversion.`
   }
 ];
 
 (async () => {
   console.log(`\n======================================================`);
-  console.log(`[${new Date().toISOString()}] STARTING 3-HOUR ROTATION AUTOMATION`);
+  console.log(`[${new Date().toISOString()}] STARTING AUTONOMOUS ROTATION AUTOMATION`);
   console.log(`======================================================`);
 
   const portOpen = await isPortOpen(9222);
@@ -116,7 +154,7 @@ When an upstream card switch takes 4 seconds to respond, an impatient gateway ti
     });
     console.log(`Recent conversations logged: ${messages.length}`);
 
-    // 3. Execute Rotation Comments (Max 1-2 per rotation run to prevent any rate limits)
+    // 3. Execute Rotation Comments (Safety cap: max 1 comment per rotation run to preserve trust & avoid any rate limits)
     console.log('Step 3: Checking candidate queue against history...');
     const history = getPostedHistory();
     const alreadyPostedIds = new Set(history.map(h => h.id || h.target));
@@ -124,13 +162,12 @@ When an upstream card switch takes 4 seconds to respond, an impatient gateway ti
     let commentsPostedThisRun = 0;
 
     for (const candidate of ROTATION_CANDIDATES) {
-      if (commentsPostedThisRun >= 2) {
-        console.log('Rotation limit reached for this window (safety cap).');
+      if (commentsPostedThisRun >= 1) {
+        console.log('Rotation limit reached for this window (1 comment safety cap).');
         break;
       }
 
       if (alreadyPostedIds.has(candidate.id)) {
-        console.log(`Skipping already engaged candidate: ${candidate.id}`);
         continue;
       }
 
@@ -192,8 +229,7 @@ When an upstream card switch takes 4 seconds to respond, an impatient gateway ti
               status: 'PUBLISHED_LIVE'
             });
             commentsPostedThisRun++;
-            // Natural pause between actions
-            await page.waitForTimeout(20000);
+            await page.waitForTimeout(10000);
           }
         }
       }
