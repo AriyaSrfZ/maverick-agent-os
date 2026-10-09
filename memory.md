@@ -37,3 +37,4 @@
 - Established Linux system crontab (`0 * * * *`) for unattended channel monitoring and generated `_session-handoff.md` establishing 4-day autonomous standby protocol during token reset window.
 - Updated Graphify AST knowledge graph across the codebase.
 - Verified dual-device bridge handoff from Windows client (`C:\Projects\maverick-agent-os`); diagnosed unpushed `SYNC.md` commit and Cloudflare TLS connection reset, establishing clear next commands for Home PC.
+- Ingested 1-year Gemini historical memory archive into `docs/imported-memories/gemini_extracted_memory.md`. Codified External Executive Brain Protocol (atomic single-step execution, ADHD cognitive load reduction, zero em dashes) and Identity Defense Invariant into `AGENTS.md`.
