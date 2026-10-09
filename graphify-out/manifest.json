@@ -1470,15 +1470,15 @@
     "semantic_hash": ""
   },
   "scripts/session_sync.sh": {
-    "mtime": 1791437850.3936489,
-    "seen": 1791437947.0930402,
-    "ast_hash": "da0b1ea0323efea89ba650c406bea5d3",
+    "mtime": 1791501643.6241384,
+    "seen": 1791510709.2355835,
+    "ast_hash": "0ae591168b14183061882ba763d57381",
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1791437814.9747987,
-    "seen": 1791437947.1024077,
-    "ast_hash": "164ae80c5125a111a4a233584169f3e0",
+    "mtime": 1791510665.5874815,
+    "seen": 1791510709.2357452,
+    "ast_hash": "c85ba374afd0585bc9d0eaf8144036fb",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -1488,9 +1488,9 @@
     "semantic_hash": ""
   },
   "CURRENT.md": {
-    "mtime": 1791495867.086378,
-    "seen": 1791495893.3914008,
-    "ast_hash": "332d0978b166b72ee06ca9bce8381035",
+    "mtime": 1791510685.8348887,
+    "seen": 1791510709.2357519,
+    "ast_hash": "f6aa819d3ba3b9aa273f3279b9c3e4ff",
     "semantic_hash": ""
   },
   "START-HERE.md": {
@@ -1524,9 +1524,9 @@
     "semantic_hash": ""
   },
   "memory.md": {
-    "mtime": 1791495873.050197,
-    "seen": 1791495893.3915136,
-    "ast_hash": "d6d5afde398a5f1479337f8c39211447",
+    "mtime": 1791510693.2986703,
+    "seen": 1791510709.2358434,
+    "ast_hash": "ea53b8b165c8177573b5e414e49c1345",
     "semantic_hash": ""
   },
   "workspaces/agent-harnesses/guide.md": {
@@ -1605,6 +1605,36 @@
     "mtime": 1791495843.3711004,
     "seen": 1791495893.3915153,
     "ast_hash": "d991eb24702efd93cfc1e6412f820490",
+    "semantic_hash": ""
+  },
+  "youtube-ops/upload_episode5_native_cdp.js": {
+    "mtime": 1791501222.2610369,
+    "seen": 1791510709.23573,
+    "ast_hash": "1aabfef368410442cf74375c1275b5b6",
+    "semantic_hash": ""
+  },
+  "SYNC.md": {
+    "mtime": 1791501612.49706,
+    "seen": 1791510709.2357981,
+    "ast_hash": "803aec30bba3331d9788265d01b096ea",
+    "semantic_hash": ""
+  },
+  "_session-handoff.md": {
+    "mtime": 1791501303.1424747,
+    "seen": 1791510709.235799,
+    "ast_hash": "a205d5452a5d0ae74d15cd2d1ce90bdc",
+    "semantic_hash": ""
+  },
+  "docs/imported-memories/gapgpt_extracted_memories.md": {
+    "mtime": 1791510655.663772,
+    "seen": 1791510709.2358148,
+    "ast_hash": "d1018a4beb075affe66a16eeb3a463dc",
+    "semantic_hash": ""
+  },
+  "docs/imported-memories/gemini_extracted_memory.md": {
+    "mtime": 1791510089.6484396,
+    "seen": 1791510709.2358162,
+    "ast_hash": "4e6f9f3416373cfd28a72027119815f1",
     "semantic_hash": ""
   }
 }

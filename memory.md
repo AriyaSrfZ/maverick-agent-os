@@ -1,4 +1,4 @@
-# memory.md — Master Architectural Ledger
+# memory.md: Master Architectural Ledger
 <!-- Append-only chronological log of systemic decisions and operational shifts -->
 
 ## 2026-10-06
@@ -38,3 +38,4 @@
 - Updated Graphify AST knowledge graph across the codebase.
 - Verified dual-device bridge handoff from Windows client (`C:\Projects\maverick-agent-os`); diagnosed unpushed `SYNC.md` commit and Cloudflare TLS connection reset, establishing clear next commands for Home PC.
 - Ingested 1-year Gemini historical memory archive into `docs/imported-memories/gemini_extracted_memory.md`. Codified External Executive Brain Protocol (atomic single-step execution, ADHD cognitive load reduction, zero em dashes) and Identity Defense Invariant into `AGENTS.md`.
+- Ingested GapGPT multi-agent memory dump into `docs/imported-memories/gapgpt_extracted_memories.md`. Codified telecom commercial parameters (Line 3000 postpaid wedge vs Kavenegar, Tipax footprint, 50M+ SMS volume band) and mandatory 7-day shipping cadence countermeasure into `AGENTS.md`.
