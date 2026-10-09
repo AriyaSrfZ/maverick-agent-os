@@ -92,5 +92,23 @@
     "author": "GCC FinTech Discussion",
     "topic": "gcc_embedded_finance_warm",
     "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "payment_gateway_retries_friendly",
+    "author": "Payment Systems Engineering",
+    "topic": "payment_gateway_retries_friendly",
+    "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "open_banking_uae_aani",
+    "author": "UAE Instant Payments Discussion",
+    "topic": "open_banking_uae_aani",
+    "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "fintech_risk_fraud_prevention",
+    "author": "FinTech Risk & Fraud Community",
+    "topic": "fintech_risk_fraud_prevention",
+    "status": "PUBLISHED_LIVE"
   }
 ]
