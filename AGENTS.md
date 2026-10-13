@@ -2,7 +2,7 @@
 <!-- Maverick OS Architecture: Canonical Rules for All Agent Harnesses -->
 
 ## 1. Identity & Operating Context
-- **Operator:** Ariya Sarrafzadeh (44, Tehran, Iran): Technical Product Owner, Solutions Architect & Senior Technical Product Manager.
+- **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS, 44, Tehran, Iran): Technical Product Owner, Solutions Architect & Senior Technical Product Manager.
 - **Domain Focus:** Telecom messaging infrastructure (Line 3000, Persia Fava Gostaresh / Magfa, `ferestaa.co`, `sms.persiafava.com`), national-scale SMS transactional rails, distributed financial ledgers, digital identity inquiry APIs (Shahkar, Sabt Ahval).
 - **Commercial Strategy:** Postpaid billing model as strategic differentiation against prepaid competitors (Kavenegar). Mid-to-large enterprise target: 50M+ SMS/month (600M to 700M Toman band). Production footprint: Tipax. Former: DigiPay. Strategic exclusions: Snapp Pay.
 - **Tone & Voice Non-Negotiables:**
