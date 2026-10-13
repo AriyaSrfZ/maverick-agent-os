@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-13T10:05:27+03:30 
+**Last Reconciled:** 2026-10-13T14:09:17+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh  
 
@@ -71,5 +71,6 @@
 
 ## 5. Immediate Next Actions & Pipeline Realignment
 1. **GapGPT Integration:** Persistent Chrome on port 9223 connected and verified to `gapgpt.app` for Suno audio & AI video B-roll generation.
-2. **Token Preservation:** 78 unused frontend, design, and software lifecycle skills archived to `~/.agents/skills_disabled/`, cutting prompt overhead.
-3. **Content Engine Strategy:** Cease Edge-TTS synthetic renders. Transition script drafting to secondary device's uncensored model, and integrate genuine viral opening hooks.
+2. **Token Preservation:** 78 unused frontend/design skills archived to `~/.agents/skills_disabled/`.
+3. **Intelligence Tooling Installed:** Installed canonical `jury` (`alexyc9381/court-skill` 12-juror courtroom test) and 12-skill `youtube-agent-skill` suite (`yt-script`, `yt-package`, `yt-viral`, `yt-retention`, `yt-audit`, `yt-shorts`) across `~/.agents/skills/` and repo.
+4. **Content Engine Strategy:** Use `yt-viral` outlier multiple analysis and `yt-script` 21-hook scoring before generating any video asset.
