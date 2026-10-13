@@ -1368,15 +1368,15 @@
     "semantic_hash": ""
   },
   "posted_comments.json": {
-    "mtime": 1791423041.5820005,
-    "seen": 1791435934.2537491,
-    "ast_hash": "6f107a4ee450b7fafba13536f2acfa77",
+    "mtime": 1791892196.3546147,
+    "seen": 1791896611.8275456,
+    "ast_hash": "679b2a9069c9d89184fafb1710d28903",
     "semantic_hash": ""
   },
   "run_rotation_automation.js": {
-    "mtime": 1791401512.118773,
-    "seen": 1791401555.719789,
-    "ast_hash": "b83c48c0fdb872b831f505ea2d9c6d44",
+    "mtime": 1791511316.4204798,
+    "seen": 1791896611.82756,
+    "ast_hash": "d23808072e6164ca467abbdcd8ae4b1a",
     "semantic_hash": ""
   },
   "youtube-ops/clean_live_shorts_metadata.js": {
@@ -1476,8 +1476,8 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1791510665.5874815,
-    "seen": 1791510709.2357452,
+    "mtime": 1791510719.3979065,
+    "seen": 1791896611.827719,
     "ast_hash": "c85ba374afd0585bc9d0eaf8144036fb",
     "semantic_hash": ""
   },
@@ -1488,9 +1488,9 @@
     "semantic_hash": ""
   },
   "CURRENT.md": {
-    "mtime": 1791510685.8348887,
-    "seen": 1791510709.2357519,
-    "ast_hash": "f6aa819d3ba3b9aa273f3279b9c3e4ff",
+    "mtime": 1791896585.1689675,
+    "seen": 1791896611.8277237,
+    "ast_hash": "953c41c446a5ea4d3111f784c984fac1",
     "semantic_hash": ""
   },
   "START-HERE.md": {
@@ -1524,9 +1524,9 @@
     "semantic_hash": ""
   },
   "memory.md": {
-    "mtime": 1791510693.2986703,
-    "seen": 1791510709.2358434,
-    "ast_hash": "ea53b8b165c8177573b5e414e49c1345",
+    "mtime": 1791896585.1529672,
+    "seen": 1791896611.8278043,
+    "ast_hash": "794b0d57ef6559500908efe2792c655b",
     "semantic_hash": ""
   },
   "workspaces/agent-harnesses/guide.md": {
@@ -1584,15 +1584,15 @@
     "semantic_hash": ""
   },
   "configs/upstream_sources.json": {
-    "mtime": 1791495843.3671005,
-    "seen": 1791495893.3911035,
-    "ast_hash": "4ea66c02e41042dceda9b69ca38d736f",
+    "mtime": 1791608408.4503565,
+    "seen": 1791896611.8274822,
+    "ast_hash": "adaf55a3fbc8813735b1131f601e8125",
     "semantic_hash": ""
   },
   "reports/upstream_updates_report.json": {
-    "mtime": 1791495843.3711004,
-    "seen": 1791495893.3912032,
-    "ast_hash": "b4a44624463defe4a46d983416fa5feb",
+    "mtime": 1791608408.4503565,
+    "seen": 1791896611.8275542,
+    "ast_hash": "321532671e2abfb896338002f19fedf3",
     "semantic_hash": ""
   },
   "scripts/check_upstream_updates.py": {
@@ -1602,9 +1602,9 @@
     "semantic_hash": ""
   },
   "reports/UPSTREAM_UPDATES.md": {
-    "mtime": 1791495843.3711004,
-    "seen": 1791495893.3915153,
-    "ast_hash": "d991eb24702efd93cfc1e6412f820490",
+    "mtime": 1791608408.4503565,
+    "seen": 1791896611.827806,
+    "ast_hash": "74699fb82e5a062d4a4cda5c2183b9a6",
     "semantic_hash": ""
   },
   "youtube-ops/upload_episode5_native_cdp.js": {
@@ -1626,8 +1626,8 @@
     "semantic_hash": ""
   },
   "docs/imported-memories/gapgpt_extracted_memories.md": {
-    "mtime": 1791510655.663772,
-    "seen": 1791510709.2358148,
+    "mtime": 1791510719.6258998,
+    "seen": 1791896611.8277812,
     "ast_hash": "d1018a4beb075affe66a16eeb3a463dc",
     "semantic_hash": ""
   },
@@ -1635,6 +1635,258 @@
     "mtime": 1791510089.6484396,
     "seen": 1791510709.2358162,
     "ast_hash": "4e6f9f3416373cfd28a72027119815f1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/jury/court.py": {
+    "mtime": 1791887960.53865,
+    "seen": 1791896611.8274236,
+    "ast_hash": "654f701f48770f9657e03b90e9ed547c",
+    "semantic_hash": ""
+  },
+  ".agents/skills/jury/jurors.json": {
+    "mtime": 1791887960.53865,
+    "seen": 1791896611.8274295,
+    "ast_hash": "cc1760f30c40cc31133960e6ef8b481f",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-chapters/chapters.py": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8274324,
+    "ast_hash": "13f7858ffa2056ca3275f83dc5d2a20e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-edit/deadair.py": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8274345,
+    "ast_hash": "c0df1c65f7bdffec3673ce5913521e52",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-package/title.py": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8274357,
+    "ast_hash": "e96e4c05769a48225e88a0b9a0011b90",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-retention/retention.py": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8274372,
+    "ast_hash": "52fed2d9c5245f23a7cb28beeffb2ceb",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-script/hooks.json": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8274386,
+    "ast_hash": "db0e936b1818f584ca3716cc6aac910a",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-script/hookscore.py": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8274398,
+    "ast_hash": "564dd86023bdfc85a0cc3a84cd0996e1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-viral/swipe.py": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8274412,
+    "ast_hash": "d072b601f331554b5dcc9894df0f2ac2",
+    "semantic_hash": ""
+  },
+  "post_amir_mehdi_solo.js": {
+    "mtime": 1791892196.3626146,
+    "seen": 1791896611.8275173,
+    "ast_hash": "b059218dd7d1872724b5a6bab177f651",
+    "semantic_hash": ""
+  },
+  "post_karthik_solo.js": {
+    "mtime": 1791511316.4364793,
+    "seen": 1791896611.8275216,
+    "ast_hash": "7c41ddeb752b05228014b1fa346c9b8f",
+    "semantic_hash": ""
+  },
+  "post_sam_boboev_solo.js": {
+    "mtime": 1791892196.3626146,
+    "seen": 1791896611.8275373,
+    "ast_hash": "f9f958dee0480685983c9ce3ce2e411b",
+    "semantic_hash": ""
+  },
+  "post_sam_feed.js": {
+    "mtime": 1791892196.3626146,
+    "seen": 1791896611.8275387,
+    "ast_hash": "6aed918b00049b7154ceaea7512b0401",
+    "semantic_hash": ""
+  },
+  "post_sidharth_solo.js": {
+    "mtime": 1791511316.4364793,
+    "seen": 1791896611.8275416,
+    "ast_hash": "97d2cadc6d57816f213ec71896d633c0",
+    "semantic_hash": ""
+  },
+  "youtube-ops/archive_videos_to_private.js": {
+    "mtime": 1791706986.0982666,
+    "seen": 1791896611.8275964,
+    "ast_hash": "8798019c9134911d6f302441bf76b223",
+    "semantic_hash": ""
+  },
+  "youtube-ops/assets/timedtext.json": {
+    "mtime": 1791895909.77128,
+    "seen": 1791896611.8275979,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "youtube-ops/fetch_subs.js": {
+    "mtime": 1791895883.7245119,
+    "seen": 1791896611.8276284,
+    "ast_hash": "15f4d78bc5f10546267b7286f5d0c542",
+    "semantic_hash": ""
+  },
+  "youtube-ops/fetch_user_3_videos.js": {
+    "mtime": 1791544859.2326672,
+    "seen": 1791896611.8276293,
+    "ast_hash": "b2cf8cecb60456ca9e3d4c12f32cfb31",
+    "semantic_hash": ""
+  },
+  "youtube-ops/native_cdp_fetch_3_videos.js": {
+    "mtime": 1791544894.9556267,
+    "seen": 1791896611.8276412,
+    "ast_hash": "fe96e1905241b859780bf0892d9f5245",
+    "semantic_hash": ""
+  },
+  "youtube-ops/record_narration.sh": {
+    "mtime": 1791892301.2933917,
+    "seen": 1791896611.8276558,
+    "ast_hash": "b1c255ec5d57df3a3a79d30d4e6bb4a8",
+    "semantic_hash": ""
+  },
+  "youtube-ops/render_precision_short.py": {
+    "mtime": 1791896331.774306,
+    "seen": 1791896611.8276665,
+    "ast_hash": "c5f6904c6ea76bfa5cdb27c58530af33",
+    "semantic_hash": ""
+  },
+  "youtube-ops/user_3_videos_intel.json": {
+    "mtime": 1791559926.6490333,
+    "seen": 1791896611.827694,
+    "ast_hash": "ad6b0b2f83e0f40ead4980aec7cabd06",
+    "semantic_hash": ""
+  },
+  ".agents/skills/jury/SKILL.md": {
+    "mtime": 1791887960.53865,
+    "seen": 1791896611.8277018,
+    "ast_hash": "87eabe2da6998e4935d02ad405b281b0",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-audit/SKILL.md": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8277028,
+    "ast_hash": "960363f1d3039df2dac682db797038dc",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-chapters/SKILL.md": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.827704,
+    "ast_hash": "e383aa4370f83b9bf8c96e7ed4331b3e",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-comment/SKILL.md": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8277051,
+    "ast_hash": "0352cefa1ec5494a089cbbe3b32065d3",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-edit/SKILL.md": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8277066,
+    "ast_hash": "b421a7a04268156cace16a6b84b9bde1",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-package/SKILL.md": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8277075,
+    "ast_hash": "448676d6b9fce42328bc85fcf78dd6be",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-plan/SKILL.md": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.827709,
+    "ast_hash": "cbdf6192d14edbaea1abd58baa93a8aa",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-retention/SKILL.md": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8277097,
+    "ast_hash": "3bf402a677506f15c8e004931fb9c805",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-script/SKILL.md": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.8277109,
+    "ast_hash": "4455d29fe7e0e8889c9d8c61f1cd013d",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-seo/SKILL.md": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.827712,
+    "ast_hash": "d17f25fb64b99be72c1aafb2c780df27",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-shorts/SKILL.md": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.827713,
+    "ast_hash": "71eb864ef8a6c33cf99abfaa67f86222",
+    "semantic_hash": ""
+  },
+  ".agents/skills/yt-viral/SKILL.md": {
+    "mtime": 1791887960.5426497,
+    "seen": 1791896611.827714,
+    "ast_hash": "d758be7cf9098d8a64b11b83c3f35e45",
+    "semantic_hash": ""
+  },
+  "docs/imported-memories/claude_extracted_memory.md": {
+    "mtime": 1791547364.9403079,
+    "seen": 1791896611.8277795,
+    "ast_hash": "409118ce333b0af2d548b68d1681c060",
+    "semantic_hash": ""
+  },
+  "youtube-ops/assets/slices_concat.txt": {
+    "mtime": 1791896356.6072018,
+    "seen": 1791896611.8278177,
+    "ast_hash": "923a41857621deae5baa2e2dd3b29d09",
+    "semantic_hash": ""
+  },
+  "youtube-ops/direct_video_url.txt": {
+    "mtime": 1791895037.41031,
+    "seen": 1791896611.8278205,
+    "ast_hash": "ce9adfef7ec38f1fa4663e4e0840f61c",
+    "semantic_hash": ""
+  },
+  "test_record.webm": {
+    "mtime": 1791896585.1609674,
+    "seen": 1791896611.827914,
+    "ast_hash": "f2e1ee1effff3193e23391f3089ca8ae",
+    "semantic_hash": ""
+  },
+  "youtube-ops/assets/jre_boxes_audio.wav": {
+    "mtime": 1791896220.2646992,
+    "seen": 1791896611.827915,
+    "ast_hash": "9f61d67871c3ae0134ccd7a60a5321a8",
+    "semantic_hash": ""
+  },
+  "youtube-ops/assets/jre_precision_audio.wav": {
+    "mtime": 1791895629.6460986,
+    "seen": 1791896611.8279161,
+    "ast_hash": "f18af0c6203f9d9e00a0a9600e48be84",
+    "semantic_hash": ""
+  },
+  "youtube-ops/assets/master_audio_mixed.wav": {
+    "mtime": 1791896356.85121,
+    "seen": 1791896611.8279173,
+    "ast_hash": "95edb8ea22fb3f9427d801c37e8bcd6e",
+    "semantic_hash": ""
+  },
+  "youtube-ops/assets/suno_serapeum_drone.mp3": {
+    "mtime": 1791892146.5751872,
+    "seen": 1791896611.8279183,
+    "ast_hash": "ebc1c1d7d958eb9554cdbc2d03b8fdcb",
     "semantic_hash": ""
   }
 }
