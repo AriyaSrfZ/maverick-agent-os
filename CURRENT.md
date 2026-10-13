@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-13T18:30:01+03:30 
+**Last Reconciled:** 2026-10-13T21:40:32+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh  
 **LinkedIn Status:** 1,095 impressions (+414 gain), 64 viewers, Chrome port 9222 active, rotation live.  
@@ -71,6 +71,6 @@
 ---
 
 ## 5. Immediate Next Actions & Pipeline Realignment
-1. **Serapeum Precision Short Master Rendered:** Finished 35.5s vertical Short (`youtube-ops/Serapeum_Precision_Short_Master.mp4`) integrating real JRE #2142 dialogue, Kling subterranean B-roll, macro inspection photo with Ken Burns pan, and kinetic typography.
-2. **Channel Scheduling & Live Release:** Stage `Serapeum_Precision_Short_Master.mp4` for upload to Forbidden Genesis via native Chrome CDP.
+1. **Offshore Node Foothold (Stockholm SWE-PROMO):** COMPLETED & LIVE. Xray VLESS-Reality on port 443 deployed at `109.120.131.224`. Local persistent systemd service `maverick-proxy.service` active on `127.0.0.1:20808` with verified end-to-end access to YouTube (HTTP 200) and OpenAI. Handing single-link configs to operator for Mobile (V2Box) and Windows Home PC (Nekoray).
+2. **Serapeum Precision Short Master Release:** Final master Short staged on YouTube Studio (`UCHtmyFuya1KhO0KdLoZRKLg`); release upon offshore node proxy verification.
 3. **Episode 6 Backlog:** Prepare next authentic clip from Flinders Petrie Core #7 spiral drill feeds.
