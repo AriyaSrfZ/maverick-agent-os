@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-13T08:30:01+03:30 
+**Last Reconciled:** 2026-10-13T10:05:27+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh  
 
@@ -69,8 +69,7 @@
 
 ---
 
-## 5. Immediate Next Actions (4-Day Standby Mode)
-1. Both devices now share identical state via `origin/master`; running `session_sync.sh` or `git pull --rebase origin master` propagates all edits automatically.
-2. Linux system crontab runs `unattended_monitor.js` hourly, morning LinkedIn posts, and upstream monitors autonomously (0 LLM tokens).
-3. Offline GGUF models on Home/Work PC handle task execution via OmniRoute & Codex.
-4. Antigravity quota resets approx. Oct 13, 2026.
+## 5. Immediate Next Actions & Pipeline Realignment
+1. **GapGPT Integration:** Persistent Chrome on port 9223 connected and verified to `gapgpt.app` for Suno audio & AI video B-roll generation.
+2. **Token Preservation:** 78 unused frontend, design, and software lifecycle skills archived to `~/.agents/skills_disabled/`, cutting prompt overhead.
+3. **Content Engine Strategy:** Cease Edge-TTS synthetic renders. Transition script drafting to secondary device's uncensored model, and integrate genuine viral opening hooks.
