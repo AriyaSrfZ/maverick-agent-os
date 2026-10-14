@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-14T14:14:16+03:30 
+**Last Reconciled:** 2026-10-14T14:20:19+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 1,095 impressions, 64 viewers, Chrome port 9222 active; research extractors (`prospect_search`, `profile_dossier`, `feed_sniper_intel`) verified live.  
@@ -95,4 +95,5 @@
    - Strategy: Capitalize on active LinkedIn Premium (InMail, direct apply) before expiration.
 10. **Master Deliverable Asset Created ($1,500 Blueprint):** Generated production-ready enterprise specification `workspaces/maverick-intelligence/templates/high_ticket_architecture_blueprint.md` covering 5,000 TPS double-entry ledgers, idempotency engines, Kafka partitioning, real-time streaming reconciliation, and FCA/CBUAE compliance audit trails.
 11. **UAE Relocation Lifeline Target:** $4,500 - $5,000 USD total capital required (2-year UAE Freelance Visa ~$3,500 + travel/first month ~$1,000) to secure Emirates ID and eliminate Iranian banking/sanctions barrier for Revolut UAE. Rule of engagement: 50% upfront USDT deposit on all B2B consulting to eliminate payment default risk.
+12. **Working Calendar & Rhythm:** Working week runs Saturday through Thursday (Friday off; Iranian Solar/Lunar Hijri business calendar). All scheduling and operational cadences respect this calendar.
 
