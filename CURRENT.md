@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-14T13:38:11+03:30 
+**Last Reconciled:** 2026-10-14T13:43:17+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 1,095 impressions, 64 viewers, Chrome port 9222 active; research extractors (`prospect_search`, `profile_dossier`, `feed_sniper_intel`) verified live.  
@@ -78,6 +78,10 @@
 3. **International Payment Instrument:** ACTIVE. US Virtual Visa card (`•••• 9628`, exp 10/33) registered with Santa Ana, CA billing address. Initial \$10.14 utilized for Tello setup; remaining balance is **\$14.86 USD** available for Claude Pro or Vizard subscriptions.
 4. **Workstation Egress & Proxy Status:** LIVE & STABLE. Background Mihomo daemon (`/usr/local/bin/mihomo -d /etc/mihomo`, PID 746873) listening on `127.0.0.1:7890`. Routes international traffic through Stockholm node (`109.120.131.224`) with anti-IP-leak protection and direct routing for Iranian domestic domains. Local sing-box service (`maverick-proxy.service`) remains active on `127.0.0.1:20808`.
 5. **Operational Memory Guard Locked:** Hard safety boundary codified in `AGENTS.md` Section 3 and `.agents/memory/remote_session_vpn_safety.md`: agent must NEVER terminate or kill active VPN/proxy processes in a remote session.
-6. **Financial Valuation & Nobitex Reality Check:** Verified exact live market rate of USDT (~63,200 Tomans/USDT). 500 USDT equals ~31.6M Tomans (not 35M). Formally established Nobitex as an off-ramp / fiat exit rail only; no speculative trading of scarce personal capital.
+6. **Financial Valuation & Nobitex Reality Check (October 2026 / 1405):** Verified directly from HaroSS's live Nobitex app screenshot. 1 USDT = **263,008 Tomans**.
+   - HaroSS domestic monthly salary: 40M Tomans = **$152 USD** (under market, often withheld).
+   - 500 USDT net earnings = **131,504,000 Tomans** (equivalent to 3.3 months of domestic salary).
+   - $10,000 USD goal = **2,630,080,000 Tomans** (2.63 Billion Tomans, equivalent to 65 months of domestic salary).
+   - Nobitex remains strictly an off-ramp / fiat exit rail, never a speculative trading account.
 7. **Monetization Realignment ($10k Direct Target):** Dual execution of Rail 3 (B2B Enriched Outbound Intel batches at $300-$500 USDT for GCC agencies) and Rail 2 (High-Ticket Architecture Blueprints & PRDs at $1,500 USDT for founders). YouTube (Forbidden Genesis) preserved as an automated compounding asset on the 7-day shipping cadence.
 
