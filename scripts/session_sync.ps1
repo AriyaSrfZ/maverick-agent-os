@@ -3,7 +3,10 @@ param (
     [string]$CommitMessage
 )
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
+if (Test-Path Variable:\PSNativeCommandUseErrorActionPreference) {
+    $PSNativeCommandUseErrorActionPreference = $false
+}
 $ScriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $WorkspaceRoot = Split-Path -Parent $ScriptDir
 
@@ -22,7 +25,7 @@ Write-Host "====================================================================
 # 1. Fetch & rebase
 $currentBranch = (git rev-parse --abbrev-ref HEAD).Trim()
 Write-Host "Fetching & rebasing from 'origin/$currentBranch'..."
-git pull --rebase origin $currentBranch 2>$null
+git pull --rebase origin $currentBranch
 
 # 2. Check for tunnel URL argument
 if ($CommitMessage -match '^https?://') {
