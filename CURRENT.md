@@ -1,6 +1,10 @@
 ﻿# CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-14T09:25:26+03:30
+<<<<<<< Updated upstream
+**Last Reconciled:** 2026-10-14T13:04:11+03:30 
+=======
+**Last Reconciled:** 2026-10-14T13:04:11+03:30 
+>>>>>>> Stashed changes
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 1,095 impressions, 64 viewers, Chrome port 9222 active; research extractors (`prospect_search`, `profile_dossier`, `feed_sniper_intel`) verified live.  
@@ -73,9 +77,17 @@
 ---
 
 ## 5. Immediate Next Actions & Pipeline Realignment
+<<<<<<< Updated upstream
 1. **Workstation Egress & Proxy Status:** LIVE & STABLE. Background Mihomo daemon (`/usr/local/bin/mihomo -d /etc/mihomo`, PID 746873) listening on `127.0.0.1:7890`. Routes international traffic through Stockholm node (`109.120.131.224`) with anti-IP-leak protection and direct routing for Iranian domestic domains. Local sing-box service (`maverick-proxy.service`) remains active on `127.0.0.1:20808`.
 2. **Serapeum Precision Short Delivery:** Master video hosted on Stockholm server (`http://109.120.131.224:8088/Serapeum_Precision_Short_Master.mp4`) for direct mobile upload to Forbidden Genesis (`UCHtmyFuya1KhO0KdLoZRKLg`) as Private.
 3. **Pipeline Upgrade:** Transitioning video workflow to Vizard SaaS account to eliminate manual ffmpeg alignment and automate kinetic captions.
 4. **Operational Memory Guard Locked:** Hard safety boundary codified in `AGENTS.md` Section 3 and `.agents/memory/remote_session_vpn_safety.md`: agent must NEVER terminate or kill active VPN/proxy processes in a remote session.
 
 
+=======
+1. **Developer Tier & Quota Infrastructure:** LIVE & UNRESTRICTED. Google Account (`ariasg2002@gmail.com`) verified on **Google AI Pro (5 TB)**. Antigravity Pro operational with rolling 5-hour high-throughput refresh cycles and zero token capacity freezes.
+2. **US Mobile Identity & Telecom Rail:** LIVE & ACTIVE. Deployed permanent **Tello Mobile US Delaware (Area Code 302)** eSIM on Samsung Galaxy S23 Ultra. Registered E911 emergency address at `1201 N Orange St, Suite 700, Wilmington, DE 19801`. Wi-Fi Calling active with 300 minutes talk + unlimited SMS worldwide.
+3. **International Payment Instrument:** ACTIVE. US Virtual Visa card (`•••• 9628`, exp 10/33) registered with Santa Ana, CA billing address. Initial \$10.14 utilized for Tello setup; remaining balance is **\$14.86 USD** available for Claude Pro or Vizard subscriptions.
+4. **Workstation Egress & Proxy Status:** LIVE & STABLE. Background Mihomo daemon (`/usr/local/bin/mihomo -d /etc/mihomo`, PID 746873) listening on `127.0.0.1:7890`. Routes international traffic through Stockholm node (`109.120.131.224`) with anti-IP-leak protection and direct routing for Iranian domestic domains. Local sing-box service (`maverick-proxy.service`) remains active on `127.0.0.1:20808`.
+5. **Operational Memory Guard Locked:** Hard safety boundary codified in `AGENTS.md` Section 3 and `.agents/memory/remote_session_vpn_safety.md`: agent must NEVER terminate or kill active VPN/proxy processes in a remote session.
+>>>>>>> Stashed changes
