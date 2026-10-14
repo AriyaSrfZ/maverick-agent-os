@@ -66,9 +66,9 @@
 
 ## 4. Dual-Device Bridge Status (Workstation <-> Windows Home PC)
 - **Status:** **CONNECTED & ACTIVE** (Tier 1 Git State Bridge).
-- **Windows Client:** Running at `C:\Projects\maverick-agent-os`. Transmitted `SYNC.md` via commit `324804c`.
-- **Workstation Client:** Ingested `SYNC.md`, enhanced `scripts/session_sync.sh` with auto-rebase and marker parsing, and confirmed bi-directional state sync at `fbba026`.
-- **Sync Marker Details:** Tunnel `https://dialog-itunes-useful-clinton.trycloudflare.com` recorded in `SYNC.md`.
+- **Windows Client:** Running at `C:\Projects\maverick-agent-os`. Peer connection verified to `smart-db` (192.168.1.136) and Samba storage (192.168.1.134 / `Z:\`). SSH and interface binding configured. Antigravity rules and agent harnesses synchronized.
+- **Workstation Client:** Ingested `SYNC.md`, enhanced `scripts/session_sync.sh` with auto-rebase and marker parsing, and confirmed bi-directional state sync.
+- **Sync Marker Details:** Node DESKTOP-9CHILR0 registered in `SYNC.md`.
 
 ---
 
