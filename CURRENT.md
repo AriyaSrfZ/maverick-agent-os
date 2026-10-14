@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-14T08:30:01+03:30 
+**Last Reconciled:** 2026-10-14T08:38:29+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 1,095 impressions, 64 viewers, Chrome port 9222 active; research extractors (`prospect_search`, `profile_dossier`, `feed_sniper_intel`) verified live.  
@@ -76,3 +76,5 @@
 1. **Offshore Node Foothold (Stockholm SWE-PROMO):** COMPLETED & LIVE. Xray VLESS-Reality on port 443 deployed at `109.120.131.224`. Local persistent systemd service `maverick-proxy.service` active on `127.0.0.1:20808`.
 2. **Serapeum Precision Short Delivery:** Master video transferred to Stockholm server (`http://109.120.131.224:8088/Serapeum_Precision_Short_Master.mp4`) for direct mobile upload to Forbidden Genesis (`UCHtmyFuya1KhO0KdLoZRKLg`) as Private.
 3. **Pipeline Upgrade:** Transitioning video workflow to Vizard SaaS account to eliminate browser CDP automation friction and automate clipping.
+4. **Clash-Verge Configuration Staged:** Added `Maverick-Stockholm` VLESS-Reality node directly into active Clash-Verge profile (`LC94ZlsugsmK.yaml` and `wireguard.yaml`). HaroSS can select it directly in the Clash-Verge GUI.
+5. **Operational Memory Guard Locked:** Hard safety boundary codified in `AGENTS.md` Section 3 and `.agents/memory/remote_session_vpn_safety.md`: agent must NEVER terminate or kill active VPN/proxy processes in a remote session.

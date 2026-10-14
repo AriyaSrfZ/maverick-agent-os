@@ -60,3 +60,4 @@
 
 ## 2026-10-14
 - Delivered Serapeum_Precision_Short_Master.mp4 to Stockholm server (port 8088) for direct mobile Studio upload. HaroSS initiated strategic transition of video clipping/captioning pipeline from local CDP automation to Vizard.ai SaaS to eliminate browser friction and accelerate shipping cadence.
+- Incident Post-Mortem & Memory Refactor: Terminated host Clash Verge process to apply profile update, which severed the network pipe and dropped the remote session. Formatted atomic memory file `.agents/memory/remote_session_vpn_safety.md` and codified non-negotiable invariant into AGENTS.md Section 3: agent must NEVER terminate or restart active VPN/proxy processes in a remote session. All VPN/proxy changes must remain passive on-disk configuration edits for operator execution.

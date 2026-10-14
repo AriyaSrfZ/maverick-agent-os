@@ -37,6 +37,7 @@ When resolving conflicting instructions or assumptions:
 - **Credential Hygiene:** Never commit `.env` files, private keys, API secrets, or personal identification numbers to Git or public outputs.
 - **Identity & Legal Defense Invariant:** Strict operational security regarding operator identity and banking. Accounts were previously compromised by employer corporate fraud across multiple legal disputes. Physical and financial safety boundaries in Iran dictate pragmatic, zero-exposure crisis management. Never recommend or initiate high-risk financial schemes, platforms requiring unsupported international KYC, or domestic political exposés.
 - **Sanitization Invariant:** All user-facing drafts and generated media (carousels, images, PDFs) must pass through `scripts/sanitize_text_and_media.py` to purge invisible Unicode markers and C2PA/EXIF metadata.
+- **Never Kill Active Network/VPN Daemons:** NEVER terminate, kill, or restart active VPN, proxy, or tunnel daemons (Clash Verge, verge-mihomo, WireGuard, sing-box) from within a remote agent session. The operator's remote access and the agent harness depend on the active pipe; killing it instantly severs the network interface and drops all connections. Updates to proxy configurations must be written passively to disk for operator execution.
 
 ---
 
