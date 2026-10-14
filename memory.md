@@ -72,3 +72,4 @@
 - Dual Master Video Production (Forbidden Genesis): Rendered two 33-second master vertical 1080x1920 shorts (`Barabar_Caves_Precision_Master_Short.mp4` and `Karahan_Tepe_Megalith_Master_Short.mp4`) at $0 cost using local FFmpeg and high-res on-site archaeological photography. Applied dynamic Ken Burns pans, deep ambient acoustic drone audio, and kinetic ASS subtitles with zero emojis and zero hallucinations.
 
 
+- Viral Video Pipeline Refactored (Forbidden Genesis): Purged static image zoompan mocks. Cut real 1080p JRE interview footage into `Great_Flood_Memory_Master_Short.mp4` (30.5s) featuring Graham Hancock on the 12,800-year Younger Dryas flood memory, paired with `Serapeum_Precision_Short_Master.mp4` (35.5s) featuring Christopher Dunn, with authentic dialogue, synchronized dynamic B-roll, and kinetic ASS subtitles (zero emojis, zero hallucinations).
