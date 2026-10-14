@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Pooya Golchian",
+    "headline": "AI Transformation Lead | Agentic AI, MCP & RAG in production for B2B and regulated fintech | Dubai, UAE",
+    "location": "Dubai, UAE",
+    "url": "https://www.linkedin.com/in/pooyagolchian/",
+    "pain_point": "Determinism, audit trails, and strict compliance latency in regulated agentic loops.",
+    "opening_hook": "Running MCP and agentic loops in regulated fintech environments runs straight into determinism and audit trail compliance. Tracking your work with production forward-deployed agents in Dubai; would be glad to connect on agentic evaluation frameworks."
+  },
+  {
+    "name": "Ashutosh Soni",
+    "headline": "Product Manager | Fintech & SaaS | Bridging IT Operations & Product Strategy | Dubai, UAE",
+    "location": "Dubai, UAE",
+    "url": "https://www.linkedin.com/in/ashutosh-soni-278ab718b/",
+    "pain_point": "Reconciliation lag between core legacy banking and event-driven product features.",
+    "opening_hook": "Bridging IT operations with product strategy in GCC fintech usually breaks down at reconciliation between legacy core banking and event-driven microservices. Noticed your focus on operational strategy in Dubai; would welcome comparing notes on ledger consistency."
+  },
+  {
+    "name": "Umar Abbas",
+    "headline": "Senior Frontend Developer | Micro Frontends | Fintech & Gov Platforms | Dubai, UAE",
+    "location": "Dubai, UAE",
+    "url": "https://www.linkedin.com/in/umar-abbas-5b2670126/",
+    "pain_point": "State synchronization and auth token propagation across micro-frontend boundaries.",
+    "opening_hook": "Micro-frontend state sharing across regulated banking portals often introduces silent session desync under flaky network transitions. Appreciated your focus on TypeScript frontend architecture in Dubai; would value exchanging notes."
+  },
+  {
+    "name": "Jyothi Doddanna",
+    "headline": "Senior Full Stack Engineer | React • Node.js | AI/GenAI | FinTech & SaaS | Dubai, UAE",
+    "location": "Dubai, UAE",
+    "url": "https://www.linkedin.com/in/jyothi-doddanna-69564169/",
+    "pain_point": "Token latency budgets and idempotent database writes in hybrid AI/fintech backends.",
+    "opening_hook": "Integrating GenAI features into production fintech backends creates real headaches around token latency budgets and deterministic database writes. Impressed by your full-stack journey in Dubai; glad to connect."
+  },
+  {
+    "name": "Ahmad Altarawneh",
+    "headline": "Quality Engineer @ Dubai Digital Authority",
+    "location": "Dubai, UAE",
+    "url": "https://www.linkedin.com/in/ahmadtarawnehh/",
+    "pain_point": "Stress testing concurrent transactional spikes across public sector digital identity rails.",
+    "opening_hook": "Testing government-scale transactional digital services requires handling high concurrent spikes without ledger state drift. Followed Dubai Digital Authority's recent infrastructure initiatives; glad to connect with fellow systems engineers in the region."
+  }
+]
