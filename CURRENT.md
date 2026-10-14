@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-14T13:43:17+03:30 
+**Last Reconciled:** 2026-10-14T13:50:18+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 1,095 impressions, 64 viewers, Chrome port 9222 active; research extractors (`prospect_search`, `profile_dossier`, `feed_sniper_intel`) verified live.  
@@ -84,4 +84,10 @@
    - $10,000 USD goal = **2,630,080,000 Tomans** (2.63 Billion Tomans, equivalent to 65 months of domestic salary).
    - Nobitex remains strictly an off-ramp / fiat exit rail, never a speculative trading account.
 7. **Monetization Realignment ($10k Direct Target):** Dual execution of Rail 3 (B2B Enriched Outbound Intel batches at $300-$500 USDT for GCC agencies) and Rail 2 (High-Ticket Architecture Blueprints & PRDs at $1,500 USDT for founders). YouTube (Forbidden Genesis) preserved as an automated compounding asset on the 7-day shipping cadence.
+8. **Cash Preservation Guard:** Banned emergency expenditure of 4M Tomans on Vizard. Workstation FFmpeg rendering engine (`youtube-ops/render_precision_short.py`) handles 100% of video generation locally at $0 cost. HaroSS cash buffer protected.
+9. **Active High-Ticket Remote Pipeline (LinkedIn MCP Search):**
+   - Revolut: Product Owner (Technical), Remote UAE (Posted < 24h ago; tagged "Top Applicant").
+   - Kraken: Senior Product Manager (Payments Platform) & PM II (Financial Crime / Transaction Monitoring), Remote UAE.
+   - Aquanow: Product Owner (Stablecoin Payments), Dubai.
+   - Strategy: Capitalize on active LinkedIn Premium (InMail, direct apply) before expiration.
 
