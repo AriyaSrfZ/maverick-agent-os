@@ -1,0 +1,42 @@
+[
+  {
+    "listing_id": "gZ1234AB",
+    "title": "آپارتمان ۸۵ متری دو خوابه",
+    "price": "۳٬۵۰۰٬۰۰۰٬۰۰۰ تومان",
+    "location": "تهران، سعادت‌آباد",
+    "category": "residential-sell",
+    "image_count": "۴",
+    "listing_url": "https://divar.ir/v/gZ1234AB?utm_source=share",
+    "scraped_at_utc": "2025-01-15T10:00:00Z"
+  },
+  {
+    "listing_id": "gZ1234AB",
+    "title": "آپارتمان ۸۵ متری دو خوابه (duplicate)",
+    "price": "۳۵۰۰۰۰۰۰۰۰ تومان",
+    "location": "تهران، سعادت‌آباد",
+    "category": "residential-sell",
+    "image_count": 4,
+    "listing_url": "https://divar.ir/v/gZ1234AB",
+    "scraped_at_utc": "2025-01-15T10:05:00Z"
+  },
+  {
+    "listing_id": "gZ9999CD",
+    "title": "مغازه تجاری ۲۰ متر",
+    "price": "۴۵۰٬۰۰۰٬۰۰۰ ریال",
+    "location": "مشهد، احمدآباد",
+    "category": "commercial-rent",
+    "image_count": 2,
+    "listing_url": "https://divar.ir/v/gZ9999CD",
+    "scraped_at_utc": "2025-01-15T11:00:00Z"
+  },
+  {
+    "listing_id": "gZ0000NO",
+    "title": "میز تحریر چوبی",
+    "price": "توافقی",
+    "location": "اصفهان",
+    "category": "home-furniture",
+    "image_count": 0,
+    "listing_url": "https://divar.ir/v/gZ0000NO",
+    "scraped_at_utc": "2025-01-15T12:00:00Z"
+  }
+]

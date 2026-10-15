@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-15T17:52:34+03:30 
+**Last Reconciled:** 2026-10-15T18:00:15+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 65 viewers, 778 impressions; Chrome port 9222 active; auto templates overhauled via `/humanizer` & `/li-human`; live engagements published (Ahmad Shahab, Ali Khangholi, GCC Payment Rails - scored 91.5 PASS).  
@@ -42,6 +42,7 @@
 - [x] **Stockholm Web Portal Rebranded & AI Consulting Deployed:** Rebuilt `/root/videos/index.html` on Stockholm VPS (`109.120.131.224:8088`). Rebranded from "Forbidden Genesis" to "Maverick OS Enterprise AI Architecture & Media Studio", featuring interactive tabs for E-Commerce AI Consulting and Master Short Screening.
 - [x] **Financial Council Debt Recovery & Scholar Syllabus Codified:** Formally named Financial Council (Munger, Taleb, Machiavelli) with copy-paste Persian debt recovery message for the 30M Toman loan, and established Council Scholar (Aristotle & Karpathy) syllabus on Agent Orchestration and E-Commerce AI.
 - [x] **Multi-Genre Viral Video Clipping Directive Confirmed:** Officially dissolved single-niche constraint in `docs/maverick-intelligence/16_authoritative_multi_genre_viral_clipping_directive.md`. Deployed `youtube-ops/viral_clip_summarizer.py` for downloading, surgical cutting, vertical 9:16 reframing, and explainer captioning of viral clips across all genres for daily volume on YouTube Shorts, TikTok, and Instagram Reels.
+- [x] **Competitive Scraping & Market Intelligence Engine Deployed:** Extracted and installed `tools/iran_scraper_engine` (async crawler, Welford 2σ counterfeit detector) and `tools/divar-listing-ingestor` (deduplication & price normalization). Codified "Business Wolves" competitive data warfare blueprint in `docs/maverick-intelligence/17_competitive_scraping_and_market_intelligence_war_room.md`, and registered canonical agent skill in `.agents/skills/ecom-competitive-scraper/SKILL.md`.
 
 ---
 
@@ -111,6 +112,10 @@
 - `workspaces/maverick-intelligence/templates/maverick_studio_and_consulting_portal.html`: Multi-tab portal template combining AI E-Commerce Product Consulting and Media Screening Room.
 - `docs/maverick-intelligence/15_ecommerce_ai_product_consulting_framework.md`: E-commerce AI product consulting playbook, financial council debt recovery script, and scholar study syllabus.
 - `docs/maverick-intelligence/16_authoritative_multi_genre_viral_clipping_directive.md`: Authoritative operational directive confirming pivot to multi-genre viral video clipping and explainer production.
+- `tools/iran_scraper_engine`: Production async marketplace crawler with Welford 2σ counterfeit anomaly detection.
+- `tools/divar-listing-ingestor`: Classified marketplace listing ingestion, normalization, and deduplication tool.
+- `.agents/skills/ecom-competitive-scraper/SKILL.md`: Canonical agent skill for e-commerce competitive scraping.
+- `docs/maverick-intelligence/17_competitive_scraping_and_market_intelligence_war_room.md`: Tactical market warfare blueprint covering wholesale arbitrage, stockout conquesting, and brand defense.
 
 
 ---
