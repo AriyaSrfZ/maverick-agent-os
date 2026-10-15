@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-16T02:34:15+03:30 
+**Last Reconciled:** 2026-10-16T02:42:18+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 65 viewers, 778 impressions; Chrome port 9222 active; auto templates overhauled via `/humanizer` & `/li-human`; live engagements published (Ahmad Shahab, Ali Khangholi, GCC Payment Rails - scored 91.5 PASS).  
@@ -120,6 +120,7 @@
 - `.agents/skills/ecom-competitive-scraper/SKILL.md`: Canonical agent skill for e-commerce competitive scraping.
 - `docs/maverick-intelligence/17_competitive_scraping_and_market_intelligence_war_room.md`: Tactical market warfare blueprint covering wholesale arbitrage, stockout conquesting, and brand defense.
 - `MASTER_AGENDA_AND_AUTONOMOUS_ROADMAP.md`: Definitive operational agenda, multi-device grid specification, and autonomous execution roadmap across all devices.
+- `configs/wireguard_hetzner_de.conf`: Active, verified German WireGuard configuration (Hetzner Online GmbH, Falkenstein, DE).
 
 
 ---
