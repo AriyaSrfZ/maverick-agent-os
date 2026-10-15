@@ -40,6 +40,43 @@ function recordPosted(item) {
 // Curated rotation pool: warm, friendly, peer-to-peer tone (no stiff academic jargon, no em dashes, zero narcissism)
 const ROTATION_CANDIDATES = [
   {
+    id: 'ali_khangholi_senior_promotion',
+    targetUrl: 'https://www.linkedin.com/in/alikhangholi/recent-activity/all/',
+    matchText: 'promoted to Senior Frontend Engineer at DigiPay',
+    author: 'Ali Khangholi (DigiPay)',
+    comment: `Well deserved, Ali.
+
+Keeping checkout latency under 200ms across 40 million transactions on DigiPay is no small feat. That's why your work on frontend state resilience matters so much when unreliable 3G connections drop in the middle of a payment.
+
+Huge congrats. You've earned this win, so make sure you celebrate properly with the Tehran team.`
+  },
+  {
+    id: 'maharaj_singh_3ds_verification',
+    targetUrl: 'https://www.linkedin.com/in/ma-raj/recent-activity/all/',
+    matchText: '3DS Verification Flow',
+    author: 'Maharaj Singh',
+    comment: `Spot on, Maharaj.
+
+Balancing authentication friction against checkout drop-off is where payment engineering gets messy.
+
+If you push 100% of checkouts through challenge screens, conversion plummets 15% immediately while customers abandon their carts. Dial back the fraud thresholds too far, and chargeback disputes spike 30 days later across your merchant accounts.
+
+That's why dynamic risk checks before invoking the SDK save so many headaches. Really sharp breakdown.`
+  },
+  {
+    id: 'ehsan_farahani_blubank_emv',
+    targetUrl: 'https://www.linkedin.com/in/ehsan-farahani-asil-706a364b/recent-activity/all/',
+    matchText: 'شاید بد نباشه گاهی وسط این همه دویدن',
+    author: 'Ehsan Farahani Asil (blu Bank)',
+    comment: `Spot on, Ehsan.
+
+Moving card issuing from legacy core banking systems to modern ledger services completely transforms checkout speed.
+
+When 50,000 customers tap their cards during peak holiday hours in Tehran, real-time balance reservation prevents overdrafts before the 24-hour clearing batch ever lands. You've got to protect both the merchant and the cardholder simultaneously, and that's never simple when regional telecom pipes drop.
+
+Terrific work from the blu team.`
+  },
+  {
     id: 'karthik_j_cross_border_orchestration',
     targetUrl: 'https://www.linkedin.com/feed/',
     matchText: 'Cross-border payments are not a money movement problem',

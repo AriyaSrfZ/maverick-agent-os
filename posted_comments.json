@@ -117,5 +117,18 @@
     "topic": "Startup vs Enterprise accountability & decision authority",
     "timestamp": "2026-10-13T11:34:26.675Z",
     "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "ahmad_shahab_auth_vs_settlement",
+    "author": "Ahmad Shahab (Core Banking / Payments)",
+    "topic": "Authorization vs settlement latency & double-refund risk",
+    "timestamp": "2026-10-15T05:01:03.559Z",
+    "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "ali_khangholi_senior_promotion",
+    "author": "Ali Khangholi (DigiPay)",
+    "topic": "ali_khangholi_senior_promotion",
+    "status": "PUBLISHED_LIVE"
   }
 ]
