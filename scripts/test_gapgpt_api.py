@@ -9,7 +9,21 @@ import sys
 import openai
 
 GAPGPT_BASE_URL = os.environ.get("GAPGPT_BASE_URL", "https://api.gapgpt.app/v1")
-GAPGPT_API_KEY = os.environ.get("GAPGPT_API_KEY", "sk-g93M3eOx9ZWLMDxIGbarqup390L78AZbtUB4UvezaL6b6WzS")
+GAPGPT_API_KEY = os.environ.get("GAPGPT_API_KEY")
+
+if not GAPGPT_API_KEY:
+    # Attempt to load from ~/.bashrc if not exported in current subshell
+    bashrc_path = os.path.expanduser("~/.bashrc")
+    if os.path.exists(bashrc_path):
+        with open(bashrc_path, "r", encoding="utf-8") as bf:
+            for line in bf:
+                if line.startswith("export GAPGPT_API_KEY="):
+                    GAPGPT_API_KEY = line.split("=", 1)[1].strip().strip('"').strip("'")
+                    break
+
+if not GAPGPT_API_KEY:
+    print("ERROR: GAPGPT_API_KEY is not set in environment or ~/.bashrc")
+    sys.exit(1)
 
 def main():
     print("Initializing GapGPT client...")

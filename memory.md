@@ -76,4 +76,4 @@
 
 ## 2026-10-15
 - Extracted and codified developer tooling, GitHub curation frameworks, and ManyChat comment-to-DM conversion automation from Toushif Ahmed (@codewithtoushif) into `docs/maverick-intelligence/08_curated_developer_tooling_and_automation_guidelines.md`.
-- Installed openai 3.31.0 via Runflare PyPI mirror, verified GapGPT endpoint (https://api.gapgpt.app/v1, 148 active models), and deployed test harness `scripts/test_gapgpt_api.py`.
+- Installed openai 3.31.0 via Runflare PyPI mirror, configured GapGPT endpoint (https://api.gapgpt.app/v1, 148 active models), updated ~/.bashrc with the new key and gapgpton toggle alias, and sanitized `scripts/test_gapgpt_api.py`.
