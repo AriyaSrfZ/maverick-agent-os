@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-15T17:18:39+03:30 
+**Last Reconciled:** 2026-10-15T17:22:30+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 65 viewers, 778 impressions; Chrome port 9222 active; auto templates overhauled via `/humanizer` & `/li-human`; live engagements published (Ahmad Shahab, Ali Khangholi, GCC Payment Rails - scored 91.5 PASS).  
@@ -31,6 +31,9 @@
 - [x] **Multi-Genre Daily Viral Clips Engine Live:** Expanded `youtube-ops/batch_content_factory.py` to all-genre viral topics (Central Banking & Fiat Money, Dopamine & Attention Economics, Autonomous Agent Systems, Cosmic Science). Rendered and delivered `Viral_Money_Creation_Master_Short.mp4` (29.45s, 5.0MB) in 51.4s to Stockholm portal (12 master videos live).
 - [x] **Agentic Metricool MCP Execution Verified:** Completed OAuth handshake and saved tokens to `~/.mcp-auth/`. Generated 9 Antigravity tool schemas under `~/.gemini/antigravity/mcp/metricool/`. Built `scripts/metricool_manager.py` and verified live `getBrandSettings` execution, connecting Brand 7442905 across 5 channels (YouTube, Instagram, TikTok, Threads, Facebook).
 - [x] **Viral Psychology & Multi-Genre Production Scaled:** Rendered and delivered `Viral_Psychology_Pause_Master_Short.mp4` (26.14s, 4.6MB) in 83s to Stockholm portal (13 total master videos live). Codified multi-platform brand bio updates for YouTube, TikTok, and Facebook.
+- [x] **5 Content Masterclasses Ingested & Codified:** Analyzed Caleb Ralston (Acquisition.com brand machine), Jake Trinder (Views to Clients packaging), Ronnie Mitchell (Cult brand loyalty), Philip Hume (Technical storytelling), and Kallaway (Algorithmic tournament & hook mechanics) into `docs/maverick-intelligence/10_deep_masterclass_study_and_creator_dossier.md`.
+- [x] **Social Admin & Bulk Archiving Playbook:** Audited Meta Graph API restrictions vs native mobile app bulk actions in `docs/maverick-intelligence/11_instagram_admin_and_bulk_archiving_playbook.md`. Documented the 60-second mobile bulk-archiving path for Instagram (`Your Activity -> Posts -> Sort & Filter -> Oldest to Newest -> Select All -> Archive`) and Facebook Activity Log to preserve account history and authority safely.
+- [x] **Instagram Beginner AI Guides Produced:** Created 5 ready-to-post Persian/English carousel guides with copy-paste captions, actionable prompts, and targeted hashtag matrices for family and friends in `docs/maverick-intelligence/12_beginner_ai_instagram_guides_for_friends_and_family.md`.
 
 ---
 
@@ -86,6 +89,9 @@
 - `youtube-ops/Viral_Money_Creation_Master_Short.mp4`: Multi-genre viral master short on Central Banking & Fiat Money (29.45s, 5.0MB) live on Stockholm screening portal (12 total master videos deployed).
 - `scripts/metricool_manager.py`: Autonomous CLI and agent interface executing Metricool MCP tool calls (scheduling, analytics, best hours).
 - `youtube-ops/Viral_Psychology_Pause_Master_Short.mp4`: Multi-genre viral master short on High-Status Psychology & The 3-Second Pause (26.14s, 4.6MB) live on Stockholm portal (13 total master videos deployed).
+- `docs/maverick-intelligence/10_deep_masterclass_study_and_creator_dossier.md`: Deep synthesis and operational adaptation of Caleb Ralston, Jake Trinder, Ronnie Mitchell, Philip Hume, and Kallaway masterclasses.
+- `docs/maverick-intelligence/11_instagram_admin_and_bulk_archiving_playbook.md`: Admin capabilities and native 60-second bulk archiving playbook for Instagram, Facebook, YouTube, and TikTok.
+- `docs/maverick-intelligence/12_beginner_ai_instagram_guides_for_friends_and_family.md`: 5 complete beginner AI Instagram carousels, copy-paste captions, and bilingual hashtag matrices.
 
 
 ---
