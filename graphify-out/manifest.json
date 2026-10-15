@@ -882,9 +882,9 @@
     "semantic_hash": ""
   },
   "youtube-ops/open_with_veepn.js": {
-    "mtime": 1791367496.039087,
-    "seen": 1791370351.3144884,
-    "ast_hash": "40957e17194275814c0279535743ada4",
+    "mtime": 1791917722.1237133,
+    "seen": 1792039416.7810285,
+    "ast_hash": "325be924f9952137955d789114e5f143",
     "semantic_hash": ""
   },
   "youtube-ops/open_youtube_session.js": {
@@ -1409,12 +1409,6 @@
     "ast_hash": "7a7b0d6729b3f16e057402db3265b02d",
     "semantic_hash": ""
   },
-  "youtube-ops/ep4_concat.txt": {
-    "mtime": 1791412719.776312,
-    "seen": 1791412908.7226872,
-    "ast_hash": "e65d9b16f92210bda0bf45facaa12a56",
-    "semantic_hash": ""
-  },
   "youtube-ops/upload_episode4_native_cdp.js": {
     "mtime": 1791435833.1591454,
     "seen": 1791435934.2543726,
@@ -1476,9 +1470,9 @@
     "semantic_hash": ""
   },
   "AGENTS.md": {
-    "mtime": 1791510719.3979065,
-    "seen": 1791896611.827719,
-    "ast_hash": "c85ba374afd0585bc9d0eaf8144036fb",
+    "mtime": 1791975022.5944164,
+    "seen": 1792039416.7840424,
+    "ast_hash": "8f1b8d379916d6095e6144aa0720f272",
     "semantic_hash": ""
   },
   "CLAUDE.md": {
@@ -1488,9 +1482,9 @@
     "semantic_hash": ""
   },
   "CURRENT.md": {
-    "mtime": 1791896585.1689675,
-    "seen": 1791896611.8277237,
-    "ast_hash": "953c41c446a5ea4d3111f784c984fac1",
+    "mtime": 1792039401.1525097,
+    "seen": 1792039416.7840505,
+    "ast_hash": "8560ed800890e8fd8ee5183391dc3ba6",
     "semantic_hash": ""
   },
   "START-HERE.md": {
@@ -1524,9 +1518,9 @@
     "semantic_hash": ""
   },
   "memory.md": {
-    "mtime": 1791896585.1529672,
-    "seen": 1791896611.8278043,
-    "ast_hash": "794b0d57ef6559500908efe2792c655b",
+    "mtime": 1792039401.1045103,
+    "seen": 1792039416.78416,
+    "ast_hash": "5f7c0e118571210fbaa435c07f9b55bf",
     "semantic_hash": ""
   },
   "workspaces/agent-harnesses/guide.md": {
@@ -1536,9 +1530,9 @@
     "semantic_hash": ""
   },
   "workspaces/linkedin-engine/guide.md": {
-    "mtime": 1791437835.542131,
-    "seen": 1791437947.1025112,
-    "ast_hash": "5c3a29f1111cc3adff64fc1916c42f9d",
+    "mtime": 1791918624.2331622,
+    "seen": 1792039416.7841692,
+    "ast_hash": "645fe2925a4291967c9521bf9e8db893",
     "semantic_hash": ""
   },
   "workspaces/maverick-intelligence/guide.md": {
@@ -1614,15 +1608,15 @@
     "semantic_hash": ""
   },
   "SYNC.md": {
-    "mtime": 1791501612.49706,
-    "seen": 1791510709.2357981,
-    "ast_hash": "803aec30bba3331d9788265d01b096ea",
+    "mtime": 1791970458.2816327,
+    "seen": 1792039416.7841034,
+    "ast_hash": "f566d810ca34cba32813f192dc0947c1",
     "semantic_hash": ""
   },
   "_session-handoff.md": {
-    "mtime": 1791501303.1424747,
-    "seen": 1791510709.235799,
-    "ast_hash": "a205d5452a5d0ae74d15cd2d1ce90bdc",
+    "mtime": 1791981526.0928032,
+    "seen": 1792039416.7841053,
+    "ast_hash": "8c5802d5dc839c77047a31b5cce67c10",
     "semantic_hash": ""
   },
   "docs/imported-memories/gapgpt_extracted_memories.md": {
@@ -1847,12 +1841,6 @@
     "ast_hash": "409118ce333b0af2d548b68d1681c060",
     "semantic_hash": ""
   },
-  "youtube-ops/assets/slices_concat.txt": {
-    "mtime": 1791896356.6072018,
-    "seen": 1791896611.8278177,
-    "ast_hash": "923a41857621deae5baa2e2dd3b29d09",
-    "semantic_hash": ""
-  },
   "youtube-ops/direct_video_url.txt": {
     "mtime": 1791895037.41031,
     "seen": 1791896611.8278205,
@@ -1865,28 +1853,220 @@
     "ast_hash": "f2e1ee1effff3193e23391f3089ca8ae",
     "semantic_hash": ""
   },
-  "youtube-ops/assets/jre_boxes_audio.wav": {
-    "mtime": 1791896220.2646992,
-    "seen": 1791896611.827915,
-    "ast_hash": "9f61d67871c3ae0134ccd7a60a5321a8",
-    "semantic_hash": ""
-  },
-  "youtube-ops/assets/jre_precision_audio.wav": {
-    "mtime": 1791895629.6460986,
-    "seen": 1791896611.8279161,
-    "ast_hash": "f18af0c6203f9d9e00a0a9600e48be84",
-    "semantic_hash": ""
-  },
-  "youtube-ops/assets/master_audio_mixed.wav": {
-    "mtime": 1791896356.85121,
-    "seen": 1791896611.8279173,
-    "ast_hash": "95edb8ea22fb3f9427d801c37e8bcd6e",
-    "semantic_hash": ""
-  },
   "youtube-ops/assets/suno_serapeum_drone.mp3": {
     "mtime": 1791892146.5751872,
     "seen": 1791896611.8279183,
     "ast_hash": "ebc1c1d7d958eb9554cdbc2d03b8fdcb",
+    "semantic_hash": ""
+  },
+  "configs/maverick_offshore_singbox.json": {
+    "mtime": 1792039401.1045103,
+    "seen": 1792039416.764749,
+    "ast_hash": "e045e14cb6772dfc4305254eed91060b",
+    "semantic_hash": ""
+  },
+  "scripts/session_sync.ps1": {
+    "mtime": 1791970458.2856326,
+    "seen": 1792039416.7805674,
+    "ast_hash": "64136b3084461e1f6a1bdcc63e95c007",
+    "semantic_hash": ""
+  },
+  "scripts/start_offshore_proxy.sh": {
+    "mtime": 1791915034.8763726,
+    "seen": 1792039416.7805815,
+    "ast_hash": "d8cf8df1ff3be5dd87cddb2961c9f15d",
+    "semantic_hash": ""
+  },
+  "workspaces/linkedin-engine/data/dossier_ehsan-farahani-asil-706a364b_1791918294597.json": {
+    "mtime": 1791918624.241162,
+    "seen": 1792039416.7806864,
+    "ast_hash": "be516521fa017bb8167321e1f9ee5b30",
+    "semantic_hash": ""
+  },
+  "workspaces/linkedin-engine/data/dossier_ehsan-farahani-asil-706a364b_1791918346461.json": {
+    "mtime": 1791918624.241162,
+    "seen": 1792039416.780694,
+    "ast_hash": "74846a1daa7197a7e0d4e414bd768e71",
+    "semantic_hash": ""
+  },
+  "workspaces/linkedin-engine/data/dossier_pooyagolchian_1791918238041.json": {
+    "mtime": 1791918624.241162,
+    "seen": 1792039416.7806985,
+    "ast_hash": "b4d8f5428e20f4ff465e89c73498be4a",
+    "semantic_hash": ""
+  },
+  "workspaces/linkedin-engine/data/prospects_fintech_Dubai_1791918218245.json": {
+    "mtime": 1791918624.241162,
+    "seen": 1792039416.7807045,
+    "ast_hash": "049c5085a5cb9e43f2a9a0de6328012d",
+    "semantic_hash": ""
+  },
+  "workspaces/linkedin-engine/data/prospects_payment_infrastructure_Dubai_1791918115934.json": {
+    "mtime": 1791918624.241162,
+    "seen": 1792039416.7807105,
+    "ast_hash": "d751713988987e9331980363e24189ce",
+    "semantic_hash": ""
+  },
+  "workspaces/linkedin-engine/data/sample_enriched_batch_dubai.json": {
+    "mtime": 1791972498.4019568,
+    "seen": 1792039416.780716,
+    "ast_hash": "c983aeab3163cb1ebfc7e6a748399818",
+    "semantic_hash": ""
+  },
+  "workspaces/linkedin-engine/data/sniper_intel_1791918369084.json": {
+    "mtime": 1791918624.241162,
+    "seen": 1792039416.7807217,
+    "ast_hash": "b872ae826a2d8e87440b08bdbc05d9ad",
+    "semantic_hash": ""
+  },
+  "workspaces/linkedin-engine/feed_sniper_intel.js": {
+    "mtime": 1791918624.241162,
+    "seen": 1792039416.7807255,
+    "ast_hash": "89b499de5fbcb0268cc87b9467c59411",
+    "semantic_hash": ""
+  },
+  "workspaces/linkedin-engine/profile_dossier.js": {
+    "mtime": 1791918624.241162,
+    "seen": 1792039416.7807336,
+    "ast_hash": "245584df6367d6629ef40f97d88bffd3",
+    "semantic_hash": ""
+  },
+  "workspaces/linkedin-engine/prospect_search.js": {
+    "mtime": 1791918624.241162,
+    "seen": 1792039416.7807412,
+    "ast_hash": "a9f32c7a6d0c9d251bd28e7c7e64bd6e",
+    "semantic_hash": ""
+  },
+  "youtube-ops/check_studio_videos.js": {
+    "mtime": 1791906001.327545,
+    "seen": 1792039416.7807965,
+    "ast_hash": "e63c3b8fe6e9c57eb341e2f67868444a",
+    "semantic_hash": ""
+  },
+  "youtube-ops/find_create_button.js": {
+    "mtime": 1791906101.5174205,
+    "seen": 1792039416.7808971,
+    "ast_hash": "dbaf46ecc8a7f1e11710e9219db547bd",
+    "semantic_hash": ""
+  },
+  "youtube-ops/finish_draft_save.js": {
+    "mtime": 1791905233.5718246,
+    "seen": 1792039416.7809072,
+    "ast_hash": "a847118fb2902d79c9e7c521e3087ede",
+    "semantic_hash": ""
+  },
+  "youtube-ops/monitor_and_save.js": {
+    "mtime": 1791905331.2257538,
+    "seen": 1792039416.780981,
+    "ast_hash": "84dcd196d8bdcc290d4afde1af0ec72b",
+    "semantic_hash": ""
+  },
+  "youtube-ops/render_double_shorts.py": {
+    "mtime": 1791979839.7216616,
+    "seen": 1792039416.7810903,
+    "ast_hash": "304f14f0e96a82c752b94c321c81b1ed",
+    "semantic_hash": ""
+  },
+  "youtube-ops/render_flood_short.py": {
+    "mtime": 1791981000.4754648,
+    "seen": 1792039416.7811658,
+    "ast_hash": "b44ea07e5894df791937c0fe39f3b02b",
+    "semantic_hash": ""
+  },
+  "youtube-ops/save_as_draft_clean.js": {
+    "mtime": 1791905034.4040477,
+    "seen": 1792039416.7812138,
+    "ast_hash": "fcaa7163019a1570d8d0b5ecc2bb5ba3",
+    "semantic_hash": ""
+  },
+  "youtube-ops/save_short_draft_native_cdp.js": {
+    "mtime": 1791904433.9607794,
+    "seen": 1792039416.7812278,
+    "ast_hash": "3b8f849dfc9128ad90b2cc208d909f7d",
+    "semantic_hash": ""
+  },
+  "youtube-ops/save_visibility_draft.js": {
+    "mtime": 1791906240.18648,
+    "seen": 1792039416.7812393,
+    "ast_hash": "9441b3667b79dbc855c3b2e2c66caea9",
+    "semantic_hash": ""
+  },
+  "youtube-ops/snap_studio.js": {
+    "mtime": 1791916476.1389337,
+    "seen": 1792039416.7836294,
+    "ast_hash": "6877109542ded14ed490cee4d5cb6b0d",
+    "semantic_hash": ""
+  },
+  "youtube-ops/upload_draft.js": {
+    "mtime": 1791904785.0773344,
+    "seen": 1792039416.783833,
+    "ast_hash": "3d06cf7ae1e31f5882087e2b3343564a",
+    "semantic_hash": ""
+  },
+  "youtube-ops/upload_private_wait_complete.js": {
+    "mtime": 1791916552.777006,
+    "seen": 1792039416.7838867,
+    "ast_hash": "1a6c50856eb743081664ea1d7791f622",
+    "semantic_hash": ""
+  },
+  "youtube-ops/upload_serapeum_private.js": {
+    "mtime": 1791916288.4076653,
+    "seen": 1792039416.7838953,
+    "ast_hash": "f0eafc7d124dbaa025cf6fe4612b9b19",
+    "semantic_hash": ""
+  },
+  "youtube-ops/upload_serapeum_private_master.js": {
+    "mtime": 1791918356.26386,
+    "seen": 1792039416.783911,
+    "ast_hash": "15d34442ad0b7f4d11890735a745122e",
+    "semantic_hash": ""
+  },
+  "youtube-ops/upload_short_draft.js": {
+    "mtime": 1791906134.2767258,
+    "seen": 1792039416.7839406,
+    "ast_hash": "514a505fb5d7b4a5202f976616cda7c3",
+    "semantic_hash": ""
+  },
+  "youtube-ops/upload_short_private_native_cdp.js": {
+    "mtime": 1791916367.5176697,
+    "seen": 1792039416.7839508,
+    "ast_hash": "d6a9c095d02fdb48630d181d258291fc",
+    "semantic_hash": ""
+  },
+  "youtube-ops/watch_and_save_private.js": {
+    "mtime": 1791916933.9754386,
+    "seen": 1792039416.783979,
+    "ast_hash": "0474ee9ee3cc6d4d7d5067fc8d62e0a7",
+    "semantic_hash": ""
+  },
+  ".agents/memory/MEMORY.md": {
+    "mtime": 1791975022.5944164,
+    "seen": 1792039416.7839851,
+    "ast_hash": "55876e6ed3a0e8e69609be2580592aac",
+    "semantic_hash": ""
+  },
+  ".agents/memory/iran_calendar_and_operator_identity.md": {
+    "mtime": 1791975022.6064157,
+    "seen": 1792039416.7839875,
+    "ast_hash": "30c76729647760651a5dccdd51576c50",
+    "semantic_hash": ""
+  },
+  ".agents/memory/remote_session_vpn_safety.md": {
+    "mtime": 1791954516.157698,
+    "seen": 1792039416.784005,
+    "ast_hash": "91a9d7f455a8061c763bfc98f330fc46",
+    "semantic_hash": ""
+  },
+  "docs/maverick-intelligence/08_curated_developer_tooling_and_automation_guidelines.md": {
+    "mtime": 1792039401.12451,
+    "seen": 1792039416.784147,
+    "ast_hash": "276db888bf660224b6cf5f5b2663d8ed",
+    "semantic_hash": ""
+  },
+  "workspaces/maverick-intelligence/templates/high_ticket_architecture_blueprint.md": {
+    "mtime": 1791973768.447845,
+    "seen": 1792039416.784172,
+    "ast_hash": "6de2ebaaab62bc4b3f1fc9cfb2f954e8",
     "semantic_hash": ""
   }
 }
