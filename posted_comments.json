@@ -130,5 +130,11 @@
     "author": "Ali Khangholi (DigiPay)",
     "topic": "ali_khangholi_senior_promotion",
     "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "gcc_cross_border_iso20022",
+    "author": "GCC Payment Rails",
+    "topic": "gcc_cross_border_iso20022",
+    "status": "PUBLISHED_LIVE"
   }
 ]

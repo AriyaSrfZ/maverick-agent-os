@@ -56,7 +56,12 @@ const targets = [
         await page.waitForTimeout(500);
 
         const firstName = target.name.split(' ')[0];
-        const note = `Hi ${firstName}, I’m Ariya, with 15+ years of experience in payments, fintech technology and operations. I’m expanding my international professional network and would be glad to connect and stay in touch.`;
+        const templates = [
+          `Hi ${firstName}, following your work on fintech and platform architecture in the UAE. Would be glad to connect.`,
+          `Hi ${firstName}, noticed your engineering work in the region. Always great connecting with fellow infrastructure builders.`,
+          `Hi ${firstName}, keeping an eye on payment rails and core ledger scaling in Dubai. Glad to connect and stay in touch.`
+        ];
+        const note = templates[Math.floor(Math.random() * templates.length)];
 
         await page.keyboard.insertText(note);
         await page.waitForTimeout(1000);

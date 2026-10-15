@@ -150,10 +150,11 @@ if (!profileUrl.startsWith('http')) {
     let suggestedInviteNote = '';
     if (dossier.name) {
       const firstName = dossier.name.split(' ')[0];
-      if (company) {
-        suggestedInviteNote = `Hi ${firstName}, saw your product work with ${company} in the region. Would be glad to connect and share notes on fintech infrastructure.`;
+      const validCompany = (company && !company.includes(firstName) && company !== dossier.name && company.length > 2) ? company : '';
+      if (validCompany) {
+        suggestedInviteNote = `Hi ${firstName}, saw your work with ${validCompany} in the region. Would be glad to connect and share notes on fintech infrastructure.`;
       } else {
-        suggestedInviteNote = `Hi ${firstName}, following your fintech infrastructure journey in the region. Would be glad to connect.`;
+        suggestedInviteNote = `Hi ${firstName}, following your work on fintech and platform architecture in the UAE. Glad to connect and stay in touch.`;
       }
     }
     dossier.suggestedPersonalizedInvite = suggestedInviteNote;
