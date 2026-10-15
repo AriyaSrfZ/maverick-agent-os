@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-15T08:53:34+03:30 
+**Last Reconciled:** 2026-10-15T15:15:43+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 65 viewers, 778 impressions; Chrome port 9222 active; auto templates overhauled via `/humanizer` & `/li-human`; live engagements published (Ahmad Shahab, Ali Khangholi, GCC Payment Rails - scored 91.5 PASS).  
@@ -24,6 +24,7 @@
 - [x] **Developer Tooling & Automation Knowledge Base:** Extracted engineering workflows, GitHub repository curations, zero-install WebContainers, and ManyChat comment-to-DM conversion automation from Toushif Ahmed (@codewithtoushif) into `docs/maverick-intelligence/08_curated_developer_tooling_and_automation_guidelines.md`.
 - [x] **GapGPT Live Inference Verified:** Recharged account with 4 USD; verified active completions on gpt-4o-mini and deepseek-chat. Confirmed catalog of 148 models across DeepSeek, Claude, and OpenAI series.
 - [x] **Video Cloud Delivery Pipeline:** Deployed all 10 master videos (105 MB) to Stockholm server (port 8088) with dedicated HTML screening portal for mobile/laptop streaming without AnyDesk lag. Built `scripts/sync_videos_to_cloud.sh` for dual Stockholm and Google Drive rclone synchronization.
+- [x] **Chrome Team Skills Integration:** Installed `chrome-extensions` (Manifest V3) and `modern-web-guidance` (Baseline native web APIs) from Google Chrome team via modern-web-guidance CLI. Synchronized canonical store `~/.agents/skills/` and linked into Claude Code, Antigravity, and CV repository.
 
 ---
 

@@ -136,5 +136,23 @@
     "author": "GCC Payment Rails",
     "topic": "gcc_cross_border_iso20022",
     "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "maharaj_singh_3ds_verification",
+    "author": "Maharaj Singh",
+    "topic": "maharaj_singh_3ds_verification",
+    "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "ehsan_farahani_blubank_emv",
+    "author": "Ehsan Farahani Asil (blu Bank)",
+    "topic": "ehsan_farahani_blubank_emv",
+    "status": "PUBLISHED_LIVE"
+  },
+  {
+    "id": "uae_instant_payments_aani",
+    "author": "UAE Instant Payments Discussion",
+    "topic": "uae_instant_payments_aani",
+    "status": "PUBLISHED_LIVE"
   }
 ]
