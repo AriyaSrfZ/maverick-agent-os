@@ -20,14 +20,14 @@
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gateway.icloud.com",
+        "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "kuLHins55yko1Gb5d8SSanN9D73DNG049eSOmMgg-Tc",
+          "public_key": "irI6g1W0eBrErQlXzgOiRgGs2RcsHx7ZlslecFiIGVA",
           "short_id": "93ba094de0e41ba5"
         }
       }

@@ -1,0 +1,99 @@
+# Maverick OS: Offshore Stockholm Reality Node Credentials
+# Server IP: 109.120.131.224
+# Ports: 443 & 8443
+# Security: VLESS-XTLS-uTLS-Reality
+# Updated: 2026-10-15
+
+## 1. One-Click VLESS URIs (For v2rayNG, Streisand, Shadowrocket, Nekoray, FoXray)
+
+### Primary (Port 443):
+vless://e6f84904-c8e3-475a-91a7-2db33520b9ec@109.120.131.224:443?type=tcp&security=reality&pbk=irI6g1W0eBrErQlXzgOiRgGs2RcsHx7ZlslecFiIGVA&fp=chrome&sni=addons.mozilla.org&sid=93ba094de0e41ba5&spx=%2F&flow=xtls-rprx-vision#Maverick-Stockholm-443
+
+### Fallback (Port 8443):
+vless://e6f84904-c8e3-475a-91a7-2db33520b9ec@109.120.131.224:8443?type=tcp&security=reality&pbk=irI6g1W0eBrErQlXzgOiRgGs2RcsHx7ZlslecFiIGVA&fp=chrome&sni=addons.mozilla.org&sid=93ba094de0e41ba5&spx=%2F&flow=xtls-rprx-vision#Maverick-Stockholm-8443
+
+
+## 2. Clash Meta / Mihomo Proxy Block (YAML)
+
+proxies:
+  - name: "Maverick-Stockholm-443"
+    type: vless
+    server: 109.120.131.224
+    port: 443
+    uuid: e6f84904-c8e3-475a-91a7-2db33520b9ec
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    servername: addons.mozilla.org
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: irI6g1W0eBrErQlXzgOiRgGs2RcsHx7ZlslecFiIGVA
+      short-id: 93ba094de0e41ba5
+    network: tcp
+
+  - name: "Maverick-Stockholm-8443"
+    type: vless
+    server: 109.120.131.224
+    port: 8443
+    uuid: e6f84904-c8e3-475a-91a7-2db33520b9ec
+    udp: true
+    tls: true
+    flow: xtls-rprx-vision
+    servername: addons.mozilla.org
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: irI6g1W0eBrErQlXzgOiRgGs2RcsHx7ZlslecFiIGVA
+      short-id: 93ba094de0e41ba5
+    network: tcp
+
+
+## 3. Sing-Box Outbound Block (JSON)
+
+{
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "Maverick-Stockholm-443",
+      "server": "109.120.131.224",
+      "server_port": 443,
+      "uuid": "e6f84904-c8e3-475a-91a7-2db33520b9ec",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "irI6g1W0eBrErQlXzgOiRgGs2RcsHx7ZlslecFiIGVA",
+          "short_id": "93ba094de0e41ba5"
+        }
+      },
+      "packet_encoding": "xudp"
+    },
+    {
+      "type": "vless",
+      "tag": "Maverick-Stockholm-8443",
+      "server": "109.120.131.224",
+      "server_port": 8443,
+      "uuid": "e6f84904-c8e3-475a-91a7-2db33520b9ec",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "addons.mozilla.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "irI6g1W0eBrErQlXzgOiRgGs2RcsHx7ZlslecFiIGVA",
+          "short_id": "93ba094de0e41ba5"
+        }
+      },
+      "packet_encoding": "xudp"
+    }
+  ]
+}
