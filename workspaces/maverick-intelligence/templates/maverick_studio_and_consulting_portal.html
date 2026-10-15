@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Maverick OS: Enterprise AI Architecture & Media Studio</title>
+<style>
+  :root {
+    --bg-dark: #090d16;
+    --card-bg: #111827;
+    --border-color: #1f2937;
+    --accent: #38bdf8;
+    --accent-gold: #f59e0b;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    padding: 0;
+  }
+  header {
+    background: #0f172a;
+    border-bottom: 1px solid var(--border-color);
+    padding: 16px 24px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  .header-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .brand-title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: var(--text-primary);
+  }
+  .brand-tag {
+    color: var(--accent);
+    font-size: 13px;
+    margin-left: 8px;
+    background: rgba(56, 189, 248, 0.1);
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid rgba(56, 189, 248, 0.2);
+  }
+  .nav-tabs {
+    display: flex;
+    gap: 8px;
+  }
+  .nav-btn {
+    background: #1e293b;
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.2s;
+  }
+  .nav-btn.active {
+    background: var(--accent);
+    color: #0f172a;
+    border-color: var(--accent);
+  }
+  main {
+    max-width: 1100px;
+    margin: 32px auto;
+    padding: 0 20px;
+  }
+  .tab-pane {
+    display: none;
+  }
+  .tab-pane.active {
+    display: block;
+  }
+  
+  /* Consulting Styles */
+  .hero-card {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 32px;
+    margin-bottom: 32px;
+  }
+  .hero-title {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  .hero-subtitle {
+    font-size: 16px;
+    color: var(--accent);
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  .hero-desc {
+    color: var(--text-secondary);
+    font-size: 15px;
+    max-width: 800px;
+    margin-bottom: 24px;
+  }
+  .contact-badges {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .badge-link {
+    display: inline-flex;
+    align-items: center;
+    background: #1e293b;
+    border: 1px solid #475569;
+    color: #f8fafc;
+    padding: 8px 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .badge-link:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .section-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 32px 0 16px;
+    color: var(--text-primary);
+    border-left: 4px solid var(--accent);
+    padding-left: 12px;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    margin-bottom: 32px;
+  }
+  .spec-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  .spec-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--accent-gold);
+    margin-bottom: 8px;
+  }
+  .spec-desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+  }
+  .spec-bullets {
+    font-size: 13px;
+    color: #cbd5e1;
+    list-style: square;
+    margin-left: 18px;
+  }
+  .spec-bullets li {
+    margin-bottom: 4px;
+  }
+
+  /* Video Gallery Styles */
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+  }
+  .video-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .video-wrapper {
+    background: #000;
+    width: 100%;
+    aspect-ratio: 9/16;
+  }
+  .video-wrapper video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .video-info {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+  .video-name {
+    font-size: 15px;
+    font-weight: 600;
+    color: #f1f5f9;
+    margin-bottom: 6px;
+  }
+  .video-cat {
+    font-size: 12px;
+    color: var(--accent);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  .btn-action {
+    display: block;
+    text-align: center;
+    background: #2563eb;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+  .btn-action:hover {
+    background: #1d4ed8;
+  }
+  footer {
+    border-top: 1px solid var(--border-color);
+    padding: 24px;
+    text-align: center;
+    color: #64748b;
+    font-size: 13px;
+    margin-top: 48px;
+  }
+</style>
+<script>
+  function switchTab(tabId) {
+    document.querySelectorAll('.tab-pane').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.nav-btn').forEach(el => el.classList.remove('active'));
+    document.getElementById(tabId).classList.add('active');
+    document.getElementById('btn-' + tabId).classList.add('active');
+  }
+</script>
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <div class="brand-title">
+      MAVERICK OS <span class="brand-tag">Autonomous Systems</span>
+    </div>
+    <div class="nav-tabs">
+      <button id="btn-tab-consulting" class="nav-btn active" onclick="switchTab('tab-consulting')">AI E-Commerce Solutions</button>
+      <button id="btn-tab-screening" class="nav-btn" onclick="switchTab('tab-screening')">Media Studio & Shorts</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- TAB 1: AI E-COMMERCE CONSULTING & ARCHITECTURE -->
+  <div id="tab-consulting" class="tab-pane active">
+    <div class="hero-card">
+      <div class="hero-title">Ariya Sarrafzadeh</div>
+      <div class="hero-subtitle">Technical Product Owner & Solutions Architect</div>
+      <div class="hero-desc">
+        Specializing in high-throughput transactional rails, sovereign AI product architecture, and autonomous e-commerce backends. 15+ years engineering payment ledgers, telecom API rails, and multi-agent systems for enterprise platforms.
+      </div>
+      <div class="contact-badges">
+        <a class="badge-link" href="https://linkedin.com/in/ariya-sarrafzadeh" target="_blank">LinkedIn Profile</a>
+        <a class="badge-link" href="https://github.com/AriyaSrfZ/maverick-agent-os" target="_blank">GitHub Repository</a>
+        <a class="badge-link" href="mailto:ariasg2002@gmail.com">Contact Direct</a>
+      </div>
+    </div>
+
+    <div class="section-title">E-Commerce & Retail AI Product Offerings</div>
+    <div class="grid-2">
+      <div class="spec-card">
+        <div class="spec-title">1. Autonomous Catalog & Dynamic Pricing Engine</div>
+        <div class="spec-desc">Eliminates manual product data entry and inventory repricing using multi-agent evaluation.</div>
+        <ul class="spec-bullets">
+          <li>Automated SKU enrichment from manufacturer sheets and images.</li>
+          <li>Real-time competitive price scraping and margin protection guardrails.</li>
+          <li>Semantic vector search replacing brittle keyword matching.</li>
+          <li>Zero-latency stock level synchronization across multiple storefronts.</li>
+        </ul>
+      </div>
+
+      <div class="spec-card">
+        <div class="spec-title">2. High-Throughput 5,000 TPS Checkout & Ledger</div>
+        <div class="spec-desc">Deterministic double-entry financial ledger preventing cart drift and payment loss.</div>
+        <ul class="spec-bullets">
+          <li>Idempotency key enforcement on all order placements.</li>
+          <li>Sub-second Kafka event streaming for real-time order state.</li>
+          <li>Automated gateway fee auditing and reconciliation.</li>
+          <li>FCA / CBUAE compliant financial audit trail logs.</li>
+        </ul>
+      </div>
+
+      <div class="spec-card">
+        <div class="spec-title">3. Multi-Agent Customer & Returns Orchestrator</div>
+        <div class="spec-desc">Autonomous support swarms resolving customer tickets with deterministic tool execution.</div>
+        <ul class="spec-bullets">
+          <li>Order status, tracking, and parcel routing inquiry handling.</li>
+          <li>Automated returns verification based on warehouse rules.</li>
+          <li>Deterministic escalation to human operators for high-value orders.</li>
+          <li>Direct integration with Shopify, WooCommerce, and custom headless APIs.</li>
+        </ul>
+      </div>
+
+      <div class="spec-card">
+        <div class="spec-title">4. Sovereign Enterprise AI Appliance</div>
+        <div class="spec-desc">Private on-premise AI deployments protecting proprietary customer and financial data.</div>
+        <ul class="spec-bullets">
+          <li>Zero data leakage to public third-party model providers.</li>
+          <li>Air-gapped and local open-weight inference (Qwen 2.5, DeepSeek-R1).</li>
+          <li>Complete Model Context Protocol (MCP) tool integration.</li>
+          <li>Fixed flat cost structure eliminating unpredictable API invoices.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section-title">Verified Architecture Assets</div>
+    <div class="spec-card" style="margin-bottom: 32px;">
+      <div class="spec-title">Download Production Architecture Specifications</div>
+      <div class="spec-desc">Full 8-layer technical PRDs covering database schemas, sequence diagrams, and idempotency logic are available in the repository.</div>
+      <div style="margin-top: 12px;">
+        <a class="badge-link" href="https://github.com/AriyaSrfZ/maverick-agent-os/blob/master/workspaces/maverick-intelligence/templates/high_ticket_architecture_blueprint.md" target="_blank">View 5,000 TPS Ledger Specification</a>
+        <a class="badge-link" href="https://github.com/AriyaSrfZ/maverick-agent-os/blob/master/workspaces/maverick-intelligence/templates/enterprise_sovereign_ai_appliance_blueprint.md" target="_blank" style="margin-left: 8px;">View Sovereign Appliance Blueprint</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- TAB 2: MEDIA STUDIO SCREENING ROOM -->
+  <div id="tab-screening" class="tab-pane">
+    <div class="hero-card" style="padding: 24px;">
+      <div class="hero-title" style="font-size: 22px;">Maverick Media Studio: Master Short Screening Room</div>
+      <div class="hero-desc" style="margin-bottom: 0;">
+        High-retention vertical video shorts generated autonomously via local FFmpeg, neural voiceover, and kinetic ASS subtitles. Instant low-latency playback hosted on Stockholm VPS.
+      </div>
+    </div>
+
+    <div class="section-title">Active Master Video Catalog</div>
+    <div class="video-grid">
+      <!-- Video 1 -->
+      <div class="video-card">
+        <div class="video-wrapper">
+          <video controls preload="metadata" playsinline>
+            <source src="Viral_Money_Creation_Master_Short.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-info">
+          <div>
+            <div class="video-name">How Banks Create Money From Thin Air</div>
+            <div class="video-cat">Economics & Banking</div>
+          </div>
+          <a class="btn-action" href="Viral_Money_Creation_Master_Short.mp4" download>Download Master MP4</a>
+        </div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="video-card">
+        <div class="video-wrapper">
+          <video controls preload="metadata" playsinline>
+            <source src="Viral_Psychology_Pause_Master_Short.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-info">
+          <div>
+            <div class="video-name">The 3-Second High-Status Executive Pause</div>
+            <div class="video-cat">Psychology & Negotiation</div>
+          </div>
+          <a class="btn-action" href="Viral_Psychology_Pause_Master_Short.mp4" download>Download Master MP4</a>
+        </div>
+      </div>
+
+      <!-- Video 3 -->
+      <div class="video-card">
+        <div class="video-wrapper">
+          <video controls preload="metadata" playsinline>
+            <source src="Serapeum_Precision_Short_Master.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-info">
+          <div>
+            <div class="video-name">Serapeum Granite Vault Precision</div>
+            <div class="video-cat">Engineering & Archaeology</div>
+          </div>
+          <a class="btn-action" href="Serapeum_Precision_Short_Master.mp4" download>Download Master MP4</a>
+        </div>
+      </div>
+
+      <!-- Video 4 -->
+      <div class="video-card">
+        <div class="video-wrapper">
+          <video controls preload="metadata" playsinline>
+            <source src="Great_Flood_Memory_Master_Short.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-info">
+          <div>
+            <div class="video-name">Younger Dryas Global Flood Memory</div>
+            <div class="video-cat">Earth Science & History</div>
+          </div>
+          <a class="btn-action" href="Great_Flood_Memory_Master_Short.mp4" download>Download Master MP4</a>
+        </div>
+      </div>
+
+      <!-- Video 5 -->
+      <div class="video-card">
+        <div class="video-wrapper">
+          <video controls preload="metadata" playsinline>
+            <source src="Barabar_Caves_Precision_Master_Short.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-info">
+          <div>
+            <div class="video-name">Barabar Caves: 0.05-Micron Acoustic Mirror</div>
+            <div class="video-cat">Engineering & Acoustics</div>
+          </div>
+          <a class="btn-action" href="Barabar_Caves_Precision_Master_Short.mp4" download>Download Master MP4</a>
+        </div>
+      </div>
+
+      <!-- Video 6 -->
+      <div class="video-card">
+        <div class="video-wrapper">
+          <video controls preload="metadata" playsinline>
+            <source src="Karahan_Tepe_Megalith_Master_Short.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="video-info">
+          <div>
+            <div class="video-name">Karahan Tepe: 11,500-Year Solstice Alignment</div>
+            <div class="video-cat">Archaeo-Astronomy</div>
+          </div>
+          <a class="btn-action" href="Karahan_Tepe_Megalith_Master_Short.mp4" download>Download Master MP4</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  Maverick Agent OS • Sovereign Systems Architecture • Stockholm High-Speed Egress
+</footer>
+
+</body>
+</html>
