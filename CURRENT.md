@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-14T18:30:01+03:30 
+**Last Reconciled:** 2026-10-15T08:13:18+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 1,095 impressions, 64 viewers, Chrome port 9222 active; research extractors (`prospect_search`, `profile_dossier`, `feed_sniper_intel`) verified live.  
@@ -21,6 +21,7 @@
 - [x] **Ruflo Multi-Agent Skill & Environment Audit:** Installed canonical `ruflo` / `ruflow` skill (`~/.agents/skills/ruflo/SKILL.md`), registered global executable `/home/aria/.npm-global/bin/ruflo`, completed 19-point system health diagnostic, and audited feasibility across dual-device setup, telecom tasks, and network boundaries.
 - [x] **Systemic Token Debloating & Overhead Purge:** Pruned 78 broken skill symlinks, disabled 60 redundant micro-skills into `~/.agents/skills_disabled/` (synchronizing active set to 120 lean skills), fixed recursive symloop bugs, and archived 75 useless MCP tool schemas from Antigravity/OmniRoute, radically reducing prompt context overhead.
 - [x] **Humanizer Engine Skill Registered:** Deployed `humanizer` skill (`~/.agents/skills/humanizer/SKILL.md`) based on Wikipedia AI Cleanup and empirical corpus studies, symlinked into `.agents/skills/humanizer` with `/humanize` and `/humanize --update` protocol.
+- [x] **Developer Tooling & Automation Knowledge Base:** Extracted engineering workflows, GitHub repository curations, zero-install WebContainers, and ManyChat comment-to-DM conversion automation from Toushif Ahmed (@codewithtoushif) into `docs/maverick-intelligence/08_curated_developer_tooling_and_automation_guidelines.md`.
 
 ---
 
@@ -66,6 +67,7 @@
 - `youtube-ops/Karahan_Tepe_Megalith_Master_Short.mp4`: 33s master vertical Short on the 11,500-year-old bedrock-hewn temple and winter solstice alignment at Karahan Tepe, Turkey.
 - `youtube-ops/user_3_videos_intel.json`: Competitive intelligence and Council evaluation of user's 3 video links.
 - `~/.agents/skills/humanizer/SKILL.md`: Humanizer Engine skill definition based on Wikipedia AI Cleanup and empirical corpus studies.
+- `docs/maverick-intelligence/08_curated_developer_tooling_and_automation_guidelines.md`: Developer tooling knowledge base (public-apis, GitDiagram architecture mapping, StackBlitz WebContainers, VisBug DOM inspection, and ManyChat comment-to-DM conversion automation).
 
 
 ---

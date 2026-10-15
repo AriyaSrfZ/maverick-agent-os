@@ -73,3 +73,6 @@
 
 
 - Viral Video Pipeline Refactored (Forbidden Genesis): Purged static image zoompan mocks. Cut real 1080p JRE interview footage into `Great_Flood_Memory_Master_Short.mp4` (30.5s) featuring Graham Hancock on the 12,800-year Younger Dryas flood memory, paired with `Serapeum_Precision_Short_Master.mp4` (35.5s) featuring Christopher Dunn, with authentic dialogue, synchronized dynamic B-roll, and kinetic ASS subtitles (zero emojis, zero hallucinations).
+
+## 2026-10-15
+- Extracted and codified developer tooling, GitHub curation frameworks, and ManyChat comment-to-DM conversion automation from Toushif Ahmed (@codewithtoushif) into `docs/maverick-intelligence/08_curated_developer_tooling_and_automation_guidelines.md`.
