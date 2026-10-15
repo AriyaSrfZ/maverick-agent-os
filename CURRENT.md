@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-15T15:15:43+03:30 
+**Last Reconciled:** 2026-10-15T15:30:33+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 65 viewers, 778 impressions; Chrome port 9222 active; auto templates overhauled via `/humanizer` & `/li-human`; live engagements published (Ahmad Shahab, Ali Khangholi, GCC Payment Rails - scored 91.5 PASS).  
@@ -25,6 +25,8 @@
 - [x] **GapGPT Live Inference Verified:** Recharged account with 4 USD; verified active completions on gpt-4o-mini and deepseek-chat. Confirmed catalog of 148 models across DeepSeek, Claude, and OpenAI series.
 - [x] **Video Cloud Delivery Pipeline:** Deployed all 10 master videos (105 MB) to Stockholm server (port 8088) with dedicated HTML screening portal for mobile/laptop streaming without AnyDesk lag. Built `scripts/sync_videos_to_cloud.sh` for dual Stockholm and Google Drive rclone synchronization.
 - [x] **Chrome Team Skills Integration:** Installed `chrome-extensions` (Manifest V3) and `modern-web-guidance` (Baseline native web APIs) from Google Chrome team via modern-web-guidance CLI. Synchronized canonical store `~/.agents/skills/` and linked into Claude Code, Antigravity, and CV repository.
+- [x] **Headless Batch Content Factory Live (>100 Videos/Week):** Deployed `youtube-ops/batch_content_factory.py`. Integrates neural voiceover (edge-tts), kinetic ASS subtitles, and Ken Burns visual motion via local FFmpeg. Achieved 48.0s render speed per master short at zero GPU cost.
+- [x] **Enterprise Sovereign AI Appliance Specification:** Authored `workspaces/maverick-intelligence/templates/enterprise_sovereign_ai_appliance_blueprint.md` modeled after ReStructure Reese AI Box for Ariya's B2B enterprise consulting ($1,500 to $3,500 USDT).
 
 ---
 
@@ -73,6 +75,9 @@
 - `docs/maverick-intelligence/08_curated_developer_tooling_and_automation_guidelines.md`: Developer tooling knowledge base (public-apis, GitDiagram architecture mapping, StackBlitz WebContainers, VisBug DOM inspection, and ManyChat comment-to-DM conversion automation).
 - `scripts/test_gapgpt_api.py`: GapGPT API diagnostic and inference testing harness using OpenAI SDK.
 - `scripts/sync_videos_to_cloud.sh`: Video cloud delivery pipeline for Stockholm screening portal (port 8088) and Google Drive synchronization.
+- `youtube-ops/batch_content_factory.py`: High-throughput automated vertical short generator (>100 videos/week capacity).
+- `youtube-ops/Episode6_Baalbek_Cranes_Master_Short.mp4`: Episode 6 Master Short (28.63s) live on Stockholm screening portal (11 total master videos deployed).
+- `workspaces/maverick-intelligence/templates/enterprise_sovereign_ai_appliance_blueprint.md`: 8-layer on-premise private AI appliance architecture for regulated enterprise consulting.
 
 
 ---
