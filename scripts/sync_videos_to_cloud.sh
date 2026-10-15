@@ -18,12 +18,14 @@ echo "[$(date --iso-8601=seconds)] INITIATING VIDEO CLOUD DELIVERY"
 echo "======================================================================"
 
 # 1. Sync to Stockholm Web Screening Portal (Instant Playback & Download)
-echo "[1/2] Syncing master videos to Stockholm web portal (${STOCKHOLM_IP}:8088)..."
-ssh -o BatchMode=yes -o ConnectTimeout=5 "root@${STOCKHOLM_IP}" "mkdir -p /root/videos"
+echo "[1/2] Syncing master videos to Stockholm web portal (${STOCKHOLM_IP}:80)..."
+ssh -o BatchMode=yes -o ConnectTimeout=5 "root@${STOCKHOLM_IP}" "mkdir -p /var/www/videos"
 
 scp -o BatchMode=yes -o ConnectTimeout=5 \
     "${VIDEOS_DIR}"/*Master*.mp4 \
-    "root@${STOCKHOLM_IP}:/root/videos/"
+    "root@${STOCKHOLM_IP}:/var/www/videos/"
+
+ssh -o BatchMode=yes -o ConnectTimeout=5 "root@${STOCKHOLM_IP}" "chown -R www-data:www-data /var/www/videos && chmod -R 755 /var/www/videos"
 
 echo "SUCCESS: Master videos delivered to Stockholm."
 echo "Live screening URL: http://${STOCKHOLM_IP}:8088/"
