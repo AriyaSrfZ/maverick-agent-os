@@ -3,7 +3,12 @@ const { spawn } = require('child_process');
 const fs = require('fs');
 const http = require('http');
 
-const POST_4_CONTENT = `1,200 automated Slack alerts a day. Exactly zero of them caught our 0.03% ledger discrepancy.
+const PUBLISHED_TRACKER = '/home/aria/Downloads/CV/Linkdin files/published_posts.json';
+
+const POSTS_QUEUE = [
+  {
+    id: 'post_4_monitoring_alerts',
+    content: `1,200 automated Slack alerts a day. Exactly zero of them caught our 0.03% ledger discrepancy.
 
 When you scale transactional systems to 45 million accounts, naive alerting kills operational readiness.
 
@@ -21,7 +26,48 @@ We fixed our monitoring by deleting 70% of our noise alerts and enforcing three 
 
 If an alert does not require an immediate, predefined operational decision, it belongs in a daily log summary, not a pager.
 
-How does your team distinguish between harmless traffic spikes and silent settlement failures?`;
+How does your team distinguish between harmless traffic spikes and silent settlement failures?`
+  },
+  {
+    id: 'post_5_payment_ingress_resilience',
+    content: `Upstream banking switches will drop packets without warning. Core payment gateways will throttle your webhooks during evening peak spikes.
+
+The question isn't whether your payment rails face network failure. It's whether your architecture allows those failures to turn into duplicate charges.
+
+When an upstream switch hangs mid-flight, naive payment systems do one of two things: they fail silently leaving customers charged without credits, or they trigger unmetered client retries that hit the banking API twice.
+
+We eliminated duplicate charges across 45 million accounts by enforcing three ingress patterns:
+
+1. Distributed Idempotency Locks: Every checkout request carries a unique UUID enforced via Redis SETNX before any downstream routing begins. If a mobile app retries mid-timeout, it hits the lock and waits.
+
+2. Asynchronous State Fallbacks: If an upstream banking host takes longer than 3,500ms to return an ISO 8583 settlement code, we reject early and queue an automated reverse query rather than hanging client threads.
+
+3. Automated Ingress Circuit Breakers: When an acquirer error rate exceeds 2% over a 60-second sliding window, our gateway dynamically diverts transaction volume to our backup PSP switch in under 200ms.
+
+Resilience is not hoping upstream partners never fail. It is architecting your system so their downtime never becomes your balance discrepancy.
+
+How does your gateway handle upstream banking timeouts during peak traffic?`
+  }
+];
+
+function getPublishedPosts() {
+  if (fs.existsSync(PUBLISHED_TRACKER)) {
+    try {
+      return JSON.parse(fs.readFileSync(PUBLISHED_TRACKER, 'utf8'));
+    } catch (e) {
+      return [];
+    }
+  }
+  return [];
+}
+
+function recordPublishedPost(id) {
+  const history = getPublishedPosts();
+  if (!history.includes(id)) {
+    history.push(id);
+    fs.writeFileSync(PUBLISHED_TRACKER, JSON.stringify(history, null, 2), 'utf8');
+  }
+}
 
 function isPortOpen(port) {
   return new Promise((resolve) => {
@@ -62,45 +108,57 @@ function isPortOpen(port) {
     browser = await chromium.connectOverCDP('http://127.0.0.1:9222');
     const page = browser.contexts()[0].pages()[0];
 
-    // 1. Publish Post 4
-    console.log('Step 1: Navigating to feed to publish Post 4...');
-    await page.goto('https://www.linkedin.com/feed/', { waitUntil: 'domcontentloaded' });
-    await page.waitForTimeout(4000);
+    // 1. Publish Next Scheduled Post
+    const published = getPublishedPosts();
+    const candidate = POSTS_QUEUE.find(p => !published.includes(p.id));
 
-    const clickedStartPost = await page.evaluate(() => {
-      const btns = Array.from(document.querySelectorAll('button, div[role="button"]'));
-      const btn = btns.find(b => b.innerText.trim().toLowerCase() === 'start a post' || (b.getAttribute('aria-label') || '').toLowerCase().includes('start a post'));
-      if (btn) {
-        btn.click();
-        return true;
-      }
-      return false;
-    });
-    console.log('Clicked Start a post:', clickedStartPost);
-    await page.waitForTimeout(3000);
+    if (!candidate) {
+      console.log('All scheduled queue posts have already been published. Skipping publication step.');
+    } else {
+      console.log(`Step 1: Navigating to feed to publish ${candidate.id}...`);
+      await page.goto('https://www.linkedin.com/feed/', { waitUntil: 'domcontentloaded' });
+      await page.waitForTimeout(4000);
 
-    const editor = await page.locator('div.editor-content[contenteditable="true"], div.ql-editor[contenteditable="true"], div[role="textbox"][contenteditable="true"]').first();
-    await editor.focus();
-    await page.waitForTimeout(500);
-
-    console.log('Typing Post 4 content...');
-    await page.keyboard.insertText(POST_4_CONTENT);
-    await page.waitForTimeout(2000);
-
-    const postClicked = await page.evaluate(() => {
-      const btns = Array.from(document.querySelectorAll('button'));
-      const postBtn = btns.reverse().find(b => {
-        const text = b.innerText.trim();
-        return text === 'Post' && !b.disabled;
+      const clickedStartPost = await page.evaluate(() => {
+        const btns = Array.from(document.querySelectorAll('button, div[role="button"]'));
+        const btn = btns.find(b => b.innerText.trim().toLowerCase() === 'start a post' || (b.getAttribute('aria-label') || '').toLowerCase().includes('start a post'));
+        if (btn) {
+          btn.click();
+          return true;
+        }
+        return false;
       });
-      if (postBtn) {
-        postBtn.click();
-        return true;
+      console.log('Clicked Start a post:', clickedStartPost);
+      await page.waitForTimeout(3000);
+
+      const editor = await page.locator('div.editor-content[contenteditable="true"], div.ql-editor[contenteditable="true"], div[role="textbox"][contenteditable="true"]').first();
+      await editor.focus();
+      await page.waitForTimeout(500);
+
+      console.log(`Typing ${candidate.id} content...`);
+      await page.keyboard.insertText(candidate.content);
+      await page.waitForTimeout(2000);
+
+      const postClicked = await page.evaluate(() => {
+        const btns = Array.from(document.querySelectorAll('button'));
+        const postBtn = btns.reverse().find(b => {
+          const text = b.innerText.trim();
+          return text === 'Post' && !b.disabled;
+        });
+        if (postBtn) {
+          postBtn.click();
+          return true;
+        }
+        return false;
+      });
+      console.log('Clicked Post button:', postClicked);
+      if (postClicked) {
+        recordPublishedPost(candidate.id);
+        const logPath = '/home/aria/Downloads/CV/Linkdin files/daily_run_audit.log';
+        fs.appendFileSync(logPath, `\n[${new Date().toISOString()}] ${candidate.id} published: true\n`);
       }
-      return false;
-    });
-    console.log('Clicked Post button:', postClicked);
-    await page.waitForTimeout(5000);
+      await page.waitForTimeout(5000);
+    }
 
     // 2. Check Inbox and log new messages
     console.log('\nStep 2: Checking inbox for new inbound conversations...');

@@ -62,7 +62,7 @@ TOTAL SCORE               100    66 / 100  (Solid B+, up from 38 baseline)
 ### Advisor 2 (The Gulf Recruiter's Lens)
 > *"Dubai recruiters in tech and PropTech don't need buzzwords. They need to know two simple facts: 
 > 1) Can this person handle high-scale platform integrations without panicking?
-> 2) Is he eligible and ready to relocate to Dubai with visa sponsorship?
+> 2) Is he ready to relocate to Dubai and lead technical platform engineering?
 > Keep those two facts crystal clear, but let his natural experience do the talking."*
 
 ### Advisor 3 (The Systems Architect)
@@ -108,7 +108,7 @@ Where I deliver immediate value:
 - Multi-party ledger reconciliation, fraud mitigation, and compliance architecture.
 - Bridging the gap between engineering teams, executive directives, and frontline operations.
 
-Currently driving platform and database architecture at Persia Fava Gostaresh Co. Open to Technical Product Owner, Systems Analyst, or Platform Operations opportunities with visa sponsorship in Dubai / UAE or internationally.
+Currently driving platform and database architecture at Persia Fava Gostaresh Co. Open to Technical Product Owner, Systems Analyst, or Platform Operations leadership opportunities in Dubai / UAE or internationally.
 
 Contact: ariasg2002@gmail.com
 ```

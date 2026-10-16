@@ -138,7 +138,7 @@ async function sendConnectionRequest(page, profileUrl, personName, noteText) {
   const browser = await chromium.connectOverCDP('http://127.0.0.1:9222');
   const page = browser.contexts()[0].pages()[0];
 
-  const note = "Hi Nour, I'm Ariya. After 15 years in tech-ops and payment systems in Tehran, I'm looking to relocate to Dubai and open to any technical, operational, or integration role with visa sponsorship. Truly appreciate connecting with you.";
+  const note = "Hi Nour, following your work on fintech and platform architecture in the UAE. Would be glad to connect and share notes on the ecosystem.";
 
   const res = await sendConnectionRequest(page, 'https://www.linkedin.com/in/nourrgamal/', 'Nour Gamal', note);
   console.log('FINAL RESULT:', JSON.stringify(res, null, 2));
