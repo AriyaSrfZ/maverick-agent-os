@@ -46,7 +46,12 @@ function isPortOpen(port) {
     console.log('Chrome debugging session on port 9222 not detected. Starting persistent session...');
     spawn('node', ['/home/aria/Downloads/CV/open_linkedin_session.js'], {
       detached: true,
-      stdio: 'ignore'
+      stdio: 'ignore',
+      env: {
+        ...process.env,
+        DISPLAY: process.env.DISPLAY || ':0',
+        XDG_RUNTIME_DIR: process.env.XDG_RUNTIME_DIR || '/run/user/1000'
+      }
     }).unref();
     // Wait 5 seconds for browser to initialize
     await new Promise(r => setTimeout(r, 5000));

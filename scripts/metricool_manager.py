@@ -90,14 +90,19 @@ def get_best_hours(network="youtube"):
     brand = get_status()
     if not brand:
         return
-    brand_id = brand.get("id")
-    today = datetime.now().strftime("%Y%m%d")
+    brand_id = str(brand.get("id"))
+    tz = brand.get("timezone", "Asia/Tehran")
+    now = datetime.now()
+    from_date = now.strftime("%Y-%m-%dT00:00:00+03:30")
+    to_date = (now + timedelta(days=6)).strftime("%Y-%m-%dT23:59:59+03:30")
     args = {
         "brandId": brand_id,
-        "provider": network.upper(),
-        "date": today
+        "socialNetwork": network.lower(),
+        "fromDate": from_date,
+        "toDate": to_date,
+        "timezone": tz
     }
-    print(f"\nQuerying optimal posting windows for {network.upper()} (Date: {today})...")
+    print(f"\nQuerying optimal posting windows for {network.upper()} ({from_date} to {to_date})...")
     res = call_mcp_tool("getBestTimeToPostByNetwork", args)
     print(json.dumps(res, indent=2))
 
@@ -106,11 +111,16 @@ def get_scheduled():
     brand = get_status()
     if not brand:
         return
-    brand_id = brand.get("id")
+    brand_id = str(brand.get("id"))
+    tz = brand.get("timezone", "Asia/Tehran")
+    now = datetime.now()
+    from_date = now.strftime("%Y-%m-%dT00:00:00+03:30")
+    to_date = (now + timedelta(days=7)).strftime("%Y-%m-%dT23:59:59+03:30")
     args = {
         "brandId": brand_id,
-        "start": datetime.now().strftime("%Y-%m-%dT00:00:00"),
-        "end": (datetime.now() + timedelta(days=7)).strftime("%Y-%m-%dT23:59:59")
+        "fromDate": from_date,
+        "toDate": to_date,
+        "timezone": tz
     }
     print(f"\nRetrieving scheduled posts for brand {brand_id}...")
     res = call_mcp_tool("getScheduledPosts", args)

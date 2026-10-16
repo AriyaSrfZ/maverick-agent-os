@@ -21,4 +21,7 @@ const path = require('path');
   await page.goto('https://www.linkedin.com/in/ariya-sarrafzadeh/', { waitUntil: 'domcontentloaded' });
   console.log('Browser is active and ready on your desktop.');
   console.log('Remote debugging active on http://127.0.0.1:9222');
+
+  // Keep event loop alive indefinitely
+  await new Promise(() => {});
 })();

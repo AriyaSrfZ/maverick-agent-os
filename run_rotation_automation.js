@@ -95,7 +95,12 @@ If your settlement discount doesn't beat Visa interchange by at least 1%, shopke
     console.log('Persistent Chrome session not detected. Starting open_linkedin_session.js...');
     spawn('node', ['/home/aria/Downloads/CV/open_linkedin_session.js'], {
       detached: true,
-      stdio: 'ignore'
+      stdio: 'ignore',
+      env: {
+        ...process.env,
+        DISPLAY: process.env.DISPLAY || ':0',
+        XDG_RUNTIME_DIR: process.env.XDG_RUNTIME_DIR || '/run/user/1000'
+      }
     }).unref();
     await new Promise(r => setTimeout(r, 6000));
   }
