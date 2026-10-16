@@ -47,6 +47,54 @@ We eliminated duplicate charges across 45 million accounts by enforcing three in
 Resilience is not hoping upstream partners never fail. It is architecting your system so their downtime never becomes your balance discrepancy.
 
 How does your gateway handle upstream banking timeouts during peak traffic?`
+  },
+  {
+    id: 'post_6_elasticsearch_telemetry',
+    content: `We queried 4.2 petabytes of transactional logs in 840 milliseconds. It almost killed our cluster first.
+
+When your team indexes 50 million messages a month for customer segmentation, naive queries choke fast. Memory spikes. Garbage collection freezes worker nodes. Suddenly, query threads back up until your dashboard crashes before noon.
+
+It's a brutal operational wall.
+
+The mistake most teams make is treating Elasticsearch like an SQL database with a search box.
+
+If you don't design your shard layout around write velocity, queries will scan cold historical chunks while live ingestion chokes on index locks. That's how outages start.
+
+Here is how we stabilized our search cluster:
+
+1. Time-based lifecycle management. Hot data sits on NVMe SSD nodes with aggressive write buffers. Anything older than 30 days rolls over to compressed warm storage automatically.
+
+2. Routing by tenant hash. We route queries by account ID rather than broadcasting requests across 40 shards. That cut CPU utilization by 64% during peak runs.
+
+3. Inverted index pruning. We stripped full-text analyzers from immutable fields like phone hashes and transaction timestamps. Plain keyword filters took over.
+
+Your search cluster should never fight live transactional writes for disk I/O. It's that simple.
+
+Are you querying high-scale telemetry directly from relational tables or running dedicated document clusters?`
+  },
+  {
+    id: 'post_7_fraud_investigations_sla',
+    content: `In July 2019, our fraud reporting backlog sat at 3 working days per case.
+
+That's an eternity.
+
+When organized fraud syndicates hit an e-commerce platform with 45 million registered users, stolen balances wash through multi-tier mule cards in 15 minutes. By the time an investigator opens a spreadsheet, the cash is gone.
+
+I spent seven years handling technical liaison across 30,000 judicial fraud investigations. Sitting across the table from investigators taught me what standard Product Management books never cover.
+
+Regulatory inquiries don't get resolved by writing longer SOPs. They get resolved by giving frontline teams real-time forensic telemetry.
+
+We tore down the manual paper trail:
+
+1. Automated database log extraction. Instead of filing tickets with DBAs, our engine compiled card hops automatically.
+
+2. Court-ready audit chains. Rule-based tracing produced forensic golden records in under 180 seconds.
+
+3. Slashing inquiry latency by 96%. We dropped response times from 3 business days down to under 3 hours per incident.
+
+Our platform fraud rate held below 0.01% while resolving over 98% of inquiries. It kept our rails clean.
+
+When an incident hits your payment rails, what's your team's actual time to first evidence?`
   }
 ];
 
