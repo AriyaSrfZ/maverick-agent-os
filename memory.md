@@ -42,3 +42,6 @@ Deep domain specifications and historical records reside in `.agents/memory/`:
 - Archived October 6-16 daily logs to `.agents/memory/archive/changelog_october_2026.md`.
 - Compartmentalized domain knowledge into 5 atomic memory files in `.agents/memory/` and updated `.agents/memory/MEMORY.md`.
 - Branched and tracked under `flow/compact-memory-architecture`.
+
+### 2026-10-17
+- Realigined bounty pipeline to bypass Solana wallet barrier and Iranian domestic DPI drop on .fun domains; prioritized zero-wallet direct applications (Kunai/PwC, Revolut) and EVM/USDT boards.

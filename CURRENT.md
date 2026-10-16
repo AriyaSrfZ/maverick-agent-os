@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-16T23:56:48+03:30 
+**Last Reconciled:** 2026-10-17T00:17:50+03:30 
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 67 viewers, 797 impressions; Chrome port 9222 active daemon; multi-skill publishing pipeline active (/li-post, /li-carousel, /li-repurpose, /li-human); Posts 5, 6, 7 queued; 8-slide PDF Document Carousel ('the-distributed-ingress-blueprint.pdf') compiled.  
 **Active Flow:** `flow/compact-memory-architecture` (Memory compartmentalized into atomic stores, root memory.md slashed from 34.5 KB to 3.6 KB, saving ~89% context tokens).
@@ -71,6 +71,7 @@
 - [x] **Superteam Earn Architecture Submission Authored ($2,500 USDC):** Drafted production-ready submission package for Solana Payment Switch & Point of Sale Integration Architecture under `workspaces/bounty-hunting/submissions/SOLANA_PAYMENT_SWITCH_ARCHITECTURE.md`. Implements Solana Pay v1 dynamic reference key generation, tri-tier RPC sentinel (Geyser/Helius/QuickNode), strict double-entry ledger invariant, and sub-400ms POS terminal confirmation.
 - [x] **Pinterest Technical Architecture Pin Staging:** Formatted and staged 3 vertical tech infographics (1080x1350) from carousel assets into `reports/PINTEREST_STAGED_PINS.md` with SEO descriptions, board routing, and tags.
 - [x] **Reddit Rep Grinder Comments Differentiated:** Tailored crypto architecture commentary in `reports/REDDIT_STAGED_COMMENTS.md` targeting r/CryptoCurrency with on-chain finality and staging ledger protections.
+- [x] **Zero-Wallet Pipeline Realignment:** Diagnosed domestic DPI connection drop on Superteam Earn (.fun domain) and absence of Solana wallet. Pivoted active focus to zero-wallet direct applications (Kunai/PwC Greenhouse, Revolut) and EVM/USDT job boards, keeping the Solana blueprint ready on disk.
 
 ---
 
