@@ -166,3 +166,6 @@
 12. **Working Calendar & Rhythm:** Working week runs Saturday through Thursday (Friday off; Iranian Solar/Lunar Hijri business calendar). All scheduling and operational cadences respect this calendar.
 13. **Offshore Reality Egress & Social Automation:** Verified dual-port (443 & 8443) VLESS-XTLS-uTLS-Reality on Stockholm server (109.120.131.224) with iCloud SNI. Advised operator to test Metricool Free tier (50 posts/month across all channels) before committing to paid subscription.
 
+
+## Windows Antigravity Routing Recheck (2026-10-16)
+- 2026-10-16: Windows routing recheck: Antigravity language_server.exe Google connections source 172.19.0.1 on nekoray-tun; direct and 127.0.0.1:2080 proxy egress tests return 109.120.131.224. Last logged location rejection 11:35:57; later inference stream response IDs present through 13:18:11. Historical LAN proxy 192.168.3.64:19809 currently unreachable. No network settings changed. Original rejection cause remains unproven.
