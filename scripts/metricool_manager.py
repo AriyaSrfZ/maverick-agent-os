@@ -7,6 +7,8 @@ Provides autonomous scheduling, best-time discovery, and analytics auditing acro
 - Instagram Reels (ariya.sarrafzadeh)
 - TikTok (ariyasarrafzadeh)
 - Threads & Facebook
+- Pinterest (Architecture Blueprints & System Cheatsheets)
+- Reddit (Technical Discussion & Rep Grinder Pipeline)
 """
 
 import sys

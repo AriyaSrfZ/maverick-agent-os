@@ -49,6 +49,7 @@ Organize and execute all tasks within their canonical workspace:
 - **`workspaces/youtube-ops/`**: Faceless media council, Playwright YouTube Studio uploads, shorts rendering, and asset generation.
 - **`workspaces/agent-harnesses/`**: Skill management, MCP configurations, OmniRoute router settings, and cross-harness sync.
 - **`workspaces/maverick-intelligence/`**: Maverick AI guides, 100 secret codes, prompt chains, and de-watermarking research.
+- **`workspaces/bounty-hunting/`**: Crypto bounty monitoring (Superteam Earn, Bountycaster), zero-KYC USDC settlement rails, and technical contract tracking.
 
 ---
 

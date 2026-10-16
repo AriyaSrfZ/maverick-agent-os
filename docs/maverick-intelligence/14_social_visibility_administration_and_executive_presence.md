@@ -37,7 +37,7 @@ Our agentic architecture eliminates this friction by decoupling production from 
 
 ### What Metricool MCP Administrates vs What Requires Human Execution
 * **100% Administrable by Agent:**
-  * Post scheduling across all 5 networks (YouTube Shorts, Instagram Reels, TikTok, Threads, Facebook).
+  * Post scheduling across all connected networks (YouTube, Instagram Reels, TikTok, Threads, Facebook, Pinterest, Reddit).
   * Timing discovery: calculating peak active hours per platform based on audience graph.
   * Multi-platform calendar coordination.
   * Performance analytics extraction (views, completion rates, engagement ratios).
@@ -122,6 +122,7 @@ As autonomous operational history grows, flat linear memory files (`memory.md`) 
 2. **Tier 2: Domain-Specific Memory Stores**
    * `workspaces/linkedin-engine/memory.md`: Connection targets, InMail outreach logs, post engagement metrics.
    * `workspaces/youtube-ops/memory.md`: Video render inventory, subtitle styles, channel analytics.
+   * `workspaces/bounty-hunting/memory.md`: Active crypto bounties, zero-KYC settlement rails, submission records.
    * `workspaces/maverick-intelligence/memory.md`: Research dossiers, architectural templates, client proposals.
    * `workspaces/agent-harnesses/memory.md`: MCP schemas, OmniRoute configs, cross-device bridge logs.
 3. **Tier 3: Active Operational State (`CURRENT.md`)**

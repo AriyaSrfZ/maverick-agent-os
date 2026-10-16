@@ -1,0 +1,68 @@
+{
+  "last_updated": "2026-10-16T23:48:50+03:30",
+  "operator": "Ariya Sarrafzadeh (HaroSS)",
+  "platforms": {
+    "linkedin": {
+      "name": "LinkedIn",
+      "handle": "in/ariya-sarrafzadeh",
+      "focus": "Enterprise B2B Architecture, PDF Document Posts, High-Ticket InMail & Job Pipeline",
+      "automation": "Persistent Chrome CDP port 9222, morning cron (08:00 AM), rotation cron (every 3h)",
+      "status": "active"
+    },
+    "youtube": {
+      "name": "YouTube",
+      "channel": "Forbidden Genesis / The Velvet Dispatch",
+      "focus": "Horizontal 16:9 Broadcast News & Archaeological Documentaries",
+      "automation": "Local FFmpeg rendering at zero cost, headless monitoring on port 9223",
+      "status": "active"
+    },
+    "instagram": {
+      "name": "Instagram",
+      "handle": "ariya.sarrafzadeh",
+      "focus": "Visual carousels, tech infographics, authority personal brand",
+      "automation": "Metricool MCP Brand 7442905",
+      "status": "connected"
+    },
+    "tiktok": {
+      "name": "TikTok",
+      "handle": "ariyasarrafzadeh",
+      "focus": "Algorithmic discovery, tech explainers, viral audio hooks",
+      "automation": "Metricool MCP Brand 7442905",
+      "status": "connected"
+    },
+    "threads": {
+      "name": "Threads",
+      "handle": "ariya.sarrafzadeh",
+      "focus": "Quick architectural observations, micro-debates, engineering opinions",
+      "automation": "Metricool MCP Brand 7442905",
+      "status": "connected"
+    },
+    "facebook": {
+      "name": "Facebook",
+      "page": "Ariya Sarrafzadeh / Forbidden Genesis",
+      "focus": "Broad demographic reach, long-form technical posts",
+      "automation": "Metricool MCP Brand 7442905",
+      "status": "connected"
+    },
+    "reddit": {
+      "name": "Reddit",
+      "target_subreddits": [
+        "r/Fintech",
+        "r/CryptoCurrency",
+        "r/softwarearchitecture",
+        "r/forhire",
+        "r/CryptoCurrencyJobs"
+      ],
+      "focus": "Slow reputation grind, technical authority comments, direct crypto-settled contract leads",
+      "automation": "scripts/reddit_rep_grinder.py, staged queue, VeePN Dutch proxy unfiltering",
+      "status": "staged"
+    },
+    "pinterest": {
+      "name": "Pinterest",
+      "handle": "ariyasarrafzadeh",
+      "focus": "System architecture diagrams, fintech cheatsheets, API blueprints, high-intent traffic referral",
+      "automation": "Metricool MCP Pinterest integration, visual carousel asset conversion",
+      "status": "integrated"
+    }
+  }
+}
