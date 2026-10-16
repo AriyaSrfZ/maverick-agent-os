@@ -1,0 +1,29 @@
+{
+  "log": {
+    "level": "trace"
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 19830
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "vless-out",
+      "server": "109.120.131.224",
+      "server_port": 80,
+      "uuid": "e6f84904-c8e3-475a-91a7-2db33520b9ec",
+      "transport": {
+        "type": "ws",
+        "path": "/vless-ws",
+        "headers": {
+          "Host": "109.120.131.224"
+        }
+      }
+    }
+  ]
+}

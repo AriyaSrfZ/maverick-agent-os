@@ -1,0 +1,53 @@
+{
+  "log": {
+    "loglevel": "debug"
+  },
+  "inbounds": [
+    {
+      "port": 19860,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "timeout": 30
+      }
+    },
+    {
+      "port": 19861,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "109.120.131.224",
+            "port": 80,
+            "users": [
+              {
+                "id": "e6f84904-c8e3-475a-91a7-2db33520b9ec",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/vless-ws",
+          "headers": {
+            "Host": "109.120.131.224"
+          }
+        }
+      }
+    }
+  ]
+}

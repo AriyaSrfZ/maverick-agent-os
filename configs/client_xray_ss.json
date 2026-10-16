@@ -1,0 +1,39 @@
+{
+  "log": {
+    "loglevel": "debug"
+  },
+  "inbounds": [
+    {
+      "port": 19840,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "timeout": 30
+      }
+    },
+    {
+      "port": 19841,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "shadowsocks",
+      "settings": {
+        "servers": [
+          {
+            "address": "109.120.131.224",
+            "port": 8388,
+            "method": "aes-256-gcm",
+            "password": "MaverickFixedIPStockholm2026!"
+          }
+        ]
+      }
+    }
+  ]
+}

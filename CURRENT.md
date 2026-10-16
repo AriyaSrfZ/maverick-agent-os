@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-16T04:45:04+03:30 
+**Last Reconciled:** 2026-10-16T05:10:46+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 65 viewers, 778 impressions; Chrome port 9222 active; auto templates overhauled via `/humanizer` & `/li-human`; live engagements published (Ahmad Shahab, Ali Khangholi, GCC Payment Rails - scored 91.5 PASS).  
@@ -52,6 +52,7 @@
 - [x] **Paid Stockholm VPS Fixed IP & Samsung SNI Deployed:** Upgraded port 8443 VLESS Reality on Stockholm VPS (109.120.131.224) to `www.samsung.com` SNI. Paired with PattNG client Fragment settings to bypass Irancell/MCI mobile DPI and provide a verified European fixed IP for Google Cloud account registration.
 - [x] **Viral South American Street Freestyle Short Live:** Ingested 1080p authentic footage of Metalingüística CasaParlante double-tempo street rap. Rendered 26s master 9:16 vertical short (`Viral_South_American_Freestyle_Rap_Short.mp4`, 18.3MB) with frosted blur background, authentic high-fidelity audio, and kinetic hook banners. Deployed to live Stockholm portal with HTTP 206 byte streaming.
 - [x] **Viral Wholesome Animal Short Live (Golden Retriever Puppy Pile):** Rendered 27s master 9:16 vertical short (`Viral_Golden_Retriever_Puppy_Pile_Short.mp4`, 15.2MB) from authentic 1080p footage (3.55M views) of Golden Retriever mom playing with puppy pile. Frosted blur stack, authentic room audio, and kinetic hook banners deployed to live Stockholm portal with HTTP 206 byte streaming.
+- [x] **Stockholm Fixed IP SOCKS5 Proxy Verified & Operational (109.120.131.224):** Diagnosed Iranian DPI filtering on VLESS Reality TLS return packets (ServerHello SNI-to-IP correlation drop). Built encrypted SOCKS5 tunnel (`scripts/run_stockholm_proxy.sh`) listening on `0.0.0.0:19808`. Verified in isolated local testing: `curl https://api.ipify.org` returns `109.120.131.224` (HTTP/2 200), and `https://cloud.google.com/free` returns HTTP/2 200 with zero DPI drops. Built one-click browser launcher `scripts/launch_google_cloud_browser.sh` opening clean Chrome tabs for IP verification, Google Cloud $300 credit signup, and Country Association change.
 
 ---
 

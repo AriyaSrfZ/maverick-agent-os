@@ -1,0 +1,54 @@
+{
+  "log": {
+    "loglevel": "debug"
+  },
+  "inbounds": [
+    {
+      "port": 19850,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "timeout": 30
+      }
+    },
+    {
+      "port": 19851,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "auth": "noauth",
+        "udp": true
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vmess",
+      "settings": {
+        "vnext": [
+          {
+            "address": "109.120.131.224",
+            "port": 80,
+            "users": [
+              {
+                "id": "e6f84904-c8e3-475a-91a7-2db33520b9ec",
+                "alterId": 0,
+                "security": "auto"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/vmess-ws",
+          "headers": {
+            "Host": "109.120.131.224"
+          }
+        }
+      }
+    }
+  ]
+}
