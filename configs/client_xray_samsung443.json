@@ -1,0 +1,45 @@
+{
+  "log": { "loglevel": "debug" },
+  "inbounds": [
+    {
+      "port": 19822,
+      "listen": "127.0.0.1",
+      "protocol": "http"
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "109.120.131.224",
+            "port": 443,
+            "users": [
+              {
+                "id": "e6f84904-c8e3-475a-91a7-2db33520b9ec",
+                "flow": "xtls-rprx-vision",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "www.samsung.com",
+          "fingerprint": "chrome",
+          "show": false,
+          "publicKey": "irI6g1W0eBrErQlXzgOiRgGs2RcsHx7ZlslecFiIGVA",
+          "shortId": "93ba094de0e41ba5",
+          "spiderX": "/"
+        },
+        "sockopt": {
+          "interface": "eno1"
+        }
+      }
+    }
+  ]
+}

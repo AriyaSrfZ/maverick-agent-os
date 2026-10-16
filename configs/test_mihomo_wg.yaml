@@ -1,0 +1,18 @@
+port: 19818
+socks-port: 19819
+mode: rule
+log-level: debug
+proxies:
+  - name: "Stockholm-WG"
+    type: wireguard
+    server: 109.120.131.224
+    port: 51820
+    ip: 10.66.66.2
+    public-key: OKT0hhDVhNmbjqUzMTkjWRtrGLLJUkF8G5yqV06p9lI=
+    private-key: oBLapJN58Tz2wBKp83UlYYJfer/UUQADSmyNirFcG2s=
+    udp: true
+    remote-dns-resolve: false
+    dns: [1.1.1.1, 8.8.8.8]
+    mtu: 1280
+rules:
+  - MATCH,Stockholm-WG

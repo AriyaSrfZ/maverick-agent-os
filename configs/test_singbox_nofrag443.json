@@ -1,0 +1,37 @@
+{
+  "log": {
+    "level": "trace"
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 19821
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "vless",
+      "tag": "vless-out",
+      "server": "109.120.131.224",
+      "server_port": 443,
+      "uuid": "e6f84904-c8e3-475a-91a7-2db33520b9ec",
+      "flow": "xtls-rprx-vision",
+      "bind_interface": "eno1",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "irI6g1W0eBrErQlXzgOiRgGs2RcsHx7ZlslecFiIGVA",
+          "short_id": "93ba094de0e41ba5"
+        }
+      }
+    }
+  ]
+}
