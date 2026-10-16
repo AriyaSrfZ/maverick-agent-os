@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-16T18:39:12+03:30 
+**Last Reconciled:** 2026-10-16T19:02:46+03:30 
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 67 viewers, 797 impressions; Chrome port 9222 active daemon; multi-skill publishing pipeline active (/li-post, /li-carousel, /li-repurpose, /li-human); Posts 5, 6, 7 queued; 8-slide PDF Document Carousel ('the-distributed-ingress-blueprint.pdf') compiled.  
 
@@ -56,6 +56,7 @@
 - [x] **Surface LAN Proxy Bridge Deployed & WireGuard DPI Diagnosed (192.168.3.64:19809):** Diagnosed that Iranian DPI blocks raw WireGuard UDP (port 51820) handshakes from client IP 37.191.85.10, causing Windows WireGuard to trap DNS (1.1.1.1) in a dead tunnel ("white dns" and Antigravity outage). Deployed persistent systemd user service `surface-proxy.service` running sing-box on 0.0.0.0:19809 (HTTP & SOCKS5 mixed) bridging to Stockholm VPS (109.120.131.224). Provides one-click zero-DPI proxy for Windows Surface and Antigravity over home LAN.
 - [x] **Antigravity Google AI Companion Geoblock Resolution:** Diagnosed HTTP 400 Bad Request ("User location is not supported for the API use", trace `0xac01d74c8f686a3b`) caused by Antigravity bypassing proxy and egressing via Iranian ISP. Verified that routing through `http://192.168.3.64:19809` establishes clean SSL connection to `cloudaicompanion.googleapis.com` and `generativelanguage.googleapis.com` under Swedish IP (109.120.131.224). Codified direct Antigravity `settings.json` and PowerShell environment overrides.
 - [x] **Token Hemorrhage Diagnostic & Emergency Debloating:** Audited 3-hour token loss (351 steps, 165 tool executions across 12MB transcript session). Identified 222 loaded MCP schemas (42,000 tokens per call) and bloated 10,300-step conversation context re-sending ~120,000 tokens per tool call (~19.8M tokens burned). Archived 162 heavy unused MCP schemas (OmniRoute, Chrome DevTools, Neurodivergent Memory) to `~/.gemini/antigravity/mcp_disabled/`, cutting ~35,000 tokens off prompt overhead.
+- [x] **Composio Skill Installed on Antigravity:** Installed canonical `composio` skill into `~/.agents/skills/composio/` via `npx skills add ComposioHQ/composio --skill composio -g -y`. Linked to Antigravity global store (`~/.gemini/config/skills/composio`) and workspace (`.agents/skills/composio`). Verified discovery across Antigravity, Gemini CLI, and GitHub Copilot.
 
 ---
 
