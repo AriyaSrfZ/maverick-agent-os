@@ -18,7 +18,7 @@ Double-entry event sourcing is the only reliable architecture here. Every state 
 * **Target Arena:** https://reddit.com/r/CryptoCurrency
 * **Draft Comment (Copy-Ready):**
 ```text
-Double-entry event sourcing is the only reliable architecture here. Every state transition must write immutable debit and credit entries inside a single database transaction. For multi-acquirer settlement reconciliation, generate unique Idempotency-Key headers (UUIDv4) at the ingress API layer and enforce a strict 120-second Redis TTL before writing to PostgreSQL. This eliminates double-charging during gateway timeouts and cuts discrepancy investigation cycles down to minutes.
+The biggest vulnerability in crypto payment gateways is trusting RPC node responses without off-chain double-entry verification. If your backend credits a user balance on a single confirmation before the block reaches finality, you are exposed to reorgs and dropped mempool transactions. The standard solution is a dual-state machine: record an unconfirmed deposit in an isolated staging ledger, listen for finalized blocks across redundant RPC endpoints, and commit to the primary balance only when the finality signature settles.
 ```
 
 ## Candidate 3: r/softwarearchitecture (Peer Engineering Reputation)
