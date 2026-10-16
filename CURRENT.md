@@ -1,6 +1,6 @@
 # CURRENT.md: Live Operational State & Session Snapshot
 <!-- Updated Automatically by Session Sync & Agent Protocols -->
-**Last Reconciled:** 2026-10-16T08:12:39+03:30 
+**Last Reconciled:** 2026-10-16T08:15:35+03:30 
 **Harness / Environment:** Linux (x86_64) | Git Branch: `master`  
 **Operator:** Ariya Sarrafzadeh (Callsign: HaroSS)  
 **LinkedIn Status:** 65 viewers, 778 impressions; Chrome port 9222 active; auto templates overhauled via `/humanizer` & `/li-human`; live engagements published (Ahmad Shahab, Ali Khangholi, GCC Payment Rails - scored 91.5 PASS).  
@@ -55,6 +55,7 @@
 - [x] **Stockholm Fixed IP SOCKS5 Proxy Verified & Operational (109.120.131.224):** Diagnosed Iranian DPI filtering on VLESS Reality TLS return packets (ServerHello SNI-to-IP correlation drop). Built encrypted SOCKS5 tunnel (`scripts/run_stockholm_proxy.sh`) listening on `0.0.0.0:19808`. Verified in isolated local testing: `curl https://api.ipify.org` returns `109.120.131.224` (HTTP/2 200), and `https://cloud.google.com/free` returns HTTP/2 200 with zero DPI drops. Built one-click browser launcher `scripts/launch_google_cloud_browser.sh` opening clean Chrome tabs for IP verification, Google Cloud $300 credit signup, and Country Association change.
 - [x] **Multi-Device WireGuard & VLESS-Reality Deployment (Stockholm 109.120.131.224):** Deployed native Linux WireGuard server (`wg0`, UDP 51820) on Stockholm VPS with NAT forwarding. Generated scannable QR code and `.conf` client profile for instant import on Mobile (Android/iOS) and Windows PC. Upgraded Xray VLESS Reality (port 443) with Samsung SNI (`www.samsung.com`). Integrated dedicated "VPN Nodes & AnyDesk" tab into the live web portal (`http://109.120.131.224/`) with QR codes, direct `.conf` downloads, copyable URIs, and direct LAN IP bypass instructions (`192.168.3.64:7070`) to circumvent Iranian DPI relay blocks on AnyDesk.
 - [x] **Surface LAN Proxy Bridge Deployed & WireGuard DPI Diagnosed (192.168.3.64:19809):** Diagnosed that Iranian DPI blocks raw WireGuard UDP (port 51820) handshakes from client IP 37.191.85.10, causing Windows WireGuard to trap DNS (1.1.1.1) in a dead tunnel ("white dns" and Antigravity outage). Deployed persistent systemd user service `surface-proxy.service` running sing-box on 0.0.0.0:19809 (HTTP & SOCKS5 mixed) bridging to Stockholm VPS (109.120.131.224). Provides one-click zero-DPI proxy for Windows Surface and Antigravity over home LAN.
+- [x] **Antigravity Google AI Companion Geoblock Resolution:** Diagnosed HTTP 400 Bad Request ("User location is not supported for the API use", trace `0xac01d74c8f686a3b`) caused by Antigravity bypassing proxy and egressing via Iranian ISP. Verified that routing through `http://192.168.3.64:19809` establishes clean SSL connection to `cloudaicompanion.googleapis.com` and `generativelanguage.googleapis.com` under Swedish IP (109.120.131.224). Codified direct Antigravity `settings.json` and PowerShell environment overrides.
 
 ---
 
