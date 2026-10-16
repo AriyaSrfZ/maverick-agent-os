@@ -8,7 +8,7 @@ From engineering zero-defect reconciliation logic across upstream banking switch
 
 I diagnose and fix broken transaction flows, API gateways, and asynchronous handoffs. I build multi-party ledger reconciliation, fraud mitigation, and compliance architecture. And I bridge the gap between engineering teams, executive directives, and frontline operations.
 
-Currently driving platform and database architecture at Persia Fava Gostaresh Co. Open to Technical Product Owner, Systems Analyst, or Platform Operations opportunities with visa sponsorship in Dubai / UAE or internationally.
+Currently driving platform and database architecture at Persia Fava Gostaresh Co. Open to Technical Product Owner, Systems Analyst, or Platform Operations leadership opportunities in Dubai / UAE or internationally.
 
 Contact: ariasg2002@gmail.com`;
 

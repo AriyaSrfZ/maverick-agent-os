@@ -30,7 +30,7 @@ const { chromium } = require('playwright');
   });
   console.log('Focused textarea:', focused);
 
-  const note = "Hi Maryam, I'm Ariya. After 15 years in tech-ops and payments in Tehran, I'm exploring relocation to Dubai and open to any relevant technical or operational role with visa sponsorship. Truly grateful to connect and keep in touch.";
+  const note = "Hi Maryam, following your work on fintech and payment infrastructure in the UAE. Would be glad to connect and stay in touch.";
 
   await page.keyboard.insertText(note);
   await page.waitForTimeout(1000);

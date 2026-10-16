@@ -110,7 +110,7 @@ Key benchmarks from my 15-year record:
 • Financial Integrity: Designed multi-party 3D reconciliation engines achieving 100% discrepancy resolution across banking switches.
 • Risk & Latency: Slashed fraud response latency by 96% (<3 hours) while maintaining platform fraud rates below 0.01%.
 
-I am open to full-time relocation to Dubai with standard company visa sponsorship. My resume is attached for your reference.
+I am relocating to Dubai and available for full-time executive and platform leadership mandates. My resume is attached for your reference.
 
 Best regards,
 Ariya Sarrafzadeh

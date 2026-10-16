@@ -754,7 +754,7 @@ const htmlContent = `<!DOCTYPE html>
       <div style="font-size: 22px; font-weight: 700; color: #FFFFFF; margin-bottom: 4px;">Ariya Sarrafzadeh</div>
       <div style="font-size: 16px; color: #38BDF8;">Senior Technical Product Manager & Systems Architect</div>
       <div style="font-size: 14px; color: #64748B; margin-top: 8px; font-family: 'JetBrains Mono', monospace;">
-        Tehran → Relocating to Dubai (Open to Visa Sponsorship & Executive Technical Roles)
+        Tehran → Relocating to Dubai (Open to Executive Technical & Solutions Architecture Roles)
       </div>
     </div>
 

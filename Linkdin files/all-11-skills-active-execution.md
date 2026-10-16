@@ -101,7 +101,7 @@ When people comment on your 3 live posts, sort them immediately into these 5 buc
 
 1. **LEAD (Recruiter / Hiring Manager / Founder)**:
    - *Example comment*: "Impressive scale. Are you based in the UAE?"
-   - *Reply script*: "Thanks [Name]. Currently in Tehran, actively exploring relocation to Dubai under company visa sponsorship for Technical Product Owner and systems roles. Dropping you a DM."
+   - *Reply script*: "Thanks [Name]. Currently in Tehran, actively relocating to Dubai for Technical Product Owner and systems architecture roles. Dropping you a DM."
 2. **PEER (Fellow Engineer / PM sharing war stories)**:
    - *Example comment*: "We had the exact same issue with ISO 8583 timeouts last year."
    - *Reply script*: "It's the classic headache. How did your team handle the fallback queue when the host didn't return a MAC block?"
@@ -180,7 +180,7 @@ Sort incoming LinkedIn messages into 5 buckets:
 | Bucket | Inbound Signal | Action & Ready Response |
 | :--- | :--- | :--- |
 | **DUBAI REAL ESTATE / RECRUITER** | Responds to invite / opens chat | *"Thank you [Name], truly glad to connect. If there are any suitable technical product, operations, or systems leadership opportunities within your network or real estate/proptech ventures in Dubai, I would be genuinely honored to be taken into consideration. Always happy to share more details."* |
-| **FINTECH / GENERAL RECRUITER** | "Saw your profile, looking for Technical PM in Dubai" | *"Thank you [Name]. I have 15 years scaling payment rails, API gateways, and reconciliation for 45M users. Ready for relocation to Dubai under standard visa sponsorship. Let me know if a brief introductory call works for you."* |
+| **FINTECH / GENERAL RECRUITER** | "Saw your profile, looking for Technical PM in Dubai" | *"Thank you [Name]. I have extensive experience scaling payment rails, API gateways, and reconciliation for 45M users. Relocating independently to Dubai for senior platform roles. Let me know if a brief introductory call works for you."* |
 | **IRANIAN TECH LEADER (FARSI)** | "سلام آریا جان، در خدمتم" | *"سلام [نام] عزیز، ممنون از پیامتون. خوشحال میشم در ارتباط باشیم و تبادل نظر داشته باشیم."* |
 | **CONSULTANT / SPAM** | "We can help you get a Golden Visa / Setup LLC for \$10,000" | **ARCHIVE / DELETE IMMEDIATELY.** (Enforce Anti-Con Shield). |
 | **LEAD / ADVISORY** | "Need advice on financial reconciliation or payment switch" | Provide 2 bullet points of technical diagnosis, then offer an introductory advisory chat. |
