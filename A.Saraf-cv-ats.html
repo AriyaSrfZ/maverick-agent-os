@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Ariya Sarrafzadeh</title>
+    <title>Ariya Sarrafzadeh - CV (ATS Standard)</title>
     <style>
-        /* Base settings for ATS readability */
+        /* Strict Single-Column ATS Architecture */
         :root {
-            --primary-color: #000000;
-            --text-color: #1a1a1a;
-            --line-height: 1.5;
-            --font-stack: 'IranSans', 'Arial', 'Helvetica', sans-serif;
+            --primary-color: #111111;
+            --text-color: #222222;
+            --line-height: 1.4;
+            --font-stack: Arial, Helvetica, 'Segoe UI', sans-serif;
         }
 
         * {
@@ -24,124 +24,158 @@
             line-height: var(--line-height);
             color: var(--text-color);
             background-color: #ffffff;
-            font-size: 11pt; /* Standard readable size for ATS */
-            max-width: 850px;
+            font-size: 10pt;
+            max-width: 820px;
             margin: 0 auto;
-            padding: 40px;
+            padding: 24px 32px;
         }
 
         /* Header Section */
         header {
             text-align: center;
-            margin-bottom: 25px;
-            border-bottom: 2px solid #000;
-            padding-bottom: 15px;
+            margin-bottom: 14px;
+            border-bottom: 2px solid #222222;
+            padding-bottom: 10px;
         }
 
         h1 {
             text-transform: uppercase;
-            letter-spacing: 1px;
-            font-size: 24pt;
+            letter-spacing: 0.5px;
+            font-size: 20pt;
             font-weight: 700;
-            margin-bottom: 5px;
+            margin-bottom: 3px;
             color: var(--primary-color);
         }
 
         .subtitle {
-            font-size: 14pt;
+            font-size: 11.5pt;
             font-weight: 600;
-            margin-bottom: 8px;
-            color: #333;
+            margin-bottom: 5px;
+            color: #333333;
         }
 
         .contact-info {
-            font-size: 10pt;
-            margin-top: 5px;
+            font-size: 9pt;
+            color: #444444;
+            line-height: 1.35;
+        }
+
+        .contact-info a {
+            color: #111111;
+            text-decoration: none;
         }
 
         /* Section Styling */
         section {
-            margin-bottom: 20px;
+            margin-bottom: 13px;
         }
 
         h2 {
             text-transform: uppercase;
-            font-size: 12pt;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 3px;
-            margin-bottom: 12px;
+            font-size: 11pt;
+            border-bottom: 1px solid #111111;
+            padding-bottom: 2px;
+            margin-bottom: 8px;
             font-weight: 700;
             letter-spacing: 0.5px;
+            color: var(--primary-color);
         }
 
-        /* Content Styling */
         p {
-            margin-bottom: 10px;
+            margin-bottom: 6px;
             text-align: justify;
         }
 
-        .job-header {
+        /* Job Entry Styling */
+        .job-block {
+            margin-bottom: 10px;
+            page-break-inside: avoid;
+        }
+
+        .job-title-line {
             display: flex;
             justify-content: space-between;
             align-items: baseline;
-            margin-bottom: 5px;
-            flex-wrap: wrap;
+            margin-bottom: 1px;
+        }
+
+        .job-role {
+            font-weight: 700;
+            font-size: 10pt;
+            color: #000000;
+        }
+
+        .job-date {
+            font-size: 9pt;
+            color: #444444;
+            font-style: italic;
+            text-align: right;
+        }
+
+        .company-line {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
         }
 
         .company-name {
-            font-weight: 700;
-            font-size: 11pt;
-            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 9.5pt;
+            color: #333333;
         }
 
-        .job-title {
-            font-weight: 700;
+        .job-location {
+            font-size: 8.5pt;
+            color: #555555;
             font-style: italic;
-            font-size: 11pt;
-            margin-bottom: 5px;
-            display: block;
-        }
-
-        .location-date {
-            font-style: italic;
-            font-size: 10pt;
-            color: #444;
         }
 
         /* List Styling */
         ul {
             list-style-type: disc;
-            margin-left: 20px;
-            margin-bottom: 15px;
-        }
-
-        li {
+            margin-left: 18px;
             margin-bottom: 4px;
         }
 
-        /* Skills Section Formatting */
-        .skills-grid strong {
-            display: inline-block;
-            width: 160px; /* Aligns the labels */
-            font-weight: 700;
+        li {
+            margin-bottom: 2.5px;
+            font-size: 9.2pt;
+            line-height: 1.35;
+            text-align: left;
         }
 
-        /* Print Optimization */
+        /* Competencies & Skills */
+        .competency-item {
+            margin-bottom: 4px;
+            font-size: 9.2pt;
+            line-height: 1.35;
+        }
+
+        .competency-item strong {
+            color: #111111;
+        }
+
+        /* Print Settings for Exact 2-Page Budget */
         @media print {
+            @page {
+                size: letter;
+                margin: 0.45in 0.5in;
+            }
             body {
                 padding: 0;
-                margin: 2cm;
-                font-size: 10.5pt;
+                margin: 0;
+                max-width: 100%;
+                font-size: 9.5pt;
             }
             a {
                 text-decoration: none;
-                color: #000;
+                color: #000000;
             }
-            /* Ensure page breaks don't happen in awkward places */
-            h2, h3, .job-header {
+            h2 {
                 page-break-after: avoid;
             }
-            li {
+            .job-block {
                 page-break-inside: avoid;
             }
         }
@@ -151,24 +185,30 @@
 
     <header>
         <h1>ARIYA SARRAFZADEH</h1>
-        <div class="subtitle">Senior Technical Product Manager | Fintech Executive</div>
+        <div class="subtitle">Senior Technical Product Manager | Fintech & Platform Innovation</div>
         <div class="contact-info">
-            Tehran, Tehran Province | 9123117965 | ariasg2002@gmail.com
+            Tehran, Iran (Open to Relocation: Dubai, UAE / Remote) &nbsp;|&nbsp; +98 912 311 7965 &nbsp;|&nbsp; ariasg2002@gmail.com &nbsp;|&nbsp; <a href="https://linkedin.com/in/ariya-sarrafzadeh-2b505141">linkedin.com/in/ariya-sarrafzadeh-2b505141</a>
         </div>
     </header>
 
     <section>
         <h2>Professional Summary</h2>
         <p>
-            Senior Technical Product Leader with 15+ years of experience architecting and scaling high-availability fintech platforms for user bases exceeding 45 million. Expert in bridging the gap between C-level business strategy and technical execution, with specialized authority in Payments, Fraud (AML), and National Compliance (FATA/Shaparak). Proven track record of operating as a single point of command for complex technical challenges, reducing fraud reporting timelines by 96%, and securing critical investor funding through operational excellence.
+            Senior Technical Product Leader with 15+ years of experience architecting, building, and operating high-availability fintech and data platforms for user bases exceeding 45 million. Proven authority in bridging executive business strategy and deep engineering execution across Payments, Fraud Prevention (AML), and National Regulatory Compliance (FATA/Shaparak). Demonstrated track record of scaling multi-petabyte data architectures, launching enterprise API gateways, reducing fraud reporting timelines by 96%, and maintaining 99.99% operational reliability across complex multi-party systems.
         </p>
     </section>
 
     <section>
-        <h2>Core Competencies & Keywords</h2>
-        <p><strong>Strategic Leadership:</strong> Technical Product Management, New Product Development (NPD), Product Lifecycle (PLC), Technical Roadmapping, Agile/Scrum Leadership.</p>
-        <p><strong>Fintech Domain:</strong> Fraud Detection & Risk (AML), Payments Architecture (C2C, Wallet), Multi-Party Reconciliation, PSP & Bank Integration, FATA & Shaparak Compliance.</p>
-        <p><strong>Technical Stack:</strong> High-Availability Monitoring (Prometheus, Grafana), Log Engineering (Grok), Big Data (Elasticsearch), API Design & Microservices, Backend Scripting (Java, Python).</p>
+        <h2>Core Competencies</h2>
+        <div class="competency-item">
+            <strong>Strategic Product Leadership:</strong> Technical Product Management (TPM), New Product Development (NPD), Product Lifecycle Management (PLC), Technical Roadmapping, Agile/Scrum Leadership, Enterprise PRDs & System Architecture.
+        </div>
+        <div class="competency-item">
+            <strong>Fintech & Regulatory Domain:</strong> Fraud Detection & AML Architecture, Payment Workflows (C2C, Digital Wallets, Payment Gateways), Multi-Party Financial Reconciliation, PSP & Open Banking Integration, FATA & Shaparak Compliance.
+        </div>
+        <div class="competency-item">
+            <strong>Architecture & Data Engineering:</strong> High-Availability Monitoring (Prometheus, Grafana), Distributed Log Analytics (Grok), High-Throughput APIs & Microservices, Multi-Petabyte Databases (Elasticsearch, Parquet, Python), Identity & UAA Systems.
+        </div>
     </section>
 
     <section>
@@ -176,90 +216,106 @@
 
         <!-- Role 1 -->
         <div class="job-block">
-            <div class="job-header">
-                <span class="company-name">P.G IT Solutions / Persia Fava Gostaresh</span>
-                <span class="location-date">Tehran | Apr 2025 – Present</span>
+            <div class="job-title-line">
+                <span class="job-role">Senior Technical Product Manager</span>
+                <span class="job-date">Apr 2025 – Present</span>
             </div>
-            <span class="job-title">Senior Technical Product Manager</span>
+            <div class="company-line">
+                <span class="company-name">Persia Fava Gostaresh (P.G IT Solutions)</span>
+                <span class="job-location">Tehran, Iran</span>
+            </div>
             <ul>
-                <li>Architected a multi-million dollar API Gateway business plan, delivering the first phase of testing within 1 week and establishing a rapid test-to-production cycle of 4 hours for major services.</li>
-                <li>Secured revenue prior to official project launch by enabling live multi-tenant transactions before the end of the second quarter.</li>
-                <li>Spearheaded the development of a multi-petabyte 'Smart DB' using Elasticsearch, preparing the architecture for self-learning (LLM) integration to automate query segmentation.</li>
-                <li>Managed the full migration of infrastructure, website, and admin portals, creating the sequential roadmap that ensured a smooth transition with zero data loss.</li>
-                <li>Launched 4-6 internal SaaS platforms, establishing technical flows in a previously unstructured 'greenfield' environment that improved team proficiency by 15% within the first 3 months.</li>
-                <li>Eliminated communication silos by acting as the unified technical liaison between the CEO and outsourced development units (Backend, Frontend, UI/UX).</li>
+                <li>Architected the business plan and 12-month technical roadmap for the enterprise "Shenasa" API Gateway, scaling the platform to aggregate 30+ national identity, KYC, and open banking endpoints (Sanbod, Yekta, Tosan).</li>
+                <li>Led engineering of a multi-petabyte 'Smart DB' for high-precision targeted marketing, deploying Python data pipelines that convert multi-GB datasets into Parquet format for sub-second Elasticsearch querying.</li>
+                <li>Spearheaded technical architecture and compliance readiness for high-stakes enterprise tenders (e.g., Digikala), establishing specifications for high TPS capacity, active-passive failover mechanisms, and zero-trust API security.</li>
+                <li>Designed end-to-end architecture for User Authentication & Authorization (UAA) microservices and spearheaded product definitions (PRDs) for new enterprise communication platforms (Feresta bot).</li>
+                <li>Served as principal technical liaison between executive leadership and cross-functional outsourced teams (Backend, Frontend, UI/UX, Infrastructure) to enforce delivery SLAs and scope integrity.</li>
             </ul>
         </div>
 
         <!-- Role 2 -->
         <div class="job-block">
-            <div class="job-header">
-                <span class="company-name">Digikala (Parent Company)</span>
-                <span class="location-date">Tehran | Jul 2018 – Apr 2025</span>
+            <div class="job-title-line">
+                <span class="job-role">Senior Payments & Fraud Consultant</span>
+                <span class="job-date">Jul 2018 – Apr 2025</span>
             </div>
-            <span class="job-title">Senior Payments & Fraud Consultant</span>
+            <div class="company-line">
+                <span class="company-name">Digikala (Parent Company)</span>
+                <span class="job-location">Tehran, Iran</span>
+            </div>
             <ul>
-                <li>Safeguarded a 45-million-user platform by acting as the senior subject-matter expert on fraud and payments, directly advising finance, logistics, and legal teams.</li>
-                <li>Engineered an omnichannel response workflow, slashing call-to-action resolution times from 48 hours to under 45 minutes.</li>
-                <li>Enabled 3-hour delivery systems nationwide by negotiating regulatory frameworks directly with Iran's Cyber Police (FATA), overcoming significant legal hurdles.</li>
-                <li>Recovered high-value assets in under 1 hour (reduced from days) by developing rapid-response fraud interception protocols.</li>
-                <li>Solved complex financial discrepancies with a 100% accuracy rate in 3-dimensional financial transactions, resolving persistent discrepancies that had previously hindered financial visibility.</li>
+                <li>Safeguarded nationwide e-commerce infrastructure supporting 45+ million active users as Senior Subject Matter Expert (SME) across payment processing, fraud detection, and transactional risk.</li>
+                <li>Engineered an omnichannel response and dispute resolution workflow, reducing incident resolution time from 48 hours to under 45 minutes (98% reduction).</li>
+                <li>Negotiated regulatory protocols directly with Iran's Cyber Police (FATA) to overcome legal bottlenecks, establishing operational frameworks that enabled 3-hour nationwide express delivery.</li>
+                <li>Formulated rapid-response asset recovery protocols, slashing recovery times for high-value compromised assets from multiple days to under 1 hour.</li>
+                <li>Resolved multi-party financial discrepancies with 100% accuracy across 3-dimensional transactional flows, eliminating legacy reconciliation blindspots.</li>
             </ul>
         </div>
 
         <!-- Role 3 -->
         <div class="job-block">
-            <div class="job-header">
-                <span class="company-name">Digipay Co. (Digikala Group)</span>
-                <span class="location-date">Tehran | Jul 2018 – Apr 2025</span>
+            <div class="job-title-line">
+                <span class="job-role">Senior Tech-Ops Analyst / Administrator</span>
+                <span class="job-date">Jul 2018 – Apr 2025</span>
             </div>
-            <span class="job-title">Senior Tech-Ops Analyst / Administrator</span>
+            <div class="company-line">
+                <span class="company-name">Digipay Co. (Digikala Group)</span>
+                <span class="job-location">Tehran, Iran</span>
+            </div>
             <ul>
-                <li>Slashed official fraud reporting time to FATA by 96% (from 3 days to &lt;3 hours) by engineering automated data-tracing flows and establishing a roadmap for fully automated answer drafting.</li>
-                <li>Resolved a backlog of 30,000+ judicial inquiries, improving official satisfaction/avoidance rates from 20% to 98% by operating as a high-efficiency autonomous division.</li>
-                <li>Increased incident reaction speed by 80% by engineering the company's first monitoring stack (Prometheus, Grafana) and implementing passive monitoring/anomaly detection for 60% of processes.</li>
-                <li>Served as the critical communication bridge (24/7) between CX, engineering, and executives, translating complex deep-log data (Grok) into comprehensible "golden record" traces in under 3 minutes.</li>
-                <li>Designed multi-party reconciliation solutions for Wallets, C2C, Insuretech, and Lendtech, acting as the sole technical interpreter between CS/XP teams and Business Development executives.</li>
+                <li>Slashed official fraud reporting turnaround to law enforcement by 96% (from 3 days to under 3 hours) by designing automated data-tracing pipelines and standardized reporting workflows.</li>
+                <li>Directed judicial inquiry operations autonomously, successfully resolving a 30,000+ case backlog and elevating regulatory compliance satisfaction from 20% to 98%.</li>
+                <li>Architected the company's first enterprise monitoring stack using Prometheus and Grafana, increasing operational incident detection and reaction speed by 80%.</li>
+                <li>Served as 24/7 technical incident commander between customer operations, engineering, and C-level executives, translating complex deep-system logs (Grok) into root-cause traces in under 3 minutes.</li>
+                <li>Designed multi-party financial reconciliation engines for Wallets, C2C transfers, Insuretech, and Lendtech products prior to engineering implementation.</li>
             </ul>
         </div>
 
         <!-- Role 4 -->
         <div class="job-block">
-            <div class="job-header">
-                <span class="company-name">Homapay Co.</span>
-                <span class="location-date">Tehran | Sep 2016 – Jun 2018</span>
+            <div class="job-title-line">
+                <span class="job-role">Founding Operations Analyst / Administrator</span>
+                <span class="job-date">Sep 2016 – Jun 2018</span>
             </div>
-            <span class="job-title">Founding Operations Analyst / Admin</span>
+            <div class="company-line">
+                <span class="company-name">Homapay Co.</span>
+                <span class="job-location">Tehran, Iran</span>
+            </div>
             <ul>
-                <li>Secured a 3x increase in investor funding and acquisition by Digikala by maintaining operational stability across C2C and billing platforms despite severe legacy code deficiencies.</li>
-                <li>Scaled operations as one of the first 10 employees, single-handedly managing all monitoring and customer support systems during the startup phase.</li>
-                <li>Maintained platform uptime by manually operating and debugging critical fintech flows (C2C, billing, top-up) to mask code deficiencies while the product matured.</li>
+                <li>Scaled startup operations as one of the first 10 employees, independently running platform monitoring, transaction auditing, and operational support.</li>
+                <li>Maintained platform stability and financial flow integrity across C2C, top-up, and billing systems, facilitating a 3x increase in investor valuation and successful acquisition by Digikala Group.</li>
             </ul>
         </div>
 
         <!-- Role 5 -->
         <div class="job-block">
-            <div class="job-header">
-                <span class="company-name">GD Retail Sell</span>
-                <span class="location-date">Tehran | May 2010 – Dec 2016</span>
+            <div class="job-title-line">
+                <span class="job-role">Regional Sales Manager</span>
+                <span class="job-date">May 2010 – Dec 2016</span>
             </div>
-            <span class="job-title">Mid Sales Area Manager</span>
+            <div class="company-line">
+                <span class="company-name">GD Retail Sell</span>
+                <span class="job-location">Tehran, Iran</span>
+            </div>
             <ul>
-                <li>Directed a sales division of 30+ agents, holding full P&L responsibility for the area.</li>
-                <li>Negotiated international contracts and aligned logistics as the sole translator and communications lead for international partners.</li>
+                <li>Directed a regional commercial division of 30+ representatives with full P&L accountability, consistently exceeding sales targets.</li>
+                <li>Managed international partner communications, contract negotiations, and logistics coordination as primary bilingual liaison.</li>
             </ul>
         </div>
 
         <!-- Role 6 -->
         <div class="job-block">
-            <div class="job-header">
-                <span class="company-name">Aida Faraz Gostaresh</span>
-                <span class="location-date">Tehran | Sep 2005 – Nov 2012</span>
+            <div class="job-title-line">
+                <span class="job-role">Founding CEO / Managing Director</span>
+                <span class="job-date">Sep 2005 – Nov 2012</span>
             </div>
-            <span class="job-title">CEO / Board Member</span>
+            <div class="company-line">
+                <span class="company-name">Aida Faraz Gostaresh</span>
+                <span class="job-location">Tehran, Iran</span>
+            </div>
             <ul>
-                <li>Founded and grew an IT solutions consultancy, acquiring and managing a portfolio of 15+ SME clients.</li>
-                <li>Deployed mixed-network infrastructures (Windows, Red Hat) for all clients, handling architecture and administration.</li>
+                <li>Founded and scaled an IT infrastructure and software consultancy, managing an active client portfolio of 15+ corporate accounts.</li>
+                <li>Architected and deployed hybrid network infrastructures (Linux, Windows Server), security boundaries, and disaster recovery strategies.</li>
             </ul>
         </div>
 
@@ -267,21 +323,30 @@
 
     <section>
         <h2>Education</h2>
-        <div class="job-block">
-            <div class="job-header">
+        <div class="job-block" style="margin-bottom: 6px;">
+            <div class="job-title-line">
+                <span class="job-role">Bachelor of Science (B.S.) in Software Engineering</span>
+                <span class="job-date">Tehran, Iran</span>
+            </div>
+            <div class="company-line">
                 <span class="company-name">Islamic Azad University, South Tehran Branch</span>
             </div>
-            <span class="job-title">Undergraduate Studies in Software Engineering</span>
         </div>
     </section>
 
     <section>
         <h2>Technical Skills Summary</h2>
-        <div class="skills-grid">
-            <p><strong>Methodologies:</strong> Agile, Scrum, Waterfall, DevOps.</p>
-            <p><strong>Data & Search:</strong> Elasticsearch, Grok, MongoDB, MySQL, PostgreSQL.</p>
-            <p><strong>Development:</strong> Java, Python, Shell Scripting, API Design.</p>
-            <p><strong>Tools:</strong> Jira, Confluence, Git, Asana, ClickUp.</p>
+        <div class="competency-item">
+            <strong>Methodologies & Management:</strong> Agile, Scrum, Kanban, NPD, PLC, SLA & Incident Management, Technical Roadmapping.
+        </div>
+        <div class="competency-item">
+            <strong>Data & Query:</strong> Elasticsearch, Apache Parquet, Python (Data Engineering & Automation), Grok, SQL, PostgreSQL, MongoDB.
+        </div>
+        <div class="competency-item">
+            <strong>Infrastructure & Systems:</strong> Prometheus, Grafana, Linux Systems Administration, API Gateway Design, Microservices, UAA.
+        </div>
+        <div class="competency-item">
+            <strong>Tools & Platforms:</strong> Jira, Confluence, Git, Postman, Enterprise Architect, Asana, Sing-box / Xray Network Stack.
         </div>
     </section>
 
